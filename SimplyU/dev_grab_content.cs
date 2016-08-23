@@ -26,7 +26,8 @@ namespace SimplyU
         private void dev_grab_content_Load(object sender, EventArgs e)
 
         {
-            File.Delete(cd + "\\Package.zip");
+            File.Delete(cd + "\\wiiu.zip");
+            File.Delete(cd + "\\hosting.zip");
             lbl_content.Text = "Performing Magic...";
         }
 
@@ -40,7 +41,8 @@ namespace SimplyU
                 using (var get_hb = new WebClient())
                 {
                     string sd = Properties.Settings.Default.dev_target;
-                    get_hb.DownloadFile("https://raw.githubusercontent.com/zoltx23/SimplyU/master/Common/Homebrew/dev_full_package.zip", cd + "\\Package.zip");
+                    get_hb.DownloadFile("https://raw.githubusercontent.com/zoltx23/SimplyU/master/Common/Homebrew/wiiu.zip", cd + "\\wiiu.zip");
+                    get_hb.DownloadFile("https://raw.githubusercontent.com/zoltx23/SimplyU/master/Common/Homebrew/hosting.zip", cd + "\\hosting.zip");
                     prg_1.Value = 50;
 
                     try
@@ -48,7 +50,22 @@ namespace SimplyU
                         ZipFile zip = new ZipFile();
 
                         String TargetDirectory = sd;
-                        using (ZipFile zp = ZipFile.Read(cd + "\\Package.zip"))
+                        using (ZipFile zp = ZipFile.Read(cd + "\\wiiu.zip"))
+                        {
+                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                            zp.ExtractAll(TargetDirectory);
+                        }
+                    }
+                    catch
+                    {
+                    }
+                    prg_1.Value = 60;
+                    try
+                    {
+                        ZipFile zip = new ZipFile();
+
+                        String TargetDirectory = cd + "\\Common\\Hosting";
+                        using (ZipFile zp = ZipFile.Read(cd + "\\hosting.zip"))
                         {
                             zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
                             zp.ExtractAll(TargetDirectory);
@@ -58,12 +75,22 @@ namespace SimplyU
                     {
                     }
                     prg_1.Value = 100;
+                    lbl_content.Text = "";
+                    lbl_ext_desc.Text = "";
+                    lbl_pls_wait.Text = "And Presto!";
+                    dev_presto.Start();
                 }
                 if (Properties.Settings.Default.dev_self_host == "1")
                 {
                 }
                 wait.Stop();
             }
+        }
+
+        private void dev_presto_Tick(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is 0.2 x86 Pre-Alpha. \r\n \r\nCreated by Dr.Hacknik 2016", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Application.Exit();
         }
     }
 }

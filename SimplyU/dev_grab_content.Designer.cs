@@ -34,6 +34,7 @@
             this.lbl_content = new System.Windows.Forms.Label();
             this.prg_1 = new MaterialSkin.Controls.MaterialProgressBar();
             this.wait = new System.Windows.Forms.Timer(this.components);
+            this.dev_presto = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // lbl_pls_wait
@@ -87,6 +88,11 @@
             this.wait.Enabled = true;
             this.wait.Tick += new System.EventHandler(this.wait_Tick);
             // 
+            // dev_presto
+            // 
+            this.dev_presto.Interval = 5000;
+            this.dev_presto.Tick += new System.EventHandler(this.dev_presto_Tick);
+            // 
             // dev_grab_content
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -119,5 +125,6 @@
         private System.Windows.Forms.Label lbl_content;
         private MaterialSkin.Controls.MaterialProgressBar prg_1;
         private System.Windows.Forms.Timer wait;
+        private System.Windows.Forms.Timer dev_presto;
     }
 }

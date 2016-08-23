@@ -1,0 +1,13 @@
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\SimplyU.exe.config
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\SimplyU.exe
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\SimplyU.pdb
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\Ionic.Zip.dll
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\MaterialSkin.dll
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\MaterialSkin.pdb
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_grab_content.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_prepare.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.Main.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.Properties.Resources.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.csproj.GenerateResource.Cache
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.exe
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.pdb
