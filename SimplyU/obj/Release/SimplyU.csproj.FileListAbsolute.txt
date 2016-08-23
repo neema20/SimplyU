@@ -1,0 +1,13 @@
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Release\SimplyU.exe.config
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Release\SimplyU.exe
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Release\SimplyU.pdb
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Release\MaterialSkin.dll
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Release\MaterialSkin.pdb
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Release\SimplyU.csprojResolveAssemblyReference.cache
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Release\SimplyU.dev_grab_content.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Release\SimplyU.dev_prepare.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Release\SimplyU.Main.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Release\SimplyU.Properties.Resources.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Release\SimplyU.csproj.GenerateResource.Cache
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Release\SimplyU.exe
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Release\SimplyU.pdb
