@@ -58,5 +58,17 @@ namespace SimplyU.Properties {
                 this["dev_self_host"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_target {
+            get {
+                return ((string)(this["dev_target"]));
+            }
+            set {
+                this["dev_target"] = value;
+            }
+        }
     }
 }

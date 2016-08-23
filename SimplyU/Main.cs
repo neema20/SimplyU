@@ -29,5 +29,10 @@ namespace SimplyU
         {
             Application.Exit();
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.Reset();
+        }
     }
 }

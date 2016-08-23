@@ -28,10 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lbl_pls_wait = new System.Windows.Forms.Label();
             this.lbl_ext_desc = new System.Windows.Forms.Label();
             this.lbl_content = new System.Windows.Forms.Label();
             this.prg_1 = new MaterialSkin.Controls.MaterialProgressBar();
+            this.wait = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // lbl_pls_wait
@@ -80,6 +82,11 @@
             this.prg_1.Size = new System.Drawing.Size(333, 5);
             this.prg_1.TabIndex = 6;
             // 
+            // wait
+            // 
+            this.wait.Enabled = true;
+            this.wait.Tick += new System.EventHandler(this.wait_Tick);
+            // 
             // dev_grab_content
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -111,5 +118,6 @@
         private System.Windows.Forms.Label lbl_ext_desc;
         private System.Windows.Forms.Label lbl_content;
         private MaterialSkin.Controls.MaterialProgressBar prg_1;
+        private System.Windows.Forms.Timer wait;
     }
 }

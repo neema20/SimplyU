@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dev_prepare));
             this.lbl_welcome = new System.Windows.Forms.Label();
             this.chck_rec = new MaterialSkin.Controls.MaterialCheckBox();
@@ -41,6 +42,10 @@
             this.lbl_1 = new System.Windows.Forms.Label();
             this.lbl_2 = new System.Windows.Forms.Label();
             this.pic_splash = new System.Windows.Forms.PictureBox();
+            this.dev_folder = new System.Windows.Forms.FolderBrowserDialog();
+            this.txt_target = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.btn_target = new MaterialSkin.Controls.MaterialFlatButton();
+            this.dev_target_timer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
             // 
@@ -224,12 +229,59 @@
             this.pic_splash.TabIndex = 1;
             this.pic_splash.TabStop = false;
             // 
+            // dev_folder
+            // 
+            this.dev_folder.RootFolder = System.Environment.SpecialFolder.MyComputer;
+            this.dev_folder.HelpRequest += new System.EventHandler(this.dev_folder_HelpRequest);
+            // 
+            // txt_target
+            // 
+            this.txt_target.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.txt_target.Depth = 0;
+            this.txt_target.Hint = "Target Folder";
+            this.txt_target.Location = new System.Drawing.Point(11, 449);
+            this.txt_target.MaxLength = 32767;
+            this.txt_target.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txt_target.Name = "txt_target";
+            this.txt_target.PasswordChar = '\0';
+            this.txt_target.SelectedText = "";
+            this.txt_target.SelectionLength = 0;
+            this.txt_target.SelectionStart = 0;
+            this.txt_target.Size = new System.Drawing.Size(340, 23);
+            this.txt_target.TabIndex = 13;
+            this.txt_target.TabStop = false;
+            this.txt_target.UseSystemPasswordChar = false;
+            // 
+            // btn_target
+            // 
+            this.btn_target.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btn_target.AutoSize = true;
+            this.btn_target.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_target.Depth = 0;
+            this.btn_target.Location = new System.Drawing.Point(358, 436);
+            this.btn_target.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_target.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_target.Name = "btn_target";
+            this.btn_target.Primary = false;
+            this.btn_target.Size = new System.Drawing.Size(23, 36);
+            this.btn_target.TabIndex = 14;
+            this.btn_target.Text = "...";
+            this.btn_target.UseVisualStyleBackColor = true;
+            this.btn_target.Click += new System.EventHandler(this.btn_target_Click);
+            // 
+            // dev_target_timer
+            // 
+            this.dev_target_timer.Enabled = true;
+            this.dev_target_timer.Tick += new System.EventHandler(this.dev_target_timer_Tick);
+            // 
             // dev_prepare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(736, 475);
+            this.Controls.Add(this.btn_target);
+            this.Controls.Add(this.txt_target);
             this.Controls.Add(this.lbl_2);
             this.Controls.Add(this.lbl_1);
             this.Controls.Add(this.btn_next);
@@ -272,5 +324,9 @@
         private MaterialSkin.Controls.MaterialFlatButton btn_next;
         private System.Windows.Forms.Label lbl_1;
         private System.Windows.Forms.Label lbl_2;
+        private System.Windows.Forms.FolderBrowserDialog dev_folder;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txt_target;
+        private MaterialSkin.Controls.MaterialFlatButton btn_target;
+        private System.Windows.Forms.Timer dev_target_timer;
     }
 }

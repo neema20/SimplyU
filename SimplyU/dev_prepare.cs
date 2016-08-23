@@ -50,6 +50,7 @@ namespace SimplyU
             {
                 Properties.Settings.Default.dev_self_host = "1";
             }
+            Properties.Settings.Default.dev_target = txt_target.Text;
             Properties.Settings.Default.Save();
             dev_grab_content dg = new dev_grab_content();
             dg.ShowDialog();
@@ -58,6 +59,20 @@ namespace SimplyU
         private void dev_prepare_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btn_target_Click(object sender, EventArgs e)
+        {
+            dev_folder.ShowDialog();
+        }
+
+        private void dev_folder_HelpRequest(object sender, EventArgs e)
+        {
+        }
+
+        private void dev_target_timer_Tick(object sender, EventArgs e)
+        {
+            txt_target.Text = dev_folder.SelectedPath.ToString();
         }
     }
 }

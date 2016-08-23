@@ -12,3 +12,4 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.exe
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.pdb
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.dev_grab_content.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.dev_prepare.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\Ionic.Zip.dll
