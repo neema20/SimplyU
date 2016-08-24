@@ -90,7 +90,7 @@ namespace SimplyU
         private void dev_presto_Tick(object sender, EventArgs e)
         {
             dev_presto.Stop();
-            MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is 0.2 x86 Pre-Alpha. \r\n \r\nCreated by Dr.Hacknik 2016", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Pre-Alpha. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support!", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Application.Exit();
         }
     }
