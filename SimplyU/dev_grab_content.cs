@@ -64,7 +64,7 @@ namespace SimplyU
                     {
                         ZipFile zip = new ZipFile();
 
-                        String TargetDirectory = cd + "\\Common\\Hosting";
+                        String TargetDirectory = cd + "\\Common";
                         using (ZipFile zp = ZipFile.Read(cd + "\\hosting.zip"))
                         {
                             zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
@@ -89,6 +89,7 @@ namespace SimplyU
 
         private void dev_presto_Tick(object sender, EventArgs e)
         {
+            dev_presto.Stop();
             MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is 0.2 x86 Pre-Alpha. \r\n \r\nCreated by Dr.Hacknik 2016", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Application.Exit();
         }
