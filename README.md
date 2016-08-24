@@ -18,7 +18,7 @@ hearts content.
 * None (As of 0.3) 
 
 ##Curent Version: 
-0.2 Pre-Alpha x86 
+0.3 Pre-Alpha x86 
 
 ##Changelog: 
 
