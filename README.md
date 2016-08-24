@@ -15,7 +15,7 @@ hearts content.
 * Fix some bugs
 
 ##Known Bugs: 
-*None (As of 0.3) 
+* None (As of 0.3) 
 
 ##Curent Version: 
 0.2 Pre-Alpha
