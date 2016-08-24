@@ -55,6 +55,12 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ionic.Zip">
       <HintPath>..\..\3DNUS\Source\old\NANDify_Source\NANDify\bin\Release\Ionic.Zip.dll</HintPath>
@@ -82,6 +88,12 @@
     <Compile Include="dev_grab_content.Designer.cs">
       <DependentUpon>dev_grab_content.cs</DependentUpon>
     </Compile>
+    <Compile Include="dev_hosting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dev_hosting.Designer.cs">
+      <DependentUpon>dev_hosting.cs</DependentUpon>
+    </Compile>
     <Compile Include="dev_prepare.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +110,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="dev_grab_content.resx">
       <DependentUpon>dev_grab_content.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dev_hosting.resx">
+      <DependentUpon>dev_hosting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dev_prepare.resx">
       <DependentUpon>dev_prepare.cs</DependentUpon>

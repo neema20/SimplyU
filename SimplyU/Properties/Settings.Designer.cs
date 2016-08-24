@@ -70,5 +70,245 @@ namespace SimplyU.Properties {
                 this["dev_target"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_ddd {
+            get {
+                return ((string)(this["inst_ddd"]));
+            }
+            set {
+                this["inst_ddd"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_sd_caffiine {
+            get {
+                return ((string)(this["inst_sd_caffiine"]));
+            }
+            set {
+                this["inst_sd_caffiine"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_sav {
+            get {
+                return ((string)(this["inst_sav"]));
+            }
+            set {
+                this["inst_sav"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_pong {
+            get {
+                return ((string)(this["inst_pong"]));
+            }
+            set {
+                this["inst_pong"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_gac {
+            get {
+                return ((string)(this["inst_gac"]));
+            }
+            set {
+                this["inst_gac"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_tic {
+            get {
+                return ((string)(this["inst_tic"]));
+            }
+            set {
+                this["inst_tic"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_pac {
+            get {
+                return ((string)(this["inst_pac"]));
+            }
+            set {
+                this["inst_pac"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_u_paint {
+            get {
+                return ((string)(this["inst_u_paint"]));
+            }
+            set {
+                this["inst_u_paint"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_ftp {
+            get {
+                return ((string)(this["inst_ftp"]));
+            }
+            set {
+                this["inst_ftp"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_ast {
+            get {
+                return ((string)(this["inst_ast"]));
+            }
+            set {
+                this["inst_ast"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_nnu {
+            get {
+                return ((string)(this["inst_nnu"]));
+            }
+            set {
+                this["inst_nnu"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_geck {
+            get {
+                return ((string)(this["inst_geck"]));
+            }
+            set {
+                this["inst_geck"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_gbiine {
+            get {
+                return ((string)(this["inst_gbiine"]));
+            }
+            set {
+                this["inst_gbiine"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_tcp {
+            get {
+                return ((string)(this["inst_tcp"]));
+            }
+            set {
+                this["inst_tcp"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_hid {
+            get {
+                return ((string)(this["inst_hid"]));
+            }
+            set {
+                this["inst_hid"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_snake {
+            get {
+                return ((string)(this["inst_snake"]));
+            }
+            set {
+                this["inst_snake"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_cave {
+            get {
+                return ((string)(this["inst_cave"]));
+            }
+            set {
+                this["inst_cave"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_chip {
+            get {
+                return ((string)(this["inst_chip"]));
+            }
+            set {
+                this["inst_chip"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_wiiu_key {
+            get {
+                return ((string)(this["inst_wiiu_key"]));
+            }
+            set {
+                this["inst_wiiu_key"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_wup {
+            get {
+                return ((string)(this["inst_wup"]));
+            }
+            set {
+                this["inst_wup"] = value;
+            }
+        }
     }
 }

@@ -34,5 +34,12 @@ namespace SimplyU
         {
             Properties.Settings.Default.Reset();
         }
+
+        private void materialFlatButton1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            dev_hosting dc = new dev_hosting();
+            dc.ShowDialog();
+        }
     }
 }

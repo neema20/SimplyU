@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btn_next = new MaterialSkin.Controls.MaterialFlatButton();
             this.pic_splash = new System.Windows.Forms.PictureBox();
+            this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,17 +92,36 @@
             this.pic_splash.TabIndex = 0;
             this.pic_splash.TabStop = false;
             // 
+            // materialFlatButton1
+            // 
+            this.materialFlatButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialFlatButton1.AutoSize = true;
+            this.materialFlatButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialFlatButton1.Depth = 0;
+            this.materialFlatButton1.Location = new System.Drawing.Point(517, 434);
+            this.materialFlatButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialFlatButton1.Name = "materialFlatButton1";
+            this.materialFlatButton1.Primary = false;
+            this.materialFlatButton1.Size = new System.Drawing.Size(152, 36);
+            this.materialFlatButton1.TabIndex = 4;
+            this.materialFlatButton1.Text = "start self-hosting";
+            this.materialFlatButton1.UseVisualStyleBackColor = true;
+            this.materialFlatButton1.Click += new System.EventHandler(this.materialFlatButton1_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(736, 475);
+            this.Controls.Add(this.materialFlatButton1);
             this.Controls.Add(this.btn_next);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbl_welcome);
             this.Controls.Add(this.pic_splash);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -123,6 +143,7 @@
         private System.Windows.Forms.Label lbl_welcome;
         private System.Windows.Forms.Label label1;
         private MaterialSkin.Controls.MaterialFlatButton btn_next;
+        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
     }
 }
 
