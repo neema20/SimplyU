@@ -28,7 +28,7 @@ hearts content.
 * You can now download other Homebrew
 * Added Self-hosting
 
-###Release 0.2
+###Release 0.2: 
 
 * Fixed some Bugs
 * Primary Functions Added
