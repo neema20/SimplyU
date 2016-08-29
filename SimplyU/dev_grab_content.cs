@@ -1,4 +1,4 @@
-﻿using Ionic.Zip;
+using Ionic.Zip;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,6 +28,7 @@ namespace SimplyU
         {
             File.Delete(cd + "\\wiiu.zip");
             File.Delete(cd + "\\hosting.zip");
+            //Directory.Delete(cd + "\\Common"); 
             lbl_content.Text = "Performing Magic...";
         }
 
