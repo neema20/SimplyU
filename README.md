@@ -22,6 +22,12 @@ hearts content.
 
 ##Changelog: 
 
+###Release 0.3.2: 
+* Fixed some bugs
+* Working on some things
+
+**This release is Stable, but is still an Alpha!**
+
 ###Release 0.3:
 * Fixed some Bugs
 * Added a ton of Features
