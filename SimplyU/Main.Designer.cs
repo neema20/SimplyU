@@ -29,36 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            this.lbl_welcome = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_next = new MaterialSkin.Controls.MaterialFlatButton();
-            this.pic_splash = new System.Windows.Forms.PictureBox();
             this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
+            this.pic_splash = new System.Windows.Forms.PictureBox();
+            this.lbl_welcome = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
             // 
-            // lbl_welcome
-            // 
-            this.lbl_welcome.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_welcome.AutoSize = true;
-            this.lbl_welcome.Font = new System.Drawing.Font("Segoe UI Light", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_welcome.Location = new System.Drawing.Point(208, 285);
-            this.lbl_welcome.Name = "lbl_welcome";
-            this.lbl_welcome.Size = new System.Drawing.Size(317, 45);
-            this.lbl_welcome.TabIndex = 1;
-            this.lbl_welcome.Text = "Welcome to SimplyU: ";
-            this.lbl_welcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label1.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(90, 330);
+            this.label1.Location = new System.Drawing.Point(0, 370);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(531, 105);
+            this.label1.Size = new System.Drawing.Size(736, 105);
             this.label1.TabIndex = 2;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -80,18 +65,6 @@
             this.btn_next.UseVisualStyleBackColor = true;
             this.btn_next.Click += new System.EventHandler(this.btn_next_Click);
             // 
-            // pic_splash
-            // 
-            this.pic_splash.BackColor = System.Drawing.Color.Transparent;
-            this.pic_splash.BackgroundImage = global::SimplyU.Properties.Resources.SimpyU_Full_Logo;
-            this.pic_splash.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pic_splash.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pic_splash.Location = new System.Drawing.Point(0, 0);
-            this.pic_splash.Name = "pic_splash";
-            this.pic_splash.Size = new System.Drawing.Size(736, 294);
-            this.pic_splash.TabIndex = 0;
-            this.pic_splash.TabStop = false;
-            // 
             // materialFlatButton1
             // 
             this.materialFlatButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -109,16 +82,39 @@
             this.materialFlatButton1.UseVisualStyleBackColor = true;
             this.materialFlatButton1.Click += new System.EventHandler(this.materialFlatButton1_Click);
             // 
+            // pic_splash
+            // 
+            this.pic_splash.BackColor = System.Drawing.Color.Transparent;
+            this.pic_splash.BackgroundImage = global::SimplyU.Properties.Resources.SimplyU_Full_Logo;
+            this.pic_splash.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pic_splash.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pic_splash.Location = new System.Drawing.Point(0, 0);
+            this.pic_splash.Name = "pic_splash";
+            this.pic_splash.Size = new System.Drawing.Size(736, 294);
+            this.pic_splash.TabIndex = 0;
+            this.pic_splash.TabStop = false;
+            // 
+            // lbl_welcome
+            // 
+            this.lbl_welcome.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.lbl_welcome.Font = new System.Drawing.Font("Segoe UI Light", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_welcome.Location = new System.Drawing.Point(0, 325);
+            this.lbl_welcome.Name = "lbl_welcome";
+            this.lbl_welcome.Size = new System.Drawing.Size(736, 45);
+            this.lbl_welcome.TabIndex = 5;
+            this.lbl_welcome.Text = "Welcome to SimplyU: ";
+            this.lbl_welcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(736, 475);
+            this.Controls.Add(this.lbl_welcome);
             this.Controls.Add(this.materialFlatButton1);
             this.Controls.Add(this.btn_next);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lbl_welcome);
             this.Controls.Add(this.pic_splash);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -140,10 +136,10 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pic_splash;
-        private System.Windows.Forms.Label lbl_welcome;
         private System.Windows.Forms.Label label1;
         private MaterialSkin.Controls.MaterialFlatButton btn_next;
         private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
+        private System.Windows.Forms.Label lbl_welcome;
     }
 }
 

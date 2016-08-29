@@ -146,6 +146,7 @@
   <ItemGroup>
     <None Include="Resources\SimpyU_Full_Logo.png" />
     <None Include="Resources\SimpyU_Full_Logo1.png" />
+    <None Include="Resources\SimplyU_Full_Logo.png" />
     <Content Include="SimplyU_Logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

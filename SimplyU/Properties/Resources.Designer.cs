@@ -63,9 +63,9 @@ namespace SimplyU.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SimpyU_Full_Logo {
+        internal static System.Drawing.Bitmap SimplyU_Full_Logo {
             get {
-                object obj = ResourceManager.GetObject("SimpyU_Full_Logo", resourceCulture);
+                object obj = ResourceManager.GetObject("SimplyU_Full_Logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

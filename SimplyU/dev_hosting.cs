@@ -24,6 +24,7 @@ namespace SimplyU
         private void dev_hosting_Load(object sender, EventArgs e)
         {
             Process.Start("StartServer.bat");
+            Application.Exit();
         }
 
         private void ipv4_Tick(object sender, EventArgs e)
