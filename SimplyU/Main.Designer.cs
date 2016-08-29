@@ -29,24 +29,27 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_desc = new System.Windows.Forms.Label();
             this.btn_next = new MaterialSkin.Controls.MaterialFlatButton();
             this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
             this.pic_splash = new System.Windows.Forms.PictureBox();
+            this.lbl_ver = new System.Windows.Forms.Label();
             this.lbl_welcome = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lbl_desc
             // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(0, 370);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(736, 105);
-            this.label1.TabIndex = 2;
-            this.label1.Text = resources.GetString("label1.Text");
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_desc.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.lbl_desc.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_desc.Location = new System.Drawing.Point(0, 370);
+            this.lbl_desc.Name = "lbl_desc";
+            this.lbl_desc.Size = new System.Drawing.Size(736, 105);
+            this.lbl_desc.TabIndex = 2;
+            this.lbl_desc.Text = "This application will allow you to Setup an SD Card with Homebrew for the \r\nNinte" +
+    "ndo Wii U, with little User Interaction. \r\n\r\nWe\'re not responsable for any \r\nDam" +
+    "age done to your Wii U! ";
+            this.lbl_desc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btn_next
             // 
@@ -94,14 +97,25 @@
             this.pic_splash.TabIndex = 0;
             this.pic_splash.TabStop = false;
             // 
+            // lbl_ver
+            // 
+            this.lbl_ver.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.lbl_ver.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ver.Location = new System.Drawing.Point(0, 348);
+            this.lbl_ver.Name = "lbl_ver";
+            this.lbl_ver.Size = new System.Drawing.Size(736, 22);
+            this.lbl_ver.TabIndex = 5;
+            this.lbl_ver.Text = "Release: ";
+            this.lbl_ver.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // lbl_welcome
             // 
             this.lbl_welcome.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.lbl_welcome.Font = new System.Drawing.Font("Segoe UI Light", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_welcome.Location = new System.Drawing.Point(0, 325);
+            this.lbl_welcome.Font = new System.Drawing.Font("Segoe UI Light", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_welcome.Location = new System.Drawing.Point(0, 297);
             this.lbl_welcome.Name = "lbl_welcome";
-            this.lbl_welcome.Size = new System.Drawing.Size(736, 45);
-            this.lbl_welcome.TabIndex = 5;
+            this.lbl_welcome.Size = new System.Drawing.Size(736, 51);
+            this.lbl_welcome.TabIndex = 6;
             this.lbl_welcome.Text = "Welcome to SimplyU: ";
             this.lbl_welcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -112,9 +126,10 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(736, 475);
             this.Controls.Add(this.lbl_welcome);
+            this.Controls.Add(this.lbl_ver);
             this.Controls.Add(this.materialFlatButton1);
             this.Controls.Add(this.btn_next);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_desc);
             this.Controls.Add(this.pic_splash);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -136,9 +151,10 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pic_splash;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_desc;
         private MaterialSkin.Controls.MaterialFlatButton btn_next;
         private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
+        private System.Windows.Forms.Label lbl_ver;
         private System.Windows.Forms.Label lbl_welcome;
     }
 }

@@ -171,7 +171,6 @@
             // 
             resources.ApplyResources(this.pic_splash, "pic_splash");
             this.pic_splash.BackColor = System.Drawing.Color.Transparent;
-            this.pic_splash.BackgroundImage = global::SimplyU.Properties.Resources.SimpyU_Full_Logo;
             this.pic_splash.Name = "pic_splash";
             this.pic_splash.TabStop = false;
             // 

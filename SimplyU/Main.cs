@@ -33,6 +33,7 @@ namespace SimplyU
         private void Main_Load(object sender, EventArgs e)
         {
             Properties.Settings.Default.Reset();
+            lbl_ver.Text = "Release: " + Application.ProductVersion;
         }
 
         private void materialFlatButton1_Click(object sender, EventArgs e)
