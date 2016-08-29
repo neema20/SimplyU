@@ -28,6 +28,7 @@ namespace SimplyU
         {
             File.Delete(cd + "\\wiiu.zip");
             File.Delete(cd + "\\hosting.zip");
+            //Directory.Delete(cd + "\\Common"); 
             lbl_content.Text = "Performing Magic...";
         }
 
