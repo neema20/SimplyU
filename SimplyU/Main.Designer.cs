@@ -116,7 +116,7 @@
             this.lbl_welcome.Name = "lbl_welcome";
             this.lbl_welcome.Size = new System.Drawing.Size(736, 51);
             this.lbl_welcome.TabIndex = 6;
-            this.lbl_welcome.Text = "Welcome to SimplyU: ";
+            this.lbl_welcome.Text = "Welcome to SimpliiU\r\n";
             this.lbl_welcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Main
@@ -139,7 +139,7 @@
             this.Name = "Main";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SimplyU: Getting Started";
+            this.Text = "SimpliiU: Getting Started";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Main_FormClosing);
             this.Load += new System.EventHandler(this.Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).EndInit();
