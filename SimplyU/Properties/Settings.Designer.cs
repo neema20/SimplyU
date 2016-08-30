@@ -310,5 +310,41 @@ namespace SimplyU.Properties {
                 this["inst_wup"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string sd_form {
+            get {
+                return ((string)(this["sd_form"]));
+            }
+            set {
+                this["sd_form"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string sd_form_drive {
+            get {
+                return ((string)(this["sd_form_drive"]));
+            }
+            set {
+                this["sd_form_drive"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string sd_form_cluster {
+            get {
+                return ((string)(this["sd_form_cluster"]));
+            }
+            set {
+                this["sd_form_cluster"] = value;
+            }
+        }
     }
 }

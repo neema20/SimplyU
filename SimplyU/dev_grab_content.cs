@@ -16,6 +16,9 @@ namespace SimplyU
 {
     public partial class dev_grab_content : Form
     {
+        private string dr = Properties.Settings.Default.sd_form_drive;
+        private string al = Properties.Settings.Default.sd_form_cluster;
+        private string sd = Properties.Settings.Default.dev_target;
         private string cd = Application.StartupPath;
 
         public dev_grab_content()
@@ -28,7 +31,7 @@ namespace SimplyU
         {
             File.Delete(cd + "\\wiiu.zip");
             File.Delete(cd + "\\hosting.zip");
-            //Directory.Delete(cd + "\\Common"); 
+            //Directory.Delete(cd + "\\Common");
             lbl_content.Text = "Performing Magic...";
         }
 
@@ -38,12 +41,23 @@ namespace SimplyU
             Directory.CreateDirectory(cd + "\\Common\\Downloading");
             //Decide whether to have Self-hosting Enabled, and Install
             //Recommended Homebrew.
-
+            if (Properties.Settings.Default.sd_form == "1")
+            {
+                System.Diagnostics.Process process = new System.Diagnostics.Process();
+                System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+                startInfo.FileName = "cmd.exe";
+                startInfo.Arguments = "/C" + "FORMAT " + dr + "/Y /FS:FAT32 /A:" + al + " /V:Wii /Q";
+                process.StartInfo = startInfo;
+                process.Start();
+                process.WaitForExit();
+            }
+            else
+            {
+            }
             if (Properties.Settings.Default.dev_install_rec == "1")
             {
                 using (var get_hb = new WebClient())
                 {
-                    string sd = Properties.Settings.Default.dev_target;
                     get_hb.DownloadFile("https://raw.githubusercontent.com/zoltx23/SimplyU/master/Common/Homebrew/wiiu.zip", cd + "\\wiiu.zip");
                     get_hb.DownloadFile("https://raw.githubusercontent.com/zoltx23/SimplyU/master/Common/Homebrew/hosting.zip", cd + "\\hosting.zip");
                     if (Properties.Settings.Default.inst_ddd == "1")

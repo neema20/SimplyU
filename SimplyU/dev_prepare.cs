@@ -42,6 +42,10 @@ namespace SimplyU
             {
                 Properties.Settings.Default.dev_self_host = "1";
             }
+            if (chck_frm_sd.Checked == true)
+            {
+                Properties.Settings.Default.sd_form = "1";
+            }
 
             //Strings for 'to install' homebrew:
 
@@ -133,6 +137,8 @@ namespace SimplyU
                 Properties.Settings.Default.dev_self_host = "1";
             }
             Properties.Settings.Default.dev_target = txt_target.Text;
+            Properties.Settings.Default.sd_form_drive = drive.Text;
+            Properties.Settings.Default.sd_form_cluster = allocation.Text;
             Properties.Settings.Default.Save();
             dev_grab_content dg = new dev_grab_content();
             dg.ShowDialog();

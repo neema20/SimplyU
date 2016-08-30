@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dev_prepare));
-            this.lbl_welcome = new System.Windows.Forms.Label();
             this.chck_rec = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_self = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_55b = new MaterialSkin.Controls.MaterialRadioButton();
@@ -67,13 +66,12 @@
             this.rd_chip = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_wiiu_key = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_wup = new MaterialSkin.Controls.MaterialCheckBox();
+            this.lbl_3 = new System.Windows.Forms.Label();
+            this.chck_frm_sd = new MaterialSkin.Controls.MaterialCheckBox();
+            this.drive = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.allocation = new MaterialSkin.Controls.MaterialSingleLineTextField();
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lbl_welcome
-            // 
-            resources.ApplyResources(this.lbl_welcome, "lbl_welcome");
-            this.lbl_welcome.Name = "lbl_welcome";
             // 
             // chck_rec
             // 
@@ -169,8 +167,9 @@
             // 
             // pic_splash
             // 
-            resources.ApplyResources(this.pic_splash, "pic_splash");
             this.pic_splash.BackColor = System.Drawing.Color.Transparent;
+            this.pic_splash.BackgroundImage = global::SimplyU.Properties.Resources.SimplyU_Full_Logo;
+            resources.ApplyResources(this.pic_splash, "pic_splash");
             this.pic_splash.Name = "pic_splash";
             this.pic_splash.TabStop = false;
             // 
@@ -438,12 +437,61 @@
             this.rd_wup.UseMnemonic = false;
             this.rd_wup.UseVisualStyleBackColor = true;
             // 
+            // lbl_3
+            // 
+            resources.ApplyResources(this.lbl_3, "lbl_3");
+            this.lbl_3.Name = "lbl_3";
+            // 
+            // chck_frm_sd
+            // 
+            resources.ApplyResources(this.chck_frm_sd, "chck_frm_sd");
+            this.chck_frm_sd.Depth = 0;
+            this.chck_frm_sd.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_frm_sd.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_frm_sd.Name = "chck_frm_sd";
+            this.chck_frm_sd.Ripple = true;
+            this.chck_frm_sd.UseVisualStyleBackColor = true;
+            // 
+            // drive
+            // 
+            resources.ApplyResources(this.drive, "drive");
+            this.drive.Depth = 0;
+            this.drive.Hint = "Drive Letter ( EX: C: )  ";
+            this.drive.MaxLength = 32767;
+            this.drive.MouseState = MaterialSkin.MouseState.HOVER;
+            this.drive.Name = "drive";
+            this.drive.PasswordChar = '\0';
+            this.drive.SelectedText = "";
+            this.drive.SelectionLength = 0;
+            this.drive.SelectionStart = 0;
+            this.drive.TabStop = false;
+            this.drive.UseSystemPasswordChar = false;
+            // 
+            // allocation
+            // 
+            resources.ApplyResources(this.allocation, "allocation");
+            this.allocation.Depth = 0;
+            this.allocation.Hint = "Cluster Size ( EX: 32k) ";
+            this.allocation.MaxLength = 32767;
+            this.allocation.MouseState = MaterialSkin.MouseState.HOVER;
+            this.allocation.Name = "allocation";
+            this.allocation.PasswordChar = '\0';
+            this.allocation.SelectedText = "";
+            this.allocation.SelectionLength = 0;
+            this.allocation.SelectionStart = 0;
+            this.allocation.TabStop = false;
+            this.allocation.UseSystemPasswordChar = false;
+            // 
             // dev_prepare
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Controls.Add(this.allocation);
+            this.Controls.Add(this.drive);
+            this.Controls.Add(this.lbl_3);
+            this.Controls.Add(this.chck_frm_sd);
             this.Controls.Add(this.rd_wup);
             this.Controls.Add(this.rd_wiiu_key);
             this.Controls.Add(this.rd_chip);
@@ -477,7 +525,6 @@
             this.Controls.Add(this.rd_55b);
             this.Controls.Add(this.chck_self);
             this.Controls.Add(this.chck_rec);
-            this.Controls.Add(this.lbl_welcome);
             this.Controls.Add(this.pic_splash);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -495,7 +542,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pic_splash;
-        private System.Windows.Forms.Label lbl_welcome;
         private MaterialSkin.Controls.MaterialCheckBox chck_rec;
         private MaterialSkin.Controls.MaterialCheckBox chck_self;
         private MaterialSkin.Controls.MaterialRadioButton rd_55b;
@@ -531,5 +577,9 @@
         private MaterialSkin.Controls.MaterialCheckBox rd_chip;
         private MaterialSkin.Controls.MaterialCheckBox rd_wiiu_key;
         private MaterialSkin.Controls.MaterialCheckBox rd_wup;
+        private System.Windows.Forms.Label lbl_3;
+        private MaterialSkin.Controls.MaterialCheckBox chck_frm_sd;
+        private MaterialSkin.Controls.MaterialSingleLineTextField drive;
+        private MaterialSkin.Controls.MaterialSingleLineTextField allocation;
     }
 }
