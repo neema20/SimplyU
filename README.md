@@ -18,13 +18,18 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * Fix some bugs
 
 ##Known Bugs: 
-* None (As of 0.3) 
+* None (As of 0.3.2) 
 
 ##Curent Version: 
-0.3 Pre-Alpha x86 
+0.3.3 Stable-Alpha x86 
 
 ##Changelog: 
 
+###Release 0.3.3: 
+* Fixed some bugs
+* The application can now Format your SD Card media.
+
+**This release is Stable, but is still an Alpha!**
 ###Release 0.3.2: 
 * Fixed some bugs
 * Working on some things
