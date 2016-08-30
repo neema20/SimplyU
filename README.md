@@ -10,6 +10,9 @@ SimpliiU is an Application that Prepares your SD Card with all the Homebrew Nece
 Since it's Open-Source, you can make your Own Version of it, or mod it to your
 hearts content.
 
+SimpliiU is licensed under the GNU GPL Open-Source License Agreement (v3). By using this Program, you're Agreeing to these 
+Terms! Since this Program is Open-Source, you may modify the Software to your hearts content. 
+
 ##What to do: 
 * Finish Self Hosting
 * Fix some bugs
