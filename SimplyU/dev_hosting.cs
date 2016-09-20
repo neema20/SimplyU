@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MaterialSkin.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +15,7 @@ using System.Windows.Forms;
 
 namespace SimplyU
 {
-    public partial class dev_hosting : Form
+    public partial class dev_hosting : MaterialForm
     {
         public dev_hosting()
         {
@@ -23,8 +24,19 @@ namespace SimplyU
 
         private void dev_hosting_Load(object sender, EventArgs e)
         {
-            Process.Start("StartServer.bat");
-            Application.Exit();
+            try
+            {
+                Process.Start("StartServer.bat");
+                Application.Exit();
+            }
+            catch
+            {
+                MessageBox.Show("Unable to locate the 'StartServer.bat' file; make sure it's there, and the Other Folders.","SimpliiU: Start Hosting --Error",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                this.Hide();
+                Main mn = new Main();
+                mn.ShowDialog();
+            }
+           
         }
 
         private void ipv4_Tick(object sender, EventArgs e)

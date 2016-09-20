@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="chck_rec.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="chck_rec.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -160,11 +157,8 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_rec.ZOrder" xml:space="preserve">
-    <value>36</value>
+    <value>31</value>
   </data>
-  <metadata name="chck_self.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="chck_self.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
   </data>
@@ -202,218 +196,8 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_self.ZOrder" xml:space="preserve">
-    <value>35</value>
-  </data>
-  <metadata name="rd_55b.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="rd_55b.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="rd_55b.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="rd_55b.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 10pt</value>
-  </data>
-  <data name="rd_55b.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="rd_55b.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 426</value>
-  </data>
-  <data name="rd_55b.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rd_55b.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 30</value>
-  </data>
-  <data name="rd_55b.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="rd_55b.Text" xml:space="preserve">
-    <value>5.5.x</value>
-  </data>
-  <data name="&gt;&gt;rd_55b.Name" xml:space="preserve">
-    <value>rd_55b</value>
-  </data>
-  <data name="&gt;&gt;rd_55b.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;rd_55b.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;rd_55b.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <metadata name="rd_54b.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="rd_54b.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="rd_54b.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="rd_54b.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 10pt</value>
-  </data>
-  <data name="rd_54b.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="rd_54b.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 456</value>
-  </data>
-  <data name="rd_54b.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rd_54b.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 30</value>
-  </data>
-  <data name="rd_54b.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="rd_54b.Text" xml:space="preserve">
-    <value>5.4.x </value>
-  </data>
-  <data name="&gt;&gt;rd_54b.Name" xml:space="preserve">
-    <value>rd_54b</value>
-  </data>
-  <data name="&gt;&gt;rd_54b.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;rd_54b.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;rd_54b.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <metadata name="rd_53b.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="rd_53b.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="rd_53b.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="rd_53b.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 10pt</value>
-  </data>
-  <data name="rd_53b.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="rd_53b.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 486</value>
-  </data>
-  <data name="rd_53b.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rd_53b.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 30</value>
-  </data>
-  <data name="rd_53b.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="rd_53b.Text" xml:space="preserve">
-    <value>5.3.x </value>
-  </data>
-  <data name="&gt;&gt;rd_53b.Name" xml:space="preserve">
-    <value>rd_53b</value>
-  </data>
-  <data name="&gt;&gt;rd_53b.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;rd_53b.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;rd_53b.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <metadata name="rd_52b.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="rd_52b.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="rd_52b.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="rd_52b.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 10pt</value>
-  </data>
-  <data name="rd_52b.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="rd_52b.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 516</value>
-  </data>
-  <data name="rd_52b.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="rd_52b.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 30</value>
-  </data>
-  <data name="rd_52b.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="rd_52b.Text" xml:space="preserve">
-    <value>5.2.x </value>
-  </data>
-  <data name="&gt;&gt;rd_52b.Name" xml:space="preserve">
-    <value>rd_52b</value>
-  </data>
-  <data name="&gt;&gt;rd_52b.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;rd_52b.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;rd_52b.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <metadata name="lbl_fw.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="lbl_fw.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="lbl_fw.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_fw.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
-  </data>
-  <data name="lbl_fw.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lbl_fw.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 397</value>
-  </data>
-  <data name="lbl_fw.Size" type="System.Drawing.Size, System.Drawing">
-    <value>321, 19</value>
-  </data>
-  <data name="lbl_fw.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="lbl_fw.Text" xml:space="preserve">
-    <value>What Firmware Version is your Wii U Running? </value>
-  </data>
-  <data name="&gt;&gt;lbl_fw.Name" xml:space="preserve">
-    <value>lbl_fw</value>
-  </data>
-  <data name="&gt;&gt;lbl_fw.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;lbl_fw.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lbl_fw.ZOrder" xml:space="preserve">
     <value>30</value>
   </data>
-  <metadata name="btn_next.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="btn_next.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
@@ -453,9 +237,6 @@
   <data name="&gt;&gt;btn_next.ZOrder" xml:space="preserve">
     <value>29</value>
   </data>
-  <metadata name="lbl_1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="lbl_1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -489,9 +270,6 @@
   <data name="&gt;&gt;lbl_1.ZOrder" xml:space="preserve">
     <value>28</value>
   </data>
-  <metadata name="lbl_2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="lbl_2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -525,44 +303,8 @@
   <data name="&gt;&gt;lbl_2.ZOrder" xml:space="preserve">
     <value>27</value>
   </data>
-  <metadata name="pic_splash.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="pic_splash.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pic_splash.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="pic_splash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pic_splash.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pic_splash.Size" type="System.Drawing.Size, System.Drawing">
-    <value>855, 107</value>
-  </data>
-  <data name="pic_splash.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pic_splash.Name" xml:space="preserve">
-    <value>pic_splash</value>
-  </data>
-  <data name="&gt;&gt;pic_splash.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pic_splash.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pic_splash.ZOrder" xml:space="preserve">
-    <value>37</value>
-  </data>
   <metadata name="dev_folder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="txt_target.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
   </metadata>
   <data name="txt_target.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -588,9 +330,6 @@
   <data name="&gt;&gt;txt_target.ZOrder" xml:space="preserve">
     <value>26</value>
   </data>
-  <metadata name="btn_target.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="btn_target.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -633,9 +372,6 @@
   <metadata name="dev_target_timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>125, 17</value>
   </metadata>
-  <metadata name="lbl_your_hb.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="lbl_your_hb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -672,9 +408,6 @@
   <data name="&gt;&gt;lbl_your_hb.ZOrder" xml:space="preserve">
     <value>24</value>
   </data>
-  <metadata name="rd_ddd.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_ddd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -711,9 +444,6 @@
   <data name="&gt;&gt;rd_ddd.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
-  <metadata name="rd_sd_caf.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_sd_caf.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -750,9 +480,6 @@
   <data name="&gt;&gt;rd_sd_caf.ZOrder" xml:space="preserve">
     <value>22</value>
   </data>
-  <metadata name="rd_sav.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_sav.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -789,9 +516,6 @@
   <data name="&gt;&gt;rd_sav.ZOrder" xml:space="preserve">
     <value>21</value>
   </data>
-  <metadata name="rd_ftp.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_ftp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -828,9 +552,6 @@
   <data name="&gt;&gt;rd_ftp.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
-  <metadata name="rd_ast.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_ast.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -867,9 +588,6 @@
   <data name="&gt;&gt;rd_ast.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
-  <metadata name="rd_nnu.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_nnu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -906,9 +624,6 @@
   <data name="&gt;&gt;rd_nnu.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
-  <metadata name="rd_pong.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_pong.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -945,9 +660,6 @@
   <data name="&gt;&gt;rd_pong.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <metadata name="rd_gacu.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_gacu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -984,9 +696,6 @@
   <data name="&gt;&gt;rd_gacu.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <metadata name="rd_tict.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_tict.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1023,9 +732,6 @@
   <data name="&gt;&gt;rd_tict.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <metadata name="rd_geck.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_geck.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1062,9 +768,6 @@
   <data name="&gt;&gt;rd_geck.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <metadata name="rd_gbiine.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_gbiine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1101,9 +804,6 @@
   <data name="&gt;&gt;rd_gbiine.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <metadata name="rd_tcp.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_tcp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1140,9 +840,6 @@
   <data name="&gt;&gt;rd_tcp.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <metadata name="rd_pac.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_pac.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1179,9 +876,6 @@
   <data name="&gt;&gt;rd_pac.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <metadata name="rd_u_paint.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_u_paint.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1218,9 +912,6 @@
   <data name="&gt;&gt;rd_u_paint.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <metadata name="rd_hid.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_hid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1257,9 +948,6 @@
   <data name="&gt;&gt;rd_hid.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <metadata name="rd_snake.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_snake.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1296,9 +984,6 @@
   <data name="&gt;&gt;rd_snake.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <metadata name="rd_cave.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_cave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1335,9 +1020,6 @@
   <data name="&gt;&gt;rd_cave.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <metadata name="rd_chip.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_chip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1374,9 +1056,6 @@
   <data name="&gt;&gt;rd_chip.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <metadata name="rd_wiiu_key.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_wiiu_key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1413,9 +1092,6 @@
   <data name="&gt;&gt;rd_wiiu_key.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <metadata name="rd_wup.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="rd_wup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1452,9 +1128,6 @@
   <data name="&gt;&gt;rd_wup.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <metadata name="lbl_3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="lbl_3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1488,9 +1161,6 @@
   <data name="&gt;&gt;lbl_3.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <metadata name="chck_frm_sd.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="chck_frm_sd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
   </data>
@@ -1530,9 +1200,6 @@
   <data name="&gt;&gt;chck_frm_sd.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <metadata name="drive.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="drive.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -1557,9 +1224,6 @@
   <data name="&gt;&gt;drive.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="allocation.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="allocation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -1585,9 +1249,6 @@
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -2941,6 +2602,9 @@
         AAAAAAAAAAAAH///8AA=
 </value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
@@ -2963,6 +2627,6 @@
     <value>dev_prepare</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
 </root>

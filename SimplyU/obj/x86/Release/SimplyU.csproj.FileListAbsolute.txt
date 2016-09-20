@@ -1,5 +1,4 @@
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\Ionic.Zip.dll
-C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\MaterialSkin.dll
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\MaterialSkin.pdb
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_grab_content.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_hosting.resources

@@ -32,15 +32,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dev_prepare));
             this.chck_rec = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_self = new MaterialSkin.Controls.MaterialCheckBox();
-            this.rd_55b = new MaterialSkin.Controls.MaterialRadioButton();
-            this.rd_54b = new MaterialSkin.Controls.MaterialRadioButton();
-            this.rd_53b = new MaterialSkin.Controls.MaterialRadioButton();
-            this.rd_52b = new MaterialSkin.Controls.MaterialRadioButton();
-            this.lbl_fw = new MaterialSkin.Controls.MaterialLabel();
             this.btn_next = new MaterialSkin.Controls.MaterialFlatButton();
             this.lbl_1 = new System.Windows.Forms.Label();
             this.lbl_2 = new System.Windows.Forms.Label();
-            this.pic_splash = new System.Windows.Forms.PictureBox();
             this.dev_folder = new System.Windows.Forms.FolderBrowserDialog();
             this.txt_target = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.btn_target = new MaterialSkin.Controls.MaterialFlatButton();
@@ -70,7 +64,6 @@
             this.chck_frm_sd = new MaterialSkin.Controls.MaterialCheckBox();
             this.drive = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.allocation = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
             // 
             // chck_rec
@@ -95,56 +88,6 @@
             this.chck_self.Ripple = true;
             this.chck_self.UseVisualStyleBackColor = true;
             // 
-            // rd_55b
-            // 
-            resources.ApplyResources(this.rd_55b, "rd_55b");
-            this.rd_55b.Checked = true;
-            this.rd_55b.Depth = 0;
-            this.rd_55b.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.rd_55b.MouseState = MaterialSkin.MouseState.HOVER;
-            this.rd_55b.Name = "rd_55b";
-            this.rd_55b.Ripple = true;
-            this.rd_55b.TabStop = true;
-            this.rd_55b.UseVisualStyleBackColor = true;
-            // 
-            // rd_54b
-            // 
-            resources.ApplyResources(this.rd_54b, "rd_54b");
-            this.rd_54b.Depth = 0;
-            this.rd_54b.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.rd_54b.MouseState = MaterialSkin.MouseState.HOVER;
-            this.rd_54b.Name = "rd_54b";
-            this.rd_54b.Ripple = true;
-            this.rd_54b.UseVisualStyleBackColor = true;
-            // 
-            // rd_53b
-            // 
-            resources.ApplyResources(this.rd_53b, "rd_53b");
-            this.rd_53b.Depth = 0;
-            this.rd_53b.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.rd_53b.MouseState = MaterialSkin.MouseState.HOVER;
-            this.rd_53b.Name = "rd_53b";
-            this.rd_53b.Ripple = true;
-            this.rd_53b.UseVisualStyleBackColor = true;
-            // 
-            // rd_52b
-            // 
-            resources.ApplyResources(this.rd_52b, "rd_52b");
-            this.rd_52b.Depth = 0;
-            this.rd_52b.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.rd_52b.MouseState = MaterialSkin.MouseState.HOVER;
-            this.rd_52b.Name = "rd_52b";
-            this.rd_52b.Ripple = true;
-            this.rd_52b.UseVisualStyleBackColor = true;
-            // 
-            // lbl_fw
-            // 
-            resources.ApplyResources(this.lbl_fw, "lbl_fw");
-            this.lbl_fw.Depth = 0;
-            this.lbl_fw.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lbl_fw.MouseState = MaterialSkin.MouseState.HOVER;
-            this.lbl_fw.Name = "lbl_fw";
-            // 
             // btn_next
             // 
             resources.ApplyResources(this.btn_next, "btn_next");
@@ -164,14 +107,6 @@
             // 
             resources.ApplyResources(this.lbl_2, "lbl_2");
             this.lbl_2.Name = "lbl_2";
-            // 
-            // pic_splash
-            // 
-            this.pic_splash.BackColor = System.Drawing.Color.Transparent;
-            this.pic_splash.BackgroundImage = global::SimplyU.Properties.Resources.SimplyU_Full_Logo;
-            resources.ApplyResources(this.pic_splash, "pic_splash");
-            this.pic_splash.Name = "pic_splash";
-            this.pic_splash.TabStop = false;
             // 
             // dev_folder
             // 
@@ -487,7 +422,7 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.allocation);
             this.Controls.Add(this.drive);
             this.Controls.Add(this.lbl_3);
@@ -518,37 +453,21 @@
             this.Controls.Add(this.lbl_2);
             this.Controls.Add(this.lbl_1);
             this.Controls.Add(this.btn_next);
-            this.Controls.Add(this.lbl_fw);
-            this.Controls.Add(this.rd_52b);
-            this.Controls.Add(this.rd_53b);
-            this.Controls.Add(this.rd_54b);
-            this.Controls.Add(this.rd_55b);
             this.Controls.Add(this.chck_self);
             this.Controls.Add(this.chck_rec);
-            this.Controls.Add(this.pic_splash);
-            this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "dev_prepare";
             this.ShowInTaskbar = false;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.dev_prepare_FormClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).EndInit();
+            this.Load += new System.EventHandler(this.dev_prepare_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pic_splash;
         private MaterialSkin.Controls.MaterialCheckBox chck_rec;
         private MaterialSkin.Controls.MaterialCheckBox chck_self;
-        private MaterialSkin.Controls.MaterialRadioButton rd_55b;
-        private MaterialSkin.Controls.MaterialRadioButton rd_54b;
-        private MaterialSkin.Controls.MaterialRadioButton rd_53b;
-        private MaterialSkin.Controls.MaterialRadioButton rd_52b;
-        private MaterialSkin.Controls.MaterialLabel lbl_fw;
         private MaterialSkin.Controls.MaterialFlatButton btn_next;
         private System.Windows.Forms.Label lbl_1;
         private System.Windows.Forms.Label lbl_2;

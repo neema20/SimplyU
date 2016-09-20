@@ -1,4 +1,5 @@
 using Ionic.Zip;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,7 +15,7 @@ using System.Windows.Forms;
 
 namespace SimplyU
 {
-    public partial class dev_grab_content : Form
+    public partial class dev_grab_content : MaterialForm
     {
         private string dr = Properties.Settings.Default.sd_form_drive;
         private string al = Properties.Settings.Default.sd_form_cluster;
@@ -50,10 +51,11 @@ namespace SimplyU
                 process.StartInfo = startInfo;
                 process.Start();
                 process.WaitForExit();
-            }
+            } 
             else
             {
             }
+         
             if (Properties.Settings.Default.dev_install_rec == "1")
             {
                 using (var get_hb = new WebClient())
@@ -454,7 +456,7 @@ namespace SimplyU
                     prg_1.Value = 100;
                     lbl_content.Text = "";
                     lbl_ext_desc.Text = "";
-                    lbl_pls_wait.Text = "And Presto!";
+                    lbl_ext_desc.Text = "And Presto!";
                     dev_presto.Start();
                 }
                 if (Properties.Settings.Default.dev_self_host == "1")
@@ -478,6 +480,11 @@ namespace SimplyU
             {
                 Application.Exit();
             }
+        }
+
+        private void lbl_pls_wait_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

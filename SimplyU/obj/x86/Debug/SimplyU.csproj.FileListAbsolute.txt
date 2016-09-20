@@ -1,1 +1,2 @@
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Debug\SimplyU.exe.config
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Debug\SimpliiU.exe.config

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MaterialSkin.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace SimplyU
 {
-    public partial class dev_prepare : Form
+    public partial class dev_prepare : MaterialForm
     {
         public dev_prepare()
         {
@@ -22,22 +23,7 @@ namespace SimplyU
             this.Hide();
 
             //Radiobox's
-            if (rd_55b.Checked == true)
-            {
-                Properties.Settings.Default.dev_sel_firmware = "55";
-            }
-            if (rd_54b.Checked == true)
-            {
-                Properties.Settings.Default.dev_sel_firmware = "54";
-            }
-            if (rd_53b.Checked == true)
-            {
-                Properties.Settings.Default.dev_sel_firmware = "53";
-            }
-            if (rd_52b.Checked == true)
-            {
-                Properties.Settings.Default.dev_sel_firmware = "52";
-            }
+
             if (chck_self.Checked == true)
             {
                 Properties.Settings.Default.dev_self_host = "1";
@@ -125,6 +111,7 @@ namespace SimplyU
             {
                 Properties.Settings.Default.inst_wup = "1";
             }
+
             //Install Recommended
             if (chck_rec.Checked == true)
             {
@@ -161,6 +148,10 @@ namespace SimplyU
         private void dev_target_timer_Tick(object sender, EventArgs e)
         {
             txt_target.Text = dev_folder.SelectedPath.ToString();
+        }
+
+        private void dev_prepare_Load(object sender, EventArgs e)
+        {
         }
     }
 }

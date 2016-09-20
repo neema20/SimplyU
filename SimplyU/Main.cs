@@ -1,4 +1,5 @@
-﻿using SimplyU;
+﻿using MaterialSkin.Controls;
+using SimplyU;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +12,7 @@ using System.Windows.Forms;
 
 namespace SimplyU
 {
-    public partial class Main : Form
+    public partial class Main : MaterialForm
     {
         public Main()
         {
@@ -33,7 +34,7 @@ namespace SimplyU
         private void Main_Load(object sender, EventArgs e)
         {
             Properties.Settings.Default.Reset();
-            lbl_ver.Text = "Release: " + Application.ProductVersion + " Nightly";
+            lbl_ver.Text = "Release: " + Application.ProductVersion + " Stable";
         }
 
         private void materialFlatButton1_Click(object sender, EventArgs e)
