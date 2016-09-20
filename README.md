@@ -18,12 +18,20 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * Fix some bugs
 
 ##Known Bugs: 
-* None (As of 0.3.2) 
+* None (As of 0.4.0) 
 
 ##Curent Version: 
-0.3.3 Stable-Alpha x86 
+0.4.2 Stable-Beta x86 
 
 ##Changelog: 
+
+###Release 0.4.2: 
+* SimpliiU now has a full Material UI Interface, enjoy!
+* Fixed some bugs
+* Removed and working on some Features
+
+**From now on, the Releases will be in .tar's; for better Compression.**
+
 
 ###Release 0.3.3: 
 * Fixed some bugs
