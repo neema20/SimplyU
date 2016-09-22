@@ -18,12 +18,18 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * Fix some bugs
 
 ##Known Bugs: 
-* None (As of 0.4.0) 
+* When Formatting, the Dialog may Continue to Show (Fixed in the Nightly Build)
 
 ##Curent Version: 
 0.4.2 Stable-Beta x86 
 
 ##Changelog: 
+
+###Release 0.5.0: 
+* Fixed some Bugs
+* Working on some New Features
+
+**This release isn't Stable, but is still an Beta!**
 
 ###Release 0.4.2: 
 * SimpliiU now has a full Material UI Interface, enjoy!
