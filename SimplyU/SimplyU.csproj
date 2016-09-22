@@ -71,6 +71,7 @@
   <PropertyGroup>
     <StartupObject>SimplyU.Program</StartupObject>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="Ionic.Zip">
       <HintPath>..\..\3DNUS\Source\old\NANDify_Source\NANDify\bin\Release\Ionic.Zip.dll</HintPath>
@@ -109,6 +110,18 @@
     <Compile Include="dev_prepare.Designer.cs">
       <DependentUpon>dev_prepare.cs</DependentUpon>
     </Compile>
+    <Compile Include="dev_properties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dev_properties.Designer.cs">
+      <DependentUpon>dev_properties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dev_upd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dev_upd.Designer.cs">
+      <DependentUpon>dev_upd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +139,12 @@
     <EmbeddedResource Include="dev_prepare.resx">
       <DependentUpon>dev_prepare.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dev_properties.resx">
+      <DependentUpon>dev_properties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dev_upd.resx">
+      <DependentUpon>dev_upd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,9 +159,10 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Settings.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -150,7 +170,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SimplyU_Full_Logo.png" />

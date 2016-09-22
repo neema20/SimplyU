@@ -457,7 +457,7 @@
             this.Controls.Add(this.chck_rec);
             this.MaximizeBox = false;
             this.Name = "dev_prepare";
-            this.ShowInTaskbar = false;
+            this.Sizable = false;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.dev_prepare_FormClosing);
             this.Load += new System.EventHandler(this.dev_prepare_Load);
             this.ResumeLayout(false);

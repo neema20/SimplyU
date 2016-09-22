@@ -11,3 +11,4 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Release\SimplyU.Properties.Re
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Release\SimplyU.csproj.GenerateResource.Cache
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Release\SimplyU.exe
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Release\SimplyU.pdb
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Release\SimpliiU.exe.config

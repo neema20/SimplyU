@@ -34,6 +34,8 @@
             this.lbl_welcome = new System.Windows.Forms.Label();
             this.lbl_ver = new System.Windows.Forms.Label();
             this.lbl_desc = new System.Windows.Forms.Label();
+            this.btn_prop = new MaterialSkin.Controls.MaterialFlatButton();
+            this.materialFlatButton2 = new MaterialSkin.Controls.MaterialFlatButton();
             this.pic_splash = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
@@ -112,6 +114,42 @@
     "age done to your Wii U! ";
             this.lbl_desc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btn_prop
+            // 
+            this.btn_prop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btn_prop.AutoSize = true;
+            this.btn_prop.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_prop.BackColor = System.Drawing.Color.White;
+            this.btn_prop.Depth = 0;
+            this.btn_prop.Location = new System.Drawing.Point(7, 434);
+            this.btn_prop.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_prop.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_prop.Name = "btn_prop";
+            this.btn_prop.Primary = false;
+            this.btn_prop.Size = new System.Drawing.Size(92, 36);
+            this.btn_prop.TabIndex = 11;
+            this.btn_prop.Text = "properties";
+            this.btn_prop.UseVisualStyleBackColor = false;
+            this.btn_prop.Click += new System.EventHandler(this.btn_prop_Click);
+            // 
+            // materialFlatButton2
+            // 
+            this.materialFlatButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.materialFlatButton2.AutoSize = true;
+            this.materialFlatButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialFlatButton2.BackColor = System.Drawing.Color.White;
+            this.materialFlatButton2.Depth = 0;
+            this.materialFlatButton2.Location = new System.Drawing.Point(98, 434);
+            this.materialFlatButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialFlatButton2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialFlatButton2.Name = "materialFlatButton2";
+            this.materialFlatButton2.Primary = false;
+            this.materialFlatButton2.Size = new System.Drawing.Size(101, 36);
+            this.materialFlatButton2.TabIndex = 12;
+            this.materialFlatButton2.Text = "view thread";
+            this.materialFlatButton2.UseVisualStyleBackColor = false;
+            this.materialFlatButton2.Click += new System.EventHandler(this.materialFlatButton2_Click);
+            // 
             // pic_splash
             // 
             this.pic_splash.BackColor = System.Drawing.Color.Transparent;
@@ -130,6 +168,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(736, 475);
+            this.Controls.Add(this.materialFlatButton2);
+            this.Controls.Add(this.btn_prop);
             this.Controls.Add(this.pic_splash);
             this.Controls.Add(this.lbl_welcome);
             this.Controls.Add(this.lbl_ver);
@@ -139,7 +179,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Main";
-            this.ShowInTaskbar = false;
+            this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SimpliiU: Getting Started";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Main_FormClosing);
@@ -157,6 +197,8 @@
         private System.Windows.Forms.Label lbl_ver;
         private System.Windows.Forms.Label lbl_desc;
         private System.Windows.Forms.PictureBox pic_splash;
+        private MaterialSkin.Controls.MaterialFlatButton btn_prop;
+        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton2;
     }
 }
 

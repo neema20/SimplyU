@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -34,7 +35,7 @@ namespace SimplyU
         private void Main_Load(object sender, EventArgs e)
         {
             Properties.Settings.Default.Reset();
-            lbl_ver.Text = "Release: " + Application.ProductVersion + " Stable";
+            lbl_ver.Text = "Release: " + Application.ProductVersion + " Nightly";
         }
 
         private void materialFlatButton1_Click(object sender, EventArgs e)
@@ -42,6 +43,17 @@ namespace SimplyU
             this.Hide();
             dev_hosting dc = new dev_hosting();
             dc.ShowDialog();
+        }
+
+        private void btn_prop_Click(object sender, EventArgs e)
+        {
+            dev_properties dp = new dev_properties();
+            dp.Show();
+        }
+
+        private void materialFlatButton2_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://gbatemp.net/threads/release-simpliiu.438899/");
         }
     }
 }

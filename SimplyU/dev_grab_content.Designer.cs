@@ -33,11 +33,15 @@
             this.prg_1 = new MaterialSkin.Controls.MaterialProgressBar();
             this.wait = new System.Windows.Forms.Timer(this.components);
             this.dev_presto = new System.Windows.Forms.Timer(this.components);
+            this.fin = new System.Windows.Forms.Timer(this.components);
+            this.prg_2 = new MaterialSkin.Controls.MaterialProgressBar();
             this.lbl_ext_desc = new System.Windows.Forms.Label();
+            this.dev_download = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // lbl_content
             // 
+            this.lbl_content.BackColor = System.Drawing.Color.White;
             this.lbl_content.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lbl_content.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_content.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -69,35 +73,56 @@
             this.dev_presto.Interval = 5000;
             this.dev_presto.Tick += new System.EventHandler(this.dev_presto_Tick);
             // 
+            // fin
+            // 
+            this.fin.Tick += new System.EventHandler(this.fin_Tick);
+            // 
+            // prg_2
+            // 
+            this.prg_2.Depth = 0;
+            this.prg_2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.prg_2.Location = new System.Drawing.Point(0, 126);
+            this.prg_2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.prg_2.Name = "prg_2";
+            this.prg_2.Size = new System.Drawing.Size(353, 5);
+            this.prg_2.TabIndex = 8;
+            // 
             // lbl_ext_desc
             // 
             this.lbl_ext_desc.BackColor = System.Drawing.Color.White;
             this.lbl_ext_desc.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lbl_ext_desc.Font = new System.Drawing.Font("Segoe UI Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_ext_desc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_ext_desc.Location = new System.Drawing.Point(0, 82);
+            this.lbl_ext_desc.Location = new System.Drawing.Point(0, 77);
             this.lbl_ext_desc.Name = "lbl_ext_desc";
             this.lbl_ext_desc.Size = new System.Drawing.Size(353, 49);
-            this.lbl_ext_desc.TabIndex = 7;
+            this.lbl_ext_desc.TabIndex = 9;
             this.lbl_ext_desc.Text = "Please wait...";
             this.lbl_ext_desc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dev_download
+            // 
+            this.dev_download.Enabled = true;
+            this.dev_download.Interval = 10;
             // 
             // dev_grab_content
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.Alert;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(353, 157);
             this.ControlBox = false;
             this.Controls.Add(this.lbl_ext_desc);
+            this.Controls.Add(this.prg_2);
             this.Controls.Add(this.prg_1);
             this.Controls.Add(this.lbl_content);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "dev_grab_content";
             this.ShowInTaskbar = false;
+            this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Grabbing Content...";
             this.Load += new System.EventHandler(this.dev_grab_content_Load);
@@ -110,6 +135,9 @@
         private MaterialSkin.Controls.MaterialProgressBar prg_1;
         private System.Windows.Forms.Timer wait;
         private System.Windows.Forms.Timer dev_presto;
+        private System.Windows.Forms.Timer fin;
+        private MaterialSkin.Controls.MaterialProgressBar prg_2;
         private System.Windows.Forms.Label lbl_ext_desc;
+        private System.Windows.Forms.Timer dev_download;
     }
 }

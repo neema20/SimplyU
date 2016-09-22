@@ -6,10 +6,11 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.Properties.Reso
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.csproj.GenerateResource.Cache
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.dev_grab_content.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.dev_prepare.resources
-C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\Ionic.Zip.dll
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.dev_hosting.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\SimpliiU.exe.config
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\SimpliiU.exe
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\SimpliiU.pdb
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimpliiU.exe
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimpliiU.pdb
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.dev_properties.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.dev_upd.resources
