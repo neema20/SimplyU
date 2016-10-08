@@ -605,7 +605,7 @@ namespace SimplyU
             try
             {
                 lbl_content.Text = "Cleaning Junk...";
-                Directory.Delete(cd + "\\Common", true);
+                Directory.Delete(cd + "\\Common\\downloading", true);
                 Directory.Delete(cd + "\\wiiu", true);
                 File.Delete(cd + "\\wiiu.zip");
                 File.Delete(cd + "\\hosting.zip");
