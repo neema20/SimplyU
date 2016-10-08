@@ -28,6 +28,7 @@ namespace SimplyU
             File.Delete(cd + "\\hosting.zip");
             //Directory.Delete(cd + "\\Common");
             lbl_content.Text = "Performing Magic...";
+            fin.Start();
         }
 
         private void wait_Tick(object sender, EventArgs e)
@@ -100,8 +101,8 @@ namespace SimplyU
             {
                 using (var get_hb = new WebClient())
                 {
-                    get_hb.DownloadFile("https://raw.githubusercontent.com/zoltx23/SimplyU/master/Common/Homebrew/wiiu.zip", cd + "\\wiiu.zip");
-                    get_hb.DownloadFile("https://raw.githubusercontent.com/zoltx23/SimplyU/master/Common/Homebrew/hosting.zip", cd + "\\hosting.zip");
+                    get_hb.DownloadFile("https://github.com/zoltx23/SimplyU/raw/master/Common/Homebrew/wiiu.zip", cd + "\\wiiu.zip");
+                    get_hb.DownloadFile("https://github.com/zoltx23/SimplyU/raw/master/Common/Homebrew/hosting.zip", cd + "\\hosting.zip");
 
                     if (Properties.Settings.Default.inst_ddd == "1")
                     {
