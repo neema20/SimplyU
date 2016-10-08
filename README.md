@@ -25,6 +25,11 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 
 ##Changelog: 
 
+###Release 0.5.2: 
+* Fixed some Bugs
+* The Application can now Remove Temp files. 
+
+**This release isn't Stable, but is still an Beta!**
 ###Release 0.5.0: 
 * Fixed some Bugs
 * Working on some New Features
