@@ -2,7 +2,7 @@
 
 #SimpliiU 
 
-Not to be mistaken for a 'Female Cosmetic', SimplyU allows you to Prepare an SD Card with Homebrew.
+Not to be mistaken for a 'Female Cosmetic',SimpliiU allows you to Prepare an SD Card with Homebrew.
 This makes it incredibly easy for Lazy people, or if you're new to the Homebrew Scene! 
 
 ##Introduction: 
