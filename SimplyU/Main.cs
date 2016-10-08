@@ -34,11 +34,59 @@ namespace SimplyU
 
         private void Main_Load(object sender, EventArgs e)
         {
-            Properties.Settings.Default.Reset();
-            lbl_ver.Text = "Release: " + Application.ProductVersion + " Nightly";
+            Properties.Settings.Default.dev_self_host = "0";
+
+            Properties.Settings.Default.sd_form = "0";
+
+            Properties.Settings.Default.inst_ddd = "0";
+
+            Properties.Settings.Default.inst_sd_caffiine = "0";
+
+            Properties.Settings.Default.inst_sav = "0";
+
+            Properties.Settings.Default.inst_pong = "0";
+
+            Properties.Settings.Default.inst_gac = "0";
+
+            Properties.Settings.Default.inst_tic = "0";
+
+            Properties.Settings.Default.inst_pac = "0";
+
+            Properties.Settings.Default.inst_u_paint = "0";
+
+            Properties.Settings.Default.inst_ftp = "0";
+
+            Properties.Settings.Default.inst_ast = "0";
+
+            Properties.Settings.Default.inst_nnu = "0";
+
+            Properties.Settings.Default.inst_geck = "0";
+
+            Properties.Settings.Default.inst_gbiine = "0";
+
+            Properties.Settings.Default.inst_tcp = "0";
+
+            Properties.Settings.Default.inst_snake = "0";
+
+            Properties.Settings.Default.inst_cave = "0";
+
+            Properties.Settings.Default.inst_chip = "0";
+
+            Properties.Settings.Default.inst_wiiu_key = "0";
+
+            Properties.Settings.Default.inst_wup = "0";
+
+            if (Properties.Settings.Default.dev_dev_mode == "1")
+            {
+                lbl_ver.Text = "Release: " + Application.ProductVersion + " Nightly--DEV_MODE";
+            }
+            else
+            {
+                lbl_ver.Text = "Release: " + Application.ProductVersion + " Nightly";
+            }
         }
 
-        private void materialFlatButton1_Click(object sender, EventArgs e)
+        private void btn_self_host_Click(object sender, EventArgs e)
         {
             this.Hide();
             dev_hosting dc = new dev_hosting();
@@ -51,7 +99,7 @@ namespace SimplyU
             dp.Show();
         }
 
-        private void materialFlatButton2_Click(object sender, EventArgs e)
+        private void btn_view_Click(object sender, EventArgs e)
         {
             Process.Start("https://gbatemp.net/threads/release-simpliiu.438899/");
         }

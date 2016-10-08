@@ -37,6 +37,7 @@
             this.prg_2 = new MaterialSkin.Controls.MaterialProgressBar();
             this.lbl_ext_desc = new System.Windows.Forms.Label();
             this.dev_download = new System.Windows.Forms.Timer(this.components);
+            this.cleanup = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // lbl_content
@@ -99,11 +100,17 @@
             this.lbl_ext_desc.TabIndex = 9;
             this.lbl_ext_desc.Text = "Please wait...";
             this.lbl_ext_desc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_ext_desc.Click += new System.EventHandler(this.lbl_ext_desc_Click);
             // 
             // dev_download
             // 
             this.dev_download.Enabled = true;
             this.dev_download.Interval = 10;
+            // 
+            // cleanup
+            // 
+            this.cleanup.Interval = 10;
+            this.cleanup.Tick += new System.EventHandler(this.cleanup_Tick);
             // 
             // dev_grab_content
             // 
@@ -139,5 +146,6 @@
         private MaterialSkin.Controls.MaterialProgressBar prg_2;
         private System.Windows.Forms.Label lbl_ext_desc;
         private System.Windows.Forms.Timer dev_download;
+        private System.Windows.Forms.Timer cleanup;
     }
 }

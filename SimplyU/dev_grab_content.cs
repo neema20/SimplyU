@@ -70,16 +70,23 @@ namespace SimplyU
         private void dev_presto_Tick(object sender, EventArgs e)
         {
             dev_presto.Stop();
-            MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 BETA. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support!", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            if (Properties.Settings.Default.dev_self_host == "1")
+            if (Properties.Settings.Default.dev_cleanup == "1")
             {
-                Hide();
-                dev_hosting dh = new dev_hosting();
-                dh.ShowDialog();
+                cleanup.Start();
             }
             else
             {
-                Application.Exit();
+                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 BETA. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support!", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (Properties.Settings.Default.dev_self_host == "1")
+                {
+                    Hide();
+                    dev_hosting dh = new dev_hosting();
+                    dh.ShowDialog();
+                }
+                else
+                {
+                    Application.Exit();
+                }
             }
         }
 
@@ -589,6 +596,53 @@ namespace SimplyU
         private void client_DownloadFileCompleted(object sender, AsyncCompletedEventArgs e)
         {
             lbl_content.Text = "Grabbed Package";
+        }
+
+        private void cleanup_Tick(object sender, EventArgs e)
+        {
+            cleanup.Stop();
+            try
+            {
+                lbl_content.Text = "Cleaning Junk...";
+                Directory.Delete(cd + "\\Common", true);
+                Directory.Delete(cd + "\\wiiu", true);
+                File.Delete(cd + "\\wiiu.zip");
+                File.Delete(cd + "\\hosting.zip");
+                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 BETA. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support!", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (Properties.Settings.Default.dev_self_host == "1")
+                {
+                    Hide();
+                    dev_hosting dh = new dev_hosting();
+                    dh.ShowDialog();
+                }
+                else
+                {
+                    Application.Exit();
+                }
+            }
+            catch
+            {
+                lbl_content.Text = "Something went Wrong!";
+                MessageBox.Show("Somthing Happened while removing Directories and Such, so you may need to remove them manually!", "Grabbing Content: --Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 BETA. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support!", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (Properties.Settings.Default.dev_self_host == "1")
+                {
+                    Hide();
+                    dev_hosting dh = new dev_hosting();
+                    dh.ShowDialog();
+                }
+                else
+                {
+                    Application.Exit();
+                }
+            }
+        }
+
+        private void lbl_ext_desc_Click(object sender, EventArgs e)
+        {
+            fin.Stop();
+            dev_presto.Stop();
+            cleanup.Start();
         }
     }
 }

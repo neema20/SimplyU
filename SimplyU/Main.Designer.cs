@@ -30,12 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.btn_next = new MaterialSkin.Controls.MaterialFlatButton();
-            this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
+            this.btn_self_host = new MaterialSkin.Controls.MaterialFlatButton();
             this.lbl_welcome = new System.Windows.Forms.Label();
             this.lbl_ver = new System.Windows.Forms.Label();
             this.lbl_desc = new System.Windows.Forms.Label();
             this.btn_prop = new MaterialSkin.Controls.MaterialFlatButton();
-            this.materialFlatButton2 = new MaterialSkin.Controls.MaterialFlatButton();
+            this.btn_view = new MaterialSkin.Controls.MaterialFlatButton();
             this.pic_splash = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
@@ -58,23 +58,23 @@
             this.btn_next.UseVisualStyleBackColor = false;
             this.btn_next.Click += new System.EventHandler(this.btn_next_Click);
             // 
-            // materialFlatButton1
+            // btn_self_host
             // 
-            this.materialFlatButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialFlatButton1.AutoSize = true;
-            this.materialFlatButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialFlatButton1.BackColor = System.Drawing.Color.White;
-            this.materialFlatButton1.Depth = 0;
-            this.materialFlatButton1.Location = new System.Drawing.Point(517, 434);
-            this.materialFlatButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFlatButton1.Name = "materialFlatButton1";
-            this.materialFlatButton1.Primary = false;
-            this.materialFlatButton1.Size = new System.Drawing.Size(152, 36);
-            this.materialFlatButton1.TabIndex = 4;
-            this.materialFlatButton1.Text = "start self-hosting";
-            this.materialFlatButton1.UseVisualStyleBackColor = false;
-            this.materialFlatButton1.Click += new System.EventHandler(this.materialFlatButton1_Click);
+            this.btn_self_host.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_self_host.AutoSize = true;
+            this.btn_self_host.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_self_host.BackColor = System.Drawing.Color.White;
+            this.btn_self_host.Depth = 0;
+            this.btn_self_host.Location = new System.Drawing.Point(517, 434);
+            this.btn_self_host.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_self_host.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_self_host.Name = "btn_self_host";
+            this.btn_self_host.Primary = false;
+            this.btn_self_host.Size = new System.Drawing.Size(152, 36);
+            this.btn_self_host.TabIndex = 4;
+            this.btn_self_host.Text = "start self-hosting";
+            this.btn_self_host.UseVisualStyleBackColor = false;
+            this.btn_self_host.Click += new System.EventHandler(this.btn_self_host_Click);
             // 
             // lbl_welcome
             // 
@@ -132,23 +132,23 @@
             this.btn_prop.UseVisualStyleBackColor = false;
             this.btn_prop.Click += new System.EventHandler(this.btn_prop_Click);
             // 
-            // materialFlatButton2
+            // btn_view
             // 
-            this.materialFlatButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.materialFlatButton2.AutoSize = true;
-            this.materialFlatButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialFlatButton2.BackColor = System.Drawing.Color.White;
-            this.materialFlatButton2.Depth = 0;
-            this.materialFlatButton2.Location = new System.Drawing.Point(98, 434);
-            this.materialFlatButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialFlatButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFlatButton2.Name = "materialFlatButton2";
-            this.materialFlatButton2.Primary = false;
-            this.materialFlatButton2.Size = new System.Drawing.Size(101, 36);
-            this.materialFlatButton2.TabIndex = 12;
-            this.materialFlatButton2.Text = "view thread";
-            this.materialFlatButton2.UseVisualStyleBackColor = false;
-            this.materialFlatButton2.Click += new System.EventHandler(this.materialFlatButton2_Click);
+            this.btn_view.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btn_view.AutoSize = true;
+            this.btn_view.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_view.BackColor = System.Drawing.Color.White;
+            this.btn_view.Depth = 0;
+            this.btn_view.Location = new System.Drawing.Point(98, 434);
+            this.btn_view.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_view.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_view.Name = "btn_view";
+            this.btn_view.Primary = false;
+            this.btn_view.Size = new System.Drawing.Size(101, 36);
+            this.btn_view.TabIndex = 12;
+            this.btn_view.Text = "view thread";
+            this.btn_view.UseVisualStyleBackColor = false;
+            this.btn_view.Click += new System.EventHandler(this.btn_view_Click);
             // 
             // pic_splash
             // 
@@ -168,12 +168,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(736, 475);
-            this.Controls.Add(this.materialFlatButton2);
+            this.Controls.Add(this.btn_view);
             this.Controls.Add(this.btn_prop);
             this.Controls.Add(this.pic_splash);
             this.Controls.Add(this.lbl_welcome);
             this.Controls.Add(this.lbl_ver);
-            this.Controls.Add(this.materialFlatButton1);
+            this.Controls.Add(this.btn_self_host);
             this.Controls.Add(this.btn_next);
             this.Controls.Add(this.lbl_desc);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -192,13 +192,13 @@
 
         #endregion
         private MaterialSkin.Controls.MaterialFlatButton btn_next;
-        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
+        private MaterialSkin.Controls.MaterialFlatButton btn_self_host;
         private System.Windows.Forms.Label lbl_welcome;
         private System.Windows.Forms.Label lbl_ver;
         private System.Windows.Forms.Label lbl_desc;
         private System.Windows.Forms.PictureBox pic_splash;
         private MaterialSkin.Controls.MaterialFlatButton btn_prop;
-        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton2;
+        private MaterialSkin.Controls.MaterialFlatButton btn_view;
     }
 }
 
