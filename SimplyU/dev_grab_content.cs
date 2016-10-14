@@ -758,7 +758,11 @@ namespace SimplyU
                                     fin.Stop();
                                 }
                             }
-
+                        }
+                    }
+                }
+            }
+        }
 
         private void client_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
         {

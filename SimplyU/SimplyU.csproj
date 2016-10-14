@@ -76,7 +76,7 @@
     <DocumentationFile>bin\x86\Release\SimpliiU.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>false</SignManifests>
