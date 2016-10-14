@@ -21,15 +21,24 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * When Formatting, the Dialog may Continue to Show (Fixed in the Nightly Build)
 
 ##Curent Version: 
-0.5.2 Nightly-Beta x86 
+0.6.0 x86 Beta
 
 ##Changelog: 
+
+###Release 0.6.0: 
+* New options for more Homebrew
+* Working on the Settings Menu (Properties)
+* Working on some issues when Cleaning up files
+* Fix some minor bugs when downloading Homebrew
+
+**This release is Stable, but is still an Beta!**
 
 ###Release 0.5.2: 
 * Fixed some Bugs
 * The Application can now Remove Temp files. 
 
 **This release isn't Stable, but is still an Beta!**
+
 ###Release 0.5.0: 
 * Fixed some Bugs
 * Working on some New Features
@@ -49,6 +58,7 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * The application can now Format your SD Card media.
 
 **This release is Stable, but is still an Alpha!**
+
 ###Release 0.3.2: 
 * Fixed some bugs
 * Working on some things
