@@ -34,7 +34,7 @@
             this.chck_grab = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_clean = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_dev = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_save
@@ -63,7 +63,7 @@
             this.chck_upd.Depth = 0;
             this.chck_upd.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_upd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_upd.Location = new System.Drawing.Point(9, 80);
+            this.chck_upd.Location = new System.Drawing.Point(9, 112);
             this.chck_upd.Margin = new System.Windows.Forms.Padding(0);
             this.chck_upd.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_upd.MouseState = MaterialSkin.MouseState.HOVER;
@@ -80,7 +80,7 @@
             this.chck_grab.Depth = 0;
             this.chck_grab.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_grab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_grab.Location = new System.Drawing.Point(9, 137);
+            this.chck_grab.Location = new System.Drawing.Point(9, 169);
             this.chck_grab.Margin = new System.Windows.Forms.Padding(0);
             this.chck_grab.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_grab.MouseState = MaterialSkin.MouseState.HOVER;
@@ -97,7 +97,7 @@
             this.chck_clean.Depth = 0;
             this.chck_clean.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_clean.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_clean.Location = new System.Drawing.Point(9, 195);
+            this.chck_clean.Location = new System.Drawing.Point(9, 227);
             this.chck_clean.Margin = new System.Windows.Forms.Padding(0);
             this.chck_clean.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_clean.MouseState = MaterialSkin.MouseState.HOVER;
@@ -114,7 +114,7 @@
             this.chck_dev.Depth = 0;
             this.chck_dev.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_dev.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_dev.Location = new System.Drawing.Point(9, 250);
+            this.chck_dev.Location = new System.Drawing.Point(9, 282);
             this.chck_dev.Margin = new System.Windows.Forms.Padding(0);
             this.chck_dev.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_dev.MouseState = MaterialSkin.MouseState.HOVER;
@@ -125,23 +125,15 @@
             this.chck_dev.Text = "Enable Development Mode?";
             this.chck_dev.UseVisualStyleBackColor = true;
             // 
-            // materialFlatButton1
+            // label1
             // 
-            this.materialFlatButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialFlatButton1.AutoSize = true;
-            this.materialFlatButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialFlatButton1.Depth = 0;
-            this.materialFlatButton1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.materialFlatButton1.Location = new System.Drawing.Point(272, 341);
-            this.materialFlatButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFlatButton1.Name = "materialFlatButton1";
-            this.materialFlatButton1.Primary = false;
-            this.materialFlatButton1.Size = new System.Drawing.Size(70, 36);
-            this.materialFlatButton1.TabIndex = 16;
-            this.materialFlatButton1.Text = "dev_upd";
-            this.materialFlatButton1.UseVisualStyleBackColor = true;
-            this.materialFlatButton1.Click += new System.EventHandler(this.materialFlatButton1_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(5, 66);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(284, 20);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Note: Some of these settings don\'t work, yet.";
             // 
             // dev_properties
             // 
@@ -150,7 +142,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(409, 379);
             this.ControlBox = false;
-            this.Controls.Add(this.materialFlatButton1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.chck_dev);
             this.Controls.Add(this.chck_clean);
             this.Controls.Add(this.chck_grab);
@@ -161,7 +153,7 @@
             this.ShowInTaskbar = false;
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "dev_properties";
+            this.Text = "SimpliiU: Properties";
             this.Load += new System.EventHandler(this.dev_properties_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -175,6 +167,6 @@
         private MaterialSkin.Controls.MaterialCheckBox chck_grab;
         private MaterialSkin.Controls.MaterialCheckBox chck_clean;
         private MaterialSkin.Controls.MaterialCheckBox chck_dev;
-        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
+        private System.Windows.Forms.Label label1;
     }
 }

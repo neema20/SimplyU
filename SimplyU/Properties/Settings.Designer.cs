@@ -394,5 +394,113 @@ namespace SimplyU.Properties {
                 this["dev_dev_mode"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_space {
+            get {
+                return ((string)(this["inst_space"]));
+            }
+            set {
+                this["inst_space"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_our {
+            get {
+                return ((string)(this["inst_our"]));
+            }
+            set {
+                this["inst_our"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_app_dark {
+            get {
+                return ((string)(this["inst_app_dark"]));
+            }
+            set {
+                this["inst_app_dark"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_poke {
+            get {
+                return ((string)(this["inst_poke"]));
+            }
+            set {
+                this["inst_poke"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_hid_key {
+            get {
+                return ((string)(this["inst_hid_key"]));
+            }
+            set {
+                this["inst_hid_key"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_live {
+            get {
+                return ((string)(this["inst_live"]));
+            }
+            set {
+                this["inst_live"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_synth {
+            get {
+                return ((string)(this["inst_synth"]));
+            }
+            set {
+                this["inst_synth"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_ios {
+            get {
+                return ((string)(this["inst_ios"]));
+            }
+            set {
+                this["inst_ios"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_flappy {
+            get {
+                return ((string)(this["inst_flappy"]));
+            }
+            set {
+                this["inst_flappy"] = value;
+            }
+        }
     }
 }

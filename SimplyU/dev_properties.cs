@@ -92,11 +92,5 @@ namespace SimplyU
             Properties.Settings.Default.Save();
             Close();
         }
-
-        private void materialFlatButton1_Click(object sender, EventArgs e)
-        {
-            dev_upd upd = new dev_upd();
-            upd.Show();
-        }
     }
 }

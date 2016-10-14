@@ -64,6 +64,14 @@
             this.chck_frm_sd = new MaterialSkin.Controls.MaterialCheckBox();
             this.drive = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.allocation = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.rd_ios = new MaterialSkin.Controls.MaterialCheckBox();
+            this.rd_flappy = new MaterialSkin.Controls.MaterialCheckBox();
+            this.rd_space = new MaterialSkin.Controls.MaterialCheckBox();
+            this.rd_our_loader = new MaterialSkin.Controls.MaterialCheckBox();
+            this.rd_app_dark = new MaterialSkin.Controls.MaterialCheckBox();
+            this.rd_poke = new MaterialSkin.Controls.MaterialCheckBox();
+            this.rd_hid_key = new MaterialSkin.Controls.MaterialCheckBox();
+            this.rd_synth = new MaterialSkin.Controls.MaterialCheckBox();
             this.SuspendLayout();
             // 
             // chck_rec
@@ -417,12 +425,106 @@
             this.allocation.TabStop = false;
             this.allocation.UseSystemPasswordChar = false;
             // 
+            // rd_ios
+            // 
+            resources.ApplyResources(this.rd_ios, "rd_ios");
+            this.rd_ios.Depth = 0;
+            this.rd_ios.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.rd_ios.MouseState = MaterialSkin.MouseState.HOVER;
+            this.rd_ios.Name = "rd_ios";
+            this.rd_ios.Ripple = true;
+            this.rd_ios.UseMnemonic = false;
+            this.rd_ios.UseVisualStyleBackColor = true;
+            // 
+            // rd_flappy
+            // 
+            resources.ApplyResources(this.rd_flappy, "rd_flappy");
+            this.rd_flappy.Depth = 0;
+            this.rd_flappy.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.rd_flappy.MouseState = MaterialSkin.MouseState.HOVER;
+            this.rd_flappy.Name = "rd_flappy";
+            this.rd_flappy.Ripple = true;
+            this.rd_flappy.UseMnemonic = false;
+            this.rd_flappy.UseVisualStyleBackColor = true;
+            // 
+            // rd_space
+            // 
+            resources.ApplyResources(this.rd_space, "rd_space");
+            this.rd_space.Depth = 0;
+            this.rd_space.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.rd_space.MouseState = MaterialSkin.MouseState.HOVER;
+            this.rd_space.Name = "rd_space";
+            this.rd_space.Ripple = true;
+            this.rd_space.UseMnemonic = false;
+            this.rd_space.UseVisualStyleBackColor = true;
+            // 
+            // rd_our_loader
+            // 
+            resources.ApplyResources(this.rd_our_loader, "rd_our_loader");
+            this.rd_our_loader.Depth = 0;
+            this.rd_our_loader.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.rd_our_loader.MouseState = MaterialSkin.MouseState.HOVER;
+            this.rd_our_loader.Name = "rd_our_loader";
+            this.rd_our_loader.Ripple = true;
+            this.rd_our_loader.UseMnemonic = false;
+            this.rd_our_loader.UseVisualStyleBackColor = true;
+            // 
+            // rd_app_dark
+            // 
+            resources.ApplyResources(this.rd_app_dark, "rd_app_dark");
+            this.rd_app_dark.Depth = 0;
+            this.rd_app_dark.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.rd_app_dark.MouseState = MaterialSkin.MouseState.HOVER;
+            this.rd_app_dark.Name = "rd_app_dark";
+            this.rd_app_dark.Ripple = true;
+            this.rd_app_dark.UseMnemonic = false;
+            this.rd_app_dark.UseVisualStyleBackColor = true;
+            // 
+            // rd_poke
+            // 
+            resources.ApplyResources(this.rd_poke, "rd_poke");
+            this.rd_poke.Depth = 0;
+            this.rd_poke.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.rd_poke.MouseState = MaterialSkin.MouseState.HOVER;
+            this.rd_poke.Name = "rd_poke";
+            this.rd_poke.Ripple = true;
+            this.rd_poke.UseMnemonic = false;
+            this.rd_poke.UseVisualStyleBackColor = true;
+            // 
+            // rd_hid_key
+            // 
+            resources.ApplyResources(this.rd_hid_key, "rd_hid_key");
+            this.rd_hid_key.Depth = 0;
+            this.rd_hid_key.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.rd_hid_key.MouseState = MaterialSkin.MouseState.HOVER;
+            this.rd_hid_key.Name = "rd_hid_key";
+            this.rd_hid_key.Ripple = true;
+            this.rd_hid_key.UseMnemonic = false;
+            this.rd_hid_key.UseVisualStyleBackColor = true;
+            // 
+            // rd_synth
+            // 
+            resources.ApplyResources(this.rd_synth, "rd_synth");
+            this.rd_synth.Depth = 0;
+            this.rd_synth.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.rd_synth.MouseState = MaterialSkin.MouseState.HOVER;
+            this.rd_synth.Name = "rd_synth";
+            this.rd_synth.Ripple = true;
+            this.rd_synth.UseMnemonic = false;
+            this.rd_synth.UseVisualStyleBackColor = true;
+            // 
             // dev_prepare
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.rd_synth);
+            this.Controls.Add(this.rd_hid_key);
+            this.Controls.Add(this.rd_poke);
+            this.Controls.Add(this.rd_app_dark);
+            this.Controls.Add(this.rd_our_loader);
+            this.Controls.Add(this.rd_space);
             this.Controls.Add(this.allocation);
             this.Controls.Add(this.drive);
             this.Controls.Add(this.lbl_3);
@@ -431,6 +533,8 @@
             this.Controls.Add(this.rd_wiiu_key);
             this.Controls.Add(this.rd_chip);
             this.Controls.Add(this.rd_cave);
+            this.Controls.Add(this.rd_ios);
+            this.Controls.Add(this.rd_flappy);
             this.Controls.Add(this.rd_snake);
             this.Controls.Add(this.rd_hid);
             this.Controls.Add(this.rd_u_paint);
@@ -500,5 +604,13 @@
         private MaterialSkin.Controls.MaterialCheckBox chck_frm_sd;
         private MaterialSkin.Controls.MaterialSingleLineTextField drive;
         private MaterialSkin.Controls.MaterialSingleLineTextField allocation;
+        private MaterialSkin.Controls.MaterialCheckBox rd_ios;
+        private MaterialSkin.Controls.MaterialCheckBox rd_flappy;
+        private MaterialSkin.Controls.MaterialCheckBox rd_space;
+        private MaterialSkin.Controls.MaterialCheckBox rd_our_loader;
+        private MaterialSkin.Controls.MaterialCheckBox rd_app_dark;
+        private MaterialSkin.Controls.MaterialCheckBox rd_poke;
+        private MaterialSkin.Controls.MaterialCheckBox rd_hid_key;
+        private MaterialSkin.Controls.MaterialCheckBox rd_synth;
     }
 }

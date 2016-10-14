@@ -38,6 +38,22 @@ namespace SimplyU
 
             Properties.Settings.Default.sd_form = "0";
 
+            Properties.Settings.Default.inst_ios = "0";
+
+            Properties.Settings.Default.inst_flappy = "0";
+
+            Properties.Settings.Default.inst_our = "0";
+
+            Properties.Settings.Default.inst_app_dark = "0";
+
+            Properties.Settings.Default.inst_space = "0";
+
+            Properties.Settings.Default.inst_poke = "0";
+
+            Properties.Settings.Default.inst_hid_key = "0";
+
+            Properties.Settings.Default.inst_live = "0";
+
             Properties.Settings.Default.inst_ddd = "0";
 
             Properties.Settings.Default.inst_sd_caffiine = "0";

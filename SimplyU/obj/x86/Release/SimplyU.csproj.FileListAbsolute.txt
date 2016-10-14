@@ -13,3 +13,4 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimpliiU.pdb
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.csprojResolveAssemblyReference.cache
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_properties.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_upd.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\SimpliiU.XML

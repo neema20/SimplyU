@@ -35,6 +35,38 @@ namespace SimplyU
 
             //Strings for 'to install' homebrew:
 
+            if (rd_flappy.Checked == true)
+            {
+                Properties.Settings.Default.inst_flappy = "1";
+            }
+            if (rd_ios.Checked == true)
+            {
+                Properties.Settings.Default.inst_ios = "1";
+            }
+            if (rd_synth.Checked == true)
+            {
+                Properties.Settings.Default.inst_synth = "1";
+            }
+            if (rd_hid_key.Checked == true)
+            {
+                Properties.Settings.Default.inst_hid_key = "1";
+            }
+            if (rd_poke.Checked == true)
+            {
+                Properties.Settings.Default.inst_poke = "1";
+            }
+            if (rd_app_dark.Checked == true)
+            {
+                Properties.Settings.Default.inst_app_dark = "1";
+            }
+            if (rd_our_loader.Checked == true)
+            {
+                Properties.Settings.Default.inst_our = "1";
+            }
+            if (rd_space.Checked == true)
+            {
+                Properties.Settings.Default.inst_space = "1";
+            }
             if (rd_ddd.Checked == true)
             {
                 Properties.Settings.Default.inst_ddd = "1";
