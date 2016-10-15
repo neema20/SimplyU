@@ -1,4 +1,5 @@
-﻿using MaterialSkin.Controls;
+﻿using MaterialSkin;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +17,7 @@ namespace SimplyU
         public dev_properties()
         {
             InitializeComponent();
+            MaterialSkinManager.Instance.AddFormToManage(this);
         }
 
         private void dev_properties_Load(object sender, EventArgs e)

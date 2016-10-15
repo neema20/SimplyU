@@ -34,7 +34,7 @@
             this.chck_grab = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_clean = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_dev = new MaterialSkin.Controls.MaterialCheckBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_header = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_save
@@ -61,9 +61,10 @@
             this.chck_upd.Checked = true;
             this.chck_upd.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chck_upd.Depth = 0;
+            this.chck_upd.Enabled = false;
             this.chck_upd.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_upd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_upd.Location = new System.Drawing.Point(9, 112);
+            this.chck_upd.Location = new System.Drawing.Point(9, 120);
             this.chck_upd.Margin = new System.Windows.Forms.Padding(0);
             this.chck_upd.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_upd.MouseState = MaterialSkin.MouseState.HOVER;
@@ -78,9 +79,10 @@
             // 
             this.chck_grab.AutoSize = true;
             this.chck_grab.Depth = 0;
+            this.chck_grab.Enabled = false;
             this.chck_grab.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_grab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_grab.Location = new System.Drawing.Point(9, 169);
+            this.chck_grab.Location = new System.Drawing.Point(9, 177);
             this.chck_grab.Margin = new System.Windows.Forms.Padding(0);
             this.chck_grab.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_grab.MouseState = MaterialSkin.MouseState.HOVER;
@@ -97,7 +99,7 @@
             this.chck_clean.Depth = 0;
             this.chck_clean.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_clean.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_clean.Location = new System.Drawing.Point(9, 227);
+            this.chck_clean.Location = new System.Drawing.Point(9, 235);
             this.chck_clean.Margin = new System.Windows.Forms.Padding(0);
             this.chck_clean.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_clean.MouseState = MaterialSkin.MouseState.HOVER;
@@ -114,7 +116,7 @@
             this.chck_dev.Depth = 0;
             this.chck_dev.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_dev.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_dev.Location = new System.Drawing.Point(9, 282);
+            this.chck_dev.Location = new System.Drawing.Point(9, 290);
             this.chck_dev.Margin = new System.Windows.Forms.Padding(0);
             this.chck_dev.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_dev.MouseState = MaterialSkin.MouseState.HOVER;
@@ -125,15 +127,16 @@
             this.chck_dev.Text = "Enable Development Mode?";
             this.chck_dev.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // lbl_header
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(5, 66);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(284, 20);
-            this.label1.TabIndex = 16;
-            this.label1.Text = "Note: Some of these settings don\'t work, yet.";
+            this.lbl_header.AutoSize = true;
+            this.lbl_header.Font = new System.Drawing.Font("Segoe UI Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_header.Location = new System.Drawing.Point(5, 66);
+            this.lbl_header.Name = "lbl_header";
+            this.lbl_header.Size = new System.Drawing.Size(284, 40);
+            this.lbl_header.TabIndex = 16;
+            this.lbl_header.Text = "Note: Some of these settings don\'t work, yet.\r\nSo, they have been disabled (for n" +
+    "ow). ";
             // 
             // dev_properties
             // 
@@ -142,7 +145,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(409, 379);
             this.ControlBox = false;
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_header);
             this.Controls.Add(this.chck_dev);
             this.Controls.Add(this.chck_clean);
             this.Controls.Add(this.chck_grab);
@@ -167,6 +170,6 @@
         private MaterialSkin.Controls.MaterialCheckBox chck_grab;
         private MaterialSkin.Controls.MaterialCheckBox chck_clean;
         private MaterialSkin.Controls.MaterialCheckBox chck_dev;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_header;
     }
 }

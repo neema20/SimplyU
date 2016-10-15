@@ -1,0 +1,50 @@
+﻿using MaterialSkin;
+using MaterialSkin.Controls;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace SimplyU
+{
+    public partial class dev_bck_music : MaterialForm
+    {
+        public dev_bck_music()
+        {
+            InitializeComponent();
+            MaterialSkinManager.Instance.AddFormToManage(this);
+        }
+
+        private void dev_bck_music_Load(object sender, EventArgs e)
+        {
+            bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_bck.mp3";
+            this.Hide();
+            Main mn = new Main();
+            mn.ShowDialog();
+        }
+
+        private void audio_tmr_Tick(object sender, EventArgs e)
+        {
+            /*This will replay the audio file after a given interval, convert the Time of the song from Minutes or Seconds
+             *to Miliseconds, then apply that to the timer. It may give you an Invalid error, just type the number manually rather
+             * than pasting said number. Example: "132000" which is 2:20.
+             *
+             * You can change the audio file, by replacing the present one. It's recommended to name the old one "audio_bck.mp3.old".
+            */
+            bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_bck.mp3";
+        }
+
+        private void check_sett_Tick(object sender, EventArgs e)
+        {
+            if (Properties.Settings.Default.dev_bck_music == "1")
+            {
+                bck_music.Ctlcontrols.stop();
+            }
+        }
+    }
+}

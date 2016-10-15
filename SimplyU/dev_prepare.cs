@@ -1,4 +1,5 @@
-﻿using MaterialSkin.Controls;
+﻿using MaterialSkin;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,6 +10,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*===============READMEFIRST==================
+ * This is the Primary forum for selecting-
+ * homebrew that you wish to install. The-
+ * selected homebrew is saved to the propert-
+ * -es. By doing so, we can tell the app what
+ * and what not to install. You may modify or
+ * add any homebrew you wish, although place
+ * new code at the bottom, rather than the-
+ * top.
+ *============================================
+ * */
+
 namespace SimplyU
 {
     public partial class dev_prepare : MaterialForm
@@ -16,6 +29,7 @@ namespace SimplyU
         public dev_prepare()
         {
             InitializeComponent();
+            MaterialSkinManager.Instance.AddFormToManage(this);
         }
 
         private void btn_next_Click(object sender, EventArgs e)
@@ -145,16 +159,21 @@ namespace SimplyU
             }
 
             //Install Recommended
+
             if (chck_rec.Checked == true)
             {
                 Properties.Settings.Default.dev_install_rec = "1";
             }
 
             //Enable Self-Hosting?
+
             if (chck_self.Checked == true)
             {
                 Properties.Settings.Default.dev_self_host = "1";
             }
+
+            //Save formatting settings to Properties, then Show the next forum.
+
             Properties.Settings.Default.dev_target = txt_target.Text;
             Properties.Settings.Default.sd_form_drive = drive.Text;
             Properties.Settings.Default.sd_form_cluster = allocation.Text;
@@ -180,10 +199,21 @@ namespace SimplyU
         private void dev_target_timer_Tick(object sender, EventArgs e)
         {
             txt_target.Text = dev_folder.SelectedPath.ToString();
+            if (chck_frm_sd.Checked == true)
+            {
+                drive.Enabled = true;
+                allocation.Enabled = true;
+            }
+            else
+            {
+                drive.Enabled = false;
+                allocation.Enabled = false;
+            }
         }
 
         private void dev_prepare_Load(object sender, EventArgs e)
         {
+
         }
     }
 }

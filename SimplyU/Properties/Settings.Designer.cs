@@ -502,5 +502,17 @@ namespace SimplyU.Properties {
                 this["inst_flappy"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_bck_music {
+            get {
+                return ((string)(this["dev_bck_music"]));
+            }
+            set {
+                this["dev_bck_music"] = value;
+            }
+        }
     }
 }

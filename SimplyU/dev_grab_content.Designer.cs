@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dev_grab_content));
             this.lbl_content = new System.Windows.Forms.Label();
             this.prg_1 = new MaterialSkin.Controls.MaterialProgressBar();
             this.wait = new System.Windows.Forms.Timer(this.components);
@@ -38,6 +39,9 @@
             this.lbl_ext_desc = new System.Windows.Forms.Label();
             this.dev_download = new System.Windows.Forms.Timer(this.components);
             this.cleanup = new System.Windows.Forms.Timer(this.components);
+            this.audio_tmr = new System.Windows.Forms.Timer(this.components);
+            this.bck_music = new AxWMPLib.AxWindowsMediaPlayer();
+            ((System.ComponentModel.ISupportInitialize)(this.bck_music)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_content
@@ -100,7 +104,7 @@
             this.lbl_ext_desc.TabIndex = 9;
             this.lbl_ext_desc.Text = "Please wait...";
             this.lbl_ext_desc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_ext_desc.Click += new System.EventHandler(this.lbl_ext_desc_Click);
+            this.lbl_ext_desc.Click += new System.EventHandler(this.lbl_ext_desc_Click_1);
             // 
             // dev_download
             // 
@@ -110,7 +114,21 @@
             // cleanup
             // 
             this.cleanup.Interval = 10;
-            this.cleanup.Tick += new System.EventHandler(this.cleanup_Tick);
+            // 
+            // audio_tmr
+            // 
+            this.audio_tmr.Interval = 7000;
+            this.audio_tmr.Tick += new System.EventHandler(this.audio_tmr_Tick);
+            // 
+            // bck_music
+            // 
+            this.bck_music.Enabled = true;
+            this.bck_music.Location = new System.Drawing.Point(248, 26);
+            this.bck_music.Name = "bck_music";
+            this.bck_music.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("bck_music.OcxState")));
+            this.bck_music.Size = new System.Drawing.Size(75, 23);
+            this.bck_music.TabIndex = 16;
+            this.bck_music.Visible = false;
             // 
             // dev_grab_content
             // 
@@ -121,6 +139,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(353, 157);
             this.ControlBox = false;
+            this.Controls.Add(this.bck_music);
             this.Controls.Add(this.lbl_ext_desc);
             this.Controls.Add(this.prg_2);
             this.Controls.Add(this.prg_1);
@@ -133,6 +152,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Grabbing Content...";
             this.Load += new System.EventHandler(this.dev_grab_content_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.bck_music)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -147,5 +167,7 @@
         private System.Windows.Forms.Label lbl_ext_desc;
         private System.Windows.Forms.Timer dev_download;
         private System.Windows.Forms.Timer cleanup;
+        private System.Windows.Forms.Timer audio_tmr;
+        private AxWMPLib.AxWindowsMediaPlayer bck_music;
     }
 }

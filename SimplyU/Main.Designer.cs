@@ -109,9 +109,7 @@
             this.lbl_desc.Name = "lbl_desc";
             this.lbl_desc.Size = new System.Drawing.Size(736, 105);
             this.lbl_desc.TabIndex = 7;
-            this.lbl_desc.Text = "This application will allow you to Setup an SD Card with Homebrew for the \r\nNinte" +
-    "ndo Wii U, with little User Interaction. \r\n\r\nWe\'re not responsable for any \r\nDam" +
-    "age done to your Wii U! ";
+            this.lbl_desc.Text = resources.GetString("lbl_desc.Text");
             this.lbl_desc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btn_prop
@@ -156,9 +154,9 @@
             this.pic_splash.BackgroundImage = global::SimplyU.Properties.Resources.SimplyU_Full_Logo;
             this.pic_splash.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pic_splash.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pic_splash.Location = new System.Drawing.Point(0, 69);
+            this.pic_splash.Location = new System.Drawing.Point(0, 63);
             this.pic_splash.Name = "pic_splash";
-            this.pic_splash.Size = new System.Drawing.Size(736, 228);
+            this.pic_splash.Size = new System.Drawing.Size(736, 234);
             this.pic_splash.TabIndex = 10;
             this.pic_splash.TabStop = false;
             // 
