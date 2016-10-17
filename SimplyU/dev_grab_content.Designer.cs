@@ -38,9 +38,9 @@
             this.prg_2 = new MaterialSkin.Controls.MaterialProgressBar();
             this.lbl_ext_desc = new System.Windows.Forms.Label();
             this.dev_download = new System.Windows.Forms.Timer(this.components);
-            this.cleanup = new System.Windows.Forms.Timer(this.components);
             this.audio_tmr = new System.Windows.Forms.Timer(this.components);
             this.bck_music = new AxWMPLib.AxWindowsMediaPlayer();
+            this.cleanup = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.bck_music)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,10 +111,6 @@
             this.dev_download.Enabled = true;
             this.dev_download.Interval = 10;
             // 
-            // cleanup
-            // 
-            this.cleanup.Interval = 10;
-            // 
             // audio_tmr
             // 
             this.audio_tmr.Interval = 7000;
@@ -129,6 +125,11 @@
             this.bck_music.Size = new System.Drawing.Size(75, 23);
             this.bck_music.TabIndex = 16;
             this.bck_music.Visible = false;
+            // 
+            // cleanup
+            // 
+            this.cleanup.Interval = 10;
+            this.cleanup.Tick += new System.EventHandler(this.cleanup_Tick);
             // 
             // dev_grab_content
             // 

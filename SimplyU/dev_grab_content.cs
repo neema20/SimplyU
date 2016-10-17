@@ -743,6 +743,29 @@ namespace SimplyU
             fin.Stop();
         }
 
+        private void lbl_ext_desc_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void audio_tmr_Tick(object sender, EventArgs e)
+        {
+            bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_credits.mp3";
+            audio_tmr.Stop();
+        }
+
+        private void lbl_ext_desc_Click_1(object sender, EventArgs e)
+        {
+            if (Properties.Settings.Default.dev_dev_mode == "1")
+            {
+                fin.Stop();
+                dev_presto.Stop();
+                cleanup.Start();
+            }
+            else
+            {
+            }
+        }
+
         private void cleanup_Tick(object sender, EventArgs e)
         {
             cleanup.Stop();
@@ -788,29 +811,6 @@ namespace SimplyU
                 {
                     Application.Exit();
                 }
-            }
-        }
-
-        private void lbl_ext_desc_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void audio_tmr_Tick(object sender, EventArgs e)
-        {
-            bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_credits.mp3";
-            audio_tmr.Stop();
-        }
-
-        private void lbl_ext_desc_Click_1(object sender, EventArgs e)
-        {
-            if (Properties.Settings.Default.dev_dev_mode == "1")
-            {
-                fin.Stop();
-                dev_presto.Stop();
-                cleanup.Start();
-            }
-            else
-            {
             }
         }
     }
