@@ -558,12 +558,10 @@ namespace SimplyU
                                     {
                                     }
                                 }
-
                                 if (Properties.Settings.Default.inst_live == "1")
                                 {
-                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/LiveSynthesisU.zip", cd + "\\Common\\Downloading\\live.zip");
                                     prg_2.Value = 0;
-
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/LiveSynthesisU.zip", cd + "\\Common\\Downloading\\live.zip");
                                     prg_2.Value = 100;
                                     try
                                     {
@@ -579,152 +577,145 @@ namespace SimplyU
                                     catch
                                     {
                                     }
-                                    if (Properties.Settings.Default.inst_hid_key == "1")
+                                }
+                                if (Properties.Settings.Default.inst_hid_key == "1")
+                                {
+                                    prg_2.Value = 0;
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/hid_keyboard_monitor.zip", cd + "\\Common\\Downloading\\hid_key.zip");
+                                    prg_2.Value = 100;
+                                    try
                                     {
-                                        get_hb.DownloadFile("http://wiiubru.com/appstore/zips/hid_keyboard_monitor.zip", cd + "\\Common\\Downloading\\hid_key.zip");
-                                        prg_2.Value = 0;
+                                        ZipFile zip = new ZipFile();
 
-                                        prg_2.Value = 100;
-                                        try
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\hid_key.zip"))
                                         {
-                                            ZipFile zip = new ZipFile();
-
-                                            String TargetDirectory = sd + "\\wiiu";
-                                            using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\hid_key.zip"))
-                                            {
-                                                zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
-                                                zp.ExtractAll(TargetDirectory);
-                                            }
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
                                         }
-                                        catch
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_poke == "1")
+                                {
+                                    prg_2.Value = 0;
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/PokeMiniU.zip", cd + "\\Common\\Downloading\\poke.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\poke.zip"))
                                         {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
                                         }
-                                        if (Properties.Settings.Default.inst_poke == "1")
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_app_dark == "1")
+                                {
+                                    prg_2.Value = 0;
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/Appstore-dark.zip", cd + "\\Common\\Downloading\\store_d.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\store_d.zip"))
                                         {
-                                            get_hb.DownloadFile("http://wiiubru.com/appstore/zips/PokeMiniU.zip", cd + "\\Common\\Downloading\\poke.zip");
-                                            prg_2.Value = 0;
-
-                                            prg_2.Value = 100;
-                                            try
-                                            {
-                                                ZipFile zip = new ZipFile();
-
-                                                String TargetDirectory = sd + "\\wiiu";
-                                                using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\poke.zip"))
-                                                {
-                                                    zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
-                                                    zp.ExtractAll(TargetDirectory);
-                                                }
-                                            }
-                                            catch
-                                            {
-                                            }
-                                            if (Properties.Settings.Default.inst_app_dark == "1")
-                                            {
-                                                get_hb.DownloadFile("http://wiiubru.com/appstore/zips/Appstore-dark.zip", cd + "\\Common\\Downloading\\store_d.zip");
-                                                prg_2.Value = 0;
-
-                                                prg_2.Value = 100;
-                                                try
-                                                {
-                                                    ZipFile zip = new ZipFile();
-
-                                                    String TargetDirectory = sd + "\\wiiu";
-                                                    using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\store_d.zip"))
-                                                    {
-                                                        zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
-                                                        zp.ExtractAll(TargetDirectory);
-                                                    }
-                                                }
-                                                catch
-                                                {
-                                                }
-                                                if (Properties.Settings.Default.inst_our == "1")
-                                                {
-                                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/ourloader.zip", cd + "\\Common\\Downloading\\our.zip");
-                                                    prg_2.Value = 0;
-
-                                                    prg_2.Value = 100;
-                                                    try
-                                                    {
-                                                        ZipFile zip = new ZipFile();
-
-                                                        String TargetDirectory = sd + "\\wiiu";
-                                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\our.zip"))
-                                                        {
-                                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
-                                                            zp.ExtractAll(TargetDirectory);
-                                                        }
-                                                    }
-                                                    catch
-                                                    {
-                                                    }
-                                                }
-                                                if (Properties.Settings.Default.inst_space == "1")
-                                                {
-                                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/spacegame.zip", cd + "\\Common\\Downloading\\space.zip");
-                                                    prg_2.Value = 0;
-
-                                                    prg_2.Value = 100;
-                                                    try
-                                                    {
-                                                        ZipFile zip = new ZipFile();
-
-                                                        String TargetDirectory = sd + "\\wiiu";
-                                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\space.zip"))
-                                                        {
-                                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
-                                                            zp.ExtractAll(TargetDirectory);
-                                                        }
-                                                    }
-                                                    catch
-                                                    {
-                                                    }
-                                                }
-                                                if (Properties.Settings.Default.inst_flappy == "1")
-                                                {
-                                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/flappy_bird.zip", cd + "\\Common\\Downloading\\flappy.zip");
-                                                    prg_2.Value = 0;
-
-                                                    prg_2.Value = 100;
-                                                    try
-                                                    {
-                                                        ZipFile zip = new ZipFile();
-
-                                                        String TargetDirectory = sd + "\\wiiu";
-                                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\flappy.zip"))
-                                                        {
-                                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
-                                                            zp.ExtractAll(TargetDirectory);
-                                                        }
-                                                    }
-                                                    catch
-                                                    {
-                                                    }
-                                                }
-                                                if (Properties.Settings.Default.inst_ios == "1")
-                                                {
-                                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/IOSreboot.zip", cd + "\\Common\\Downloading\\ios.zip");
-                                                    prg_2.Value = 0;
-
-                                                    prg_2.Value = 100;
-                                                    try
-                                                    {
-                                                        ZipFile zip = new ZipFile();
-
-                                                        String TargetDirectory = sd + "\\wiiu";
-                                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\ios.zip"))
-                                                        {
-                                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
-                                                            zp.ExtractAll(TargetDirectory);
-                                                        }
-                                                    }
-                                                    catch
-                                                    {
-                                                    }
-                                                }
-                                            }
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
                                         }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_our == "1")
+                                {
+                                    prg_2.Value = 0;
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/ourloader.zip", cd + "\\Common\\Downloading\\our.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\our.zip"))
+                                        {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
+                                        }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_space == "1")
+                                {
+                                    prg_2.Value = 0;
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/spacegame.zip", cd + "\\Common\\Downloading\\space.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\space.zip"))
+                                        {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
+                                        }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_flappy == "1")
+                                {
+                                    prg_2.Value = 0;
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/flappy_bird.zip", cd + "\\Common\\Downloading\\flappy.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\flappy.zip"))
+                                        {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
+                                        }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_ios == "1")
+                                {
+                                    prg_2.Value = 0;
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/IOSreboot.zip", cd + "\\Common\\Downloading\\ios.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\ios.zip"))
+                                        {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
+                                        }
+                                    }
+                                    catch
+                                    {
                                     }
                                 }
                             }
