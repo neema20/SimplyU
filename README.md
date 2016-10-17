@@ -25,6 +25,8 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 
 ##Changelog: 
 
+**The Build Archives are now .7z files; they're Password Protected for Security Purposes. The Password is "d2fd34". Let me know if you don't like this change.**
+
 ###Release 0.6.1: 
 ---0.6.1---
 * Fixed some major issues with the download code.
