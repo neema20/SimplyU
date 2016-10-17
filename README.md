@@ -21,9 +21,22 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * When Formatting, the Dialog may Continue to Show (Fixed in the Nightly Build)
 
 ##Curent Version: 
-0.6.0 x86 Beta
+0.6.1 x86 Beta
 
 ##Changelog: 
+
+###Release 0.6.1: 
+---0.6.1---
+* Fixed some major issues with the download code.
+* The interface now has a new Color Scheme.
+* There is now background music. 
+---0.6---
+* New options for more Homebrew
+* Working on the Settings Menu (Properties)
+* Working on some issues when Cleaning up files
+* Fix some minor bugs when downloading Homebrew
+
+**This release is Stable, but is still an Beta!**
 
 ###Release 0.6.0: 
 * New options for more Homebrew
@@ -31,7 +44,7 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * Working on some issues when Cleaning up files
 * Fix some minor bugs when downloading Homebrew
 
-**This release is Stable, but is still an Beta!**
+**This release isn't Stable, but is still an Beta!**
 
 ###Release 0.5.2: 
 * Fixed some Bugs
