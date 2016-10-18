@@ -32,7 +32,9 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * Fixed some major issues with the download code.
 * The interface now has a new Color Scheme.
 * There is now background music. 
+
 ---0.6---
+
 * New options for more Homebrew
 * Working on the Settings Menu (Properties)
 * Working on some issues when Cleaning up files
