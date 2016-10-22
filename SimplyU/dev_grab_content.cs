@@ -16,6 +16,8 @@ namespace SimplyU
         private string al = Properties.Settings.Default.sd_form_cluster;
         private string sd = Properties.Settings.Default.dev_target;
         private string cd = Application.StartupPath;
+        private string lg = Properties.Settings.Default.dev_log_state;
+        private string lgs = Properties.Settings.Default.dev_log_dump;
 
         public dev_grab_content()
         {
@@ -27,16 +29,22 @@ namespace SimplyU
 
         {
             File.Delete(cd + "\\wiiu.zip");
+            lg += "\r\ndev_grab: file_del--wiiu.zip";
             File.Delete(cd + "\\hosting.zip");
+            lg += "\r\ndev_grab: file_del--wiiu.zip";
             //Directory.Delete(cd + "\\Common");
             lbl_content.Text = "Performing Magic...";
+            Properties.Settings.Default.Save();
             fin.Start();
         }
 
         private void wait_Tick(object sender, EventArgs e)
         {
             Directory.CreateDirectory(cd + "\\Common");
+            lg += "\r\ndev_grab: dir_cr--Common";
             Directory.CreateDirectory(cd + "\\Common\\Downloading");
+            lg += "\r\ndev_grab: dir_cr--Common\\Downloading";
+            Properties.Settings.Default.Save();
             //Decide whether to have Self-hosting Enabled, and Install
             //Recommended Homebrew.
             if (Properties.Settings.Default.sd_form == "1")
@@ -55,10 +63,16 @@ namespace SimplyU
                     process.Close();
                     prg_1.Value = 20;
                     fin.Start();
+                    lg += "\r\ndev_grab: format_complete";
+                    lgs = "1";
+                    Properties.Settings.Default.Save();
                 }
                 catch
                 {
                     wait.Stop();
+                    lg += "\r\ndev_grab: format_failed";
+                    lgs = "1";
+                    Properties.Settings.Default.Save();
                     MessageBox.Show("An Error has ocurred during Format; Please try again! --FORMAT_FAT_ERROR ", "Format Error:", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     this.Hide();
                     dev_prepare dp = new dev_prepare();
@@ -79,21 +93,32 @@ namespace SimplyU
             }
             else
             {
+            }
+            lg += "\r\ndev_grab: proc_complete";
+            lgs = "1";
+            Properties.Settings.Default.Save();
+
+            if (Properties.Settings.Default.dev_self_host == "1")
+            {
+                Hide();
+                dev_hosting dh = new dev_hosting();
+                dh.ShowDialog();
+            }
+
+            if (Properties.Settings.Default.dev_dev_mode == "1")
+            {
+                Hide();
+                dev_error de = new dev_error();
+                de.ShowDialog();
+            }
+            else
+            {
                 audio_tmr.Start();
                 Properties.Settings.Default.dev_bck_music = "1";
                 Properties.Settings.Default.Save();
                 bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_complete.mp3";
-                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 BETA. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                if (Properties.Settings.Default.dev_self_host == "1")
-                {
-                    Hide();
-                    dev_hosting dh = new dev_hosting();
-                    dh.ShowDialog();
-                }
-                else
-                {
-                    Application.Exit();
-                }
+                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Nightly. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, and Tobu Higher (Electronica Genre).", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Application.Exit();
             }
         }
 
@@ -102,6 +127,7 @@ namespace SimplyU
         }
 
         private void fin_Tick(object sender, EventArgs e)
+
         {
             try
             {
@@ -111,6 +137,7 @@ namespace SimplyU
                     {
                         get_hb.DownloadFile("https://github.com/zoltx23/SimplyU/raw/master/Common/Homebrew/wiiu.zip", cd + "\\wiiu.zip");
                         get_hb.DownloadFile("https://github.com/zoltx23/SimplyU/raw/master/Common/Homebrew/hosting.zip", cd + "\\hosting.zip");
+
                         try
                         {
                             ZipFile zip = new ZipFile();
@@ -121,9 +148,15 @@ namespace SimplyU
                                 zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
                                 zp.ExtractAll(TargetDirectory);
                             }
+                            lg += "\r\ndev_grab: hb_suc--wiiu";
+                            lgs = "1";
+                            Properties.Settings.Default.Save();
                         }
                         catch
                         {
+                            lg += "\r\ndev_grab: hb_fail--wiiu";
+                            lgs = "1";
+                            Properties.Settings.Default.Save();
                         }
                         prg_1.Value = 60;
                         try
@@ -136,9 +169,15 @@ namespace SimplyU
                                 zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
                                 zp.ExtractAll(TargetDirectory);
                             }
+                            lg += "\r\ndev_grab: hb_suc--host";
+                            lgs = "1";
+                            Properties.Settings.Default.Save();
                         }
                         catch
                         {
+                            lg += "\r\ndev_grab: hb_fail--hosting";
+                            lgs = "1";
+                            Properties.Settings.Default.Save();
                         }
                         if (Properties.Settings.Default.inst_ddd == "1")
                         {
@@ -155,9 +194,15 @@ namespace SimplyU
                                     zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
                                     zp.ExtractAll(TargetDirectory);
                                 }
+                                lg += "\r\ndev_grab: hb_suc--ddd";
+                                lgs = "1";
+                                Properties.Settings.Default.Save();
                             }
                             catch
                             {
+                                lg += "\r\ndev_grab: hb_fail--ddd";
+                                lgs = "1";
+                                Properties.Settings.Default.Save();
                             }
 
                             if (Properties.Settings.Default.inst_sd_caffiine == "1")
@@ -176,9 +221,15 @@ namespace SimplyU
                                         zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
                                         zp.ExtractAll(TargetDirectory);
                                     }
+                                    lg += "\r\ndev_grab: hb_suc--sd_caf";
+                                    lgs = "1";
+                                    Properties.Settings.Default.Save();
                                 }
                                 catch
                                 {
+                                    lg += "\r\ndev_grab: hb_fail--sd_caf";
+                                    lgs = "1";
+                                    Properties.Settings.Default.Save();
                                 }
                                 if (Properties.Settings.Default.inst_sav == "1")
                                 {
@@ -199,6 +250,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--saviine";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_pong == "1")
@@ -220,6 +274,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--pong";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_gac == "1")
@@ -241,6 +298,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--gac";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_tic == "1")
@@ -262,6 +322,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--tic";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_pac == "1")
@@ -283,6 +346,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--pac";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_u_paint == "1")
@@ -304,6 +370,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--paint";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_ftp == "1")
@@ -325,6 +394,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--ftp";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_ast == "1")
@@ -346,6 +418,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--ast";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_nnu == "1")
@@ -367,6 +442,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--nnu";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_geck == "1")
@@ -388,6 +466,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--geck";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_gbiine == "1")
@@ -409,6 +490,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--gbiine";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_tcp == "1")
@@ -430,6 +514,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--tcp";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_hid == "1")
@@ -451,6 +538,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--hid";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_snake == "1")
@@ -472,6 +562,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--snake";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_cave == "1")
@@ -493,6 +586,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--cave";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_chip == "1")
@@ -514,6 +610,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--chip";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_wiiu_key == "1")
@@ -535,6 +634,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--key";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_wup == "1")
@@ -556,6 +658,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--wup";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_live == "1")
@@ -576,6 +681,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--live";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_hid_key == "1")
@@ -596,6 +704,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--hid_key";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_poke == "1")
@@ -616,6 +727,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--poke";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_app_dark == "1")
@@ -636,6 +750,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--store_d";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_our == "1")
@@ -656,6 +773,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--our";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_space == "1")
@@ -676,6 +796,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--space";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_flappy == "1")
@@ -696,6 +819,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--flappy";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                                 if (Properties.Settings.Default.inst_ios == "1")
@@ -716,6 +842,9 @@ namespace SimplyU
                                     }
                                     catch
                                     {
+                                        lg += "\r\ndev_grab: hb_fail--ios";
+                                        lgs = "1";
+                                        Properties.Settings.Default.Save();
                                     }
                                 }
                             }
@@ -725,10 +854,13 @@ namespace SimplyU
             }
             catch
             {
+                lg += "\r\ndev_grab: get_hb--fail_all";
+                lgs = "1";
                 prg_1.Value = 100;
                 lbl_content.Text = "";
                 lbl_ext_desc.Text = "";
                 lbl_ext_desc.Text = "And Presto!";
+                Properties.Settings.Default.Save();
                 dev_presto.Start();
                 wait.Stop();
                 fin.Stop();
@@ -738,6 +870,7 @@ namespace SimplyU
             lbl_content.Text = "";
             lbl_ext_desc.Text = "";
             lbl_ext_desc.Text = "And Presto!";
+            Properties.Settings.Default.Save();
             dev_presto.Start();
             wait.Stop();
             fin.Stop();
@@ -780,35 +913,61 @@ namespace SimplyU
                 Properties.Settings.Default.Save();
                 audio_tmr.Start();
                 bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_complete.mp3";
-                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 BETA. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Nightly. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, and Tobu Higher (Electronica Genre).", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 if (Properties.Settings.Default.dev_self_host == "1")
                 {
                     Hide();
                     dev_hosting dh = new dev_hosting();
                     dh.ShowDialog();
                 }
+
+                if (Properties.Settings.Default.dev_dev_mode == "1")
+                {
+                    Hide();
+                    dev_error de = new dev_error();
+                    de.ShowDialog();
+                }
                 else
                 {
+                    audio_tmr.Start();
+                    Properties.Settings.Default.dev_bck_music = "1";
+                    Properties.Settings.Default.Save();
+                    bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_complete.mp3";
+                    MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Nightly. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, and Tobu Higher (Electronica Genre).", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Application.Exit();
                 }
             }
             catch
             {
+                lg += "\r\ndev_grab: clean_fail";
+                lgs = "1";
                 lbl_content.Text = "Something went Wrong!";
                 MessageBox.Show("Somthing Happened while removing Directories and Such, so you may need to remove them manually!", "Grabbing Content: --Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Properties.Settings.Default.dev_bck_music = "1";
                 Properties.Settings.Default.Save();
                 audio_tmr.Start();
                 bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_complete.mp3";
-                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 BETA. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Nightly. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, and Tobu Higher (Electronica Genre).", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 if (Properties.Settings.Default.dev_self_host == "1")
                 {
                     Hide();
                     dev_hosting dh = new dev_hosting();
                     dh.ShowDialog();
                 }
+
+                if (Properties.Settings.Default.dev_dev_mode == "1")
+                {
+                    Hide();
+                    dev_error de = new dev_error();
+                    de.ShowDialog();
+                }
                 else
                 {
+                    audio_tmr.Start();
+                    Properties.Settings.Default.dev_bck_music = "1";
+                    Properties.Settings.Default.Save();
+                    bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_complete.mp3";
+                    MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Nightly. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, and Tobu Higher (Electronica Genre).", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Application.Exit();
                 }
             }

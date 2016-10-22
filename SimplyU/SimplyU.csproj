@@ -129,6 +129,12 @@
     <Compile Include="dev_bck_music.Designer.cs">
       <DependentUpon>dev_bck_music.cs</DependentUpon>
     </Compile>
+    <Compile Include="dev_error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dev_error.Designer.cs">
+      <DependentUpon>dev_error.cs</DependentUpon>
+    </Compile>
     <Compile Include="dev_grab_content.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,6 +175,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="dev_bck_music.resx">
       <DependentUpon>dev_bck_music.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dev_error.resx">
+      <DependentUpon>dev_error.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dev_grab_content.resx">
       <DependentUpon>dev_grab_content.cs</DependentUpon>
@@ -219,6 +228,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SimplyU_Full_Logo.png" />
+    <None Include="Resources\dev_error_logo.png" />
+    <None Include="Resources\dev_warn_logo.png" />
     <Content Include="SimplyU_Logo.ico" />
   </ItemGroup>
   <ItemGroup>

@@ -119,7 +119,7 @@
             // bck_music
             // 
             this.bck_music.Enabled = true;
-            this.bck_music.Location = new System.Drawing.Point(248, 26);
+            this.bck_music.Location = new System.Drawing.Point(278, 22);
             this.bck_music.Name = "bck_music";
             this.bck_music.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("bck_music.OcxState")));
             this.bck_music.Size = new System.Drawing.Size(75, 23);

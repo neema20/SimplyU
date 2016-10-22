@@ -514,5 +514,41 @@ namespace SimplyU.Properties {
                 this["dev_bck_music"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_log_dump {
+            get {
+                return ((string)(this["dev_log_dump"]));
+            }
+            set {
+                this["dev_log_dump"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_log_state {
+            get {
+                return ((string)(this["dev_log_state"]));
+            }
+            set {
+                this["dev_log_state"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_bck_music_en {
+            get {
+                return ((string)(this["dev_bck_music_en"]));
+            }
+            set {
+                this["dev_bck_music_en"] = value;
+            }
+        }
     }
 }

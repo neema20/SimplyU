@@ -23,14 +23,14 @@ using System.Windows.Forms;
  * (C) Dr.Hacknik (zoltx23) 2014-2016
  * All Components are used under the Open-GPL GNU
  * Public license agreement. Any modification of
- * said componenets or this application are acceptable.
+ * said components or this application are acceptable.
  *
  * To see the full License, check LICENSE.txt on the
  * "Master" branch via GitHub.
  *
  * Thanks to all my patient users and fans, as well as
- * the people, whom have helped me, with this project or
- * other projects! They include;
+ * the people, whom have helped me with this project or
+ * other projects! They include:
  *
  * MarcusD
  * VoxelStudios
@@ -69,6 +69,16 @@ namespace SimplyU
 
         private void Main_Load(object sender, EventArgs e)
         {
+            if (Properties.Settings.Default.dev_bck_music_en == "")
+            {
+                Properties.Settings.Default.dev_bck_music_en = "1";
+                Properties.Settings.Default.Save();
+                Application.Restart();
+            }
+            Properties.Settings.Default.dev_log_dump = "";
+
+            Properties.Settings.Default.dev_log_state = "";
+
             Properties.Settings.Default.dev_bck_music = "0";
 
             Properties.Settings.Default.dev_self_host = "0";

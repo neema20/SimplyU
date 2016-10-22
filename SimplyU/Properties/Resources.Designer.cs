@@ -63,6 +63,26 @@ namespace SimplyU.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dev_error_logo {
+            get {
+                object obj = ResourceManager.GetObject("dev_error_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dev_warn_logo {
+            get {
+                object obj = ResourceManager.GetObject("dev_warn_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SimplyU_Full_Logo {
             get {
                 object obj = ResourceManager.GetObject("SimplyU_Full_Logo", resourceCulture);

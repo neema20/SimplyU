@@ -35,6 +35,8 @@
             this.chck_clean = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_dev = new MaterialSkin.Controls.MaterialCheckBox();
             this.lbl_header = new System.Windows.Forms.Label();
+            this.lbl_dev_mode = new System.Windows.Forms.Label();
+            this.chck_music = new MaterialSkin.Controls.MaterialCheckBox();
             this.SuspendLayout();
             // 
             // btn_save
@@ -44,7 +46,7 @@
             this.btn_save.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_save.Depth = 0;
             this.btn_save.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_save.Location = new System.Drawing.Point(350, 341);
+            this.btn_save.Location = new System.Drawing.Point(350, 375);
             this.btn_save.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_save.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_save.Name = "btn_save";
@@ -138,13 +140,43 @@
             this.lbl_header.Text = "Note: Some of these settings don\'t work, yet.\r\nSo, they have been disabled (for n" +
     "ow). ";
             // 
+            // lbl_dev_mode
+            // 
+            this.lbl_dev_mode.AutoSize = true;
+            this.lbl_dev_mode.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_dev_mode.Location = new System.Drawing.Point(12, 320);
+            this.lbl_dev_mode.Name = "lbl_dev_mode";
+            this.lbl_dev_mode.Size = new System.Drawing.Size(245, 26);
+            this.lbl_dev_mode.TabIndex = 17;
+            this.lbl_dev_mode.Text = "Allows development features, and/or Forms to be \r\ndisplayed. Those things may/may" +
+    " not be completed!";
+            // 
+            // chck_music
+            // 
+            this.chck_music.AutoSize = true;
+            this.chck_music.Depth = 0;
+            this.chck_music.Font = new System.Drawing.Font("Roboto", 10F);
+            this.chck_music.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.chck_music.Location = new System.Drawing.Point(9, 363);
+            this.chck_music.Margin = new System.Windows.Forms.Padding(0);
+            this.chck_music.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_music.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_music.Name = "chck_music";
+            this.chck_music.Ripple = true;
+            this.chck_music.Size = new System.Drawing.Size(219, 30);
+            this.chck_music.TabIndex = 18;
+            this.chck_music.Text = "Play Music in the Background? ";
+            this.chck_music.UseVisualStyleBackColor = true;
+            // 
             // dev_properties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(409, 379);
+            this.ClientSize = new System.Drawing.Size(409, 413);
             this.ControlBox = false;
+            this.Controls.Add(this.chck_music);
+            this.Controls.Add(this.lbl_dev_mode);
             this.Controls.Add(this.lbl_header);
             this.Controls.Add(this.chck_dev);
             this.Controls.Add(this.chck_clean);
@@ -171,5 +203,7 @@
         private MaterialSkin.Controls.MaterialCheckBox chck_clean;
         private MaterialSkin.Controls.MaterialCheckBox chck_dev;
         private System.Windows.Forms.Label lbl_header;
+        private System.Windows.Forms.Label lbl_dev_mode;
+        private MaterialSkin.Controls.MaterialCheckBox chck_music;
     }
 }
