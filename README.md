@@ -21,11 +21,21 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * When Formatting, the Dialog may Continue to Show (Fixed in the Nightly Build)
 
 ##Curent Version: 
-0.6.1 x86 Beta
+0.6.2 x86 Nightly
 
 ##Changelog: 
 
 **The Build Archives are now .7z files; they're Password Protected for Security Purposes. The Password is "d2fd34". Let me know if you don't like this change.**
+
+###Release 0.6.2: 
+* Fixed a few bugs
+* Changed the background Music
+* Working on Development Features
+* Added and refined some Options in the Properties Form
+* Fixed some Issues when Cleaning up files
+
+**This release isn't Stable, but is still an Beta!**
+
 
 ###Release 0.6.1: 
 ---0.6.1---
