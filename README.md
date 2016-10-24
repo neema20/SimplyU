@@ -14,13 +14,7 @@ SimpliiU is licensed under the GNU GPL Open-Source License Agreement (v3). By us
 Terms! Since this Program is Open-Source, you may modify the Software to your hearts content. 
 
 ##Latest Video Overview: 
-<object width="425" height="350">
-  <param name="movie" value="https://www.youtube.com/watch?v=raYcd92V2aA" />
-  <param name="wmode" value="transparent" />
-  <embed src=https://www.youtube.com/watch?v=raYcd92V2aA"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
+[![0.6.2 Nightly Overview](https://img.youtube.com/vi/raYcd92V2aA/0.jpg)](https://www.youtube.com/watch?v=raYcd92V2aA)
 
 ##What to do: 
 * Finish Self Hosting
