@@ -20,3 +20,4 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.csproj.Generate
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimpliiU.exe
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimpliiU.pdb
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.dev_error.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.dev_notes.resources

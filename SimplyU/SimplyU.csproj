@@ -147,6 +147,12 @@
     <Compile Include="dev_hosting.Designer.cs">
       <DependentUpon>dev_hosting.cs</DependentUpon>
     </Compile>
+    <Compile Include="dev_notes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dev_notes.Designer.cs">
+      <DependentUpon>dev_notes.cs</DependentUpon>
+    </Compile>
     <Compile Include="dev_prepare.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +190,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="dev_hosting.resx">
       <DependentUpon>dev_hosting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dev_notes.resx">
+      <DependentUpon>dev_notes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dev_prepare.resx">
       <DependentUpon>dev_prepare.cs</DependentUpon>
@@ -230,6 +239,7 @@
     <None Include="Resources\SimplyU_Full_Logo.png" />
     <None Include="Resources\dev_error_logo.png" />
     <None Include="Resources\dev_warn_logo.png" />
+    <None Include="Resources\SimplyU_Logo.png" />
     <Content Include="SimplyU_Logo.ico" />
   </ItemGroup>
   <ItemGroup>

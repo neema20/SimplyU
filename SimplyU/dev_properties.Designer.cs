@@ -37,6 +37,7 @@
             this.lbl_header = new System.Windows.Forms.Label();
             this.lbl_dev_mode = new System.Windows.Forms.Label();
             this.chck_music = new MaterialSkin.Controls.MaterialCheckBox();
+            this.lbl_build_status = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_save
@@ -46,7 +47,7 @@
             this.btn_save.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_save.Depth = 0;
             this.btn_save.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_save.Location = new System.Drawing.Point(350, 375);
+            this.btn_save.Location = new System.Drawing.Point(350, 399);
             this.btn_save.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_save.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_save.Name = "btn_save";
@@ -146,10 +147,9 @@
             this.lbl_dev_mode.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_dev_mode.Location = new System.Drawing.Point(12, 320);
             this.lbl_dev_mode.Name = "lbl_dev_mode";
-            this.lbl_dev_mode.Size = new System.Drawing.Size(245, 26);
+            this.lbl_dev_mode.Size = new System.Drawing.Size(248, 52);
             this.lbl_dev_mode.TabIndex = 17;
-            this.lbl_dev_mode.Text = "Allows development features, and/or Forms to be \r\ndisplayed. Those things may/may" +
-    " not be completed!";
+            this.lbl_dev_mode.Text = resources.GetString("lbl_dev_mode.Text");
             // 
             // chck_music
             // 
@@ -157,7 +157,7 @@
             this.chck_music.Depth = 0;
             this.chck_music.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_music.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_music.Location = new System.Drawing.Point(9, 363);
+            this.chck_music.Location = new System.Drawing.Point(9, 384);
             this.chck_music.Margin = new System.Windows.Forms.Padding(0);
             this.chck_music.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_music.MouseState = MaterialSkin.MouseState.HOVER;
@@ -168,13 +168,28 @@
             this.chck_music.Text = "Play Music in the Background? ";
             this.chck_music.UseVisualStyleBackColor = true;
             // 
+            // lbl_build_status
+            // 
+            this.lbl_build_status.AutoSize = true;
+            this.lbl_build_status.BackColor = System.Drawing.Color.Black;
+            this.lbl_build_status.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_build_status.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.lbl_build_status.ForeColor = System.Drawing.Color.Red;
+            this.lbl_build_status.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbl_build_status.Location = new System.Drawing.Point(0, 0);
+            this.lbl_build_status.Name = "lbl_build_status";
+            this.lbl_build_status.Size = new System.Drawing.Size(167, 15);
+            this.lbl_build_status.TabIndex = 69;
+            this.lbl_build_status.Text = "Development build_DEVPROP";
+            // 
             // dev_properties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(409, 413);
+            this.ClientSize = new System.Drawing.Size(409, 437);
             this.ControlBox = false;
+            this.Controls.Add(this.lbl_build_status);
             this.Controls.Add(this.chck_music);
             this.Controls.Add(this.lbl_dev_mode);
             this.Controls.Add(this.lbl_header);
@@ -205,5 +220,6 @@
         private System.Windows.Forms.Label lbl_header;
         private System.Windows.Forms.Label lbl_dev_mode;
         private MaterialSkin.Controls.MaterialCheckBox chck_music;
+        private System.Windows.Forms.Label lbl_build_status;
     }
 }

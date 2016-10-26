@@ -41,6 +41,7 @@
             this.audio_tmr = new System.Windows.Forms.Timer(this.components);
             this.bck_music = new AxWMPLib.AxWindowsMediaPlayer();
             this.cleanup = new System.Windows.Forms.Timer(this.components);
+            this.lbl_build_status = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bck_music)).BeginInit();
             this.SuspendLayout();
             // 
@@ -131,6 +132,20 @@
             this.cleanup.Interval = 10;
             this.cleanup.Tick += new System.EventHandler(this.cleanup_Tick);
             // 
+            // lbl_build_status
+            // 
+            this.lbl_build_status.AutoSize = true;
+            this.lbl_build_status.BackColor = System.Drawing.Color.Black;
+            this.lbl_build_status.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_build_status.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.lbl_build_status.ForeColor = System.Drawing.Color.Red;
+            this.lbl_build_status.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbl_build_status.Location = new System.Drawing.Point(0, 0);
+            this.lbl_build_status.Name = "lbl_build_status";
+            this.lbl_build_status.Size = new System.Drawing.Size(167, 15);
+            this.lbl_build_status.TabIndex = 69;
+            this.lbl_build_status.Text = "Development build_DEVGRAB";
+            // 
             // dev_grab_content
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.Alert;
@@ -140,6 +155,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(353, 157);
             this.ControlBox = false;
+            this.Controls.Add(this.lbl_build_status);
             this.Controls.Add(this.bck_music);
             this.Controls.Add(this.lbl_ext_desc);
             this.Controls.Add(this.prg_2);
@@ -155,6 +171,7 @@
             this.Load += new System.EventHandler(this.dev_grab_content_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bck_music)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -170,5 +187,6 @@
         private System.Windows.Forms.Timer cleanup;
         private System.Windows.Forms.Timer audio_tmr;
         private AxWMPLib.AxWindowsMediaPlayer bck_music;
+        private System.Windows.Forms.Label lbl_build_status;
     }
 }

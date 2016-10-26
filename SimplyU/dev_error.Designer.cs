@@ -33,6 +33,7 @@
             this.dev_lbl_error = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dev_log = new System.Windows.Forms.TextBox();
+            this.lbl_build_status = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo_state)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,12 +88,27 @@
             this.dev_log.TabIndex = 4;
             this.dev_log.Text = "%%";
             // 
+            // lbl_build_status
+            // 
+            this.lbl_build_status.AutoSize = true;
+            this.lbl_build_status.BackColor = System.Drawing.Color.Black;
+            this.lbl_build_status.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_build_status.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.lbl_build_status.ForeColor = System.Drawing.Color.Red;
+            this.lbl_build_status.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbl_build_status.Location = new System.Drawing.Point(0, 0);
+            this.lbl_build_status.Name = "lbl_build_status";
+            this.lbl_build_status.Size = new System.Drawing.Size(173, 15);
+            this.lbl_build_status.TabIndex = 69;
+            this.lbl_build_status.Text = "Development build_DEVERROR";
+            // 
             // dev_error
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(458, 346);
+            this.Controls.Add(this.lbl_build_status);
             this.Controls.Add(this.dev_log);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dev_lbl_error);
@@ -118,5 +134,6 @@
         private System.Windows.Forms.Label dev_lbl_error;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox dev_log;
+        private System.Windows.Forms.Label lbl_build_status;
     }
 }

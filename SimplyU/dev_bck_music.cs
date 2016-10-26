@@ -47,7 +47,7 @@ namespace SimplyU
                 audio_tmr.Start();
                 bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_bck.mp3";
                 this.Hide();
-                Main mn = new Main();
+                dev_notes mn = new dev_notes();
                 mn.ShowDialog();
             }
             else

@@ -550,5 +550,17 @@ namespace SimplyU.Properties {
                 this["dev_bck_music_en"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string terms_agreed {
+            get {
+                return ((string)(this["terms_agreed"]));
+            }
+            set {
+                this["terms_agreed"] = value;
+            }
+        }
     }
 }

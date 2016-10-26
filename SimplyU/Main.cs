@@ -143,11 +143,11 @@ namespace SimplyU
 
             if (Properties.Settings.Default.dev_dev_mode == "1")
             {
-                lbl_ver.Text = "Release: " + Application.ProductVersion + " Nightly--DEV_MODE";
+                lbl_ver.Text = "Release: " + Application.ProductVersion + " Beta--DEV_MODE";
             }
             else
             {
-                lbl_ver.Text = "Release: " + Application.ProductVersion + " Nightly";
+                lbl_ver.Text = "Release: " + Application.ProductVersion + " Beta";
             }
         }
 
@@ -175,6 +175,16 @@ namespace SimplyU
 
         private void audio_tmr_Tick(object sender, EventArgs e)
         {
+        }
+
+        private void lbl_term_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.terms_agreed = "0";
+            Properties.Settings.Default.Save();
+            MessageBox.Show("PROPERTIES_WRITE_VAL_SUCCESS", "ACCESS_WRITE_STATE:", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            dev_notes dn = new dev_notes();
+            dn.Show();
+            this.Hide();
         }
     }
 }

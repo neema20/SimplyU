@@ -72,6 +72,7 @@
             this.rd_poke = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_hid_key = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_synth = new MaterialSkin.Controls.MaterialCheckBox();
+            this.lbl_build_status = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // chck_rec
@@ -513,12 +514,20 @@
             this.rd_synth.UseMnemonic = false;
             this.rd_synth.UseVisualStyleBackColor = true;
             // 
+            // lbl_build_status
+            // 
+            resources.ApplyResources(this.lbl_build_status, "lbl_build_status");
+            this.lbl_build_status.BackColor = System.Drawing.Color.Black;
+            this.lbl_build_status.ForeColor = System.Drawing.Color.Red;
+            this.lbl_build_status.Name = "lbl_build_status";
+            // 
             // dev_prepare
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.lbl_build_status);
             this.Controls.Add(this.rd_synth);
             this.Controls.Add(this.rd_hid_key);
             this.Controls.Add(this.rd_poke);
@@ -612,5 +621,6 @@
         private MaterialSkin.Controls.MaterialCheckBox rd_poke;
         private MaterialSkin.Controls.MaterialCheckBox rd_hid_key;
         private MaterialSkin.Controls.MaterialCheckBox rd_synth;
+        private System.Windows.Forms.Label lbl_build_status;
     }
 }
