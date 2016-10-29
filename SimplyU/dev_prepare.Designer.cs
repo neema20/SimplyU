@@ -73,6 +73,8 @@
             this.rd_hid_key = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_synth = new MaterialSkin.Controls.MaterialCheckBox();
             this.lbl_build_status = new System.Windows.Forms.Label();
+            this.chck_guide = new MaterialSkin.Controls.MaterialCheckBox();
+            this.lbl_guide = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // chck_rec
@@ -521,12 +523,30 @@
             this.lbl_build_status.ForeColor = System.Drawing.Color.Red;
             this.lbl_build_status.Name = "lbl_build_status";
             // 
+            // chck_guide
+            // 
+            resources.ApplyResources(this.chck_guide, "chck_guide");
+            this.chck_guide.Depth = 0;
+            this.chck_guide.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_guide.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_guide.Name = "chck_guide";
+            this.chck_guide.Ripple = true;
+            this.chck_guide.UseMnemonic = false;
+            this.chck_guide.UseVisualStyleBackColor = true;
+            // 
+            // lbl_guide
+            // 
+            resources.ApplyResources(this.lbl_guide, "lbl_guide");
+            this.lbl_guide.Name = "lbl_guide";
+            // 
             // dev_prepare
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.lbl_guide);
+            this.Controls.Add(this.chck_guide);
             this.Controls.Add(this.lbl_build_status);
             this.Controls.Add(this.rd_synth);
             this.Controls.Add(this.rd_hid_key);
@@ -622,5 +642,7 @@
         private MaterialSkin.Controls.MaterialCheckBox rd_hid_key;
         private MaterialSkin.Controls.MaterialCheckBox rd_synth;
         private System.Windows.Forms.Label lbl_build_status;
+        private MaterialSkin.Controls.MaterialCheckBox chck_guide;
+        private System.Windows.Forms.Label lbl_guide;
     }
 }

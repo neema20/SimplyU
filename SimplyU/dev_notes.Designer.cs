@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dev_notes));
             this.dev_terms = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_small_hd = new System.Windows.Forms.Label();
             this.dev_lbl_error = new System.Windows.Forms.Label();
             this.pic_logo_state = new System.Windows.Forms.PictureBox();
             this.btn_agree = new MaterialSkin.Controls.MaterialFlatButton();
@@ -44,7 +44,7 @@
             this.dev_terms.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dev_terms.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dev_terms.Font = new System.Drawing.Font("Segoe UI Semilight", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dev_terms.Location = new System.Drawing.Point(12, 154);
             this.dev_terms.Multiline = true;
             this.dev_terms.Name = "dev_terms";
@@ -55,17 +55,18 @@
             this.dev_terms.TabIndex = 8;
             this.dev_terms.Text = resources.GetString("dev_terms.Text");
             // 
-            // label1
+            // lbl_small_hd
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(110, 93);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(207, 13);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Do you agree to the following terms below: ";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_small_hd.AutoSize = true;
+            this.lbl_small_hd.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_small_hd.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_small_hd.Location = new System.Drawing.Point(110, 93);
+            this.lbl_small_hd.Name = "lbl_small_hd";
+            this.lbl_small_hd.Size = new System.Drawing.Size(207, 26);
+            this.lbl_small_hd.TabIndex = 7;
+            this.lbl_small_hd.Text = "Do you agree to the following terms below: \r\nIf not, the Application will close. " +
+    "";
+            this.lbl_small_hd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // dev_lbl_error
             // 
@@ -151,7 +152,7 @@
             this.Controls.Add(this.btn_no_agree);
             this.Controls.Add(this.btn_agree);
             this.Controls.Add(this.dev_terms);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_small_hd);
             this.Controls.Add(this.dev_lbl_error);
             this.Controls.Add(this.pic_logo_state);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -170,7 +171,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox dev_terms;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_small_hd;
         private System.Windows.Forms.Label dev_lbl_error;
         private System.Windows.Forms.PictureBox pic_logo_state;
         private MaterialSkin.Controls.MaterialFlatButton btn_agree;

@@ -110,5 +110,10 @@ namespace SimplyU
             Properties.Settings.Default.Save();
             Close();
         }
+
+        private void btn_cancel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -38,6 +38,7 @@
             this.lbl_dev_mode = new System.Windows.Forms.Label();
             this.chck_music = new MaterialSkin.Controls.MaterialCheckBox();
             this.lbl_build_status = new System.Windows.Forms.Label();
+            this.btn_cancel = new MaterialSkin.Controls.MaterialFlatButton();
             this.SuspendLayout();
             // 
             // btn_save
@@ -182,6 +183,24 @@
             this.lbl_build_status.TabIndex = 69;
             this.lbl_build_status.Text = "Development build_DEVPROP";
             // 
+            // btn_cancel
+            // 
+            this.btn_cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_cancel.AutoSize = true;
+            this.btn_cancel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_cancel.Depth = 0;
+            this.btn_cancel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btn_cancel.Location = new System.Drawing.Point(287, 399);
+            this.btn_cancel.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_cancel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_cancel.Name = "btn_cancel";
+            this.btn_cancel.Primary = false;
+            this.btn_cancel.Size = new System.Drawing.Size(64, 36);
+            this.btn_cancel.TabIndex = 70;
+            this.btn_cancel.Text = "cancel";
+            this.btn_cancel.UseVisualStyleBackColor = true;
+            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
+            // 
             // dev_properties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -189,6 +208,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(409, 437);
             this.ControlBox = false;
+            this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.lbl_build_status);
             this.Controls.Add(this.chck_music);
             this.Controls.Add(this.lbl_dev_mode);
@@ -221,5 +241,6 @@
         private System.Windows.Forms.Label lbl_dev_mode;
         private MaterialSkin.Controls.MaterialCheckBox chck_music;
         private System.Windows.Forms.Label lbl_build_status;
+        private MaterialSkin.Controls.MaterialFlatButton btn_cancel;
     }
 }

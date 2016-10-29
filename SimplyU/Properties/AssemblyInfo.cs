@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SimpliiU")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Download Wii U Homebrew and Prepare an SD Card with it.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SimpliiU")]
-[assembly: AssemblyCopyright("Copyright © Dr.Hacknik  2016")]
+[assembly: AssemblyCopyright("Copyright © Dr.Hacknik 2014-2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

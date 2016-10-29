@@ -23,7 +23,7 @@ namespace SimplyU
             skinmgr.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue500, Accent.Blue200, TextShade.WHITE);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new dev_bck_music());
+            Application.Run(new dev_spash());
         }
     }
 }

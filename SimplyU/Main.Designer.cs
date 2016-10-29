@@ -37,8 +37,9 @@
             this.btn_prop = new MaterialSkin.Controls.MaterialFlatButton();
             this.btn_view = new MaterialSkin.Controls.MaterialFlatButton();
             this.lbl_build_status = new System.Windows.Forms.Label();
-            this.pic_splash = new System.Windows.Forms.PictureBox();
             this.lbl_term = new System.Windows.Forms.Label();
+            this.lbl_nus = new System.Windows.Forms.Label();
+            this.pic_splash = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
             // 
@@ -164,18 +165,6 @@
             this.lbl_build_status.TabIndex = 68;
             this.lbl_build_status.Text = "Development build_DEVMAIN_REV1";
             // 
-            // pic_splash
-            // 
-            this.pic_splash.BackColor = System.Drawing.Color.Transparent;
-            this.pic_splash.BackgroundImage = global::SimplyU.Properties.Resources.SimplyU_Full_Logo;
-            this.pic_splash.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pic_splash.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pic_splash.Location = new System.Drawing.Point(0, 63);
-            this.pic_splash.Name = "pic_splash";
-            this.pic_splash.Size = new System.Drawing.Size(736, 234);
-            this.pic_splash.TabIndex = 10;
-            this.pic_splash.TabStop = false;
-            // 
             // lbl_term
             // 
             this.lbl_term.AutoSize = true;
@@ -192,12 +181,41 @@
             this.lbl_term.Text = "ACCESS_TERM";
             this.lbl_term.Click += new System.EventHandler(this.lbl_term_Click);
             // 
+            // lbl_nus
+            // 
+            this.lbl_nus.AutoSize = true;
+            this.lbl_nus.BackColor = System.Drawing.Color.Black;
+            this.lbl_nus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbl_nus.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_nus.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.lbl_nus.ForeColor = System.Drawing.Color.Red;
+            this.lbl_nus.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbl_nus.Location = new System.Drawing.Point(0, 30);
+            this.lbl_nus.Name = "lbl_nus";
+            this.lbl_nus.Size = new System.Drawing.Size(108, 15);
+            this.lbl_nus.TabIndex = 70;
+            this.lbl_nus.Text = "ACCESS_NUSGRAB";
+            this.lbl_nus.Click += new System.EventHandler(this.lbl_nus_Click);
+            // 
+            // pic_splash
+            // 
+            this.pic_splash.BackColor = System.Drawing.Color.Transparent;
+            this.pic_splash.BackgroundImage = global::SimplyU.Properties.Resources.SimplyU_Full_Logo;
+            this.pic_splash.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pic_splash.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pic_splash.Location = new System.Drawing.Point(0, 63);
+            this.pic_splash.Name = "pic_splash";
+            this.pic_splash.Size = new System.Drawing.Size(736, 234);
+            this.pic_splash.TabIndex = 10;
+            this.pic_splash.TabStop = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(736, 475);
+            this.Controls.Add(this.lbl_nus);
             this.Controls.Add(this.lbl_term);
             this.Controls.Add(this.lbl_build_status);
             this.Controls.Add(this.btn_view);
@@ -233,6 +251,7 @@
         private MaterialSkin.Controls.MaterialFlatButton btn_view;
         private System.Windows.Forms.Label lbl_build_status;
         private System.Windows.Forms.Label lbl_term;
+        private System.Windows.Forms.Label lbl_nus;
     }
 }
 

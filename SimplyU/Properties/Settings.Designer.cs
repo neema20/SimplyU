@@ -562,5 +562,17 @@ namespace SimplyU.Properties {
                 this["terms_agreed"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_guide {
+            get {
+                return ((string)(this["dev_guide"]));
+            }
+            set {
+                this["dev_guide"] = value;
+            }
+        }
     }
 }

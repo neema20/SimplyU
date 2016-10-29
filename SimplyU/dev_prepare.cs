@@ -46,6 +46,10 @@ namespace SimplyU
             {
                 Properties.Settings.Default.sd_form = "1";
             }
+            if (chck_guide.Checked == true)
+            {
+                Properties.Settings.Default.dev_guide = "1";
+            }
 
             //Strings for 'to install' homebrew:
 
@@ -213,7 +217,6 @@ namespace SimplyU
 
         private void dev_prepare_Load(object sender, EventArgs e)
         {
-
         }
     }
 }

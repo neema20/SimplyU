@@ -21,3 +21,4 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\AxInterop.WMPLib.
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_bck_music.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_error.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_notes.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_spash.resources
