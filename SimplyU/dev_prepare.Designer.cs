@@ -75,6 +75,8 @@
             this.lbl_build_status = new System.Windows.Forms.Label();
             this.chck_guide = new MaterialSkin.Controls.MaterialCheckBox();
             this.lbl_guide = new System.Windows.Forms.Label();
+            this.lbl_rednand = new System.Windows.Forms.Label();
+            this.chck_rednand = new MaterialSkin.Controls.MaterialCheckBox();
             this.SuspendLayout();
             // 
             // chck_rec
@@ -537,7 +539,25 @@
             // lbl_guide
             // 
             resources.ApplyResources(this.lbl_guide, "lbl_guide");
+            this.lbl_guide.ForeColor = System.Drawing.Color.DarkGray;
             this.lbl_guide.Name = "lbl_guide";
+            // 
+            // lbl_rednand
+            // 
+            resources.ApplyResources(this.lbl_rednand, "lbl_rednand");
+            this.lbl_rednand.ForeColor = System.Drawing.Color.DarkGray;
+            this.lbl_rednand.Name = "lbl_rednand";
+            // 
+            // chck_rednand
+            // 
+            resources.ApplyResources(this.chck_rednand, "chck_rednand");
+            this.chck_rednand.Depth = 0;
+            this.chck_rednand.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_rednand.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_rednand.Name = "chck_rednand";
+            this.chck_rednand.Ripple = true;
+            this.chck_rednand.UseMnemonic = false;
+            this.chck_rednand.UseVisualStyleBackColor = true;
             // 
             // dev_prepare
             // 
@@ -545,6 +565,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.lbl_rednand);
+            this.Controls.Add(this.chck_rednand);
             this.Controls.Add(this.lbl_guide);
             this.Controls.Add(this.chck_guide);
             this.Controls.Add(this.lbl_build_status);
@@ -644,5 +666,7 @@
         private System.Windows.Forms.Label lbl_build_status;
         private MaterialSkin.Controls.MaterialCheckBox chck_guide;
         private System.Windows.Forms.Label lbl_guide;
+        private System.Windows.Forms.Label lbl_rednand;
+        private MaterialSkin.Controls.MaterialCheckBox chck_rednand;
     }
 }

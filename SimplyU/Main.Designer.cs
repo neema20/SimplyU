@@ -38,7 +38,7 @@
             this.btn_view = new MaterialSkin.Controls.MaterialFlatButton();
             this.lbl_build_status = new System.Windows.Forms.Label();
             this.lbl_term = new System.Windows.Forms.Label();
-            this.lbl_nus = new System.Windows.Forms.Label();
+            this.lbl_log = new System.Windows.Forms.Label();
             this.pic_splash = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
@@ -57,7 +57,7 @@
             this.btn_next.Primary = false;
             this.btn_next.Size = new System.Drawing.Size(46, 36);
             this.btn_next.TabIndex = 3;
-            this.btn_next.Text = "next";
+            this.btn_next.Text = "NEXT";
             this.btn_next.UseVisualStyleBackColor = false;
             this.btn_next.Click += new System.EventHandler(this.btn_next_Click);
             // 
@@ -181,21 +181,21 @@
             this.lbl_term.Text = "ACCESS_TERM";
             this.lbl_term.Click += new System.EventHandler(this.lbl_term_Click);
             // 
-            // lbl_nus
+            // lbl_log
             // 
-            this.lbl_nus.AutoSize = true;
-            this.lbl_nus.BackColor = System.Drawing.Color.Black;
-            this.lbl_nus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbl_nus.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_nus.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
-            this.lbl_nus.ForeColor = System.Drawing.Color.Red;
-            this.lbl_nus.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_nus.Location = new System.Drawing.Point(0, 30);
-            this.lbl_nus.Name = "lbl_nus";
-            this.lbl_nus.Size = new System.Drawing.Size(108, 15);
-            this.lbl_nus.TabIndex = 70;
-            this.lbl_nus.Text = "ACCESS_NUSGRAB";
-            this.lbl_nus.Click += new System.EventHandler(this.lbl_nus_Click);
+            this.lbl_log.AutoSize = true;
+            this.lbl_log.BackColor = System.Drawing.Color.Black;
+            this.lbl_log.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbl_log.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_log.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.lbl_log.ForeColor = System.Drawing.Color.Red;
+            this.lbl_log.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbl_log.Location = new System.Drawing.Point(0, 30);
+            this.lbl_log.Name = "lbl_log";
+            this.lbl_log.Size = new System.Drawing.Size(77, 15);
+            this.lbl_log.TabIndex = 70;
+            this.lbl_log.Text = "ACCESS_LOG";
+            this.lbl_log.Click += new System.EventHandler(this.lbl_log_Click);
             // 
             // pic_splash
             // 
@@ -215,7 +215,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(736, 475);
-            this.Controls.Add(this.lbl_nus);
+            this.Controls.Add(this.lbl_log);
             this.Controls.Add(this.lbl_term);
             this.Controls.Add(this.lbl_build_status);
             this.Controls.Add(this.btn_view);
@@ -251,7 +251,7 @@
         private MaterialSkin.Controls.MaterialFlatButton btn_view;
         private System.Windows.Forms.Label lbl_build_status;
         private System.Windows.Forms.Label lbl_term;
-        private System.Windows.Forms.Label lbl_nus;
+        private System.Windows.Forms.Label lbl_log;
     }
 }
 

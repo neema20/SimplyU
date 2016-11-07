@@ -92,9 +92,9 @@
             this.chck_grab.MouseState = MaterialSkin.MouseState.HOVER;
             this.chck_grab.Name = "chck_grab";
             this.chck_grab.Ripple = true;
-            this.chck_grab.Size = new System.Drawing.Size(237, 30);
+            this.chck_grab.Size = new System.Drawing.Size(241, 30);
             this.chck_grab.TabIndex = 13;
-            this.chck_grab.Text = "Grab homebrew Nighlies/BETA\'s?";
+            this.chck_grab.Text = "Grab homebrew Nightlies/BETA\'s?";
             this.chck_grab.UseVisualStyleBackColor = true;
             // 
             // chck_clean

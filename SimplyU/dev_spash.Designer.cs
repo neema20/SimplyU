@@ -50,7 +50,7 @@
             // dev_tmr
             // 
             this.dev_tmr.Enabled = true;
-            this.dev_tmr.Interval = 3000;
+            this.dev_tmr.Interval = 2500;
             this.dev_tmr.Tick += new System.EventHandler(this.dev_tmr_Tick);
             // 
             // lbl_build_status

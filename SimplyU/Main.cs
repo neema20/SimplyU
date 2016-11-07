@@ -187,9 +187,10 @@ namespace SimplyU
             this.Hide();
         }
 
-        private void lbl_nus_Click(object sender, EventArgs e)
+        private void lbl_log_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("OPEN_FILE_FAILED: Unable to access the executable. --0x04", "DEV_NUS_GRAB", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            dev_log dl = new dev_log();
+            dl.Show();
         }
     }
 }
