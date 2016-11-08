@@ -24,12 +24,21 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * When Formatting, the Dialog may Continue to Show (Fixed in the Nightly Build)
 
 ##Curent Version: 
-0.6.2 x86 Nightly
+0.7.0 x86 BETA
 
 ##Changelog: 
 
 **The Build Archives are now .7z files; they're Password Protected for Security Purposes. The Password is "d2fd34". Let me know if you don't like this change.
 This helps to prevent Anti-Virus Software from scanning the Archive, and removing it. Even though it contains nothing Malicious.**
+
+###Release 0.7.0: 
+* Fixed some Bugs
+* New theme and music from Kill la Kill; Kill la Kill Edition. (Optional; In Preferences)
+* Working on some features
+* Working on the Updater code
+
+
+**This release isn't Stable, but is still an Beta!**
 
 ###Release 0.6.2: 
 * Fixed a few bugs
