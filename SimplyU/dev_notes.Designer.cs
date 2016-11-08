@@ -32,10 +32,10 @@
             this.dev_terms = new System.Windows.Forms.TextBox();
             this.lbl_small_hd = new System.Windows.Forms.Label();
             this.dev_lbl_error = new System.Windows.Forms.Label();
-            this.pic_logo_state = new System.Windows.Forms.PictureBox();
             this.btn_agree = new MaterialSkin.Controls.MaterialFlatButton();
             this.btn_no_agree = new MaterialSkin.Controls.MaterialFlatButton();
             this.lbl_build_status = new System.Windows.Forms.Label();
+            this.pic_logo_state = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo_state)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,17 +79,6 @@
             this.dev_lbl_error.TabIndex = 6;
             this.dev_lbl_error.Text = "Please read the following:\r\n";
             this.dev_lbl_error.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pic_logo_state
-            // 
-            this.pic_logo_state.BackColor = System.Drawing.Color.Transparent;
-            this.pic_logo_state.BackgroundImage = global::SimplyU.Properties.Resources.SimplyU_Logo;
-            this.pic_logo_state.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pic_logo_state.Location = new System.Drawing.Point(1, 72);
-            this.pic_logo_state.Name = "pic_logo_state";
-            this.pic_logo_state.Size = new System.Drawing.Size(103, 76);
-            this.pic_logo_state.TabIndex = 5;
-            this.pic_logo_state.TabStop = false;
             // 
             // btn_agree
             // 
@@ -140,6 +129,18 @@
             this.lbl_build_status.Size = new System.Drawing.Size(167, 15);
             this.lbl_build_status.TabIndex = 70;
             this.lbl_build_status.Text = "Development build_DEVNOTE";
+            this.lbl_build_status.Visible = false;
+            // 
+            // pic_logo_state
+            // 
+            this.pic_logo_state.BackColor = System.Drawing.Color.Transparent;
+            this.pic_logo_state.BackgroundImage = global::SimplyU.Properties.Resources.SimplyU_Logo;
+            this.pic_logo_state.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pic_logo_state.Location = new System.Drawing.Point(1, 72);
+            this.pic_logo_state.Name = "pic_logo_state";
+            this.pic_logo_state.Size = new System.Drawing.Size(103, 76);
+            this.pic_logo_state.TabIndex = 5;
+            this.pic_logo_state.TabStop = false;
             // 
             // dev_notes
             // 

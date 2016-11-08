@@ -22,6 +22,10 @@ namespace SimplyU
 
         private void dev_properties_Load(object sender, EventArgs e)
         {
+            if (Properties.Settings.Default.dev_theme == "klk")
+            {
+                chck_killlalkilltheme.Checked = true;
+            }
             if (Properties.Settings.Default.dev_bck_music_en == "1")
             {
                 chck_music.Checked = true;
@@ -66,6 +70,10 @@ namespace SimplyU
 
         private void btn_save_Click(object sender, EventArgs e)
         {
+            if (chck_killlalkilltheme.Checked == true)
+            {
+                Properties.Settings.Default.dev_theme = "klk";
+            }
             if (chck_music.Checked == true)
             {
                 Properties.Settings.Default.dev_bck_music_en = "1";
@@ -87,6 +95,10 @@ namespace SimplyU
                 Properties.Settings.Default.dev_dev_mode = "1";
             }
 
+            if (chck_killlalkilltheme.Checked == false)
+            {
+                Properties.Settings.Default.dev_theme = "0";
+            }
             if (chck_music.Checked == false)
             {
                 Properties.Settings.Default.dev_bck_music_en = "0";

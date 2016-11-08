@@ -145,6 +145,7 @@
             this.lbl_build_status.Size = new System.Drawing.Size(167, 15);
             this.lbl_build_status.TabIndex = 69;
             this.lbl_build_status.Text = "Development build_DEVGRAB";
+            this.lbl_build_status.Visible = false;
             // 
             // dev_grab_content
             // 

@@ -574,5 +574,29 @@ namespace SimplyU.Properties {
                 this["dev_guide"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_rednand {
+            get {
+                return ((string)(this["dev_rednand"]));
+            }
+            set {
+                this["dev_rednand"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_theme {
+            get {
+                return ((string)(this["dev_theme"]));
+            }
+            set {
+                this["dev_theme"] = value;
+            }
+        }
     }
 }

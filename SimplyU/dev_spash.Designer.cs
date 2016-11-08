@@ -46,6 +46,7 @@
             this.lbl_header.TabIndex = 0;
             this.lbl_header.Text = "Starting SimpliiU...";
             this.lbl_header.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbl_header.Click += new System.EventHandler(this.lbl_header_Click);
             // 
             // dev_tmr
             // 
@@ -66,6 +67,7 @@
             this.lbl_build_status.Size = new System.Drawing.Size(181, 15);
             this.lbl_build_status.TabIndex = 70;
             this.lbl_build_status.Text = "Development build_DEVSPLASH";
+            this.lbl_build_status.Visible = false;
             // 
             // dev_spash
             // 
@@ -86,6 +88,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "dev_spash";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.dev_spash_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

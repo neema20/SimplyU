@@ -44,11 +44,23 @@ namespace SimplyU
         {
             if (Properties.Settings.Default.dev_bck_music_en == "1")
             {
-                audio_tmr.Start();
-                bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_bck.mp3";
-                this.Hide();
-                dev_notes mn = new dev_notes();
-                mn.ShowDialog();
+                if (Properties.Settings.Default.dev_theme == "klk")
+                {
+                    audio_tmr.Interval = 246800;
+                    audio_tmr.Start();
+                    bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_bck_klk.mp3";
+                    this.Hide();
+                    dev_notes mn = new dev_notes();
+                    mn.ShowDialog();
+                }
+                else
+                {
+                    audio_tmr.Start();
+                    bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_bck.mp3";
+                    this.Hide();
+                    dev_notes mn = new dev_notes();
+                    mn.ShowDialog();
+                }
             }
             else
             {
@@ -65,8 +77,25 @@ namespace SimplyU
              * than pasting said number. Example: "132000" which is 2:20.
              *
              * You can change the audio file, by replacing the present one. It's recommended to name the old one "audio_bck.mp3.old".
+             *
+             * As of 0.7, the Kill la Kill theme and Music has been implemented, only because I love kill la kill. So, the file for that background music is as follows:
+             * audio_bck_klk.mp3, audio_complete_klk.mp3, and audio_credits_klk.mp3. You may replace the files, if you wish.
             */
-            bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_bck.mp3";
+
+            {
+                if (Properties.Settings.Default.dev_theme == "klk")
+                {
+                    audio_tmr.Interval = 246800;
+                    audio_tmr.Start();
+                    bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_bck_klk.mp3";
+                }
+                else
+                {
+                    audio_tmr.Interval = 199800;
+                    audio_tmr.Start();
+                    bck_music.URL = Application.StartupPath + "\\Common\\Music\\audio_bck.mp3";
+                }
+            }
         }
 
         private void check_sett_Tick(object sender, EventArgs e)

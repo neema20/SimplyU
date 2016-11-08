@@ -29,24 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dev_error));
-            this.pic_logo_state = new System.Windows.Forms.PictureBox();
             this.dev_lbl_error = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dev_log = new System.Windows.Forms.TextBox();
             this.lbl_build_status = new System.Windows.Forms.Label();
+            this.pic_logo_state = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo_state)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pic_logo_state
-            // 
-            this.pic_logo_state.BackColor = System.Drawing.Color.Transparent;
-            this.pic_logo_state.BackgroundImage = global::SimplyU.Properties.Resources.dev_error_logo;
-            this.pic_logo_state.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pic_logo_state.Location = new System.Drawing.Point(1, 65);
-            this.pic_logo_state.Name = "pic_logo_state";
-            this.pic_logo_state.Size = new System.Drawing.Size(103, 84);
-            this.pic_logo_state.TabIndex = 0;
-            this.pic_logo_state.TabStop = false;
             // 
             // dev_lbl_error
             // 
@@ -69,9 +58,9 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(277, 52);
             this.label1.TabIndex = 3;
-            this.label1.Text = "During the \"Grabbing Content\" section; a log dump\r\nhas been collected. Please rev" +
-    "iew it, and find out what \r\nhas caused this Error, or you may submit it via GBAT" +
-    "emp or \r\nGithub. ";
+            this.label1.Text = "During the \"%%\" section; a log dump\r\nhas been collected. Please review it, and fi" +
+    "nd out what \r\nhas caused this Error, or you may submit it via GBATemp or \r\nGithu" +
+    "b. ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // dev_log
@@ -101,6 +90,18 @@
             this.lbl_build_status.Size = new System.Drawing.Size(173, 15);
             this.lbl_build_status.TabIndex = 69;
             this.lbl_build_status.Text = "Development build_DEVERROR";
+            this.lbl_build_status.Visible = false;
+            // 
+            // pic_logo_state
+            // 
+            this.pic_logo_state.BackColor = System.Drawing.Color.Transparent;
+            this.pic_logo_state.BackgroundImage = global::SimplyU.Properties.Resources.dev_error_logo;
+            this.pic_logo_state.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pic_logo_state.Location = new System.Drawing.Point(1, 65);
+            this.pic_logo_state.Name = "pic_logo_state";
+            this.pic_logo_state.Size = new System.Drawing.Size(103, 84);
+            this.pic_logo_state.TabIndex = 0;
+            this.pic_logo_state.TabStop = false;
             // 
             // dev_error
             // 

@@ -55,13 +55,6 @@ namespace SimplyU
             MaterialSkinManager.Instance.AddFormToManage(this);
         }
 
-        private void btn_next_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            dev_prepare dc = new dev_prepare();
-            dc.ShowDialog();
-        }
-
         private void Main_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
@@ -69,6 +62,14 @@ namespace SimplyU
 
         private void Main_Load(object sender, EventArgs e)
         {
+            if (Properties.Settings.Default.dev_theme == "klk")
+            {
+                //Skin manager--RED
+                MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
+                skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
+                skinmgr.ColorScheme = new ColorScheme(Primary.Red800, Primary.Red900, Primary.Red500, Accent.Red200, TextShade.WHITE);
+                pic_splash.BackgroundImage = Properties.Resources.SimplyU_Full_Logo_klk;
+            }
             if (Properties.Settings.Default.dev_bck_music_en == "")
             {
                 Properties.Settings.Default.dev_bck_music_en = "1";
@@ -151,28 +152,6 @@ namespace SimplyU
             }
         }
 
-        private void btn_self_host_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            dev_hosting dc = new dev_hosting();
-            dc.ShowDialog();
-        }
-
-        private void btn_prop_Click(object sender, EventArgs e)
-        {
-            dev_properties dp = new dev_properties();
-            dp.Show();
-        }
-
-        private void btn_view_Click(object sender, EventArgs e)
-        {
-            Process.Start("https://gbatemp.net/threads/release-simpliiu/");
-        }
-
-        private void bck_music_EndOfStream(object sender, AxWMPLib._WMPOCXEvents_EndOfStreamEvent e)
-        {
-        }
-
         private void audio_tmr_Tick(object sender, EventArgs e)
         {
         }
@@ -191,6 +170,42 @@ namespace SimplyU
         {
             dev_log dl = new dev_log();
             dl.Show();
+        }
+
+        private void lbl_ac_rdnand_Click(object sender, EventArgs e)
+        {
+            dev_rednand dr = new dev_rednand();
+            dr.Show();
+        }
+
+        private void btn_next_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            dev_prepare dc = new dev_prepare();
+            dc.ShowDialog();
+        }
+
+        private void btn_prop_Click_1(object sender, EventArgs e)
+        {
+            dev_properties dp = new dev_properties();
+            dp.Show();
+        }
+
+        private void btn_self_host_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            dev_hosting dc = new dev_hosting();
+            dc.ShowDialog();
+        }
+
+        private void btn_view_Click_1(object sender, EventArgs e)
+        {
+            Process.Start("https://gbatemp.net/threads/release-simpliiu/");
+        }
+
+        private void lbl_build_status_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

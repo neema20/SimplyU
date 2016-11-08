@@ -103,9 +103,29 @@ namespace SimplyU.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pnl_back_klk {
+            get {
+                object obj = ResourceManager.GetObject("pnl_back_klk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SimplyU_Full_Logo {
             get {
                 object obj = ResourceManager.GetObject("SimplyU_Full_Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SimplyU_Full_Logo_klk {
+            get {
+                object obj = ResourceManager.GetObject("SimplyU_Full_Logo_klk", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

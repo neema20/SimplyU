@@ -39,6 +39,8 @@
             this.chck_music = new MaterialSkin.Controls.MaterialCheckBox();
             this.lbl_build_status = new System.Windows.Forms.Label();
             this.btn_cancel = new MaterialSkin.Controls.MaterialFlatButton();
+            this.chck_killlalkilltheme = new MaterialSkin.Controls.MaterialCheckBox();
+            this.lbl_theme = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_save
@@ -48,7 +50,7 @@
             this.btn_save.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_save.Depth = 0;
             this.btn_save.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_save.Location = new System.Drawing.Point(350, 399);
+            this.btn_save.Location = new System.Drawing.Point(361, 493);
             this.btn_save.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_save.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_save.Name = "btn_save";
@@ -182,6 +184,7 @@
             this.lbl_build_status.Size = new System.Drawing.Size(167, 15);
             this.lbl_build_status.TabIndex = 69;
             this.lbl_build_status.Text = "Development build_DEVPROP";
+            this.lbl_build_status.Visible = false;
             // 
             // btn_cancel
             // 
@@ -190,7 +193,7 @@
             this.btn_cancel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_cancel.Depth = 0;
             this.btn_cancel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_cancel.Location = new System.Drawing.Point(287, 399);
+            this.btn_cancel.Location = new System.Drawing.Point(298, 493);
             this.btn_cancel.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_cancel.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_cancel.Name = "btn_cancel";
@@ -201,13 +204,42 @@
             this.btn_cancel.UseVisualStyleBackColor = true;
             this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
+            // chck_killlalkilltheme
+            // 
+            this.chck_killlalkilltheme.AutoSize = true;
+            this.chck_killlalkilltheme.Depth = 0;
+            this.chck_killlalkilltheme.Font = new System.Drawing.Font("Roboto", 10F);
+            this.chck_killlalkilltheme.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.chck_killlalkilltheme.Location = new System.Drawing.Point(9, 438);
+            this.chck_killlalkilltheme.Margin = new System.Windows.Forms.Padding(0);
+            this.chck_killlalkilltheme.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_killlalkilltheme.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_killlalkilltheme.Name = "chck_killlalkilltheme";
+            this.chck_killlalkilltheme.Ripple = true;
+            this.chck_killlalkilltheme.Size = new System.Drawing.Size(219, 30);
+            this.chck_killlalkilltheme.TabIndex = 71;
+            this.chck_killlalkilltheme.Text = "Use Kill la Kill Theme & Music? ";
+            this.chck_killlalkilltheme.UseVisualStyleBackColor = true;
+            // 
+            // lbl_theme
+            // 
+            this.lbl_theme.AutoSize = true;
+            this.lbl_theme.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_theme.Location = new System.Drawing.Point(12, 468);
+            this.lbl_theme.Name = "lbl_theme";
+            this.lbl_theme.Size = new System.Drawing.Size(258, 13);
+            this.lbl_theme.TabIndex = 72;
+            this.lbl_theme.Text = "The application must be restarted for this to take affect.";
+            // 
             // dev_properties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(409, 437);
+            this.ClientSize = new System.Drawing.Size(420, 531);
             this.ControlBox = false;
+            this.Controls.Add(this.lbl_theme);
+            this.Controls.Add(this.chck_killlalkilltheme);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.lbl_build_status);
             this.Controls.Add(this.chck_music);
@@ -242,5 +274,7 @@
         private MaterialSkin.Controls.MaterialCheckBox chck_music;
         private System.Windows.Forms.Label lbl_build_status;
         private MaterialSkin.Controls.MaterialFlatButton btn_cancel;
+        private MaterialSkin.Controls.MaterialCheckBox chck_killlalkilltheme;
+        private System.Windows.Forms.Label lbl_theme;
     }
 }
