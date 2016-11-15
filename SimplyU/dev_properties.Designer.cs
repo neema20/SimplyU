@@ -41,6 +41,7 @@
             this.btn_cancel = new MaterialSkin.Controls.MaterialFlatButton();
             this.chck_killlalkilltheme = new MaterialSkin.Controls.MaterialCheckBox();
             this.lbl_theme = new System.Windows.Forms.Label();
+            this.lbl_music = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_save
@@ -231,6 +232,16 @@
             this.lbl_theme.TabIndex = 72;
             this.lbl_theme.Text = "The application must be restarted for this to take affect.";
             // 
+            // lbl_music
+            // 
+            this.lbl_music.AutoSize = true;
+            this.lbl_music.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_music.Location = new System.Drawing.Point(12, 414);
+            this.lbl_music.Name = "lbl_music";
+            this.lbl_music.Size = new System.Drawing.Size(156, 13);
+            this.lbl_music.TabIndex = 73;
+            this.lbl_music.Text = "May differ depending on theme.";
+            // 
             // dev_properties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -238,6 +249,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(420, 531);
             this.ControlBox = false;
+            this.Controls.Add(this.lbl_music);
             this.Controls.Add(this.lbl_theme);
             this.Controls.Add(this.chck_killlalkilltheme);
             this.Controls.Add(this.btn_cancel);
@@ -276,5 +288,6 @@
         private MaterialSkin.Controls.MaterialFlatButton btn_cancel;
         private MaterialSkin.Controls.MaterialCheckBox chck_killlalkilltheme;
         private System.Windows.Forms.Label lbl_theme;
+        private System.Windows.Forms.Label lbl_music;
     }
 }

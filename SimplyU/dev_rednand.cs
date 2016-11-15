@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -41,6 +42,15 @@ namespace SimplyU
 
         private void btn_next_Click(object sender, EventArgs e)
         {
+            dev_rednand_prepare dp = new dev_rednand_prepare();
+            dp.Show();
+            Close();
+        }
+
+        private void materialFlatButton1_Click(object sender, EventArgs e)
+        {
+            Process.Start("http://www.python.org/downloads/");
+            Process.Start("http://cygwin.com/install.html");
         }
     }
 }

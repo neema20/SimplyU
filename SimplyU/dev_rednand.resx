@@ -123,6 +123,43 @@
   <metadata name="dev_target_timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>268, 17</value>
   </metadata>
+  <data name="lbl_body.Text" xml:space="preserve">
+    <value>We'll help and guide you through the process of 
+getting RedNAND ready to go! We'll also prepare everything
+as well.
+
+To continue, select the following Options below: 
+Also, read the requirements before doing ANYTHING! </value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>A 16GB SD Card, if you're using an 8GB Model Wii U. 
+A 64GB SD Card, if you're using an 32GB Model Wii U. 
+
+The Wii U Common key, Starbuck Ancast Key, and the Starbuck ancast iv. 
+
+1) We will install Python (The Latest Version) 
+2) We will install Cygwin (For making the Files) 
+3) We will then build the FW.img file, with the options selected. 
+
+Note: To install Python and Cygwin, please click the button to do so! 
+
+The following WILL FORMAT your SD Card, once the process is running on the Wii U that is. 
+To gain your homebrew back, simply just reinstall it all using SimpliiU. 
+
+Homebrew Needed (Will be installed for you): 
+
+1) CFW Booter
+2) The HBL
+
+After all is said and done, we'll need to install the sysConfig tool, which we'll do for you!
+If this is NOT installed, it WILL brick your system. So, do NOT close SimpliiU at any given point, unless told otherwise.
+
+If you do NOT wish to use this Utility, you can follow the step by step guide by @BurningDesire via GBATemp. 
+This program also use's the same methods as mentioned within that Tutorial. 
+
+PLEASE PROCEED AT YOUR OWN WILL! I AM NOT RESPONSIBLE FOR ANY ACTIONS TAKEN, 
+NOR AM I RESPONSIBLE FOR ANY DAMAGE DONE! But, I am more than happy to help you.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

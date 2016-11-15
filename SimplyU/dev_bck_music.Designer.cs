@@ -49,13 +49,12 @@
             // audio_tmr
             // 
             this.audio_tmr.Interval = 199800;
-            this.audio_tmr.Tick += new System.EventHandler(this.audio_tmr_Tick);
             // 
             // check_sett
             // 
             this.check_sett.Enabled = true;
             this.check_sett.Interval = 1;
-            this.check_sett.Tick += new System.EventHandler(this.check_sett_Tick);
+            this.check_sett.Tick += new System.EventHandler(this.check_sett_Tick_1);
             // 
             // dev_bck_music
             // 

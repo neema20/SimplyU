@@ -26,3 +26,4 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\Microsoft.VisualS
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\Microsoft.VisualStudio.DebuggerVisualizers.xml
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_log.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_rednand.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_rednand_prepare.resources

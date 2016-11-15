@@ -178,6 +178,12 @@
     <Compile Include="dev_rednand.Designer.cs">
       <DependentUpon>dev_rednand.cs</DependentUpon>
     </Compile>
+    <Compile Include="dev_rednand_prepare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dev_rednand_prepare.Designer.cs">
+      <DependentUpon>dev_rednand_prepare.cs</DependentUpon>
+    </Compile>
     <Compile Include="dev_spash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -224,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="dev_rednand.resx">
       <DependentUpon>dev_rednand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dev_rednand_prepare.resx">
+      <DependentUpon>dev_rednand_prepare.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dev_spash.resx">
       <DependentUpon>dev_spash.cs</DependentUpon>
@@ -272,6 +281,8 @@
     <None Include="Resources\pnl_back.png" />
     <None Include="Resources\SimplyU_Full_Logo_klk.png" />
     <None Include="Resources\pnl_back_klk.png" />
+    <None Include="Resources\panel.png" />
+    <None Include="Resources\icon.png" />
     <Content Include="SimplyU_Logo.ico" />
   </ItemGroup>
   <ItemGroup>

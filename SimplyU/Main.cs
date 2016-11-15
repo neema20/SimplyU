@@ -76,6 +76,12 @@ namespace SimplyU
                 Properties.Settings.Default.Save();
                 Application.Restart();
             }
+            Properties.Settings.Default.dev_rednand = "";
+
+            Properties.Settings.Default.dev_rednand_sd = "";
+
+            Properties.Settings.Default.dev_rednand_sys = "";
+
             Properties.Settings.Default.dev_log_dump = "";
 
             Properties.Settings.Default.dev_log_state = "";
@@ -144,11 +150,11 @@ namespace SimplyU
 
             if (Properties.Settings.Default.dev_dev_mode == "1")
             {
-                lbl_ver.Text = "Release: " + Application.ProductVersion + " Beta--DEV_MODE";
+                lbl_ver.Text = "Release: " + Application.ProductVersion + " Nightly--DEV_MODE";
             }
             else
             {
-                lbl_ver.Text = "Release: " + Application.ProductVersion + " Beta";
+                lbl_ver.Text = "Release: " + Application.ProductVersion + " Nightly";
             }
         }
 
@@ -205,7 +211,6 @@ namespace SimplyU
 
         private void lbl_build_status_Click(object sender, EventArgs e)
         {
-
         }
     }
 }

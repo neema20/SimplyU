@@ -34,15 +34,15 @@
             this.lbl_build_status = new System.Windows.Forms.Label();
             this.lbl_header = new System.Windows.Forms.Label();
             this.chck_c_fw = new MaterialSkin.Controls.MaterialCheckBox();
-            this.chck_fw_cfw = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_syst = new MaterialSkin.Controls.MaterialCheckBox();
-            this.chck_ = new MaterialSkin.Controls.MaterialCheckBox();
             this.btn_cancel = new MaterialSkin.Controls.MaterialFlatButton();
             this.btn_target = new MaterialSkin.Controls.MaterialFlatButton();
             this.txt_target = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.dev_drive = new System.Windows.Forms.FolderBrowserDialog();
             this.dev_target_timer = new System.Windows.Forms.Timer(this.components);
             this.lbl_body = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.btn_install_prq = new MaterialSkin.Controls.MaterialFlatButton();
             this.SuspendLayout();
             // 
             // btn_next
@@ -52,7 +52,7 @@
             this.btn_next.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_next.Depth = 0;
             this.btn_next.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_next.Location = new System.Drawing.Point(575, 464);
+            this.btn_next.Location = new System.Drawing.Point(575, 601);
             this.btn_next.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_next.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_next.Name = "btn_next";
@@ -97,9 +97,10 @@
             this.chck_c_fw.Checked = true;
             this.chck_c_fw.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chck_c_fw.Depth = 0;
+            this.chck_c_fw.Enabled = false;
             this.chck_c_fw.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_c_fw.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_c_fw.Location = new System.Drawing.Point(3, 222);
+            this.chck_c_fw.Location = new System.Drawing.Point(4, 525);
             this.chck_c_fw.Margin = new System.Windows.Forms.Padding(0);
             this.chck_c_fw.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_c_fw.MouseState = MaterialSkin.MouseState.HOVER;
@@ -110,24 +111,6 @@
             this.chck_c_fw.Text = "Create FW.img? \r\n";
             this.chck_c_fw.UseVisualStyleBackColor = true;
             // 
-            // chck_fw_cfw
-            // 
-            this.chck_fw_cfw.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.chck_fw_cfw.AutoSize = true;
-            this.chck_fw_cfw.Depth = 0;
-            this.chck_fw_cfw.Font = new System.Drawing.Font("Roboto", 10F);
-            this.chck_fw_cfw.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_fw_cfw.Location = new System.Drawing.Point(3, 261);
-            this.chck_fw_cfw.Margin = new System.Windows.Forms.Padding(0);
-            this.chck_fw_cfw.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chck_fw_cfw.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chck_fw_cfw.Name = "chck_fw_cfw";
-            this.chck_fw_cfw.Ripple = true;
-            this.chck_fw_cfw.Size = new System.Drawing.Size(187, 30);
-            this.chck_fw_cfw.TabIndex = 74;
-            this.chck_fw_cfw.Text = "Bundle CFW into FW.img? \r\n";
-            this.chck_fw_cfw.UseVisualStyleBackColor = true;
-            // 
             // chck_syst
             // 
             this.chck_syst.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -135,7 +118,7 @@
             this.chck_syst.Depth = 0;
             this.chck_syst.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_syst.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_syst.Location = new System.Drawing.Point(3, 303);
+            this.chck_syst.Location = new System.Drawing.Point(4, 566);
             this.chck_syst.Margin = new System.Windows.Forms.Padding(0);
             this.chck_syst.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_syst.MouseState = MaterialSkin.MouseState.HOVER;
@@ -146,24 +129,6 @@
             this.chck_syst.Text = "Install System Tools? \r\n";
             this.chck_syst.UseVisualStyleBackColor = true;
             // 
-            // chck_
-            // 
-            this.chck_.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.chck_.AutoSize = true;
-            this.chck_.Depth = 0;
-            this.chck_.Font = new System.Drawing.Font("Roboto", 10F);
-            this.chck_.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_.Location = new System.Drawing.Point(3, 342);
-            this.chck_.Margin = new System.Windows.Forms.Padding(0);
-            this.chck_.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chck_.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chck_.Name = "chck_";
-            this.chck_.Ripple = true;
-            this.chck_.Size = new System.Drawing.Size(281, 30);
-            this.chck_.TabIndex = 76;
-            this.chck_.Text = "Patch eShop and block System Updates? \r\n";
-            this.chck_.UseVisualStyleBackColor = true;
-            // 
             // btn_cancel
             // 
             this.btn_cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -171,7 +136,7 @@
             this.btn_cancel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_cancel.Depth = 0;
             this.btn_cancel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_cancel.Location = new System.Drawing.Point(503, 464);
+            this.btn_cancel.Location = new System.Drawing.Point(503, 601);
             this.btn_cancel.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_cancel.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_cancel.Name = "btn_cancel";
@@ -189,7 +154,7 @@
             this.btn_target.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_target.Depth = 0;
             this.btn_target.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_target.Location = new System.Drawing.Point(355, 464);
+            this.btn_target.Location = new System.Drawing.Point(355, 601);
             this.btn_target.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_target.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_target.Name = "btn_target";
@@ -205,7 +170,7 @@
             this.txt_target.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txt_target.Depth = 0;
             this.txt_target.Hint = "Target Drive";
-            this.txt_target.Location = new System.Drawing.Point(3, 477);
+            this.txt_target.Location = new System.Drawing.Point(3, 614);
             this.txt_target.MaxLength = 32767;
             this.txt_target.MouseState = MaterialSkin.MouseState.HOVER;
             this.txt_target.Name = "txt_target";
@@ -235,25 +200,50 @@
             this.lbl_body.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_body.Location = new System.Drawing.Point(0, 103);
             this.lbl_body.Name = "lbl_body";
-            this.lbl_body.Size = new System.Drawing.Size(624, 116);
+            this.lbl_body.Size = new System.Drawing.Size(624, 138);
             this.lbl_body.TabIndex = 72;
-            this.lbl_body.Text = "We\'ll help and guide you through the process of \r\ngetting RedNAND ready to go! We" +
-    "\'ll also prepare everything\r\nas well.\r\n\r\nTo continue, select the following Optio" +
-    "ns below: ";
+            this.lbl_body.Text = resources.GetString("lbl_body.Text");
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(12, 244);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(600, 278);
+            this.richTextBox1.TabIndex = 80;
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            // 
+            // btn_install_prq
+            // 
+            this.btn_install_prq.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_install_prq.AutoSize = true;
+            this.btn_install_prq.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_install_prq.Depth = 0;
+            this.btn_install_prq.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btn_install_prq.Location = new System.Drawing.Point(186, 562);
+            this.btn_install_prq.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_install_prq.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_install_prq.Name = "btn_install_prq";
+            this.btn_install_prq.Primary = false;
+            this.btn_install_prq.Size = new System.Drawing.Size(258, 36);
+            this.btn_install_prq.TabIndex = 81;
+            this.btn_install_prq.Text = "install Python Tools and Cygwin";
+            this.btn_install_prq.UseVisualStyleBackColor = true;
+            this.btn_install_prq.Click += new System.EventHandler(this.materialFlatButton1_Click);
             // 
             // dev_rednand
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(624, 500);
+            this.ClientSize = new System.Drawing.Size(624, 637);
             this.ControlBox = false;
+            this.Controls.Add(this.btn_install_prq);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.btn_target);
             this.Controls.Add(this.txt_target);
             this.Controls.Add(this.btn_cancel);
-            this.Controls.Add(this.chck_);
             this.Controls.Add(this.chck_syst);
-            this.Controls.Add(this.chck_fw_cfw);
             this.Controls.Add(this.chck_c_fw);
             this.Controls.Add(this.lbl_body);
             this.Controls.Add(this.lbl_header);
@@ -264,8 +254,9 @@
             this.MinimizeBox = false;
             this.Name = "dev_rednand";
             this.ShowInTaskbar = false;
+            this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SimpliiU: RedNAND Setup -- Rev0.1";
+            this.Text = "SimpliiU: RedNAND Setup";
             this.Load += new System.EventHandler(this.dev_rednand_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -278,14 +269,14 @@
         private System.Windows.Forms.Label lbl_build_status;
         private System.Windows.Forms.Label lbl_header;
         private MaterialSkin.Controls.MaterialCheckBox chck_c_fw;
-        private MaterialSkin.Controls.MaterialCheckBox chck_fw_cfw;
         private MaterialSkin.Controls.MaterialCheckBox chck_syst;
-        private MaterialSkin.Controls.MaterialCheckBox chck_;
         private MaterialSkin.Controls.MaterialFlatButton btn_cancel;
         private MaterialSkin.Controls.MaterialFlatButton btn_target;
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_target;
         private System.Windows.Forms.FolderBrowserDialog dev_drive;
         private System.Windows.Forms.Timer dev_target_timer;
         private System.Windows.Forms.Label lbl_body;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private MaterialSkin.Controls.MaterialFlatButton btn_install_prq;
     }
 }

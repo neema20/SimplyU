@@ -160,6 +160,7 @@
             this.Name = "dev_notes";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Notes: ";
             this.Load += new System.EventHandler(this.dev_notes_Load);

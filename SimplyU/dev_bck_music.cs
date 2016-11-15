@@ -100,6 +100,10 @@ namespace SimplyU
 
         private void check_sett_Tick(object sender, EventArgs e)
         {
+        }
+
+        private void check_sett_Tick_1(object sender, EventArgs e)
+        {
             if (Properties.Settings.Default.dev_bck_music == "1")
             {
                 bck_music.Ctlcontrols.stop();

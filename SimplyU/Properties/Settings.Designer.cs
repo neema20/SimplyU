@@ -598,5 +598,41 @@ namespace SimplyU.Properties {
                 this["dev_theme"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_rednand_sd {
+            get {
+                return ((string)(this["dev_rednand_sd"]));
+            }
+            set {
+                this["dev_rednand_sd"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_rednand_sys {
+            get {
+                return ((string)(this["dev_rednand_sys"]));
+            }
+            set {
+                this["dev_rednand_sys"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_rednand_fw {
+            get {
+                return ((string)(this["dev_rednand_fw"]));
+            }
+            set {
+                this["dev_rednand_fw"] = value;
+            }
+        }
     }
 }

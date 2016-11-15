@@ -84,6 +84,7 @@
             this.Name = "dev_log";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "dev_log";
             this.Load += new System.EventHandler(this.dev_log_Load);
