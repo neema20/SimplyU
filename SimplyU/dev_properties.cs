@@ -22,9 +22,19 @@ namespace SimplyU
 
         private void dev_properties_Load(object sender, EventArgs e)
         {
+            if (Properties.Settings.Default.dev_theme == "satsuki")
+            {
+                chck_ctheme.Checked = true;
+                txt_theme.Text = "Satsuki";
+            }
             if (Properties.Settings.Default.dev_theme == "klk")
             {
-                chck_killlalkilltheme.Checked = true;
+                chck_ctheme.Checked = true;
+                txt_theme.Text = "Kill_la_Kill";
+            }
+            if (Properties.Settings.Default.dev_theme == "default")
+            {
+                txt_theme.Text = "Default";
             }
             if (Properties.Settings.Default.dev_bck_music_en == "1")
             {
@@ -70,9 +80,20 @@ namespace SimplyU
 
         private void btn_save_Click(object sender, EventArgs e)
         {
-            if (chck_killlalkilltheme.Checked == true)
+            if (chck_ctheme.Checked == true)
             {
-                Properties.Settings.Default.dev_theme = "klk";
+                if (txt_theme.Text == "Kill_la_Kill")
+                {
+                    Properties.Settings.Default.dev_theme = "klk";
+                }
+                if (txt_theme.Text == "Default")
+                {
+                    Properties.Settings.Default.dev_theme = "default";
+                }
+                if (txt_theme.Text == "Satsuki")
+                {
+                    Properties.Settings.Default.dev_theme = "satsuki";
+                }
             }
             if (chck_music.Checked == true)
             {
@@ -95,7 +116,7 @@ namespace SimplyU
                 Properties.Settings.Default.dev_dev_mode = "1";
             }
 
-            if (chck_killlalkilltheme.Checked == false)
+            if (chck_ctheme.Checked == false)
             {
                 Properties.Settings.Default.dev_theme = "0";
             }
@@ -126,6 +147,18 @@ namespace SimplyU
         private void btn_cancel_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void chck_tmr_Tick(object sender, EventArgs e)
+        {
+            if (chck_ctheme.Checked == true)
+            {
+                txt_theme.Enabled = true;
+            }
+            else
+            {
+                txt_theme.Enabled = false;
+            }
         }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dev_properties));
             this.btn_save = new MaterialSkin.Controls.MaterialFlatButton();
             this.chck_upd = new MaterialSkin.Controls.MaterialCheckBox();
@@ -39,9 +40,11 @@
             this.chck_music = new MaterialSkin.Controls.MaterialCheckBox();
             this.lbl_build_status = new System.Windows.Forms.Label();
             this.btn_cancel = new MaterialSkin.Controls.MaterialFlatButton();
-            this.chck_killlalkilltheme = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_ctheme = new MaterialSkin.Controls.MaterialCheckBox();
             this.lbl_theme = new System.Windows.Forms.Label();
             this.lbl_music = new System.Windows.Forms.Label();
+            this.txt_theme = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.chck_tmr = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // btn_save
@@ -51,7 +54,7 @@
             this.btn_save.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_save.Depth = 0;
             this.btn_save.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_save.Location = new System.Drawing.Point(361, 493);
+            this.btn_save.Location = new System.Drawing.Point(361, 583);
             this.btn_save.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_save.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_save.Name = "btn_save";
@@ -194,7 +197,7 @@
             this.btn_cancel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_cancel.Depth = 0;
             this.btn_cancel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_cancel.Location = new System.Drawing.Point(298, 493);
+            this.btn_cancel.Location = new System.Drawing.Point(298, 583);
             this.btn_cancel.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_cancel.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_cancel.Name = "btn_cancel";
@@ -205,32 +208,32 @@
             this.btn_cancel.UseVisualStyleBackColor = true;
             this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
-            // chck_killlalkilltheme
+            // chck_ctheme
             // 
-            this.chck_killlalkilltheme.AutoSize = true;
-            this.chck_killlalkilltheme.Depth = 0;
-            this.chck_killlalkilltheme.Font = new System.Drawing.Font("Roboto", 10F);
-            this.chck_killlalkilltheme.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_killlalkilltheme.Location = new System.Drawing.Point(9, 438);
-            this.chck_killlalkilltheme.Margin = new System.Windows.Forms.Padding(0);
-            this.chck_killlalkilltheme.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chck_killlalkilltheme.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chck_killlalkilltheme.Name = "chck_killlalkilltheme";
-            this.chck_killlalkilltheme.Ripple = true;
-            this.chck_killlalkilltheme.Size = new System.Drawing.Size(219, 30);
-            this.chck_killlalkilltheme.TabIndex = 71;
-            this.chck_killlalkilltheme.Text = "Use Kill la Kill Theme & Music? ";
-            this.chck_killlalkilltheme.UseVisualStyleBackColor = true;
+            this.chck_ctheme.AutoSize = true;
+            this.chck_ctheme.Depth = 0;
+            this.chck_ctheme.Font = new System.Drawing.Font("Roboto", 10F);
+            this.chck_ctheme.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.chck_ctheme.Location = new System.Drawing.Point(9, 438);
+            this.chck_ctheme.Margin = new System.Windows.Forms.Padding(0);
+            this.chck_ctheme.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_ctheme.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_ctheme.Name = "chck_ctheme";
+            this.chck_ctheme.Ripple = true;
+            this.chck_ctheme.Size = new System.Drawing.Size(225, 30);
+            this.chck_ctheme.TabIndex = 71;
+            this.chck_ctheme.Text = "Use Custom Theme and Music? ";
+            this.chck_ctheme.UseVisualStyleBackColor = true;
             // 
             // lbl_theme
             // 
             this.lbl_theme.AutoSize = true;
             this.lbl_theme.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_theme.Location = new System.Drawing.Point(12, 468);
+            this.lbl_theme.Location = new System.Drawing.Point(12, 493);
             this.lbl_theme.Name = "lbl_theme";
-            this.lbl_theme.Size = new System.Drawing.Size(258, 13);
+            this.lbl_theme.Size = new System.Drawing.Size(258, 91);
             this.lbl_theme.TabIndex = 72;
-            this.lbl_theme.Text = "The application must be restarted for this to take affect.";
+            this.lbl_theme.Text = resources.GetString("lbl_theme.Text");
             // 
             // lbl_music
             // 
@@ -242,16 +245,40 @@
             this.lbl_music.TabIndex = 73;
             this.lbl_music.Text = "May differ depending on theme.";
             // 
+            // txt_theme
+            // 
+            this.txt_theme.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.txt_theme.Depth = 0;
+            this.txt_theme.Hint = "Enter the Name of the Theme IE: Kill_la_Kill";
+            this.txt_theme.Location = new System.Drawing.Point(9, 471);
+            this.txt_theme.MaxLength = 32767;
+            this.txt_theme.MouseState = MaterialSkin.MouseState.HOVER;
+            this.txt_theme.Name = "txt_theme";
+            this.txt_theme.PasswordChar = '\0';
+            this.txt_theme.SelectedText = "";
+            this.txt_theme.SelectionLength = 0;
+            this.txt_theme.SelectionStart = 0;
+            this.txt_theme.Size = new System.Drawing.Size(300, 23);
+            this.txt_theme.TabIndex = 75;
+            this.txt_theme.TabStop = false;
+            this.txt_theme.UseSystemPasswordChar = false;
+            // 
+            // chck_tmr
+            // 
+            this.chck_tmr.Enabled = true;
+            this.chck_tmr.Tick += new System.EventHandler(this.chck_tmr_Tick);
+            // 
             // dev_properties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(420, 531);
+            this.ClientSize = new System.Drawing.Size(420, 621);
             this.ControlBox = false;
+            this.Controls.Add(this.txt_theme);
             this.Controls.Add(this.lbl_music);
             this.Controls.Add(this.lbl_theme);
-            this.Controls.Add(this.chck_killlalkilltheme);
+            this.Controls.Add(this.chck_ctheme);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.lbl_build_status);
             this.Controls.Add(this.chck_music);
@@ -286,8 +313,10 @@
         private MaterialSkin.Controls.MaterialCheckBox chck_music;
         private System.Windows.Forms.Label lbl_build_status;
         private MaterialSkin.Controls.MaterialFlatButton btn_cancel;
-        private MaterialSkin.Controls.MaterialCheckBox chck_killlalkilltheme;
+        private MaterialSkin.Controls.MaterialCheckBox chck_ctheme;
         private System.Windows.Forms.Label lbl_theme;
         private System.Windows.Forms.Label lbl_music;
+        private MaterialSkin.Controls.MaterialSingleLineTextField txt_theme;
+        private System.Windows.Forms.Timer chck_tmr;
     }
 }

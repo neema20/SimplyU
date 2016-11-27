@@ -49,6 +49,7 @@
             // audio_tmr
             // 
             this.audio_tmr.Interval = 199800;
+            this.audio_tmr.Tick += new System.EventHandler(this.audio_tmr_Tick_1);
             // 
             // check_sett
             // 
@@ -71,6 +72,7 @@
             this.Text = "dev_bck_music";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.dev_bck_music_Load);
+            this.DoubleClick += new System.EventHandler(this.dev_bck_music_DoubleClick);
             ((System.ComponentModel.ISupportInitialize)(this.bck_music)).EndInit();
             this.ResumeLayout(false);
 

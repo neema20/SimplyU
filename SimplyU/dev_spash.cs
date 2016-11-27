@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace SimplyU
@@ -26,8 +27,18 @@ namespace SimplyU
         {
             if (Properties.Settings.Default.dev_theme == "klk")
             {
-                this.BackgroundImage = Properties.Resources.pnl_back_klk;
+                this.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Kill_la_Kill\\img\\pnl_back.png");
                 lbl_header.ForeColor = System.Drawing.Color.Black;
+            }
+            if (Properties.Settings.Default.dev_theme == "satsuki")
+            {
+                this.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Satsuki\\img\\pnl_back.png");
+                lbl_header.ForeColor = System.Drawing.Color.Black;
+            }
+            if (Properties.Settings.Default.dev_theme == "default")
+            {
+                this.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\pnl_back.png");
+                lbl_header.ForeColor = System.Drawing.Color.White;
             }
         }
     }

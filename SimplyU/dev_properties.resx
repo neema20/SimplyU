@@ -123,6 +123,18 @@ displayed. Those things may/may not be completed!
 NOTE: If you're using a Dev build, this will be enabled
 regardless of whether it's enabled or not. </value>
   </data>
+  <data name="lbl_theme.Text" xml:space="preserve">
+    <value>Enter the Name of the Theme IE: Kill_la_Kill or Default
+The application must be restarted for this to take affect.
+
+Available themes: 
+-Satsuki Theme (Lady Satsuki) 
+-Ryuko Matoi Theme 
+-Default Theme </value>
+  </data>
+  <metadata name="chck_tmr.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

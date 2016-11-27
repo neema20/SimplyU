@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dev_rednand_prepare));
             this.pnl = new System.Windows.Forms.Panel();
-            this.lbl_header = new System.Windows.Forms.Label();
             this.icon = new System.Windows.Forms.PictureBox();
+            this.lbl_header = new System.Windows.Forms.Label();
             this.lbl_build_status = new System.Windows.Forms.Label();
             this.pnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.icon)).BeginInit();
@@ -48,6 +48,18 @@
             this.pnl.Size = new System.Drawing.Size(557, 352);
             this.pnl.TabIndex = 1;
             // 
+            // icon
+            // 
+            this.icon.BackColor = System.Drawing.Color.Transparent;
+            this.icon.BackgroundImage = global::SimplyU.Properties.Resources.icon;
+            this.icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.icon.Dock = System.Windows.Forms.DockStyle.Top;
+            this.icon.Location = new System.Drawing.Point(0, 0);
+            this.icon.Name = "icon";
+            this.icon.Size = new System.Drawing.Size(557, 98);
+            this.icon.TabIndex = 73;
+            this.icon.TabStop = false;
+            // 
             // lbl_header
             // 
             this.lbl_header.BackColor = System.Drawing.Color.Transparent;
@@ -60,18 +72,6 @@
             this.lbl_header.TabIndex = 72;
             this.lbl_header.Text = "Please wait, we\'re getting things ready....";
             this.lbl_header.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            // 
-            // icon
-            // 
-            this.icon.BackColor = System.Drawing.Color.Transparent;
-            this.icon.BackgroundImage = global::SimplyU.Properties.Resources.icon;
-            this.icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.icon.Dock = System.Windows.Forms.DockStyle.Top;
-            this.icon.Location = new System.Drawing.Point(0, 0);
-            this.icon.Name = "icon";
-            this.icon.Size = new System.Drawing.Size(557, 98);
-            this.icon.TabIndex = 73;
-            this.icon.TabStop = false;
             // 
             // lbl_build_status
             // 

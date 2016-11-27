@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -62,19 +63,60 @@ namespace SimplyU
 
         private void Main_Load(object sender, EventArgs e)
         {
+            if (Directory.Exists(Application.StartupPath + "\\Common\\Music"))
+            {
+                Directory.Delete(Application.StartupPath + "\\Common\\Music", true);
+            }
+            else
+            {
+            }
             if (Properties.Settings.Default.dev_theme == "klk")
             {
                 //Skin manager--RED
                 MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
                 skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
                 skinmgr.ColorScheme = new ColorScheme(Primary.Red800, Primary.Red900, Primary.Red500, Accent.Red200, TextShade.WHITE);
-                pic_splash.BackgroundImage = Properties.Resources.SimplyU_Full_Logo_klk;
+                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Kill_la_Kill\\img\\SimplyU_Full_Logo.png");
+            }
+            if (Properties.Settings.Default.dev_theme == "satsuki")
+            {
+                //Skin manager--BLUE
+                MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
+                skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
+                skinmgr.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue500, Accent.Blue200, TextShade.WHITE);
+                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Satsuki\\img\\SimplyU_Full_Logo.png");
+            }
+            if (Properties.Settings.Default.dev_theme == "default")
+            {
+                //Skin manager--BLUE
+                MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
+                skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
+                skinmgr.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue500, Accent.Blue200, TextShade.WHITE);
+                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\SimplyU_Full_Logo.png");
             }
             if (Properties.Settings.Default.dev_bck_music_en == "")
             {
                 Properties.Settings.Default.dev_bck_music_en = "1";
                 Properties.Settings.Default.Save();
                 Application.Restart();
+            }
+            if (Properties.Settings.Default.dev_theme == "")
+            {
+                //Skin manager--BLUE
+                MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
+                skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
+                skinmgr.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue500, Accent.Blue200, TextShade.WHITE);
+                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\SimplyU_Full_Logo.png");
+                Properties.Settings.Default.dev_theme = "default";
+            }
+            if (Properties.Settings.Default.dev_theme == "Default")
+            {
+                //Skin manager--BLUE
+                MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
+                skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
+                skinmgr.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue500, Accent.Blue200, TextShade.WHITE);
+                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\SimplyU_Full_Logo.png");
+                Properties.Settings.Default.dev_theme = "default";
             }
             Properties.Settings.Default.dev_rednand = "";
 
@@ -150,11 +192,11 @@ namespace SimplyU
 
             if (Properties.Settings.Default.dev_dev_mode == "1")
             {
-                lbl_ver.Text = "Release: " + Application.ProductVersion + " Nightly--DEV_MODE";
+                lbl_ver.Text = "Release: " + Application.ProductVersion + " Beta--DEV_MODE";
             }
             else
             {
-                lbl_ver.Text = "Release: " + Application.ProductVersion + " Nightly";
+                lbl_ver.Text = "Release: " + Application.ProductVersion + " Beta";
             }
         }
 
@@ -210,6 +252,10 @@ namespace SimplyU
         }
 
         private void lbl_build_status_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void lbl_ver_Click(object sender, EventArgs e)
         {
         }
     }
