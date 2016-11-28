@@ -24,7 +24,7 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * When Formatting, the Dialog may Continue to Show (Fixed in the Nightly Build)
 
 ##Curent Version: 
-0.7.0 x86 BETA
+0.8.0 x86 BETA
 
 ##Changelog: 
 
