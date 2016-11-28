@@ -48,6 +48,7 @@
             // 
             // audio_tmr
             // 
+            this.audio_tmr.Enabled = true;
             this.audio_tmr.Interval = 199800;
             this.audio_tmr.Tick += new System.EventHandler(this.audio_tmr_Tick_1);
             // 

@@ -1,0 +1,9 @@
+C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\SimpliiU_Theme_Compiler\SimpliiU_Theme_Compiler\bin\x86\Release\SimpliiU_Theme_Compiler.exe.config
+C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\SimpliiU_Theme_Compiler\SimpliiU_Theme_Compiler\bin\x86\Release\SimpliiU_Theme_Compiler.exe
+C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\SimpliiU_Theme_Compiler\SimpliiU_Theme_Compiler\bin\x86\Release\SimpliiU_Theme_Compiler.pdb
+C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\SimpliiU_Theme_Compiler\SimpliiU_Theme_Compiler\obj\x86\Release\SimpliiU_Theme_Compiler.main.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\SimpliiU_Theme_Compiler\SimpliiU_Theme_Compiler\obj\x86\Release\SimpliiU_Theme_Compiler.Properties.Resources.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\SimpliiU_Theme_Compiler\SimpliiU_Theme_Compiler\obj\x86\Release\SimpliiU_Theme_Compiler.csproj.GenerateResource.Cache
+C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\SimpliiU_Theme_Compiler\SimpliiU_Theme_Compiler\obj\x86\Release\SimpliiU_Theme_Compiler.exe
+C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\SimpliiU_Theme_Compiler\SimpliiU_Theme_Compiler\obj\x86\Release\SimpliiU_Theme_Compiler.pdb
+C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\SimpliiU_Theme_Compiler\SimpliiU_Theme_Compiler\obj\x86\Release\SimpliiU_Theme_Compiler.csprojResolveAssemblyReference.cache

@@ -250,7 +250,7 @@
             this.txt_theme.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txt_theme.Depth = 0;
             this.txt_theme.Hint = "Enter the Name of the Theme IE: Kill_la_Kill";
-            this.txt_theme.Location = new System.Drawing.Point(9, 471);
+            this.txt_theme.Location = new System.Drawing.Point(15, 467);
             this.txt_theme.MaxLength = 32767;
             this.txt_theme.MouseState = MaterialSkin.MouseState.HOVER;
             this.txt_theme.Name = "txt_theme";

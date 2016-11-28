@@ -22,6 +22,11 @@ namespace SimplyU
 
         private void dev_properties_Load(object sender, EventArgs e)
         {
+            if (Properties.Settings.Default.dev_theme == "0")
+            {
+                chck_ctheme.Checked = false;
+                txt_theme.Text = "Default";
+            }
             if (Properties.Settings.Default.dev_theme == "satsuki")
             {
                 chck_ctheme.Checked = true;
@@ -30,7 +35,7 @@ namespace SimplyU
             if (Properties.Settings.Default.dev_theme == "klk")
             {
                 chck_ctheme.Checked = true;
-                txt_theme.Text = "Kill_la_Kill";
+                txt_theme.Text = "Ryuko";
             }
             if (Properties.Settings.Default.dev_theme == "default")
             {
@@ -82,7 +87,7 @@ namespace SimplyU
         {
             if (chck_ctheme.Checked == true)
             {
-                if (txt_theme.Text == "Kill_la_Kill")
+                if (txt_theme.Text == "Ryuko")
                 {
                     Properties.Settings.Default.dev_theme = "klk";
                 }

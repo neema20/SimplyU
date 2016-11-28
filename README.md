@@ -115,3 +115,12 @@ This helps to prevent Anti-Virus Software from scanning the Archive, and removin
 
 * Fixed some Bugs
 * Primary Functions Added
+
+##Credits:
+
+* Studio Trigger: for their great work on Kill la Kill, thanks so much for a great Anime show.
+If you haven't watched Kill la Kill, please do; It's such a great anime! 
+* All my fellow Tempers: For supporting me this far, and with other projects! I'm so glad that 
+people find my Projects so useful, and I hope to create other useful programs and homebrew in the future!
+* Thanks to Nintendo: For creating the Wii U of course, and to all the hackers and homebrewers whom
+make Wii U hacking possible!  

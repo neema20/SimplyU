@@ -70,7 +70,7 @@ namespace SimplyU
                 }
                 if (Properties.Settings.Default.dev_theme == "satsuki")
                 {
-                    audio_tmr.Interval = 262200;
+                    audio_tmr.Interval = 264800;
                     audio_tmr.Start();
                     bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Satsuki\\audio\\audio_bck.mp3";
                     this.Hide();
@@ -134,7 +134,7 @@ namespace SimplyU
                 }
                 if (Properties.Settings.Default.dev_theme == "satsuki")
                 {
-                    audio_tmr.Interval = 262200;
+                    audio_tmr.Interval = 264800;
                     audio_tmr.Start();
                     bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Satsuki\\audio\\audio_bck.mp3";
                 }
