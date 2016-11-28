@@ -31,6 +31,11 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 **The Build Archives are now .7z files; they're Password Protected for Security Purposes. The Password is "d2fd34". Let me know if you don't like this change.
 This helps to prevent Anti-Virus Software from scanning the Archive, and removing it. Even though it contains nothing Malicious.**
 
+###Release 0.8.0: 
+* Fixed some minor bugs
+* Now SimpliiU has a new Theme management, which is parsed using INI files. This includes that possibility of adding any custom theme, and background music. But, It's not finished. Although, this update includes a Satsuki theme from Kill la Kill.
+* Working on the RedNAND Setup and other Features.
+
 ###Release 0.7.0: 
 * Fixed some Bugs
 * New theme and music from Kill la Kill; Kill la Kill Edition. (Optional; In Preferences)
