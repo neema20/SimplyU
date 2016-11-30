@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace SimplyU
@@ -25,20 +26,44 @@ namespace SimplyU
 
         private void dev_spash_Load(object sender, EventArgs e)
         {
-            if (Properties.Settings.Default.dev_theme == "klk")
+            try
             {
-                this.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Kill_la_Kill\\img\\pnl_back.png");
+                this.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\img\\pnl_back.png");
                 lbl_header.ForeColor = System.Drawing.Color.Black;
             }
-            if (Properties.Settings.Default.dev_theme == "satsuki")
+            catch
             {
-                this.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Satsuki\\img\\pnl_back.png");
-                lbl_header.ForeColor = System.Drawing.Color.Black;
+                MessageBox.Show("The theme that you have entered was NOT found! Please try again, and confirm that it's there.", "SimpliiU: Properties --Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Properties.Settings.Default.dev_theme = "Default";
+                Properties.Settings.Default.Save();
+                dev_tmr.Stop();
+                Application.Restart();
             }
-            if (Properties.Settings.Default.dev_theme == "default")
+
+            if (Properties.Settings.Default.dev_theme == "")
             {
                 this.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\pnl_back.png");
-                lbl_header.ForeColor = System.Drawing.Color.White;
+                Properties.Settings.Default.dev_theme = "Default";
+                Properties.Settings.Default.Save();
+                Application.Restart();
+            }
+
+            if (Properties.Settings.Default.dev_theme == "0")
+            {
+                this.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\pnl_back.png");
+                Properties.Settings.Default.dev_theme = "Default";
+                Properties.Settings.Default.Save();
+                Application.Restart();
+            }
+            if (Directory.Exists(Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme))
+            {
+                Properties.Settings.Default.Save();
+            }
+            else
+            {
+                MessageBox.Show("The theme that you have entered was NOT found! Please try again, and confirm that it's there.", "SimpliiU: Properties --Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Properties.Settings.Default.dev_theme = "Default";
+                Properties.Settings.Default.Save();
             }
         }
     }

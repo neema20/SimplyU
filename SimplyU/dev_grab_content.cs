@@ -115,18 +115,7 @@ namespace SimplyU
             {
                 Properties.Settings.Default.dev_bck_music = "1";
                 Properties.Settings.Default.Save();
-                if (Properties.Settings.Default.dev_theme == "klk")
-                {
-                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Kill_la_Kill\\audio\\audio_complete.mp3";
-                }
-                if (Properties.Settings.Default.dev_theme == "default")
-                {
-                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Default\\audio\\audio_complete.mp3";
-                }
-                if (Properties.Settings.Default.dev_theme == "satsuki")
-                {
-                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Satsuki\\audio\\audio_complete.mp3";
-                }
+                bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
                 MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Application.Exit();
             }
@@ -920,18 +909,7 @@ namespace SimplyU
                 Properties.Settings.Default.dev_bck_music = "1";
                 Properties.Settings.Default.Save();
                 audio_tmr.Start();
-                if (Properties.Settings.Default.dev_theme == "klk")
-                {
-                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Kill_la_Kill\\audio\\audio_complete.mp3";
-                }
-                if (Properties.Settings.Default.dev_theme == "default")
-                {
-                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Default\\audio\\audio_complete.mp3";
-                }
-                if (Properties.Settings.Default.dev_theme == "satsuki")
-                {
-                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Satsuki\\audio\\audio_complete.mp3";
-                }
+                bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
                 MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 if (Properties.Settings.Default.dev_self_host == "1")
                 {
@@ -950,7 +928,7 @@ namespace SimplyU
                 {
                     Properties.Settings.Default.dev_bck_music = "1";
                     Properties.Settings.Default.Save();
-                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Defualt\\audio\\audio_complete.mp3";
+                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
                     MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Application.Exit();
                 }
@@ -964,18 +942,7 @@ namespace SimplyU
                 Properties.Settings.Default.dev_bck_music = "1";
                 Properties.Settings.Default.Save();
                 audio_tmr.Start();
-                if (Properties.Settings.Default.dev_theme == "klk")
-                {
-                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Kill_la_Kill\\audio\\audio_complete.mp3";
-                }
-                if (Properties.Settings.Default.dev_theme == "default")
-                {
-                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Default\\audio\\audio_complete.mp3";
-                }
-                if (Properties.Settings.Default.dev_theme == "satsuki")
-                {
-                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Satsuki\\audio\\audio_complete.mp3";
-                }
+                bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
                 MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 if (Properties.Settings.Default.dev_self_host == "1")
                 {

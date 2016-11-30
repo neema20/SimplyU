@@ -22,13 +22,6 @@ namespace SimplyU
 
         private void dev_notes_Load(object sender, EventArgs e)
         {
-            if (Properties.Settings.Default.dev_theme == "klk")
-            {
-                //Skin manager--RED
-                MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
-                skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
-                skinmgr.ColorScheme = new ColorScheme(Primary.Red800, Primary.Red900, Primary.Red500, Accent.Red200, TextShade.WHITE);
-            }
             if (Properties.Settings.Default.terms_agreed == "1")
             {
                 this.Hide();

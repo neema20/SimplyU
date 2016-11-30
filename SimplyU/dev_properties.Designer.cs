@@ -54,7 +54,7 @@
             this.btn_save.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_save.Depth = 0;
             this.btn_save.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_save.Location = new System.Drawing.Point(361, 583);
+            this.btn_save.Location = new System.Drawing.Point(387, 612);
             this.btn_save.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_save.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_save.Name = "btn_save";
@@ -92,7 +92,7 @@
             this.chck_grab.Enabled = false;
             this.chck_grab.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_grab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_grab.Location = new System.Drawing.Point(9, 177);
+            this.chck_grab.Location = new System.Drawing.Point(9, 172);
             this.chck_grab.Margin = new System.Windows.Forms.Padding(0);
             this.chck_grab.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_grab.MouseState = MaterialSkin.MouseState.HOVER;
@@ -109,7 +109,7 @@
             this.chck_clean.Depth = 0;
             this.chck_clean.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_clean.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_clean.Location = new System.Drawing.Point(9, 235);
+            this.chck_clean.Location = new System.Drawing.Point(9, 228);
             this.chck_clean.Margin = new System.Windows.Forms.Padding(0);
             this.chck_clean.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_clean.MouseState = MaterialSkin.MouseState.HOVER;
@@ -126,7 +126,7 @@
             this.chck_dev.Depth = 0;
             this.chck_dev.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_dev.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_dev.Location = new System.Drawing.Point(9, 290);
+            this.chck_dev.Location = new System.Drawing.Point(9, 280);
             this.chck_dev.Margin = new System.Windows.Forms.Padding(0);
             this.chck_dev.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_dev.MouseState = MaterialSkin.MouseState.HOVER;
@@ -152,7 +152,7 @@
             // 
             this.lbl_dev_mode.AutoSize = true;
             this.lbl_dev_mode.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_dev_mode.Location = new System.Drawing.Point(12, 320);
+            this.lbl_dev_mode.Location = new System.Drawing.Point(12, 310);
             this.lbl_dev_mode.Name = "lbl_dev_mode";
             this.lbl_dev_mode.Size = new System.Drawing.Size(248, 52);
             this.lbl_dev_mode.TabIndex = 17;
@@ -164,7 +164,7 @@
             this.chck_music.Depth = 0;
             this.chck_music.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_music.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_music.Location = new System.Drawing.Point(9, 384);
+            this.chck_music.Location = new System.Drawing.Point(9, 374);
             this.chck_music.Margin = new System.Windows.Forms.Padding(0);
             this.chck_music.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_music.MouseState = MaterialSkin.MouseState.HOVER;
@@ -197,7 +197,7 @@
             this.btn_cancel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_cancel.Depth = 0;
             this.btn_cancel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_cancel.Location = new System.Drawing.Point(298, 583);
+            this.btn_cancel.Location = new System.Drawing.Point(324, 612);
             this.btn_cancel.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_cancel.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_cancel.Name = "btn_cancel";
@@ -229,9 +229,9 @@
             // 
             this.lbl_theme.AutoSize = true;
             this.lbl_theme.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_theme.Location = new System.Drawing.Point(12, 493);
+            this.lbl_theme.Location = new System.Drawing.Point(12, 497);
             this.lbl_theme.Name = "lbl_theme";
-            this.lbl_theme.Size = new System.Drawing.Size(258, 91);
+            this.lbl_theme.Size = new System.Drawing.Size(312, 117);
             this.lbl_theme.TabIndex = 72;
             this.lbl_theme.Text = resources.GetString("lbl_theme.Text");
             // 
@@ -239,7 +239,7 @@
             // 
             this.lbl_music.AutoSize = true;
             this.lbl_music.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_music.Location = new System.Drawing.Point(12, 414);
+            this.lbl_music.Location = new System.Drawing.Point(12, 404);
             this.lbl_music.Name = "lbl_music";
             this.lbl_music.Size = new System.Drawing.Size(156, 13);
             this.lbl_music.TabIndex = 73;
@@ -249,8 +249,8 @@
             // 
             this.txt_theme.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txt_theme.Depth = 0;
-            this.txt_theme.Hint = "Enter the Name of the Theme IE: Kill_la_Kill";
-            this.txt_theme.Location = new System.Drawing.Point(15, 467);
+            this.txt_theme.Hint = "Enter the Name of the Theme IE: Ryuko";
+            this.txt_theme.Location = new System.Drawing.Point(15, 471);
             this.txt_theme.MaxLength = 32767;
             this.txt_theme.MouseState = MaterialSkin.MouseState.HOVER;
             this.txt_theme.Name = "txt_theme";
@@ -273,7 +273,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(420, 621);
+            this.ClientSize = new System.Drawing.Size(446, 650);
             this.ControlBox = false;
             this.Controls.Add(this.txt_theme);
             this.Controls.Add(this.lbl_music);

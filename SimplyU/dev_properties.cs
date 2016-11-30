@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,24 +23,18 @@ namespace SimplyU
 
         private void dev_properties_Load(object sender, EventArgs e)
         {
-            if (Properties.Settings.Default.dev_theme == "0")
+            txt_theme.Text = Properties.Settings.Default.dev_theme;
+            txt_theme.Enabled = true;
+            chck_ctheme.Checked = true;
+            if (Properties.Settings.Default.dev_theme == "")
             {
+                txt_theme.Enabled = false;
                 chck_ctheme.Checked = false;
-                txt_theme.Text = "Default";
             }
-            if (Properties.Settings.Default.dev_theme == "satsuki")
+            if (Properties.Settings.Default.dev_theme == "Default")
             {
-                chck_ctheme.Checked = true;
-                txt_theme.Text = "Satsuki";
-            }
-            if (Properties.Settings.Default.dev_theme == "klk")
-            {
-                chck_ctheme.Checked = true;
-                txt_theme.Text = "Ryuko";
-            }
-            if (Properties.Settings.Default.dev_theme == "default")
-            {
-                txt_theme.Text = "Default";
+                txt_theme.Enabled = false;
+                chck_ctheme.Checked = false;
             }
             if (Properties.Settings.Default.dev_bck_music_en == "1")
             {
@@ -87,18 +82,20 @@ namespace SimplyU
         {
             if (chck_ctheme.Checked == true)
             {
-                if (txt_theme.Text == "Ryuko")
+                Properties.Settings.Default.dev_theme = txt_theme.Text;
+                if (Directory.Exists(Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme))
                 {
-                    Properties.Settings.Default.dev_theme = "klk";
+                    Properties.Settings.Default.Save();
                 }
-                if (txt_theme.Text == "Default")
+                else
                 {
-                    Properties.Settings.Default.dev_theme = "default";
+                    MessageBox.Show("The theme that you have entered was NOT found! Please try again, and confirm that it's there.", "SimpliiU: Properties --Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
                 }
-                if (txt_theme.Text == "Satsuki")
-                {
-                    Properties.Settings.Default.dev_theme = "satsuki";
-                }
+            }
+            else
+            {
+                Properties.Settings.Default.dev_theme = "Default";
             }
             if (chck_music.Checked == true)
             {
@@ -119,11 +116,6 @@ namespace SimplyU
             if (chck_dev.Checked == true)
             {
                 Properties.Settings.Default.dev_dev_mode = "1";
-            }
-
-            if (chck_ctheme.Checked == false)
-            {
-                Properties.Settings.Default.dev_theme = "0";
             }
             if (chck_music.Checked == false)
             {

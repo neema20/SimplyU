@@ -70,29 +70,38 @@ namespace SimplyU
             else
             {
             }
-            if (Properties.Settings.Default.dev_theme == "klk")
+            if (Properties.Settings.Default.dev_theme == "")
+            {
+                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\SimplyU_Full_Logo.png");
+            }
+            if (Properties.Settings.Default.dev_theme == "0")
+            {
+                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\SimplyU_Full_Logo.png");
+            }
+            else
+            {
+                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\img\\SimplyU_Full_Logo.png");
+            }
+            if (Properties.Settings.Default.dev_theme == "Ryko")
             {
                 //Skin manager--RED
                 MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
                 skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
                 skinmgr.ColorScheme = new ColorScheme(Primary.Red800, Primary.Red900, Primary.Red500, Accent.Red200, TextShade.WHITE);
-                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Kill_la_Kill\\img\\SimplyU_Full_Logo.png");
             }
-            if (Properties.Settings.Default.dev_theme == "satsuki")
+            if (Properties.Settings.Default.dev_theme == "Satsuki")
             {
                 //Skin manager--BLUE
                 MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
                 skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
                 skinmgr.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue500, Accent.Blue200, TextShade.WHITE);
-                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Satsuki\\img\\SimplyU_Full_Logo.png");
             }
-            if (Properties.Settings.Default.dev_theme == "default")
+            if (Properties.Settings.Default.dev_theme == "Default")
             {
                 //Skin manager--BLUE
                 MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
                 skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
                 skinmgr.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue500, Accent.Blue200, TextShade.WHITE);
-                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\SimplyU_Full_Logo.png");
             }
             if (Properties.Settings.Default.dev_bck_music_en == "")
             {
@@ -106,18 +115,9 @@ namespace SimplyU
                 MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
                 skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
                 skinmgr.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue500, Accent.Blue200, TextShade.WHITE);
-                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\SimplyU_Full_Logo.png");
-                Properties.Settings.Default.dev_theme = "default";
+                Properties.Settings.Default.dev_theme = "Default";
             }
-            if (Properties.Settings.Default.dev_theme == "Default")
-            {
-                //Skin manager--BLUE
-                MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
-                skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
-                skinmgr.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue500, Accent.Blue200, TextShade.WHITE);
-                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\SimplyU_Full_Logo.png");
-                Properties.Settings.Default.dev_theme = "default";
-            }
+
             Properties.Settings.Default.dev_rednand = "";
 
             Properties.Settings.Default.dev_rednand_sd = "";

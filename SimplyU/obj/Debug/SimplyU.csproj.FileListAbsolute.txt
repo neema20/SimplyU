@@ -6,7 +6,6 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\Microsoft.VisualStudio.
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.xml
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\Interop.WMPLib.dll
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.csprojResolveAssemblyReference.cache
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\Interop.WMPLib.dll
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.csproj.ResolveComReference.cache
@@ -27,3 +26,4 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.Properties.Reso
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.csproj.GenerateResource.Cache
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimpliiU.exe
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimpliiU.pdb
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.csprojResolveAssemblyReference.cache
