@@ -10,7 +10,7 @@ whatsoever!
 
 They're as follows: 
 
-* Ryuko Matoi Theme (Kill_la_Kill) 
+* Ryuko Matoi Theme (Ryuko) 
 * Satsuki Theme 
 * Uzu Theme  - Not finsished 
 * Aikuro Theme - Not finsished 
