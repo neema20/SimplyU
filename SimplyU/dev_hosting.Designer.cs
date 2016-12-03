@@ -50,6 +50,7 @@
             this.lbl_stats.TabIndex = 5;
             this.lbl_stats.Text = "%STATS%";
             this.lbl_stats.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+    
             // 
             // lbl_ip
             // 

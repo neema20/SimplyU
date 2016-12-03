@@ -143,8 +143,8 @@
     <Setting Name="dev_rednand" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="dev_theme" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+    <Setting Name="dev_theme" Description="This is the String for the Theme Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Default</Value>
     </Setting>
     <Setting Name="dev_rednand_sd" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

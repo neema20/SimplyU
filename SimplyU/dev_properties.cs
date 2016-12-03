@@ -1,14 +1,7 @@
 ﻿using MaterialSkin;
 using MaterialSkin.Controls;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SimplyU
@@ -156,6 +149,12 @@ namespace SimplyU
             {
                 txt_theme.Enabled = false;
             }
+        }
+
+        private void materialFlatButton1_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.Reset();
+            Application.Restart();
         }
     }
 }

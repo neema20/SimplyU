@@ -38,15 +38,14 @@
             // 
             this.lbl_header.BackColor = System.Drawing.Color.Transparent;
             this.lbl_header.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_header.Font = new System.Drawing.Font("Segoe UI Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_header.Font = new System.Drawing.Font("Segoe UI Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_header.ForeColor = System.Drawing.Color.White;
             this.lbl_header.Location = new System.Drawing.Point(0, 0);
             this.lbl_header.Name = "lbl_header";
             this.lbl_header.Size = new System.Drawing.Size(989, 341);
             this.lbl_header.TabIndex = 0;
             this.lbl_header.Text = "Starting SimpliiU...";
-            this.lbl_header.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl_header.Click += new System.EventHandler(this.lbl_header_Click);
+            this.lbl_header.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // dev_tmr
             // 

@@ -257,7 +257,6 @@
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SimpliiU: RedNAND Setup";
-            this.Load += new System.EventHandler(this.dev_rednand_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

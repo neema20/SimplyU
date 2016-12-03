@@ -1,9 +1,6 @@
 ﻿using MaterialSkin;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SimplyU
@@ -20,6 +17,12 @@ namespace SimplyU
             Application.SetCompatibleTextRenderingDefault(false);
 
             //Skin manager--AUTO
+            if (File.Exists(Application.StartupPath + "\\Common\\Themes\\color.ini") == false)
+            {
+                File.CreateText(Application.StartupPath + "\\Common\\Themes\\color.ini");
+                File.WriteAllText(Application.StartupPath + "\\Common\\Themes\\color.ini", "blue");
+                Application.Restart();
+            }
             if (Properties.Settings.Default.dev_theme == "")
             {
                 MaterialSkinManager skinmgr = MaterialSkinManager.Instance;

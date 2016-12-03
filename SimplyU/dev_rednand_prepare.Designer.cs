@@ -105,7 +105,6 @@
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SimpliiU: RedNAND - Preparing";
-            this.Load += new System.EventHandler(this.dev_rednand_prepare_Load);
             this.pnl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.icon)).EndInit();
             this.ResumeLayout(false);

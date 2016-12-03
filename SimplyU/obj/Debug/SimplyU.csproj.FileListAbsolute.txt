@@ -26,4 +26,3 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.Properties.Reso
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.csproj.GenerateResource.Cache
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimpliiU.exe
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimpliiU.pdb
-C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.csprojResolveAssemblyReference.cache

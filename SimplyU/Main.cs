@@ -63,6 +63,13 @@ namespace SimplyU
 
         private void Main_Load(object sender, EventArgs e)
         {
+            if (File.Exists(Application.StartupPath + "\\Common\\Themes\\dev_themes.ini"))
+            {
+                File.Delete(Application.StartupPath + "\\Common\\Themes\\dev_themes.ini");
+            }
+            else
+            {
+            }
             if (Directory.Exists(Application.StartupPath + "\\Common\\Music"))
             {
                 Directory.Delete(Application.StartupPath + "\\Common\\Music", true);
@@ -200,10 +207,6 @@ namespace SimplyU
             }
         }
 
-        private void audio_tmr_Tick(object sender, EventArgs e)
-        {
-        }
-
         private void lbl_term_Click(object sender, EventArgs e)
         {
             Properties.Settings.Default.terms_agreed = "0";
@@ -249,14 +252,6 @@ namespace SimplyU
         private void btn_view_Click_1(object sender, EventArgs e)
         {
             Process.Start("https://gbatemp.net/threads/release-simpliiu/");
-        }
-
-        private void lbl_build_status_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void lbl_ver_Click(object sender, EventArgs e)
-        {
         }
     }
 }

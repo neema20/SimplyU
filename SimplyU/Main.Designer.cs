@@ -58,7 +58,6 @@
             this.lbl_build_status.TabIndex = 68;
             this.lbl_build_status.Text = "Development build_DEVMAIN_REV3";
             this.lbl_build_status.Visible = false;
-            this.lbl_build_status.Click += new System.EventHandler(this.lbl_build_status_Click);
             // 
             // lbl_term
             // 
@@ -172,7 +171,6 @@
             this.lbl_ver.TabIndex = 75;
             this.lbl_ver.Text = "Release: ";
             this.lbl_ver.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_ver.Click += new System.EventHandler(this.lbl_ver_Click);
             // 
             // btn_self_host
             // 

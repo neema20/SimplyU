@@ -26,3 +26,4 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.csproj.Ge
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimpliiU.exe
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimpliiU.pdb
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.csprojResolveAssemblyReference.cache
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\MaterialSkin.pdb

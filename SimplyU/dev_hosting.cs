@@ -1,16 +1,6 @@
 ﻿using MaterialSkin.Controls;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Net;
-using System.Net.NetworkInformation;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SimplyU
@@ -31,12 +21,11 @@ namespace SimplyU
             }
             catch
             {
-                MessageBox.Show("Unable to locate the 'StartServer.bat' file; make sure it's there, and the Other Folders.","SimpliiU: Start Hosting --Error",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                MessageBox.Show("Unable to locate the 'StartServer.bat' file; make sure it's there, and the Other Folders.", "SimpliiU: Start Hosting --Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 this.Hide();
                 Main mn = new Main();
                 mn.ShowDialog();
             }
-           
         }
 
         private void ipv4_Tick(object sender, EventArgs e)

@@ -20,10 +20,6 @@ namespace SimplyU
             dm.ShowDialog();
         }
 
-        private void lbl_header_Click(object sender, EventArgs e)
-        {
-        }
-
         private void dev_spash_Load(object sender, EventArgs e)
         {
             try
@@ -33,11 +29,20 @@ namespace SimplyU
             }
             catch
             {
-                MessageBox.Show("The theme that you have entered was NOT found! Please try again, and confirm that it's there.", "SimpliiU: Properties --Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Properties.Settings.Default.dev_theme = "Default";
-                Properties.Settings.Default.Save();
-                dev_tmr.Stop();
-                Application.Restart();
+                if (Properties.Settings.Default.dev_theme == "")
+                {
+                    Properties.Settings.Default.dev_theme = "Default";
+                    Properties.Settings.Default.Save();
+                    Application.Restart();
+                }
+                else
+                {
+                    MessageBox.Show("The theme that you have entered was NOT found! Please try again, and confirm that it's there.", "SimpliiU: Properties --Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Properties.Settings.Default.dev_theme = "Default";
+                    Properties.Settings.Default.Save();
+                    dev_tmr.Stop();
+                    Application.Restart();
+                }
             }
 
             if (Properties.Settings.Default.dev_theme == "")

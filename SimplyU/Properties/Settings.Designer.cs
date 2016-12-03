@@ -587,9 +587,13 @@ namespace SimplyU.Properties {
             }
         }
         
+        /// <summary>
+        /// This is the String for the Theme Setting
+        /// </summary>
         [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.SettingsDescriptionAttribute("This is the String for the Theme Setting")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Default")]
         public string dev_theme {
             get {
                 return ((string)(this["dev_theme"]));

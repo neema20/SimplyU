@@ -116,6 +116,7 @@
             this.Controls.Add(this.pic_logo_state);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "dev_error";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;

@@ -45,6 +45,7 @@
             this.lbl_music = new System.Windows.Forms.Label();
             this.txt_theme = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.chck_tmr = new System.Windows.Forms.Timer(this.components);
+            this.btn_reset = new MaterialSkin.Controls.MaterialFlatButton();
             this.SuspendLayout();
             // 
             // btn_save
@@ -231,7 +232,7 @@
             this.lbl_theme.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_theme.Location = new System.Drawing.Point(12, 497);
             this.lbl_theme.Name = "lbl_theme";
-            this.lbl_theme.Size = new System.Drawing.Size(312, 117);
+            this.lbl_theme.Size = new System.Drawing.Size(312, 91);
             this.lbl_theme.TabIndex = 72;
             this.lbl_theme.Text = resources.GetString("lbl_theme.Text");
             // 
@@ -268,6 +269,24 @@
             this.chck_tmr.Enabled = true;
             this.chck_tmr.Tick += new System.EventHandler(this.chck_tmr_Tick);
             // 
+            // btn_reset
+            // 
+            this.btn_reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_reset.AutoSize = true;
+            this.btn_reset.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_reset.Depth = 0;
+            this.btn_reset.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btn_reset.Location = new System.Drawing.Point(271, 612);
+            this.btn_reset.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_reset.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_reset.Name = "btn_reset";
+            this.btn_reset.Primary = false;
+            this.btn_reset.Size = new System.Drawing.Size(53, 36);
+            this.btn_reset.TabIndex = 76;
+            this.btn_reset.Text = "reset";
+            this.btn_reset.UseVisualStyleBackColor = true;
+            this.btn_reset.Click += new System.EventHandler(this.materialFlatButton1_Click);
+            // 
             // dev_properties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -275,6 +294,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(446, 650);
             this.ControlBox = false;
+            this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.txt_theme);
             this.Controls.Add(this.lbl_music);
             this.Controls.Add(this.lbl_theme);
@@ -318,5 +338,6 @@
         private System.Windows.Forms.Label lbl_music;
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_theme;
         private System.Windows.Forms.Timer chck_tmr;
+        private MaterialSkin.Controls.MaterialFlatButton btn_reset;
     }
 }

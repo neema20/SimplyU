@@ -5,29 +5,31 @@ They contain audio and image files.
 
 There is a .7z file containing all of the Themes. 
 
-These files (audio) are from their original creators; I take no credit
+These files (audio/images) are from their original creators; I take no credit
 whatsoever! 
 
 They're as follows: 
 
-* Ryuko Matoi Theme (Ryuko) 
-* Satsuki Theme 
-* Uzu Theme  - Not finsished 
-* Aikuro Theme - Not finsished 
-* Nonon Theme - Not finsished  
-* Ragyo Theme - Not finsished 
-* Sonic Theme - For testing 
+* Ryuko Matoi Theme (Ryuko) - Finished
+* Satsuki Theme (Satsuki) - Finished
+* Uzu Theme  - Almost finished
+* Aikuro Theme - Almost finished 
+* Nonon Theme - Almost finished  
+* Ragyo Theme - Almost finished
+* Sonic Theme - Not finished
+* RWBY Theme - Finished
+* Rock Edition Theme - Finished
 * Material Brown Theme - For testing 
 * Test theme - For testing 
 
 **NOTE:** as of 0.8.0 Beta, the Theme parser is **NOT** finished! 
 By at least 0.8.2 or 0.9.0, the theme parser will be completed; as well
-as the Updater and RedNAND Setup.
+as the Updater and RedNAND Setup (Hopefully).
 
 
 ##How to: 
 
-You will need to create a folder, with two sub-folders; "audio" & "img." 
+You will need to create a folder, with two sub-folders: "audio" & "img." 
 These folders will contain any and all resources. 
 There should also be two .ini files; "color.ini" & "theme.ini," these files will contain
 information about the theme.
@@ -55,7 +57,7 @@ author_notes=**
 
 ###color.ini: 
 
-**Should only contain the color scheme. For example:** 
+**Should only contain the color scheme; and are as follows: 
 
 * Purple
 * Pink
@@ -71,20 +73,29 @@ IE(Without quotes): "blue"
 
 
 Those are the colors that are available to you. But, you can modify the source-code
-to add more colors.
+to add more colors. The color management can be found in "program.cs." 
 
 The Theme-Compiler will handle all of this, but it is currently **not** finished, and is still
 being worked on; sorry for any inconvienance.
 
 If you haven't guessed, the theme manager finds themes based on the name you entered. For example: 
-I enter "Test" in the Properties, and save; then it looks for the folder "Test" within "\\Common\\Themes."
+I enter "Test" in the Properties, and save; then it looks for the folder "Test" within "\\Common\\Themes." Do note
+that the application is **not** case sensitive with theme names; meaning I could enter "test" and the folder could be "Test."
 If it finds it, It will then look for the sub-folders "img & audio." Once they're found, it'll then search
 for the required resources, which are: "pnl_back.png, SimplyU_Full_Logo.png, audio_bck.mp3, audio_complete.mp3, and audio_credits.mp3."
 The audio files are **NOT** required for the app to run, if they're **not** found, the app will ignore that they
 don't exist within that folder.
 
+There is also .xcf files; you can edit these files, making it easier to create your own images. 
+Do keep in Mind you will need Gimp 2.7 or higher. They also need to be the proper resolution; or they'll not appear properly.  
+
 If you have any concerns or questions, leave them on the GitHub repo; via "Issues."
 Or contact me via GBATemp.net @Dr.Hacknik.  
+
+##Preview: 
+
+![Themes Preview](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/themes_preview.png?raw=true) 
+
 
 ##Credits:
 
