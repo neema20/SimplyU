@@ -87,7 +87,7 @@ for the required resources, which are: "pnl_back.png, SimplyU_Full_Logo.png, aud
 The audio files are **NOT** required for the app to run, if they're **not** found, the app will ignore that they
 don't exist within that folder.
 
-There is also .xcf files; you can edit these files, making it easier to create your own images. 
+There are also .xcf files; you can edit these files, making it easier to create your own images. 
 Do keep in Mind you will need Gimp 2.7 or higher. They also need to be the proper resolution; or they'll not appear properly.  
 
 If you have any concerns or questions, leave them on the GitHub repo; via "Issues."
