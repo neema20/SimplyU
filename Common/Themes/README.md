@@ -37,7 +37,7 @@ There should be a color.ini on the root directory of the themes folder!
 
 ###theme.ini: 
 
-**[theme]
+[theme]
 
 [info]
 name=Your themes name
@@ -53,7 +53,8 @@ task_credits=
 
 [author]
 name=Your Username
-author_notes=**
+author_notes=
+
 
 ###color.ini: 
 
