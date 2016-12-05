@@ -58,7 +58,7 @@ author_notes=
 
 ###color.ini: 
 
-**Should only contain the color scheme; and are as follows: 
+**Should only contain the color scheme; and are as follows:**
 
 * Purple
 * Pink
