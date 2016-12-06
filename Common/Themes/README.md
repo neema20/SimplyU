@@ -95,7 +95,7 @@ Or contact me via GBATemp.net @Dr.Hacknik.
 
 ##Preview: 
 
-![Themes Preview](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/themes_preview.png?raw=true) 
+![Themes Preview](https://github.com/zoltx23/SimplyU/blob/master/Common/Resources/Images/themes.png?raw=true) 
 
 
 ##Credits:
