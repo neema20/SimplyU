@@ -17,7 +17,7 @@ They're as follows:
 * Nonon Theme - Almost finished  
 * Ragyo Theme - Almost finished
 * Sonic Theme - Not finished
-* RWBY Theme - Finished
+* RWBY Theme - Finished - Updated (12/5/16) w/New Bck Music & Images
 * Rock Edition Theme - Finished
 * Material Brown Theme - For testing 
 * Test theme - For testing 
