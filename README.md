@@ -35,7 +35,7 @@ This helps to prevent Anti-Virus Software from scanning the Archive, and removin
 * Fixed some minor issues 
 * Added the full ability of setting a custom theme.
 The themes are stored within the \Common\Themes folder in your SimpliiU 
-directory. That folder contains other folder, which are the names of the themes 
+directory. That folder contains other folders, which are the names of the themes 
 you have. Inside a theme folder is two folders, "img" and "audio." Inside the img folder there 
 should be a "pnl_back.png" file as well as "SimplyU_Full_Logo.png." The .xcf files are on Github, inside of \Common\Resources\Images. You can easily edit those .xcf's and make your own theme. Inside of the audio folder, there should be a file called "audio_bck.mp3;" don't worry, the music replays perfectly now. The application comes with the following themes pre-installed: "Default, Ryuko, Satsuki, Rock Edition, Sonic, and RWBY."
 Inside the root of a theme's folder, there should be a color.ini file. This file will contain the word for the color scheme. Read the README.md for more info (In the themes directory. \master\Common\Themes\README.md) 
