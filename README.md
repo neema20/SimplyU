@@ -24,12 +24,15 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * When Formatting, the Dialog may Continue to Show (Fixed in the Nightly Build)
 
 ##Curent Version: 
-0.8.0 x86 BETA
+0.8.1 x86 BETA
 
 ##Changelog: 
 
 **The Build Archives are now .7z files; they're Password Protected for Security Purposes. The Password is "d2fd34". Let me know if you don't like this change.
 This helps to prevent Anti-Virus Software from scanning the Archive, and removing it. Even though it contains nothing Malicious.**
+
+###Release 0.8.1:
+*
 
 ###Release 0.8.0:
 * Fixed some minor bugs
