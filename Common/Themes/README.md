@@ -28,16 +28,16 @@ as the Updater and RedNAND Setup (Hopefully).
 
 ##Downloads: 
 
-* ![Ryuko Matoi Theme - Ryuko](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Ryuko.zip) 
-* ![Satsuki Theme - Satsuki](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Satsuki.zip)  
-* ![Uzu Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Uzu.zip)
-* ![Aikuro Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Aikuro.zip) 
-* ![Nonon Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Nonon.zip) 
-* ![Ragyo Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Ragyo.zip) 
-* ![Sonic Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Sonic.zip)
-* ![RWBY Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/RWBY.zip) 
-* ![Rock Edition Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Rock Edition.zip)
-* ![Material Brown Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Material Brown.zip) 
+* ![Ryuko Matoi Theme - Ryuko](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Ryuko.zip?raw=true) 
+* ![Satsuki Theme - Satsuki](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Satsuki.zip?raw=true)  
+* ![Uzu Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Uzu.zip?raw=true)
+* ![Aikuro Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Aikuro.zip?raw=true) 
+* ![Nonon Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Nonon.zip?raw=true) 
+* ![Ragyo Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Ragyo.zip?raw=true) 
+* ![Sonic Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Sonic.zip?raw=true)
+* ![RWBY Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/RWBY.zip?raw=true) 
+* ![Rock Edition Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Rock Edition.zip?raw=true)
+* ![Material Brown Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Material Brown.zip?raw=true) 
 
 ##How to: 
 
