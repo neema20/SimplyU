@@ -26,6 +26,18 @@ They're as follows:
 By at least 0.8.2 or 0.9.0, the theme parser will be completed; as well
 as the Updater and RedNAND Setup (Hopefully).
 
+##Downloads: 
+
+* ![Ryuko Matoi Theme - Ryuko](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Ryuko.zip) 
+* ![Satsuki Theme - Satsuki](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Satsuki.zip)  
+* ![Uzu Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Uzu.zip)
+* ![Aikuro Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Aikuro.zip) 
+* ![Nonon Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Nonon.zip) 
+* ![Ragyo Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Ragyo.zip) 
+* ![Sonic Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Sonic.zip)
+* ![RWBY Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/RWBY.zip) 
+* ![Rock Edition Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Rock Edition.zip)
+* ![Material Brown Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Material Brown.zip) 
 
 ##How to: 
 
