@@ -52,18 +52,22 @@ There should be a color.ini on the root directory of the themes folder!
 [theme]
 
 [info]
+
 name=Your themes name
 
 [icons]
+
 icon=SimplyU_Full_Logo.png
 splash=pnl_back.png
 
 [audio]
+
 background=audio_bck.mp3
 task_completed=audio_complete.mp3
 task_credits=
 
 [author]
+
 name=Your Username
 author_notes=
 
