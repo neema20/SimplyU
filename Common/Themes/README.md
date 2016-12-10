@@ -49,8 +49,6 @@ There should be a color.ini on the root directory of the themes folder!
 
 ###theme.ini: 
 
-[theme]
-
 [info]
 
 name=Your themes name
