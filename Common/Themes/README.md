@@ -84,7 +84,6 @@ author_notes=
 
 IE(Without quotes): "blue"
 
-
 Those are the colors that are available to you. But, you can modify the source-code
 to add more colors. The color management can be found in "program.cs." 
 
