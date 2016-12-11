@@ -46,6 +46,7 @@
             this.txt_theme = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.chck_tmr = new System.Windows.Forms.Timer(this.components);
             this.btn_reset = new MaterialSkin.Controls.MaterialFlatButton();
+            this.lbl_dwn_themes = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_save
@@ -287,6 +288,19 @@
             this.btn_reset.UseVisualStyleBackColor = true;
             this.btn_reset.Click += new System.EventHandler(this.materialFlatButton1_Click);
             // 
+            // lbl_dwn_themes
+            // 
+            this.lbl_dwn_themes.AutoSize = true;
+            this.lbl_dwn_themes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbl_dwn_themes.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_dwn_themes.ForeColor = System.Drawing.Color.DimGray;
+            this.lbl_dwn_themes.Location = new System.Drawing.Point(12, 600);
+            this.lbl_dwn_themes.Name = "lbl_dwn_themes";
+            this.lbl_dwn_themes.Size = new System.Drawing.Size(89, 13);
+            this.lbl_dwn_themes.TabIndex = 77;
+            this.lbl_dwn_themes.Text = "Download themes";
+            this.lbl_dwn_themes.Click += new System.EventHandler(this.lbl_dwn_themes_Click);
+            // 
             // dev_properties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -294,6 +308,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(446, 650);
             this.ControlBox = false;
+            this.Controls.Add(this.lbl_dwn_themes);
             this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.txt_theme);
             this.Controls.Add(this.lbl_music);
@@ -339,5 +354,6 @@
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_theme;
         private System.Windows.Forms.Timer chck_tmr;
         private MaterialSkin.Controls.MaterialFlatButton btn_reset;
+        private System.Windows.Forms.Label lbl_dwn_themes;
     }
 }

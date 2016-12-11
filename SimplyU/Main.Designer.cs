@@ -57,7 +57,6 @@
             this.lbl_build_status.Size = new System.Drawing.Size(202, 15);
             this.lbl_build_status.TabIndex = 68;
             this.lbl_build_status.Text = "Development build_DEVMAIN_REV3";
-            this.lbl_build_status.Visible = false;
             // 
             // lbl_term
             // 
@@ -73,7 +72,6 @@
             this.lbl_term.Size = new System.Drawing.Size(85, 15);
             this.lbl_term.TabIndex = 69;
             this.lbl_term.Text = "ACCESS_TERM";
-            this.lbl_term.Visible = false;
             this.lbl_term.Click += new System.EventHandler(this.lbl_term_Click);
             // 
             // lbl_log
@@ -90,7 +88,6 @@
             this.lbl_log.Size = new System.Drawing.Size(77, 15);
             this.lbl_log.TabIndex = 70;
             this.lbl_log.Text = "ACCESS_LOG";
-            this.lbl_log.Visible = false;
             this.lbl_log.Click += new System.EventHandler(this.lbl_log_Click);
             // 
             // lbl_ac_rdnand
@@ -107,7 +104,6 @@
             this.lbl_ac_rdnand.Size = new System.Drawing.Size(97, 15);
             this.lbl_ac_rdnand.TabIndex = 71;
             this.lbl_ac_rdnand.Text = "ACCESS_RDDND";
-            this.lbl_ac_rdnand.Visible = false;
             this.lbl_ac_rdnand.Click += new System.EventHandler(this.lbl_ac_rdnand_Click);
             // 
             // btn_view

@@ -217,6 +217,18 @@ namespace SimplyU
 
         private void dev_prepare_Load(object sender, EventArgs e)
         {
+            if (Properties.Settings.Default.dev_theme == "")
+            {
+                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\SimplyU_Full_Logo.png");
+            }
+            if (Properties.Settings.Default.dev_theme == "0")
+            {
+                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\Default\\img\\SimplyU_Full_Logo.png");
+            }
+            else
+            {
+                pic_splash.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\img\\SimplyU_Full_Logo.png");
+            }
         }
     }
 }

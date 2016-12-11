@@ -1,6 +1,7 @@
 ﻿using MaterialSkin;
 using MaterialSkin.Controls;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
 
@@ -155,6 +156,11 @@ namespace SimplyU
         {
             Properties.Settings.Default.Reset();
             Application.Restart();
+        }
+
+        private void lbl_dwn_themes_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/zoltx23/SimplyU/tree/master/Common/Themes/README.md#downloads");
         }
     }
 }

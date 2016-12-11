@@ -66,7 +66,6 @@
             this.lbl_build_status.Size = new System.Drawing.Size(181, 15);
             this.lbl_build_status.TabIndex = 70;
             this.lbl_build_status.Text = "Development build_DEVSPLASH";
-            this.lbl_build_status.Visible = false;
             // 
             // dev_spash
             // 

@@ -126,7 +126,7 @@ regardless of whether it's enabled or not. </value>
   <data name="lbl_theme.Text" xml:space="preserve">
     <value>Enter the Name of the Theme IE: Ryuko or Default
 The application must be restarted for this to take affect.
-This 'name' is the folder's name, which needs to be the correct.
+This 'name' is the folder's name, which needs to be correct.
 More themes can be found on GitHub: \master\Common\Themes.
 
 Preinstalled themes: 
