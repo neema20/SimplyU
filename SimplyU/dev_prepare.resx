@@ -157,7 +157,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_rec.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>28</value>
   </data>
   <data name="chck_self.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -196,7 +196,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_self.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>27</value>
   </data>
   <data name="btn_next.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -235,7 +235,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btn_next.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>12</value>
   </data>
   <data name="lbl_1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -268,7 +268,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_1.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>26</value>
   </data>
   <data name="lbl_2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -301,7 +301,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_2.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>25</value>
   </data>
   <metadata name="dev_folder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -328,7 +328,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txt_target.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>24</value>
   </data>
   <data name="btn_target.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -367,7 +367,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btn_target.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>23</value>
   </data>
   <metadata name="dev_target_timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>125, 17</value>
@@ -406,43 +406,43 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_your_hb.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>22</value>
   </data>
-  <data name="rd_ddd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_ddd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="rd_ddd.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_ddd.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="rd_ddd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_ddd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="rd_ddd.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_ddd.Location" type="System.Drawing.Point, System.Drawing">
     <value>532, 599</value>
   </data>
-  <data name="rd_ddd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_ddd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="rd_ddd.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_ddd.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 30</value>
   </data>
-  <data name="rd_ddd.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_ddd.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
   </data>
-  <data name="rd_ddd.Text" xml:space="preserve">
+  <data name="chck_ddd.Text" xml:space="preserve">
     <value>DDD</value>
   </data>
-  <data name="&gt;&gt;rd_ddd.Name" xml:space="preserve">
-    <value>rd_ddd</value>
+  <data name="&gt;&gt;chck_ddd.Name" xml:space="preserve">
+    <value>chck_ddd</value>
   </data>
-  <data name="&gt;&gt;rd_ddd.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_ddd.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;rd_ddd.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_ddd.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;rd_ddd.ZOrder" xml:space="preserve">
-    <value>97</value>
+  <data name="&gt;&gt;chck_ddd.ZOrder" xml:space="preserve">
+    <value>101</value>
   </data>
   <data name="rd_sd_caf.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -478,7 +478,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_sd_caf.ZOrder" xml:space="preserve">
-    <value>96</value>
+    <value>100</value>
   </data>
   <data name="rd_sav.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -514,7 +514,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_sav.ZOrder" xml:space="preserve">
-    <value>95</value>
+    <value>99</value>
   </data>
   <data name="rd_ftp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -550,7 +550,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_ftp.ZOrder" xml:space="preserve">
-    <value>94</value>
+    <value>98</value>
   </data>
   <data name="rd_nnu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -586,7 +586,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_nnu.ZOrder" xml:space="preserve">
-    <value>92</value>
+    <value>96</value>
   </data>
   <data name="rd_geck.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -622,7 +622,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_geck.ZOrder" xml:space="preserve">
-    <value>88</value>
+    <value>92</value>
   </data>
   <data name="rd_gbiine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -658,7 +658,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_gbiine.ZOrder" xml:space="preserve">
-    <value>87</value>
+    <value>91</value>
   </data>
   <data name="rd_tcp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -694,7 +694,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_tcp.ZOrder" xml:space="preserve">
-    <value>86</value>
+    <value>90</value>
   </data>
   <data name="rd_u_paint.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -730,7 +730,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_u_paint.ZOrder" xml:space="preserve">
-    <value>84</value>
+    <value>88</value>
   </data>
   <data name="rd_hid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -766,7 +766,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_hid.ZOrder" xml:space="preserve">
-    <value>83</value>
+    <value>87</value>
   </data>
   <data name="rd_chip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -802,7 +802,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_chip.ZOrder" xml:space="preserve">
-    <value>78</value>
+    <value>82</value>
   </data>
   <data name="rd_wiiu_key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -838,7 +838,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_wiiu_key.ZOrder" xml:space="preserve">
-    <value>77</value>
+    <value>81</value>
   </data>
   <data name="rd_wup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -874,7 +874,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_wup.ZOrder" xml:space="preserve">
-    <value>76</value>
+    <value>80</value>
   </data>
   <data name="lbl_3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -908,7 +908,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_3.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>20</value>
   </data>
   <data name="chck_frm_sd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -947,7 +947,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_frm_sd.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>21</value>
   </data>
   <data name="drive.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -971,7 +971,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;drive.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>19</value>
   </data>
   <data name="allocation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -995,7 +995,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;allocation.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>18</value>
   </data>
   <data name="rd_ios.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1031,43 +1031,43 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_ios.ZOrder" xml:space="preserve">
-    <value>80</value>
+    <value>84</value>
   </data>
-  <data name="rd_our_loader.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_our.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="rd_our_loader.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_our.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="rd_our_loader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_our.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="rd_our_loader.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_our.Location" type="System.Drawing.Point, System.Drawing">
     <value>384, 143</value>
   </data>
-  <data name="rd_our_loader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_our.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="rd_our_loader.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_our.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 30</value>
   </data>
-  <data name="rd_our_loader.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_our.TabIndex" type="System.Int32, mscorlib">
     <value>62</value>
   </data>
-  <data name="rd_our_loader.Text" xml:space="preserve">
+  <data name="chck_our.Text" xml:space="preserve">
     <value>OUR LOADER</value>
   </data>
-  <data name="&gt;&gt;rd_our_loader.Name" xml:space="preserve">
-    <value>rd_our_loader</value>
+  <data name="&gt;&gt;chck_our.Name" xml:space="preserve">
+    <value>chck_our</value>
   </data>
-  <data name="&gt;&gt;rd_our_loader.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_our.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;rd_our_loader.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_our.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;rd_our_loader.ZOrder" xml:space="preserve">
-    <value>74</value>
+  <data name="&gt;&gt;chck_our.ZOrder" xml:space="preserve">
+    <value>78</value>
   </data>
   <data name="rd_app_dark.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1103,7 +1103,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_app_dark.ZOrder" xml:space="preserve">
-    <value>73</value>
+    <value>77</value>
   </data>
   <data name="rd_poke.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1139,7 +1139,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_poke.ZOrder" xml:space="preserve">
-    <value>72</value>
+    <value>76</value>
   </data>
   <data name="rd_hid_key.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1175,7 +1175,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_hid_key.ZOrder" xml:space="preserve">
-    <value>71</value>
+    <value>75</value>
   </data>
   <data name="rd_synth.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1211,7 +1211,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_synth.ZOrder" xml:space="preserve">
-    <value>70</value>
+    <value>74</value>
   </data>
   <data name="lbl_build_status.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1247,7 +1247,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_build_status.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>17</value>
   </data>
   <data name="chck_guide.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1286,7 +1286,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_guide.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>16</value>
   </data>
   <data name="lbl_guide.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1320,7 +1320,7 @@ setup on you Wii U. </value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_guide.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>15</value>
   </data>
   <data name="lbl_rednand.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1354,7 +1354,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_rednand.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>13</value>
   </data>
   <data name="chck_rednand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1393,7 +1393,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_rednand.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>14</value>
   </data>
   <data name="lbl_emu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1429,7 +1429,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_emu.ZOrder" xml:space="preserve">
-    <value>67</value>
+    <value>71</value>
   </data>
   <data name="lbl_tools.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1465,7 +1465,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_tools.ZOrder" xml:space="preserve">
-    <value>66</value>
+    <value>70</value>
   </data>
   <data name="chck_loadiine_ymod.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1501,7 +1501,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_loadiine_ymod.ZOrder" xml:space="preserve">
-    <value>65</value>
+    <value>69</value>
   </data>
   <data name="chck_retro_launcher.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1537,7 +1537,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_retro_launcher.ZOrder" xml:space="preserve">
-    <value>64</value>
+    <value>68</value>
   </data>
   <data name="chck_fuse.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1573,7 +1573,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_fuse.ZOrder" xml:space="preserve">
-    <value>63</value>
+    <value>67</value>
   </data>
   <data name="chck_fce.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1609,7 +1609,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_fce.ZOrder" xml:space="preserve">
-    <value>62</value>
+    <value>66</value>
   </data>
   <data name="chck_mame_midway.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1645,7 +1645,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_mame_midway.ZOrder" xml:space="preserve">
-    <value>61</value>
+    <value>65</value>
   </data>
   <data name="chck_btneo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1681,7 +1681,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_btneo.ZOrder" xml:space="preserve">
-    <value>60</value>
+    <value>64</value>
   </data>
   <data name="chck_btsgx.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1717,7 +1717,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_btsgx.ZOrder" xml:space="preserve">
-    <value>59</value>
+    <value>63</value>
   </data>
   <data name="chck_nxe.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1753,7 +1753,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_nxe.ZOrder" xml:space="preserve">
-    <value>58</value>
+    <value>62</value>
   </data>
   <data name="chck_fba_cps3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1789,7 +1789,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_fba_cps3.ZOrder" xml:space="preserve">
-    <value>57</value>
+    <value>61</value>
   </data>
   <data name="chck_snes9x_2010.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1825,7 +1825,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_snes9x_2010.ZOrder" xml:space="preserve">
-    <value>56</value>
+    <value>60</value>
   </data>
   <data name="chck_lynx.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1861,7 +1861,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_lynx.ZOrder" xml:space="preserve">
-    <value>55</value>
+    <value>59</value>
   </data>
   <data name="chck_prboom.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1897,7 +1897,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_prboom.ZOrder" xml:space="preserve">
-    <value>54</value>
+    <value>58</value>
   </data>
   <data name="chck_quicknes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1933,7 +1933,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_quicknes.ZOrder" xml:space="preserve">
-    <value>53</value>
+    <value>57</value>
   </data>
   <data name="chck_fba_cps1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1969,7 +1969,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_fba_cps1.ZOrder" xml:space="preserve">
-    <value>52</value>
+    <value>56</value>
   </data>
   <data name="chck_psx.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2005,7 +2005,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_psx.ZOrder" xml:space="preserve">
-    <value>51</value>
+    <value>55</value>
   </data>
   <data name="chck_gamebatte.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2041,7 +2041,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_gamebatte.ZOrder" xml:space="preserve">
-    <value>50</value>
+    <value>54</value>
   </data>
   <data name="chck_btvb.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2077,7 +2077,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_btvb.ZOrder" xml:space="preserve">
-    <value>49</value>
+    <value>53</value>
   </data>
   <data name="chck_fba.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2113,7 +2113,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_fba.ZOrder" xml:space="preserve">
-    <value>48</value>
+    <value>52</value>
   </data>
   <data name="chck_gen_pl_gx.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2149,7 +2149,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_gen_pl_gx.ZOrder" xml:space="preserve">
-    <value>47</value>
+    <value>51</value>
   </data>
   <data name="chck_btpce.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2185,44 +2185,44 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_btpce.ZOrder" xml:space="preserve">
-    <value>46</value>
+    <value>50</value>
   </data>
-  <data name="chck_gba_neo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_fba_neo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="chck_gba_neo.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_fba_neo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="chck_gba_neo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_fba_neo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="chck_gba_neo.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_fba_neo.Location" type="System.Drawing.Point, System.Drawing">
     <value>861, 470</value>
   </data>
-  <data name="chck_gba_neo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_fba_neo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="chck_gba_neo.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_fba_neo.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 30</value>
   </data>
-  <data name="chck_gba_neo.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_fba_neo.TabIndex" type="System.Int32, mscorlib">
     <value>100</value>
   </data>
-  <data name="chck_gba_neo.Text" xml:space="preserve">
+  <data name="chck_fba_neo.Text" xml:space="preserve">
     <value>FB Alhpa 2012: Neo Geo
 </value>
   </data>
-  <data name="&gt;&gt;chck_gba_neo.Name" xml:space="preserve">
-    <value>chck_gba_neo</value>
+  <data name="&gt;&gt;chck_fba_neo.Name" xml:space="preserve">
+    <value>chck_fba_neo</value>
   </data>
-  <data name="&gt;&gt;chck_gba_neo.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_fba_neo.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;chck_gba_neo.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_fba_neo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;chck_gba_neo.ZOrder" xml:space="preserve">
-    <value>44</value>
+  <data name="&gt;&gt;chck_fba_neo.ZOrder" xml:space="preserve">
+    <value>48</value>
   </data>
   <data name="chck_mame_2003.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2258,7 +2258,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_mame_2003.ZOrder" xml:space="preserve">
-    <value>45</value>
+    <value>49</value>
   </data>
   <data name="chck_tyrquake.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2294,7 +2294,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_tyrquake.ZOrder" xml:space="preserve">
-    <value>42</value>
+    <value>46</value>
   </data>
   <data name="chck_nestopia.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2330,7 +2330,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_nestopia.ZOrder" xml:space="preserve">
-    <value>43</value>
+    <value>47</value>
   </data>
   <data name="chck_bt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2366,7 +2366,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_bt.ZOrder" xml:space="preserve">
-    <value>40</value>
+    <value>44</value>
   </data>
   <data name="chck_snes9x.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2402,7 +2402,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_snes9x.ZOrder" xml:space="preserve">
-    <value>41</value>
+    <value>45</value>
   </data>
   <data name="chck_fb_alpha_2012_cps2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2438,511 +2438,511 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;chck_fb_alpha_2012_cps2.ZOrder" xml:space="preserve">
-    <value>39</value>
+    <value>43</value>
   </data>
-  <data name="materialCheckBox26.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_ft2sd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox26.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_ft2sd.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_ft2sd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox26.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_ft2sd.Location" type="System.Drawing.Point, System.Drawing">
     <value>384, 720</value>
   </data>
-  <data name="materialCheckBox26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_ft2sd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox26.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_ft2sd.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 30</value>
   </data>
-  <data name="materialCheckBox26.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_ft2sd.TabIndex" type="System.Int32, mscorlib">
     <value>106</value>
   </data>
-  <data name="materialCheckBox26.Text" xml:space="preserve">
+  <data name="chck_ft2sd.Text" xml:space="preserve">
     <value>FT2SD</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox26.Name" xml:space="preserve">
-    <value>materialCheckBox26</value>
+  <data name="&gt;&gt;chck_ft2sd.Name" xml:space="preserve">
+    <value>chck_ft2sd</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox26.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_ft2sd.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox26.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_ft2sd.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox26.ZOrder" xml:space="preserve">
-    <value>38</value>
+  <data name="&gt;&gt;chck_ft2sd.ZOrder" xml:space="preserve">
+    <value>42</value>
   </data>
-  <data name="materialCheckBox27.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_sigpat_systmenu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox27.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_sigpat_systmenu.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_sigpat_systmenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox27.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_sigpat_systmenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>813, 599</value>
   </data>
-  <data name="materialCheckBox27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_sigpat_systmenu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox27.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_sigpat_systmenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 30</value>
   </data>
-  <data name="materialCheckBox27.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_sigpat_systmenu.TabIndex" type="System.Int32, mscorlib">
     <value>107</value>
   </data>
-  <data name="materialCheckBox27.Text" xml:space="preserve">
+  <data name="chck_sigpat_systmenu.Text" xml:space="preserve">
     <value>SigPatcher2SysMenu</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox27.Name" xml:space="preserve">
-    <value>materialCheckBox27</value>
+  <data name="&gt;&gt;chck_sigpat_systmenu.Name" xml:space="preserve">
+    <value>chck_sigpat_systmenu</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox27.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_sigpat_systmenu.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox27.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_sigpat_systmenu.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox27.ZOrder" xml:space="preserve">
-    <value>37</value>
+  <data name="&gt;&gt;chck_sigpat_systmenu.ZOrder" xml:space="preserve">
+    <value>41</value>
   </data>
-  <data name="materialCheckBox28.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_wudumper.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox28.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_wudumper.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_wudumper.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox28.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_wudumper.Location" type="System.Drawing.Point, System.Drawing">
     <value>384, 750</value>
   </data>
-  <data name="materialCheckBox28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_wudumper.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox28.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_wudumper.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 30</value>
   </data>
-  <data name="materialCheckBox28.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_wudumper.TabIndex" type="System.Int32, mscorlib">
     <value>110</value>
   </data>
-  <data name="materialCheckBox28.Text" xml:space="preserve">
+  <data name="chck_wudumper.Text" xml:space="preserve">
     <value>WUDumper</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox28.Name" xml:space="preserve">
-    <value>materialCheckBox28</value>
+  <data name="&gt;&gt;chck_wudumper.Name" xml:space="preserve">
+    <value>chck_wudumper</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox28.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_wudumper.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox28.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_wudumper.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox28.ZOrder" xml:space="preserve">
-    <value>34</value>
+  <data name="&gt;&gt;chck_wudumper.ZOrder" xml:space="preserve">
+    <value>38</value>
   </data>
-  <data name="materialCheckBox29.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_wuphax.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox29.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_wuphax.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_wuphax.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox29.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_wuphax.Location" type="System.Drawing.Point, System.Drawing">
     <value>532, 780</value>
   </data>
-  <data name="materialCheckBox29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_wuphax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox29.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_wuphax.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 30</value>
   </data>
-  <data name="materialCheckBox29.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_wuphax.TabIndex" type="System.Int32, mscorlib">
     <value>109</value>
   </data>
-  <data name="materialCheckBox29.Text" xml:space="preserve">
+  <data name="chck_wuphax.Text" xml:space="preserve">
     <value>WUPHax</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox29.Name" xml:space="preserve">
-    <value>materialCheckBox29</value>
+  <data name="&gt;&gt;chck_wuphax.Name" xml:space="preserve">
+    <value>chck_wuphax</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox29.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_wuphax.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox29.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_wuphax.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox29.ZOrder" xml:space="preserve">
-    <value>35</value>
+  <data name="&gt;&gt;chck_wuphax.ZOrder" xml:space="preserve">
+    <value>39</value>
   </data>
-  <data name="materialCheckBox30.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_seeprom.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox30.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_seeprom.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_seeprom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox30.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_seeprom.Location" type="System.Drawing.Point, System.Drawing">
     <value>532, 750</value>
   </data>
-  <data name="materialCheckBox30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_seeprom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox30.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_seeprom.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 30</value>
   </data>
-  <data name="materialCheckBox30.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_seeprom.TabIndex" type="System.Int32, mscorlib">
     <value>108</value>
   </data>
-  <data name="materialCheckBox30.Text" xml:space="preserve">
+  <data name="chck_seeprom.Text" xml:space="preserve">
     <value>SEEPROM2SD</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox30.Name" xml:space="preserve">
-    <value>materialCheckBox30</value>
+  <data name="&gt;&gt;chck_seeprom.Name" xml:space="preserve">
+    <value>chck_seeprom</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox30.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_seeprom.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox30.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_seeprom.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox30.ZOrder" xml:space="preserve">
-    <value>36</value>
+  <data name="&gt;&gt;chck_seeprom.ZOrder" xml:space="preserve">
+    <value>40</value>
   </data>
-  <data name="materialCheckBox31.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_sigpat_hbl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox31.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_sigpat_hbl.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_sigpat_hbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox31.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_sigpat_hbl.Location" type="System.Drawing.Point, System.Drawing">
     <value>384, 780</value>
   </data>
-  <data name="materialCheckBox31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_sigpat_hbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox31.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_sigpat_hbl.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 30</value>
   </data>
-  <data name="materialCheckBox31.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_sigpat_hbl.TabIndex" type="System.Int32, mscorlib">
     <value>111</value>
   </data>
-  <data name="materialCheckBox31.Text" xml:space="preserve">
+  <data name="chck_sigpat_hbl.Text" xml:space="preserve">
     <value>SigPatcher2HBL</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox31.Name" xml:space="preserve">
-    <value>materialCheckBox31</value>
+  <data name="&gt;&gt;chck_sigpat_hbl.Name" xml:space="preserve">
+    <value>chck_sigpat_hbl</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox31.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_sigpat_hbl.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox31.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_sigpat_hbl.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox31.ZOrder" xml:space="preserve">
-    <value>33</value>
+  <data name="&gt;&gt;chck_sigpat_hbl.ZOrder" xml:space="preserve">
+    <value>37</value>
   </data>
-  <data name="materialCheckBox32.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_aoc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox32.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_aoc.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_aoc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox32.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_aoc.Location" type="System.Drawing.Point, System.Drawing">
     <value>700, 779</value>
   </data>
-  <data name="materialCheckBox32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_aoc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox32.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_aoc.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 30</value>
   </data>
-  <data name="materialCheckBox32.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_aoc.TabIndex" type="System.Int32, mscorlib">
     <value>115</value>
   </data>
-  <data name="materialCheckBox32.Text" xml:space="preserve">
+  <data name="chck_aoc.Text" xml:space="preserve">
     <value>AocPatcher</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox32.Name" xml:space="preserve">
-    <value>materialCheckBox32</value>
+  <data name="&gt;&gt;chck_aoc.Name" xml:space="preserve">
+    <value>chck_aoc</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox32.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_aoc.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox32.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_aoc.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox32.ZOrder" xml:space="preserve">
-    <value>29</value>
+  <data name="&gt;&gt;chck_aoc.ZOrder" xml:space="preserve">
+    <value>33</value>
   </data>
-  <data name="materialCheckBox33.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_haxchi.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox33.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_haxchi.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_haxchi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox33.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_haxchi.Location" type="System.Drawing.Point, System.Drawing">
     <value>700, 749</value>
   </data>
-  <data name="materialCheckBox33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_haxchi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox33.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_haxchi.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 30</value>
   </data>
-  <data name="materialCheckBox33.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_haxchi.TabIndex" type="System.Int32, mscorlib">
     <value>114</value>
   </data>
-  <data name="materialCheckBox33.Text" xml:space="preserve">
+  <data name="chck_haxchi.Text" xml:space="preserve">
     <value>HAXChi</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox33.Name" xml:space="preserve">
-    <value>materialCheckBox33</value>
+  <data name="&gt;&gt;chck_haxchi.Name" xml:space="preserve">
+    <value>chck_haxchi</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox33.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_haxchi.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox33.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_haxchi.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox33.ZOrder" xml:space="preserve">
-    <value>30</value>
+  <data name="&gt;&gt;chck_haxchi.ZOrder" xml:space="preserve">
+    <value>34</value>
   </data>
-  <data name="materialCheckBox34.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_cbhc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox34.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_cbhc.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_cbhc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox34.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_cbhc.Location" type="System.Drawing.Point, System.Drawing">
     <value>700, 719</value>
   </data>
-  <data name="materialCheckBox34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_cbhc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox34.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_cbhc.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 30</value>
   </data>
-  <data name="materialCheckBox34.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_cbhc.TabIndex" type="System.Int32, mscorlib">
     <value>113</value>
   </data>
-  <data name="materialCheckBox34.Text" xml:space="preserve">
+  <data name="chck_cbhc.Text" xml:space="preserve">
     <value>CBHC</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox34.Name" xml:space="preserve">
-    <value>materialCheckBox34</value>
+  <data name="&gt;&gt;chck_cbhc.Name" xml:space="preserve">
+    <value>chck_cbhc</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox34.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_cbhc.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox34.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_cbhc.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox34.ZOrder" xml:space="preserve">
-    <value>31</value>
+  <data name="&gt;&gt;chck_cbhc.ZOrder" xml:space="preserve">
+    <value>35</value>
   </data>
-  <data name="materialCheckBox35.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_fsdumper.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox35.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_fsdumper.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_fsdumper.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox35.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_fsdumper.Location" type="System.Drawing.Point, System.Drawing">
     <value>700, 689</value>
   </data>
-  <data name="materialCheckBox35.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_fsdumper.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox35.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_fsdumper.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 30</value>
   </data>
-  <data name="materialCheckBox35.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_fsdumper.TabIndex" type="System.Int32, mscorlib">
     <value>112</value>
   </data>
-  <data name="materialCheckBox35.Text" xml:space="preserve">
+  <data name="chck_fsdumper.Text" xml:space="preserve">
     <value>FSDumper</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox35.Name" xml:space="preserve">
-    <value>materialCheckBox35</value>
+  <data name="&gt;&gt;chck_fsdumper.Name" xml:space="preserve">
+    <value>chck_fsdumper</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox35.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_fsdumper.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox35.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_fsdumper.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox35.ZOrder" xml:space="preserve">
-    <value>32</value>
+  <data name="&gt;&gt;chck_fsdumper.ZOrder" xml:space="preserve">
+    <value>36</value>
   </data>
-  <data name="materialCheckBox36.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_tik2sd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox36.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_tik2sd.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_tik2sd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox36.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_tik2sd.Location" type="System.Drawing.Point, System.Drawing">
     <value>700, 659</value>
   </data>
-  <data name="materialCheckBox36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_tik2sd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox36.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_tik2sd.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 30</value>
   </data>
-  <data name="materialCheckBox36.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_tik2sd.TabIndex" type="System.Int32, mscorlib">
     <value>119</value>
   </data>
-  <data name="materialCheckBox36.Text" xml:space="preserve">
+  <data name="chck_tik2sd.Text" xml:space="preserve">
     <value>Tik2SD</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox36.Name" xml:space="preserve">
-    <value>materialCheckBox36</value>
+  <data name="&gt;&gt;chck_tik2sd.Name" xml:space="preserve">
+    <value>chck_tik2sd</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox36.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_tik2sd.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox36.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_tik2sd.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox36.ZOrder" xml:space="preserve">
-    <value>25</value>
+  <data name="&gt;&gt;chck_tik2sd.ZOrder" xml:space="preserve">
+    <value>29</value>
   </data>
-  <data name="materialCheckBox37.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_padcon.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox37.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_padcon.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_padcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox37.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_padcon.Location" type="System.Drawing.Point, System.Drawing">
     <value>700, 629</value>
   </data>
-  <data name="materialCheckBox37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_padcon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox37.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_padcon.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 30</value>
   </data>
-  <data name="materialCheckBox37.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_padcon.TabIndex" type="System.Int32, mscorlib">
     <value>118</value>
   </data>
-  <data name="materialCheckBox37.Text" xml:space="preserve">
+  <data name="chck_padcon.Text" xml:space="preserve">
     <value>PADCON</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox37.Name" xml:space="preserve">
-    <value>materialCheckBox37</value>
+  <data name="&gt;&gt;chck_padcon.Name" xml:space="preserve">
+    <value>chck_padcon</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox37.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_padcon.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox37.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_padcon.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox37.ZOrder" xml:space="preserve">
-    <value>26</value>
+  <data name="&gt;&gt;chck_padcon.ZOrder" xml:space="preserve">
+    <value>30</value>
   </data>
-  <data name="materialCheckBox38.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_otp2sd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox38.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_otp2sd.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_otp2sd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox38.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_otp2sd.Location" type="System.Drawing.Point, System.Drawing">
     <value>700, 599</value>
   </data>
-  <data name="materialCheckBox38.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_otp2sd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox38.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_otp2sd.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 30</value>
   </data>
-  <data name="materialCheckBox38.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_otp2sd.TabIndex" type="System.Int32, mscorlib">
     <value>117</value>
   </data>
-  <data name="materialCheckBox38.Text" xml:space="preserve">
+  <data name="chck_otp2sd.Text" xml:space="preserve">
     <value>OTP2SD</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox38.Name" xml:space="preserve">
-    <value>materialCheckBox38</value>
+  <data name="&gt;&gt;chck_otp2sd.Name" xml:space="preserve">
+    <value>chck_otp2sd</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox38.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_otp2sd.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox38.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_otp2sd.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox38.ZOrder" xml:space="preserve">
-    <value>27</value>
+  <data name="&gt;&gt;chck_otp2sd.ZOrder" xml:space="preserve">
+    <value>31</value>
   </data>
-  <data name="materialCheckBox39.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="chck_ftpiue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="materialCheckBox39.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="chck_ftpiue.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialCheckBox39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="chck_ftpiue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialCheckBox39.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="chck_ftpiue.Location" type="System.Drawing.Point, System.Drawing">
     <value>532, 720</value>
   </data>
-  <data name="materialCheckBox39.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="chck_ftpiue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialCheckBox39.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="chck_ftpiue.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 30</value>
   </data>
-  <data name="materialCheckBox39.TabIndex" type="System.Int32, mscorlib">
+  <data name="chck_ftpiue.TabIndex" type="System.Int32, mscorlib">
     <value>116</value>
   </data>
-  <data name="materialCheckBox39.Text" xml:space="preserve">
+  <data name="chck_ftpiue.Text" xml:space="preserve">
     <value>FTPIU Everywhere</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox39.Name" xml:space="preserve">
-    <value>materialCheckBox39</value>
+  <data name="&gt;&gt;chck_ftpiue.Name" xml:space="preserve">
+    <value>chck_ftpiue</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox39.Type" xml:space="preserve">
+  <data name="&gt;&gt;chck_ftpiue.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox39.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chck_ftpiue.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialCheckBox39.ZOrder" xml:space="preserve">
-    <value>28</value>
+  <data name="&gt;&gt;chck_ftpiue.ZOrder" xml:space="preserve">
+    <value>32</value>
   </data>
   <data name="rd_ast.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2978,7 +2978,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_ast.ZOrder" xml:space="preserve">
-    <value>93</value>
+    <value>97</value>
   </data>
   <data name="rd_pong.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3014,7 +3014,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_pong.ZOrder" xml:space="preserve">
-    <value>91</value>
+    <value>95</value>
   </data>
   <data name="rd_gacu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3050,7 +3050,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_gacu.ZOrder" xml:space="preserve">
-    <value>90</value>
+    <value>94</value>
   </data>
   <data name="rd_tict.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3086,7 +3086,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_tict.ZOrder" xml:space="preserve">
-    <value>89</value>
+    <value>93</value>
   </data>
   <data name="rd_pac.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3122,7 +3122,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_pac.ZOrder" xml:space="preserve">
-    <value>85</value>
+    <value>89</value>
   </data>
   <data name="rd_snake.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3158,7 +3158,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_snake.ZOrder" xml:space="preserve">
-    <value>82</value>
+    <value>86</value>
   </data>
   <data name="rd_flappy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3194,7 +3194,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_flappy.ZOrder" xml:space="preserve">
-    <value>81</value>
+    <value>85</value>
   </data>
   <data name="rd_cave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3230,7 +3230,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_cave.ZOrder" xml:space="preserve">
-    <value>79</value>
+    <value>83</value>
   </data>
   <data name="rd_space.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3266,7 +3266,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rd_space.ZOrder" xml:space="preserve">
-    <value>75</value>
+    <value>79</value>
   </data>
   <data name="lbl_games.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3302,7 +3302,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_games.ZOrder" xml:space="preserve">
-    <value>68</value>
+    <value>72</value>
   </data>
   <data name="lbl_loaders.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3338,7 +3338,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl_loaders.ZOrder" xml:space="preserve">
-    <value>69</value>
+    <value>73</value>
   </data>
   <data name="pnl_sep1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -3362,19 +3362,22 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pnl_sep1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>11</value>
   </data>
   <data name="pnl_sep2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 500</value>
+  <data name="&gt;&gt;materialCheckBox1.Name" xml:space="preserve">
+    <value>materialCheckBox1</value>
   </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>3, 200</value>
+  <data name="&gt;&gt;materialCheckBox1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>122</value>
+  <data name="&gt;&gt;materialCheckBox1.Parent" xml:space="preserve">
+    <value>pnl_sep2</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;panel2.Name" xml:space="preserve">
     <value>panel2</value>
@@ -3386,7 +3389,7 @@ we will also help and guide you through the process.</value>
     <value>pnl_sep2</value>
   </data>
   <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="pnl_sep2.Location" type="System.Drawing.Point, System.Drawing">
     <value>688, 76</value>
@@ -3407,7 +3410,64 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pnl_sep2.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>10</value>
+  </data>
+  <data name="materialCheckBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="materialCheckBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 10pt</value>
+  </data>
+  <data name="materialCheckBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialCheckBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-67, 242</value>
+  </data>
+  <data name="materialCheckBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="materialCheckBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 30</value>
+  </data>
+  <data name="materialCheckBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="materialCheckBox1.Text" xml:space="preserve">
+    <value>RETRO LAUNCHER</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox1.Name" xml:space="preserve">
+    <value>materialCheckBox1</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox1.Parent" xml:space="preserve">
+    <value>pnl_sep2</value>
+  </data>
+  <data name="&gt;&gt;materialCheckBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 500</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>3, 200</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>pnl_sep2</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="pnl_sep3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -3431,7 +3491,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pnl_sep3.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
   <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -3455,7 +3515,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="panel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -3479,7 +3539,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="panel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -3503,7 +3563,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="panel6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -3527,7 +3587,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="panel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -3551,7 +3611,7 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="pic_splash.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -3578,13 +3638,154 @@ we will also help and guide you through the process.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pic_splash.ZOrder" xml:space="preserve">
-    <value>98</value>
+    <value>102</value>
+  </data>
+  <data name="chck_loadiine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="chck_loadiine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 10pt</value>
+  </data>
+  <data name="chck_loadiine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chck_loadiine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 143</value>
+  </data>
+  <data name="chck_loadiine.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="chck_loadiine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 30</value>
+  </data>
+  <data name="chck_loadiine.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="chck_loadiine.Text" xml:space="preserve">
+    <value>LOADIINE GX2</value>
+  </data>
+  <data name="&gt;&gt;chck_loadiine.Name" xml:space="preserve">
+    <value>chck_loadiine</value>
+  </data>
+  <data name="&gt;&gt;chck_loadiine.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chck_loadiine.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chck_loadiine.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chck_hbl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="chck_hbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 10pt</value>
+  </data>
+  <data name="chck_hbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chck_hbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 173</value>
+  </data>
+  <data name="chck_hbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="chck_hbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 30</value>
+  </data>
+  <data name="chck_hbl.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="chck_hbl.Text" xml:space="preserve">
+    <value>HBL</value>
+  </data>
+  <data name="&gt;&gt;chck_hbl.Name" xml:space="preserve">
+    <value>chck_hbl</value>
+  </data>
+  <data name="&gt;&gt;chck_hbl.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chck_hbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chck_hbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chck_hbl_dark.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="chck_hbl_dark.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 10pt</value>
+  </data>
+  <data name="chck_hbl_dark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chck_hbl_dark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 202</value>
+  </data>
+  <data name="chck_hbl_dark.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="chck_hbl_dark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 30</value>
+  </data>
+  <data name="chck_hbl_dark.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="chck_hbl_dark.Text" xml:space="preserve">
+    <value>HBL Dark</value>
+  </data>
+  <data name="&gt;&gt;chck_hbl_dark.Name" xml:space="preserve">
+    <value>chck_hbl_dark</value>
+  </data>
+  <data name="&gt;&gt;chck_hbl_dark.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckBox, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chck_hbl_dark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chck_hbl_dark.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_format_warn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_format_warn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold, Underline</value>
+  </data>
+  <data name="lbl_format_warn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_format_warn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 417</value>
+  </data>
+  <data name="lbl_format_warn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 15</value>
+  </data>
+  <data name="lbl_format_warn.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="lbl_format_warn.Text" xml:space="preserve">
+    <value>ALL FILES AND CONTENTS ON SAID SD CARD WILL BE LOST!!</value>
+  </data>
+  <data name="&gt;&gt;lbl_format_warn.Name" xml:space="preserve">
+    <value>lbl_format_warn</value>
+  </data>
+  <data name="&gt;&gt;lbl_format_warn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_format_warn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_format_warn.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>79</value>
+    <value>57</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>

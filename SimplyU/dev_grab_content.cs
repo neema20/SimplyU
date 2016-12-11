@@ -132,29 +132,7 @@ namespace SimplyU
                 {
                     using (var get_hb = new WebClient())
                     {
-                        get_hb.DownloadFile("https://github.com/zoltx23/SimplyU/raw/master/Common/Homebrew/wiiu.zip", cd + "\\wiiu.zip");
                         get_hb.DownloadFile("https://github.com/zoltx23/SimplyU/raw/master/Common/Homebrew/hosting.zip", cd + "\\hosting.zip");
-
-                        try
-                        {
-                            ZipFile zip = new ZipFile();
-
-                            String TargetDirectory = sd;
-                            using (ZipFile zp = ZipFile.Read(cd + "\\wiiu.zip"))
-                            {
-                                zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
-                                zp.ExtractAll(TargetDirectory);
-                            }
-                            lg += "\r\ndev_grab: hb_suc--wiiu";
-                            lgs = "1";
-                            Properties.Settings.Default.Save();
-                        }
-                        catch
-                        {
-                            lg += "\r\ndev_grab: hb_fail--wiiu";
-                            lgs = "1";
-                            Properties.Settings.Default.Save();
-                        }
                         prg_1.Value = 60;
                         try
                         {
@@ -841,9 +819,321 @@ namespace SimplyU
                                     {
                                         lg += "\r\ndev_grab: hb_fail--ios";
                                         lgs = "1";
-                                        Properties.Settings.Default.Save();
                                     }
                                 }
+                                if (Properties.Settings.Default.inst_beetle == "1")
+                                {
+                                    prg_2.Value = 0;
+
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/mednafen_wswan_libretro.zip", cd + "\\Common\\Downloading\\beetle.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\beetle.zip"))
+                                        {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
+                                        }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_tyrquake == "1")
+                                {
+                                    prg_2.Value = 0;
+
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/tyrquake_libretro.zip", cd + "\\Common\\Downloading\\tyrquake.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\tyrquake.zip"))
+                                        {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
+                                        }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_fb_neo == "1")
+                                {
+                                    prg_2.Value = 0;
+
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/fbalpha2012_neogeo_libretro.zip", cd + "\\Common\\Downloading\\fb_neo.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\fb_neo.zip"))
+                                        {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
+                                        }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_beetle_pcef == "1")
+                                {
+                                    prg_2.Value = 0;
+
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/fbalpha2012_neogeo_libretro.zip", cd + "\\Common\\Downloading\\beetle_pce.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\beetle_pce.zip"))
+                                        {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
+                                        }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_loadiine_y == "1")
+                                {
+                                    prg_2.Value = 0;
+
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/loadiine_gx2_y.zip", cd + "\\Common\\Downloading\\loadiine_y.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\loadiine_y.zip"))
+                                        {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
+                                        }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_loadiine == "1")
+                                {
+                                    prg_2.Value = 0;
+
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/loadiine_gx2.zip", cd + "\\Common\\Downloading\\loadiine.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\loadiine.zip"))
+                                        {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
+                                        }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_retro == "1")
+                                {
+                                }
+
+                                if (Properties.Settings.Default.inst_hbl_dark == "1")
+                                {
+                                    prg_2.Value = 0;
+
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/hbl_dark.zip", cd + "\\Common\\Downloading\\hbl_dark.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\hbl_dark.zip"))
+                                        {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
+                                        }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+                                if (Properties.Settings.Default.inst_hbl == "1")
+                                {
+                                    prg_2.Value = 0;
+
+                                    get_hb.DownloadFile("http://wiiubru.com/appstore/zips/homebrew_launcher.zip", cd + "\\Common\\Downloading\\hbl.zip");
+                                    prg_2.Value = 100;
+                                    try
+                                    {
+                                        ZipFile zip = new ZipFile();
+
+                                        String TargetDirectory = sd + "\\wiiu";
+                                        using (ZipFile zp = ZipFile.Read(cd + "\\Common\\Downloading\\hbl.zip"))
+                                        {
+                                            zp.ExtractExistingFile = ExtractExistingFileAction.OverwriteSilently;
+                                            zp.ExtractAll(TargetDirectory);
+                                        }
+                                    }
+                                    catch
+                                    {
+                                    }
+                                }
+
+                                //if (Properties.Settings.Default.inst_fba == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_gamebatte == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_beetle_neo == "1")
+
+                                //{
+                                //}
+                                //if (Properties.Settings.Default.inst_prboom == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_lynx == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_snes9x_2010 == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_fb_cps3 == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_nxe == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_beetle_neo == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_beetle_sgx == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_fb_cps2 == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_snes9x == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_nestopia == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_mame == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_genisis == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_beetlevb == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_psx == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_quicknes == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_mame2003 == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_fceumm == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_fuse == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_sigpat_sysmenu == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_aoc == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_haxchi == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_cbhc == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_fsdumper == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_tik2sd == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_padcon == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_otp2sd == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_wuphax == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_sigpat_hbl == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_seeprom == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_wudumper == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_ftpiu_every == "1")
+                                //{
+                                //}
+
+                                //if (Properties.Settings.Default.inst_ft2sd == "1")
+                                //{
+                                //}
+                                Properties.Settings.Default.Save();
                             }
                         }
                     }

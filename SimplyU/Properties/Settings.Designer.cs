@@ -638,5 +638,533 @@ namespace SimplyU.Properties {
                 this["dev_rednand_fw"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_hbl {
+            get {
+                return ((string)(this["inst_hbl"]));
+            }
+            set {
+                this["inst_hbl"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_hbl_dark {
+            get {
+                return ((string)(this["inst_hbl_dark"]));
+            }
+            set {
+                this["inst_hbl_dark"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_retro {
+            get {
+                return ((string)(this["inst_retro"]));
+            }
+            set {
+                this["inst_retro"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_loadiine {
+            get {
+                return ((string)(this["inst_loadiine"]));
+            }
+            set {
+                this["inst_loadiine"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_loadiine_y {
+            get {
+                return ((string)(this["inst_loadiine_y"]));
+            }
+            set {
+                this["inst_loadiine_y"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_ft2sd {
+            get {
+                return ((string)(this["inst_ft2sd"]));
+            }
+            set {
+                this["inst_ft2sd"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_ftpiu_every {
+            get {
+                return ((string)(this["inst_ftpiu_every"]));
+            }
+            set {
+                this["inst_ftpiu_every"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_wudumper {
+            get {
+                return ((string)(this["inst_wudumper"]));
+            }
+            set {
+                this["inst_wudumper"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_seeprom {
+            get {
+                return ((string)(this["inst_seeprom"]));
+            }
+            set {
+                this["inst_seeprom"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_sigpat_hbl {
+            get {
+                return ((string)(this["inst_sigpat_hbl"]));
+            }
+            set {
+                this["inst_sigpat_hbl"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_wuphax {
+            get {
+                return ((string)(this["inst_wuphax"]));
+            }
+            set {
+                this["inst_wuphax"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_otp2sd {
+            get {
+                return ((string)(this["inst_otp2sd"]));
+            }
+            set {
+                this["inst_otp2sd"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_padcon {
+            get {
+                return ((string)(this["inst_padcon"]));
+            }
+            set {
+                this["inst_padcon"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_tik2sd {
+            get {
+                return ((string)(this["inst_tik2sd"]));
+            }
+            set {
+                this["inst_tik2sd"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_fsdumper {
+            get {
+                return ((string)(this["inst_fsdumper"]));
+            }
+            set {
+                this["inst_fsdumper"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_cbhc {
+            get {
+                return ((string)(this["inst_cbhc"]));
+            }
+            set {
+                this["inst_cbhc"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_haxchi {
+            get {
+                return ((string)(this["inst_haxchi"]));
+            }
+            set {
+                this["inst_haxchi"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_aoc {
+            get {
+                return ((string)(this["inst_aoc"]));
+            }
+            set {
+                this["inst_aoc"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_sigpat_sysmenu {
+            get {
+                return ((string)(this["inst_sigpat_sysmenu"]));
+            }
+            set {
+                this["inst_sigpat_sysmenu"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_fuse {
+            get {
+                return ((string)(this["inst_fuse"]));
+            }
+            set {
+                this["inst_fuse"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_fceumm {
+            get {
+                return ((string)(this["inst_fceumm"]));
+            }
+            set {
+                this["inst_fceumm"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_mame2003 {
+            get {
+                return ((string)(this["inst_mame2003"]));
+            }
+            set {
+                this["inst_mame2003"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_quicknes {
+            get {
+                return ((string)(this["inst_quicknes"]));
+            }
+            set {
+                this["inst_quicknes"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_psx {
+            get {
+                return ((string)(this["inst_psx"]));
+            }
+            set {
+                this["inst_psx"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_beetlevb {
+            get {
+                return ((string)(this["inst_beetlevb"]));
+            }
+            set {
+                this["inst_beetlevb"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_genisis {
+            get {
+                return ((string)(this["inst_genisis"]));
+            }
+            set {
+                this["inst_genisis"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_mame {
+            get {
+                return ((string)(this["inst_mame"]));
+            }
+            set {
+                this["inst_mame"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_nestopia {
+            get {
+                return ((string)(this["inst_nestopia"]));
+            }
+            set {
+                this["inst_nestopia"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_snes9x {
+            get {
+                return ((string)(this["inst_snes9x"]));
+            }
+            set {
+                this["inst_snes9x"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_fb_cps2 {
+            get {
+                return ((string)(this["inst_fb_cps2"]));
+            }
+            set {
+                this["inst_fb_cps2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_beetle_sgx {
+            get {
+                return ((string)(this["inst_beetle_sgx"]));
+            }
+            set {
+                this["inst_beetle_sgx"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_beetle_neo {
+            get {
+                return ((string)(this["inst_beetle_neo"]));
+            }
+            set {
+                this["inst_beetle_neo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_nxe {
+            get {
+                return ((string)(this["inst_nxe"]));
+            }
+            set {
+                this["inst_nxe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_fb_cps3 {
+            get {
+                return ((string)(this["inst_fb_cps3"]));
+            }
+            set {
+                this["inst_fb_cps3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_snes9x_2010 {
+            get {
+                return ((string)(this["inst_snes9x_2010"]));
+            }
+            set {
+                this["inst_snes9x_2010"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_lynx {
+            get {
+                return ((string)(this["inst_lynx"]));
+            }
+            set {
+                this["inst_lynx"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_prboom {
+            get {
+                return ((string)(this["inst_prboom"]));
+            }
+            set {
+                this["inst_prboom"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_fb_cps1 {
+            get {
+                return ((string)(this["inst_fb_cps1"]));
+            }
+            set {
+                this["inst_fb_cps1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_gamebatte {
+            get {
+                return ((string)(this["inst_gamebatte"]));
+            }
+            set {
+                this["inst_gamebatte"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_fba {
+            get {
+                return ((string)(this["inst_fba"]));
+            }
+            set {
+                this["inst_fba"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_beetle_pcef {
+            get {
+                return ((string)(this["inst_beetle_pcef"]));
+            }
+            set {
+                this["inst_beetle_pcef"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_fb_neo {
+            get {
+                return ((string)(this["inst_fb_neo"]));
+            }
+            set {
+                this["inst_fb_neo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_tyrquake {
+            get {
+                return ((string)(this["inst_tyrquake"]));
+            }
+            set {
+                this["inst_tyrquake"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string inst_beetle {
+            get {
+                return ((string)(this["inst_beetle"]));
+            }
+            set {
+                this["inst_beetle"] = value;
+            }
+        }
     }
 }

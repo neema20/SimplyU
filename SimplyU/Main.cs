@@ -125,6 +125,88 @@ namespace SimplyU
                 Properties.Settings.Default.dev_theme = "Default";
             }
 
+            Properties.Settings.Default.inst_fba = "0";
+
+            Properties.Settings.Default.inst_gamebatte = "0";
+
+            Properties.Settings.Default.inst_beetle_neo = "0";
+
+            Properties.Settings.Default.inst_prboom = "0";
+
+            Properties.Settings.Default.inst_lynx = "0";
+
+            Properties.Settings.Default.inst_snes9x_2010 = "0";
+
+            Properties.Settings.Default.inst_fb_cps3 = "0";
+
+            Properties.Settings.Default.inst_nxe = "0";
+
+            Properties.Settings.Default.inst_beetle_neo = "0";
+
+            Properties.Settings.Default.inst_beetle_sgx = "0";
+
+            Properties.Settings.Default.inst_fb_cps2 = "0";
+
+            Properties.Settings.Default.inst_snes9x = "0";
+
+            Properties.Settings.Default.inst_tyrquake = "0";
+
+            Properties.Settings.Default.inst_nestopia = "0";
+
+            Properties.Settings.Default.inst_mame = "0";
+
+            Properties.Settings.Default.inst_genisis = "0";
+
+            Properties.Settings.Default.inst_beetlevb = "0";
+
+            Properties.Settings.Default.inst_psx = "0";
+
+            Properties.Settings.Default.inst_quicknes = "0";
+
+            Properties.Settings.Default.inst_mame2003 = "0";
+
+            Properties.Settings.Default.inst_fceumm = "0";
+
+            Properties.Settings.Default.inst_fuse = "0";
+
+            Properties.Settings.Default.inst_sigpat_sysmenu = "0";
+
+            Properties.Settings.Default.inst_aoc = "0";
+
+            Properties.Settings.Default.inst_haxchi = "0";
+
+            Properties.Settings.Default.inst_cbhc = "0";
+
+            Properties.Settings.Default.inst_fsdumper = "0";
+
+            Properties.Settings.Default.inst_tik2sd = "0";
+
+            Properties.Settings.Default.inst_padcon = "0";
+
+            Properties.Settings.Default.inst_otp2sd = "0";
+
+            Properties.Settings.Default.inst_wuphax = "0";
+
+            Properties.Settings.Default.inst_sigpat_hbl = "0";
+
+            Properties.Settings.Default.inst_seeprom = "0";
+
+            Properties.Settings.Default.inst_wudumper = "0";
+
+            Properties.Settings.Default.inst_ftpiu_every = "0";
+
+            Properties.Settings.Default.inst_ft2sd = "0";
+
+            Properties.Settings.Default.inst_loadiine_y = "0";
+
+            Properties.Settings.Default.inst_loadiine = "0";
+
+            Properties.Settings.Default.inst_retro = "0";
+
+            Properties.Settings.Default.inst_hbl_dark = "0";
+
+            Properties.Settings.Default.inst_hbl = "0";
+
             Properties.Settings.Default.dev_rednand = "";
 
             Properties.Settings.Default.dev_rednand_sd = "";
@@ -138,8 +220,6 @@ namespace SimplyU
             Properties.Settings.Default.dev_bck_music = "0";
 
             Properties.Settings.Default.dev_self_host = "0";
-
-            Properties.Settings.Default.sd_form = "0";
 
             Properties.Settings.Default.inst_ios = "0";
 

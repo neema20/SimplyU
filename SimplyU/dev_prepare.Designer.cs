@@ -40,7 +40,7 @@
             this.btn_target = new MaterialSkin.Controls.MaterialFlatButton();
             this.dev_target_timer = new System.Windows.Forms.Timer(this.components);
             this.lbl_your_hb = new MaterialSkin.Controls.MaterialLabel();
-            this.rd_ddd = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_ddd = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_sd_caf = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_sav = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_ftp = new MaterialSkin.Controls.MaterialCheckBox();
@@ -58,7 +58,7 @@
             this.drive = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.allocation = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.rd_ios = new MaterialSkin.Controls.MaterialCheckBox();
-            this.rd_our_loader = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_our = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_app_dark = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_poke = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_hid_key = new MaterialSkin.Controls.MaterialCheckBox();
@@ -90,27 +90,27 @@
             this.chck_fba = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_gen_pl_gx = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_btpce = new MaterialSkin.Controls.MaterialCheckBox();
-            this.chck_gba_neo = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_fba_neo = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_mame_2003 = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_tyrquake = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_nestopia = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_bt = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_snes9x = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_fb_alpha_2012_cps2 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox26 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox27 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox28 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox29 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox30 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox31 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox32 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox33 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox34 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox35 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox36 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox37 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox38 = new MaterialSkin.Controls.MaterialCheckBox();
-            this.materialCheckBox39 = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_ft2sd = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_sigpat_systmenu = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_wudumper = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_wuphax = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_seeprom = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_sigpat_hbl = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_aoc = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_haxchi = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_cbhc = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_fsdumper = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_tik2sd = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_padcon = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_otp2sd = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_ftpiue = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_ast = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_pong = new MaterialSkin.Controls.MaterialCheckBox();
             this.rd_gacu = new MaterialSkin.Controls.MaterialCheckBox();
@@ -124,6 +124,7 @@
             this.lbl_loaders = new MaterialSkin.Controls.MaterialLabel();
             this.pnl_sep1 = new System.Windows.Forms.Panel();
             this.pnl_sep2 = new System.Windows.Forms.Panel();
+            this.materialCheckBox1 = new MaterialSkin.Controls.MaterialCheckBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pnl_sep3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -132,6 +133,10 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pic_splash = new System.Windows.Forms.PictureBox();
+            this.chck_loadiine = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_hbl = new MaterialSkin.Controls.MaterialCheckBox();
+            this.chck_hbl_dark = new MaterialSkin.Controls.MaterialCheckBox();
+            this.lbl_format_warn = new System.Windows.Forms.Label();
             this.pnl_sep2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
@@ -139,14 +144,13 @@
             // chck_rec
             // 
             resources.ApplyResources(this.chck_rec, "chck_rec");
-            this.chck_rec.Checked = true;
-            this.chck_rec.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chck_rec.Depth = 0;
             this.chck_rec.MouseLocation = new System.Drawing.Point(-1, -1);
             this.chck_rec.MouseState = MaterialSkin.MouseState.HOVER;
             this.chck_rec.Name = "chck_rec";
             this.chck_rec.Ripple = true;
             this.chck_rec.UseVisualStyleBackColor = true;
+            this.chck_rec.CheckStateChanged += new System.EventHandler(this.chck_rec_CheckStateChanged);
             // 
             // chck_self
             // 
@@ -187,7 +191,7 @@
             // 
             resources.ApplyResources(this.txt_target, "txt_target");
             this.txt_target.Depth = 0;
-            this.txt_target.Hint = "Target Folder";
+            this.txt_target.Hint = "Target Drive";
             this.txt_target.MaxLength = 32767;
             this.txt_target.MouseState = MaterialSkin.MouseState.HOVER;
             this.txt_target.Name = "txt_target";
@@ -222,16 +226,16 @@
             this.lbl_your_hb.Name = "lbl_your_hb";
             this.lbl_your_hb.UseMnemonic = false;
             // 
-            // rd_ddd
+            // chck_ddd
             // 
-            resources.ApplyResources(this.rd_ddd, "rd_ddd");
-            this.rd_ddd.Depth = 0;
-            this.rd_ddd.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.rd_ddd.MouseState = MaterialSkin.MouseState.HOVER;
-            this.rd_ddd.Name = "rd_ddd";
-            this.rd_ddd.Ripple = true;
-            this.rd_ddd.UseMnemonic = false;
-            this.rd_ddd.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_ddd, "chck_ddd");
+            this.chck_ddd.Depth = 0;
+            this.chck_ddd.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_ddd.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_ddd.Name = "chck_ddd";
+            this.chck_ddd.Ripple = true;
+            this.chck_ddd.UseMnemonic = false;
+            this.chck_ddd.UseVisualStyleBackColor = true;
             // 
             // rd_sd_caf
             // 
@@ -421,16 +425,16 @@
             this.rd_ios.UseMnemonic = false;
             this.rd_ios.UseVisualStyleBackColor = true;
             // 
-            // rd_our_loader
+            // chck_our
             // 
-            resources.ApplyResources(this.rd_our_loader, "rd_our_loader");
-            this.rd_our_loader.Depth = 0;
-            this.rd_our_loader.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.rd_our_loader.MouseState = MaterialSkin.MouseState.HOVER;
-            this.rd_our_loader.Name = "rd_our_loader";
-            this.rd_our_loader.Ripple = true;
-            this.rd_our_loader.UseMnemonic = false;
-            this.rd_our_loader.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_our, "chck_our");
+            this.chck_our.Depth = 0;
+            this.chck_our.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_our.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_our.Name = "chck_our";
+            this.chck_our.Ripple = true;
+            this.chck_our.UseMnemonic = false;
+            this.chck_our.UseVisualStyleBackColor = true;
             // 
             // rd_app_dark
             // 
@@ -755,16 +759,16 @@
             this.chck_btpce.UseMnemonic = false;
             this.chck_btpce.UseVisualStyleBackColor = true;
             // 
-            // chck_gba_neo
+            // chck_fba_neo
             // 
-            resources.ApplyResources(this.chck_gba_neo, "chck_gba_neo");
-            this.chck_gba_neo.Depth = 0;
-            this.chck_gba_neo.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chck_gba_neo.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chck_gba_neo.Name = "chck_gba_neo";
-            this.chck_gba_neo.Ripple = true;
-            this.chck_gba_neo.UseMnemonic = false;
-            this.chck_gba_neo.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_fba_neo, "chck_fba_neo");
+            this.chck_fba_neo.Depth = 0;
+            this.chck_fba_neo.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_fba_neo.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_fba_neo.Name = "chck_fba_neo";
+            this.chck_fba_neo.Ripple = true;
+            this.chck_fba_neo.UseMnemonic = false;
+            this.chck_fba_neo.UseVisualStyleBackColor = true;
             // 
             // chck_mame_2003
             // 
@@ -832,159 +836,159 @@
             this.chck_fb_alpha_2012_cps2.UseMnemonic = false;
             this.chck_fb_alpha_2012_cps2.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox26
+            // chck_ft2sd
             // 
-            resources.ApplyResources(this.materialCheckBox26, "materialCheckBox26");
-            this.materialCheckBox26.Depth = 0;
-            this.materialCheckBox26.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox26.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox26.Name = "materialCheckBox26";
-            this.materialCheckBox26.Ripple = true;
-            this.materialCheckBox26.UseMnemonic = false;
-            this.materialCheckBox26.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_ft2sd, "chck_ft2sd");
+            this.chck_ft2sd.Depth = 0;
+            this.chck_ft2sd.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_ft2sd.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_ft2sd.Name = "chck_ft2sd";
+            this.chck_ft2sd.Ripple = true;
+            this.chck_ft2sd.UseMnemonic = false;
+            this.chck_ft2sd.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox27
+            // chck_sigpat_systmenu
             // 
-            resources.ApplyResources(this.materialCheckBox27, "materialCheckBox27");
-            this.materialCheckBox27.Depth = 0;
-            this.materialCheckBox27.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox27.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox27.Name = "materialCheckBox27";
-            this.materialCheckBox27.Ripple = true;
-            this.materialCheckBox27.UseMnemonic = false;
-            this.materialCheckBox27.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_sigpat_systmenu, "chck_sigpat_systmenu");
+            this.chck_sigpat_systmenu.Depth = 0;
+            this.chck_sigpat_systmenu.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_sigpat_systmenu.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_sigpat_systmenu.Name = "chck_sigpat_systmenu";
+            this.chck_sigpat_systmenu.Ripple = true;
+            this.chck_sigpat_systmenu.UseMnemonic = false;
+            this.chck_sigpat_systmenu.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox28
+            // chck_wudumper
             // 
-            resources.ApplyResources(this.materialCheckBox28, "materialCheckBox28");
-            this.materialCheckBox28.Depth = 0;
-            this.materialCheckBox28.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox28.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox28.Name = "materialCheckBox28";
-            this.materialCheckBox28.Ripple = true;
-            this.materialCheckBox28.UseMnemonic = false;
-            this.materialCheckBox28.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_wudumper, "chck_wudumper");
+            this.chck_wudumper.Depth = 0;
+            this.chck_wudumper.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_wudumper.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_wudumper.Name = "chck_wudumper";
+            this.chck_wudumper.Ripple = true;
+            this.chck_wudumper.UseMnemonic = false;
+            this.chck_wudumper.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox29
+            // chck_wuphax
             // 
-            resources.ApplyResources(this.materialCheckBox29, "materialCheckBox29");
-            this.materialCheckBox29.Depth = 0;
-            this.materialCheckBox29.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox29.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox29.Name = "materialCheckBox29";
-            this.materialCheckBox29.Ripple = true;
-            this.materialCheckBox29.UseMnemonic = false;
-            this.materialCheckBox29.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_wuphax, "chck_wuphax");
+            this.chck_wuphax.Depth = 0;
+            this.chck_wuphax.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_wuphax.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_wuphax.Name = "chck_wuphax";
+            this.chck_wuphax.Ripple = true;
+            this.chck_wuphax.UseMnemonic = false;
+            this.chck_wuphax.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox30
+            // chck_seeprom
             // 
-            resources.ApplyResources(this.materialCheckBox30, "materialCheckBox30");
-            this.materialCheckBox30.Depth = 0;
-            this.materialCheckBox30.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox30.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox30.Name = "materialCheckBox30";
-            this.materialCheckBox30.Ripple = true;
-            this.materialCheckBox30.UseMnemonic = false;
-            this.materialCheckBox30.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_seeprom, "chck_seeprom");
+            this.chck_seeprom.Depth = 0;
+            this.chck_seeprom.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_seeprom.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_seeprom.Name = "chck_seeprom";
+            this.chck_seeprom.Ripple = true;
+            this.chck_seeprom.UseMnemonic = false;
+            this.chck_seeprom.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox31
+            // chck_sigpat_hbl
             // 
-            resources.ApplyResources(this.materialCheckBox31, "materialCheckBox31");
-            this.materialCheckBox31.Depth = 0;
-            this.materialCheckBox31.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox31.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox31.Name = "materialCheckBox31";
-            this.materialCheckBox31.Ripple = true;
-            this.materialCheckBox31.UseMnemonic = false;
-            this.materialCheckBox31.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_sigpat_hbl, "chck_sigpat_hbl");
+            this.chck_sigpat_hbl.Depth = 0;
+            this.chck_sigpat_hbl.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_sigpat_hbl.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_sigpat_hbl.Name = "chck_sigpat_hbl";
+            this.chck_sigpat_hbl.Ripple = true;
+            this.chck_sigpat_hbl.UseMnemonic = false;
+            this.chck_sigpat_hbl.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox32
+            // chck_aoc
             // 
-            resources.ApplyResources(this.materialCheckBox32, "materialCheckBox32");
-            this.materialCheckBox32.Depth = 0;
-            this.materialCheckBox32.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox32.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox32.Name = "materialCheckBox32";
-            this.materialCheckBox32.Ripple = true;
-            this.materialCheckBox32.UseMnemonic = false;
-            this.materialCheckBox32.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_aoc, "chck_aoc");
+            this.chck_aoc.Depth = 0;
+            this.chck_aoc.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_aoc.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_aoc.Name = "chck_aoc";
+            this.chck_aoc.Ripple = true;
+            this.chck_aoc.UseMnemonic = false;
+            this.chck_aoc.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox33
+            // chck_haxchi
             // 
-            resources.ApplyResources(this.materialCheckBox33, "materialCheckBox33");
-            this.materialCheckBox33.Depth = 0;
-            this.materialCheckBox33.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox33.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox33.Name = "materialCheckBox33";
-            this.materialCheckBox33.Ripple = true;
-            this.materialCheckBox33.UseMnemonic = false;
-            this.materialCheckBox33.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_haxchi, "chck_haxchi");
+            this.chck_haxchi.Depth = 0;
+            this.chck_haxchi.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_haxchi.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_haxchi.Name = "chck_haxchi";
+            this.chck_haxchi.Ripple = true;
+            this.chck_haxchi.UseMnemonic = false;
+            this.chck_haxchi.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox34
+            // chck_cbhc
             // 
-            resources.ApplyResources(this.materialCheckBox34, "materialCheckBox34");
-            this.materialCheckBox34.Depth = 0;
-            this.materialCheckBox34.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox34.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox34.Name = "materialCheckBox34";
-            this.materialCheckBox34.Ripple = true;
-            this.materialCheckBox34.UseMnemonic = false;
-            this.materialCheckBox34.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_cbhc, "chck_cbhc");
+            this.chck_cbhc.Depth = 0;
+            this.chck_cbhc.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_cbhc.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_cbhc.Name = "chck_cbhc";
+            this.chck_cbhc.Ripple = true;
+            this.chck_cbhc.UseMnemonic = false;
+            this.chck_cbhc.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox35
+            // chck_fsdumper
             // 
-            resources.ApplyResources(this.materialCheckBox35, "materialCheckBox35");
-            this.materialCheckBox35.Depth = 0;
-            this.materialCheckBox35.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox35.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox35.Name = "materialCheckBox35";
-            this.materialCheckBox35.Ripple = true;
-            this.materialCheckBox35.UseMnemonic = false;
-            this.materialCheckBox35.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_fsdumper, "chck_fsdumper");
+            this.chck_fsdumper.Depth = 0;
+            this.chck_fsdumper.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_fsdumper.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_fsdumper.Name = "chck_fsdumper";
+            this.chck_fsdumper.Ripple = true;
+            this.chck_fsdumper.UseMnemonic = false;
+            this.chck_fsdumper.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox36
+            // chck_tik2sd
             // 
-            resources.ApplyResources(this.materialCheckBox36, "materialCheckBox36");
-            this.materialCheckBox36.Depth = 0;
-            this.materialCheckBox36.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox36.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox36.Name = "materialCheckBox36";
-            this.materialCheckBox36.Ripple = true;
-            this.materialCheckBox36.UseMnemonic = false;
-            this.materialCheckBox36.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_tik2sd, "chck_tik2sd");
+            this.chck_tik2sd.Depth = 0;
+            this.chck_tik2sd.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_tik2sd.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_tik2sd.Name = "chck_tik2sd";
+            this.chck_tik2sd.Ripple = true;
+            this.chck_tik2sd.UseMnemonic = false;
+            this.chck_tik2sd.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox37
+            // chck_padcon
             // 
-            resources.ApplyResources(this.materialCheckBox37, "materialCheckBox37");
-            this.materialCheckBox37.Depth = 0;
-            this.materialCheckBox37.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox37.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox37.Name = "materialCheckBox37";
-            this.materialCheckBox37.Ripple = true;
-            this.materialCheckBox37.UseMnemonic = false;
-            this.materialCheckBox37.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_padcon, "chck_padcon");
+            this.chck_padcon.Depth = 0;
+            this.chck_padcon.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_padcon.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_padcon.Name = "chck_padcon";
+            this.chck_padcon.Ripple = true;
+            this.chck_padcon.UseMnemonic = false;
+            this.chck_padcon.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox38
+            // chck_otp2sd
             // 
-            resources.ApplyResources(this.materialCheckBox38, "materialCheckBox38");
-            this.materialCheckBox38.Depth = 0;
-            this.materialCheckBox38.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox38.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox38.Name = "materialCheckBox38";
-            this.materialCheckBox38.Ripple = true;
-            this.materialCheckBox38.UseMnemonic = false;
-            this.materialCheckBox38.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_otp2sd, "chck_otp2sd");
+            this.chck_otp2sd.Depth = 0;
+            this.chck_otp2sd.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_otp2sd.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_otp2sd.Name = "chck_otp2sd";
+            this.chck_otp2sd.Ripple = true;
+            this.chck_otp2sd.UseMnemonic = false;
+            this.chck_otp2sd.UseVisualStyleBackColor = true;
             // 
-            // materialCheckBox39
+            // chck_ftpiue
             // 
-            resources.ApplyResources(this.materialCheckBox39, "materialCheckBox39");
-            this.materialCheckBox39.Depth = 0;
-            this.materialCheckBox39.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckBox39.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckBox39.Name = "materialCheckBox39";
-            this.materialCheckBox39.Ripple = true;
-            this.materialCheckBox39.UseMnemonic = false;
-            this.materialCheckBox39.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.chck_ftpiue, "chck_ftpiue");
+            this.chck_ftpiue.Depth = 0;
+            this.chck_ftpiue.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_ftpiue.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_ftpiue.Name = "chck_ftpiue";
+            this.chck_ftpiue.Ripple = true;
+            this.chck_ftpiue.UseMnemonic = false;
+            this.chck_ftpiue.UseVisualStyleBackColor = true;
             // 
             // rd_ast
             // 
@@ -1113,8 +1117,20 @@
             // 
             resources.ApplyResources(this.pnl_sep2, "pnl_sep2");
             this.pnl_sep2.BackColor = System.Drawing.Color.Gainsboro;
+            this.pnl_sep2.Controls.Add(this.materialCheckBox1);
             this.pnl_sep2.Controls.Add(this.panel2);
             this.pnl_sep2.Name = "pnl_sep2";
+            // 
+            // materialCheckBox1
+            // 
+            resources.ApplyResources(this.materialCheckBox1, "materialCheckBox1");
+            this.materialCheckBox1.Depth = 0;
+            this.materialCheckBox1.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckBox1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckBox1.Name = "materialCheckBox1";
+            this.materialCheckBox1.Ripple = true;
+            this.materialCheckBox1.UseMnemonic = false;
+            this.materialCheckBox1.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
@@ -1166,12 +1182,55 @@
             this.pic_splash.Name = "pic_splash";
             this.pic_splash.TabStop = false;
             // 
+            // chck_loadiine
+            // 
+            resources.ApplyResources(this.chck_loadiine, "chck_loadiine");
+            this.chck_loadiine.Depth = 0;
+            this.chck_loadiine.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_loadiine.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_loadiine.Name = "chck_loadiine";
+            this.chck_loadiine.Ripple = true;
+            this.chck_loadiine.UseMnemonic = false;
+            this.chck_loadiine.UseVisualStyleBackColor = true;
+            // 
+            // chck_hbl
+            // 
+            resources.ApplyResources(this.chck_hbl, "chck_hbl");
+            this.chck_hbl.Depth = 0;
+            this.chck_hbl.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_hbl.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_hbl.Name = "chck_hbl";
+            this.chck_hbl.Ripple = true;
+            this.chck_hbl.UseMnemonic = false;
+            this.chck_hbl.UseVisualStyleBackColor = true;
+            // 
+            // chck_hbl_dark
+            // 
+            resources.ApplyResources(this.chck_hbl_dark, "chck_hbl_dark");
+            this.chck_hbl_dark.Depth = 0;
+            this.chck_hbl_dark.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.chck_hbl_dark.MouseState = MaterialSkin.MouseState.HOVER;
+            this.chck_hbl_dark.Name = "chck_hbl_dark";
+            this.chck_hbl_dark.Ripple = true;
+            this.chck_hbl_dark.UseMnemonic = false;
+            this.chck_hbl_dark.UseVisualStyleBackColor = true;
+            // 
+            // lbl_format_warn
+            // 
+            resources.ApplyResources(this.lbl_format_warn, "lbl_format_warn");
+            this.lbl_format_warn.ForeColor = System.Drawing.Color.DarkGray;
+            this.lbl_format_warn.Name = "lbl_format_warn";
+            // 
             // dev_prepare
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.lbl_format_warn);
+            this.Controls.Add(this.chck_hbl_dark);
+            this.Controls.Add(this.chck_hbl);
+            this.Controls.Add(this.chck_loadiine);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
@@ -1197,26 +1256,26 @@
             this.Controls.Add(this.lbl_1);
             this.Controls.Add(this.chck_self);
             this.Controls.Add(this.chck_rec);
-            this.Controls.Add(this.materialCheckBox36);
-            this.Controls.Add(this.materialCheckBox37);
-            this.Controls.Add(this.materialCheckBox38);
-            this.Controls.Add(this.materialCheckBox39);
-            this.Controls.Add(this.materialCheckBox32);
-            this.Controls.Add(this.materialCheckBox33);
-            this.Controls.Add(this.materialCheckBox34);
-            this.Controls.Add(this.materialCheckBox35);
-            this.Controls.Add(this.materialCheckBox31);
-            this.Controls.Add(this.materialCheckBox28);
-            this.Controls.Add(this.materialCheckBox29);
-            this.Controls.Add(this.materialCheckBox30);
-            this.Controls.Add(this.materialCheckBox27);
-            this.Controls.Add(this.materialCheckBox26);
+            this.Controls.Add(this.chck_tik2sd);
+            this.Controls.Add(this.chck_padcon);
+            this.Controls.Add(this.chck_otp2sd);
+            this.Controls.Add(this.chck_ftpiue);
+            this.Controls.Add(this.chck_aoc);
+            this.Controls.Add(this.chck_haxchi);
+            this.Controls.Add(this.chck_cbhc);
+            this.Controls.Add(this.chck_fsdumper);
+            this.Controls.Add(this.chck_sigpat_hbl);
+            this.Controls.Add(this.chck_wudumper);
+            this.Controls.Add(this.chck_wuphax);
+            this.Controls.Add(this.chck_seeprom);
+            this.Controls.Add(this.chck_sigpat_systmenu);
+            this.Controls.Add(this.chck_ft2sd);
             this.Controls.Add(this.chck_fb_alpha_2012_cps2);
             this.Controls.Add(this.chck_bt);
             this.Controls.Add(this.chck_snes9x);
             this.Controls.Add(this.chck_tyrquake);
             this.Controls.Add(this.chck_nestopia);
-            this.Controls.Add(this.chck_gba_neo);
+            this.Controls.Add(this.chck_fba_neo);
             this.Controls.Add(this.chck_mame_2003);
             this.Controls.Add(this.chck_btpce);
             this.Controls.Add(this.chck_gen_pl_gx);
@@ -1246,7 +1305,7 @@
             this.Controls.Add(this.rd_hid_key);
             this.Controls.Add(this.rd_poke);
             this.Controls.Add(this.rd_app_dark);
-            this.Controls.Add(this.rd_our_loader);
+            this.Controls.Add(this.chck_our);
             this.Controls.Add(this.rd_space);
             this.Controls.Add(this.rd_wup);
             this.Controls.Add(this.rd_wiiu_key);
@@ -1269,7 +1328,7 @@
             this.Controls.Add(this.rd_ftp);
             this.Controls.Add(this.rd_sav);
             this.Controls.Add(this.rd_sd_caf);
-            this.Controls.Add(this.rd_ddd);
+            this.Controls.Add(this.chck_ddd);
             this.Controls.Add(this.pic_splash);
             this.MaximizeBox = false;
             this.Name = "dev_prepare";
@@ -1294,7 +1353,7 @@
         private MaterialSkin.Controls.MaterialFlatButton btn_target;
         private System.Windows.Forms.Timer dev_target_timer;
         private MaterialSkin.Controls.MaterialLabel lbl_your_hb;
-        private MaterialSkin.Controls.MaterialCheckBox rd_ddd;
+        private MaterialSkin.Controls.MaterialCheckBox chck_ddd;
         private MaterialSkin.Controls.MaterialCheckBox rd_sd_caf;
         private MaterialSkin.Controls.MaterialCheckBox rd_sav;
         private MaterialSkin.Controls.MaterialCheckBox rd_ftp;
@@ -1312,7 +1371,7 @@
         private MaterialSkin.Controls.MaterialSingleLineTextField drive;
         private MaterialSkin.Controls.MaterialSingleLineTextField allocation;
         private MaterialSkin.Controls.MaterialCheckBox rd_ios;
-        private MaterialSkin.Controls.MaterialCheckBox rd_our_loader;
+        private MaterialSkin.Controls.MaterialCheckBox chck_our;
         private MaterialSkin.Controls.MaterialCheckBox rd_app_dark;
         private MaterialSkin.Controls.MaterialCheckBox rd_poke;
         private MaterialSkin.Controls.MaterialCheckBox rd_hid_key;
@@ -1344,27 +1403,27 @@
         private MaterialSkin.Controls.MaterialCheckBox chck_fba;
         private MaterialSkin.Controls.MaterialCheckBox chck_gen_pl_gx;
         private MaterialSkin.Controls.MaterialCheckBox chck_btpce;
-        private MaterialSkin.Controls.MaterialCheckBox chck_gba_neo;
+        private MaterialSkin.Controls.MaterialCheckBox chck_fba_neo;
         private MaterialSkin.Controls.MaterialCheckBox chck_mame_2003;
         private MaterialSkin.Controls.MaterialCheckBox chck_tyrquake;
         private MaterialSkin.Controls.MaterialCheckBox chck_nestopia;
         private MaterialSkin.Controls.MaterialCheckBox chck_bt;
         private MaterialSkin.Controls.MaterialCheckBox chck_snes9x;
         private MaterialSkin.Controls.MaterialCheckBox chck_fb_alpha_2012_cps2;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox26;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox27;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox28;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox29;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox30;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox31;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox32;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox33;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox34;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox35;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox36;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox37;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox38;
-        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox39;
+        private MaterialSkin.Controls.MaterialCheckBox chck_ft2sd;
+        private MaterialSkin.Controls.MaterialCheckBox chck_sigpat_systmenu;
+        private MaterialSkin.Controls.MaterialCheckBox chck_wudumper;
+        private MaterialSkin.Controls.MaterialCheckBox chck_wuphax;
+        private MaterialSkin.Controls.MaterialCheckBox chck_seeprom;
+        private MaterialSkin.Controls.MaterialCheckBox chck_sigpat_hbl;
+        private MaterialSkin.Controls.MaterialCheckBox chck_aoc;
+        private MaterialSkin.Controls.MaterialCheckBox chck_haxchi;
+        private MaterialSkin.Controls.MaterialCheckBox chck_cbhc;
+        private MaterialSkin.Controls.MaterialCheckBox chck_fsdumper;
+        private MaterialSkin.Controls.MaterialCheckBox chck_tik2sd;
+        private MaterialSkin.Controls.MaterialCheckBox chck_padcon;
+        private MaterialSkin.Controls.MaterialCheckBox chck_otp2sd;
+        private MaterialSkin.Controls.MaterialCheckBox chck_ftpiue;
         private MaterialSkin.Controls.MaterialCheckBox rd_ast;
         private MaterialSkin.Controls.MaterialCheckBox rd_pong;
         private MaterialSkin.Controls.MaterialCheckBox rd_gacu;
@@ -1386,5 +1445,10 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pic_splash;
+        private MaterialSkin.Controls.MaterialCheckBox materialCheckBox1;
+        private MaterialSkin.Controls.MaterialCheckBox chck_loadiine;
+        private MaterialSkin.Controls.MaterialCheckBox chck_hbl;
+        private MaterialSkin.Controls.MaterialCheckBox chck_hbl_dark;
+        private System.Windows.Forms.Label lbl_format_warn;
     }
 }
