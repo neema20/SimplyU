@@ -26,6 +26,9 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 ##Curent Version: 
 0.8.1 x86 BETA
 
+![Download latest Dev Build](https://github.com/zoltx23/SimplyU/tree/master/Builds/Common)
+![Download latest Dev Build: Debug Directory](https://github.com/zoltx23/SimplyU/tree/master/Builds/Debug)
+
 ##Changelog: 
 
 **The Build Archives are now .7z files; they're Password Protected for Security Purposes. The Password is "d2fd34". Let me know if you don't like this change.
