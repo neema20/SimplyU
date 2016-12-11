@@ -27,6 +27,7 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 0.8.1 x86 BETA
 
 ![Download latest Dev Build](https://github.com/zoltx23/SimplyU/tree/master/Builds/Common)
+
 ![Download latest Dev Build: Debug Directory](https://github.com/zoltx23/SimplyU/tree/master/Builds/Debug)
 
 ##Changelog: 
