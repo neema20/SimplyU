@@ -24,7 +24,7 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * When Formatting, the Dialog may Continue to Show (Fixed in the Nightly Build)
 
 ##Curent Version: 
-0.8.1 x86 BETA
+0.9.0 x86 BETA
 
 ![Download latest Dev Build](https://github.com/zoltx23/SimplyU/tree/master/Builds/Common)
 
@@ -34,6 +34,12 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 
 **The Build Archives are now .7z files; they're Password Protected for Security Purposes. The Password is "d2fd34". Let me know if you don't like this change.
 This helps to prevent Anti-Virus Software from scanning the Archive, and removing it. Even though it contains nothing Malicious.**
+
+###Release 0.9.0: 
+**NOTE:** This is a Nightly, and is not Intended for normal use. Do proceed with caution! 
+* Working on the new Layout 
+* Added more homebrew options 
+* The new layout now separates homebrew by their category. 
 
 ###Release 0.8.1:
 * Fixed some minor issues 
@@ -45,7 +51,6 @@ should be a "pnl_back.png" file as well as "SimplyU_Full_Logo.png." The .xcf fil
 Inside the root of a theme's folder, there should be a color.ini file. This file will contain the word for the color scheme. Read the README.md for more info (In the themes directory. \master\Common\Themes\README.md) 
 
 * Still working on redNAND Setup as well as the Updater. 
-
 
 ###Release 0.8.0:
 * Fixed some minor bugs
