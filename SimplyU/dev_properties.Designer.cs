@@ -47,6 +47,7 @@
             this.chck_tmr = new System.Windows.Forms.Timer(this.components);
             this.btn_reset = new MaterialSkin.Controls.MaterialFlatButton();
             this.lbl_dwn_themes = new System.Windows.Forms.Label();
+            this.lbl_upd = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_save
@@ -73,7 +74,6 @@
             this.chck_upd.Checked = true;
             this.chck_upd.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chck_upd.Depth = 0;
-            this.chck_upd.Enabled = false;
             this.chck_upd.Font = new System.Drawing.Font("Roboto", 10F);
             this.chck_upd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.chck_upd.Location = new System.Drawing.Point(9, 120);
@@ -286,7 +286,7 @@
             this.btn_reset.TabIndex = 76;
             this.btn_reset.Text = "reset";
             this.btn_reset.UseVisualStyleBackColor = true;
-            this.btn_reset.Click += new System.EventHandler(this.materialFlatButton1_Click);
+            this.btn_reset.Click += new System.EventHandler(this.btn_reset_Click);
             // 
             // lbl_dwn_themes
             // 
@@ -301,6 +301,19 @@
             this.lbl_dwn_themes.Text = "Download themes";
             this.lbl_dwn_themes.Click += new System.EventHandler(this.lbl_dwn_themes_Click);
             // 
+            // lbl_upd
+            // 
+            this.lbl_upd.AutoSize = true;
+            this.lbl_upd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbl_upd.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_upd.ForeColor = System.Drawing.Color.DimGray;
+            this.lbl_upd.Location = new System.Drawing.Point(12, 624);
+            this.lbl_upd.Name = "lbl_upd";
+            this.lbl_upd.Size = new System.Drawing.Size(92, 13);
+            this.lbl_upd.TabIndex = 78;
+            this.lbl_upd.Text = "Check for Updates";
+            this.lbl_upd.Click += new System.EventHandler(this.lbl_upd_Click);
+            // 
             // dev_properties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -308,6 +321,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(446, 650);
             this.ControlBox = false;
+            this.Controls.Add(this.lbl_upd);
             this.Controls.Add(this.lbl_dwn_themes);
             this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.txt_theme);
@@ -355,5 +369,6 @@
         private System.Windows.Forms.Timer chck_tmr;
         private MaterialSkin.Controls.MaterialFlatButton btn_reset;
         private System.Windows.Forms.Label lbl_dwn_themes;
+        private System.Windows.Forms.Label lbl_upd;
     }
 }

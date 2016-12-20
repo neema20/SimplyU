@@ -3,6 +3,7 @@ using MaterialSkin.Controls;
 using System;
 using System.Diagnostics;
 using System.IO;
+using System.Net;
 using System.Windows.Forms;
 
 namespace SimplyU
@@ -152,15 +153,70 @@ namespace SimplyU
             }
         }
 
-        private void materialFlatButton1_Click(object sender, EventArgs e)
+        private void btn_reset_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.Reset();
-            Application.Restart();
+            DialogResult dr = MessageBox.Show("This option will reset all Settings to their defaults! \r\n        Are you sure you want to continue?", "SimpliiU: Properties -- Reset", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+            switch (dr)
+            {
+                case System.Windows.Forms.DialogResult.Yes:
+                    Properties.Settings.Default.Reset();
+                    Application.Restart();
+                    break;
+
+                case System.Windows.Forms.DialogResult.No:
+
+                    break;
+            }
         }
 
         private void lbl_dwn_themes_Click(object sender, EventArgs e)
         {
             Process.Start("https://github.com/zoltx23/SimplyU/tree/master/Common/Themes/README.md#downloads");
+        }
+
+        private void lbl_upd_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string cd = Application.StartupPath;
+                lbl_upd.Text = "Checking for Updates...";
+                File.Delete(Path.Combine(cd, "Update_info.txt"));
+                File.Delete(Path.Combine(cd, "Update_URI.txt"));
+                File.Delete(Path.Combine(cd, "SimpliiU_old.exe"));
+                File.Delete(Path.Combine(cd, "SimpliiU_new.exe"));
+                File.Delete(Path.Combine(cd, "upd_fin.exe"));
+                WebClient get_info = new WebClient();
+                get_info.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Update_Info.ini?raw=true"), cd + "\\Update_info.txt");
+                WebClient upd_dwld = new WebClient();
+                using (Stream upd = File.Open(cd + "\\Update_info.txt", FileMode.Open))
+                {
+                    using (StreamReader reader = new StreamReader(upd))
+                    {
+                        string rd_upd = null;
+
+                        rd_upd = reader.ReadToEnd();
+
+                        if (rd_upd == Application.ProductVersion)
+                        {
+                            lbl_upd.Text = "No new Updates";
+                        }
+                        else
+                        {
+                            lbl_upd.Text = "Downloading New update...";
+                            upd_dwld.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Latest/SimpliiU.exe?raw=true"), cd + "\\SimpliiU_new.exe");
+                            WebClient get_fin = new WebClient();
+                            get_fin.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Latest/upd_fin.exe?raw=true"), cd + "\\upd_fin.exe");
+                            Process.Start(cd + "\\upd_fin.exe");
+                            lbl_upd.Text = "Preparing...";
+                            Application.Exit();
+                        }
+                    }
+                }
+            }
+            catch
+            {
+                lbl_upd.Text = "Unable to check for Updates!";
+            }
         }
     }
 }

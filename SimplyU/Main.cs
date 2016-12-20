@@ -9,6 +9,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -23,7 +24,7 @@ using System.Windows.Forms;
  *
  * (C) Dr.Hacknik (zoltx23) 2014-2016
  * All Components are used under the Open-GPL GNU
- * Public license agreement. Any modification of
+ * Public license agreement (v3). Any modification of
  * said components or this application are acceptable.
  *
  * To see the full License, check LICENSE.txt on the
@@ -63,6 +64,54 @@ namespace SimplyU
 
         private void Main_Load(object sender, EventArgs e)
         {
+            if (Properties.Settings.Default.dev_upd == "1")
+            {
+                try
+                {
+                    string cd = Application.StartupPath;
+                    File.Delete(Path.Combine(cd, "Update_info.txt"));
+                    File.Delete(Path.Combine(cd, "Update_URI.txt"));
+                    File.Delete(Path.Combine(cd, "SimpliiU_old.exe"));
+                    File.Delete(Path.Combine(cd, "SimpliiU_new.exe"));
+                    File.Delete(Path.Combine(cd, "upd_fin.exe"));
+                    WebClient get_info = new WebClient();
+                    get_info.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Update_Info.ini?raw=true"), cd + "\\Update_info.txt");
+                    WebClient upd_dwld = new WebClient();
+                    using (Stream upd = File.Open(cd + "\\Update_info.txt", FileMode.Open))
+                    {
+                        using (StreamReader reader = new StreamReader(upd))
+                        {
+                            string rd_upd = null;
+
+                            rd_upd = reader.ReadToEnd();
+
+                            if (rd_upd == Application.ProductVersion)
+                            {
+                                DialogResult dr = MessageBox.Show("There's an Update available" + File.Open(cd + "\\Update_info.txt", FileMode.Open) + "\r\n        Are you sure you want to continue?", "SimpliiU: Update", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                                switch (dr)
+                                {
+                                    case System.Windows.Forms.DialogResult.Yes:
+                                        upd_dwld.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Latest/SimpliiU.exe?raw=true"), cd + "\\SimpliiU_new.exe");
+                                        WebClient get_fin = new WebClient();
+                                        get_fin.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Latest/upd_fin.exe?raw=true"), cd + "\\upd_fin.exe");
+                                        Process.Start(cd + "\\upd_fin.exe");
+
+                                        Application.Exit();
+                                        break;
+
+                                    case System.Windows.Forms.DialogResult.No:
+
+                                        break;
+                                }
+                            }
+                        }
+                    }
+                }
+                catch
+                {
+                }
+            }
+
             if (File.Exists(Application.StartupPath + "\\Common\\Themes\\dev_themes.ini"))
             {
                 File.Delete(Application.StartupPath + "\\Common\\Themes\\dev_themes.ini");
@@ -70,6 +119,7 @@ namespace SimplyU
             else
             {
             }
+
             if (Directory.Exists(Application.StartupPath + "\\Common\\Music"))
             {
                 Directory.Delete(Application.StartupPath + "\\Common\\Music", true);
@@ -279,11 +329,11 @@ namespace SimplyU
 
             if (Properties.Settings.Default.dev_dev_mode == "1")
             {
-                lbl_ver.Text = "Release: " + Application.ProductVersion + " Beta--DEV_MODE";
+                lbl_ver.Text = "Release: " + Application.ProductVersion + "  Final Beta--DEV_MODE";
             }
             else
             {
-                lbl_ver.Text = "Release: " + Application.ProductVersion + " Beta";
+                lbl_ver.Text = "Release: " + Application.ProductVersion + "  Final Beta";
             }
         }
 

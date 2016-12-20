@@ -114,7 +114,7 @@ namespace SimplyU
                 Properties.Settings.Default.dev_bck_music = "1";
                 Properties.Settings.Default.Save();
                 bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
-                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86  Final Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Application.Exit();
             }
         }
@@ -1134,6 +1134,7 @@ namespace SimplyU
                                 //{
                                 //}
                                 Properties.Settings.Default.Save();
+                                fin.Stop();
                             }
                         }
                     }
@@ -1141,26 +1142,16 @@ namespace SimplyU
             }
             catch
             {
+                fin.Stop();
                 lg += "\r\ndev_grab: get_hb--fail_all";
                 lgs = "1";
                 prg_1.Value = 100;
-                lbl_content.Text = "";
-                lbl_ext_desc.Text = "";
-                lbl_ext_desc.Text = "And Presto!";
-                Properties.Settings.Default.Save();
-                dev_presto.Start();
+                lbl_content.Text = "It seems some errors occured! ";
+                lbl_content.ForeColor = System.Drawing.Color.Red;
+                lbl_ext_desc.Text = "Woops!";
                 wait.Stop();
-                fin.Stop();
+                dev_error.Start();
             }
-
-            prg_1.Value = 100;
-            lbl_content.Text = "";
-            lbl_ext_desc.Text = "";
-            lbl_ext_desc.Text = "And Presto!";
-            Properties.Settings.Default.Save();
-            dev_presto.Start();
-            wait.Stop();
-            fin.Stop();
         }
 
         private void lbl_ext_desc_Click(object sender, EventArgs e)
@@ -1198,7 +1189,7 @@ namespace SimplyU
                 Properties.Settings.Default.Save();
                 audio_tmr.Start();
                 bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
-                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86  Final Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 if (Properties.Settings.Default.dev_self_host == "1")
                 {
                     Hide();
@@ -1217,7 +1208,7 @@ namespace SimplyU
                     Properties.Settings.Default.dev_bck_music = "1";
                     Properties.Settings.Default.Save();
                     bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
-                    MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86  Final Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Application.Exit();
                 }
             }
@@ -1231,7 +1222,7 @@ namespace SimplyU
                 Properties.Settings.Default.Save();
                 audio_tmr.Start();
                 bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
-                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86  Final Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 if (Properties.Settings.Default.dev_self_host == "1")
                 {
                     Hide();
@@ -1250,10 +1241,18 @@ namespace SimplyU
                     Properties.Settings.Default.dev_bck_music = "1";
                     Properties.Settings.Default.Save();
                     bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Defualt\\audio\\audio_complete.mp3";
-                    MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Final Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Application.Exit();
                 }
             }
+        }
+
+        private void dev_error_Tick(object sender, EventArgs e)
+        {
+            Hide();
+            dev_error.Stop();
+            Main mn = new Main();
+            mn.ShowDialog();
         }
     }
 }

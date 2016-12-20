@@ -42,6 +42,7 @@
             this.bck_music = new AxWMPLib.AxWindowsMediaPlayer();
             this.cleanup = new System.Windows.Forms.Timer(this.components);
             this.lbl_build_status = new System.Windows.Forms.Label();
+            this.dev_error = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.bck_music)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,6 +148,11 @@
             this.lbl_build_status.Text = "Development build_DEVGRAB";
             this.lbl_build_status.Visible = false;
             // 
+            // dev_error
+            // 
+            this.dev_error.Interval = 5000;
+            this.dev_error.Tick += new System.EventHandler(this.dev_error_Tick);
+            // 
             // dev_grab_content
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.Alert;
@@ -189,5 +195,6 @@
         private System.Windows.Forms.Timer audio_tmr;
         private AxWMPLib.AxWindowsMediaPlayer bck_music;
         private System.Windows.Forms.Label lbl_build_status;
+        private System.Windows.Forms.Timer dev_error;
     }
 }

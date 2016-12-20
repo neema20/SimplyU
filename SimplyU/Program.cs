@@ -83,6 +83,18 @@ namespace SimplyU
                 skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
                 skinmgr.ColorScheme = new ColorScheme(Primary.Green800, Primary.Green900, Primary.Green500, Accent.Green200, TextShade.WHITE);
             }
+            if (File.ReadAllText(Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\color.ini") == "blue_red")
+            {
+                MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
+                skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
+                skinmgr.ColorScheme = new ColorScheme(Primary.Red900, Primary.Blue900, Primary.Red500, Accent.Red200, TextShade.WHITE);
+            }
+            if (File.ReadAllText(Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\color.ini") == "blue_grey")
+            {
+                MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
+                skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
+                skinmgr.ColorScheme = new ColorScheme(Primary.Grey800, Primary.Blue900, Primary.Grey500, Accent.Blue200, TextShade.WHITE);
+            }
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

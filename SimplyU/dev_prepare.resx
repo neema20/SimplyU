@@ -1237,6 +1237,9 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
   <data name="lbl_build_status.Text" xml:space="preserve">
     <value>Development build_DEVPREP</value>
   </data>
+  <data name="lbl_build_status.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;lbl_build_status.Name" xml:space="preserve">
     <value>lbl_build_status</value>
   </data>
