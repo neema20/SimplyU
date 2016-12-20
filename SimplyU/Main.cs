@@ -93,7 +93,7 @@ namespace SimplyU
                                     case System.Windows.Forms.DialogResult.Yes:
                                         upd_dwld.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Latest/SimpliiU.exe?raw=true"), cd + "\\SimpliiU_new.exe");
                                         WebClient get_fin = new WebClient();
-                                        get_fin.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Latest/upd_fin.exe?raw=true"), cd + "\\upd_fin.exe");
+                                        get_fin.DownloadFile(new Uri("https://github.com/zoltx23/SimplyU/blob/master/Common/Updates/upd_fin.exe?raw=true"), cd + "\\upd_fin.exe");
                                         Process.Start(cd + "\\upd_fin.exe");
 
                                         Application.Exit();
