@@ -24,7 +24,7 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * When Formatting, the Dialog may Continue to Show (Fixed in the Nightly Build)
 
 ##Curent Version: 
-0.9.0 x86 BETA
+0.9.1 x86 Final BETA
 
 ![Download latest Dev Build](https://github.com/zoltx23/SimplyU/tree/master/Builds/Common)
 
@@ -34,6 +34,13 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 
 **The Build Archives are now .7z files; they're Password Protected for Security Purposes. The Password is "d2fd34". Let me know if you don't like this change.
 This helps to prevent Anti-Virus Software from scanning the Archive, and removing it. Even though it contains nothing Malicious.**
+
+###Release 0.9.1 
+* SimpliiU Now has a working Updater (Using a similar method as 3DNUS.) 
+* Fixed some minor bugs
+* Still adding some more options 
+
+**NOTE:** NOT ALL THE HOMEBREW IN THE PREPARE FORM ARE WORKING! Meaning that they won't download, due to the download code still being added. Should be finished by 1.0.0! 
 
 ###Release 0.9.0: 
 **NOTE:** This is a Nightly, and is not Intended for normal use. Do proceed with caution! 
