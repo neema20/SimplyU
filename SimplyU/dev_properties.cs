@@ -186,7 +186,7 @@ namespace SimplyU
                 File.Delete(Path.Combine(cd, "SimpliiU_new.exe"));
                 File.Delete(Path.Combine(cd, "upd_fin.exe"));
                 WebClient get_info = new WebClient();
-                get_info.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Update_Info.ini?raw=true"), cd + "\\Update_info.txt");
+                get_info.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates//Update_Info.ini?raw=true"), cd + "\\Update_info.txt");
                 WebClient upd_dwld = new WebClient();
                 using (Stream upd = File.Open(cd + "\\Update_info.txt", FileMode.Open))
                 {
