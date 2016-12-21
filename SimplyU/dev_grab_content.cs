@@ -1135,6 +1135,7 @@ namespace SimplyU
                                 //}
                                 Properties.Settings.Default.Save();
                                 fin.Stop();
+                                dev_presto.Start();
                             }
                         }
                     }
@@ -1249,10 +1250,7 @@ namespace SimplyU
 
         private void dev_error_Tick(object sender, EventArgs e)
         {
-            Hide();
-            dev_error.Stop();
-            Main mn = new Main();
-            mn.ShowDialog();
+            Application.Exit();
         }
     }
 }

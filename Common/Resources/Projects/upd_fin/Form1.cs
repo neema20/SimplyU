@@ -37,7 +37,6 @@ namespace upd_fin
             {
                 File.Delete(cd + "\\SimpliiU.exe");
                 File.Move(cd + "\\SimpliiU_new.exe", cd + "\\SimpliiU.exe");
-                Directory.CreateDirectory(cd + "\\snd");
                 Process.Start(cd + "\\SimpliiU.exe");
                 Application.Exit();
             }

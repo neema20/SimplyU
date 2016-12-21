@@ -8,3 +8,4 @@ C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\upd_fin\obj\x86
 C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\upd_fin\obj\x86\Release\upd_fin.csproj.GenerateResource.Cache
 C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\upd_fin\obj\x86\Release\upd_fin.exe
 C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\upd_fin\obj\x86\Release\upd_fin.pdb
+C:\Users\Luke\Documents\GitHub\SimplyU\Common\Resources\Projects\upd_fin\obj\x86\Release\upd_fin.csprojResolveAssemblyReference.cache
