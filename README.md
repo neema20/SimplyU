@@ -36,7 +36,7 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 This helps to prevent Anti-Virus Software from scanning the Archive, and removing it. Even though it contains nothing Malicious.**
 
 ###Release 0.9.1 
-* SimpliiU Now has a working Updater (Using a similar method as 3DNUS.) 
+* SimpliiU Now has a working Updater (Using a similar method as 3DNUS. This allows you to get updates more often, and rather easily. For example, you can get Revision Updates: 0.9.1.1 for example.) 
 * Fixed some minor bugs
 * Still adding some more options 
 
