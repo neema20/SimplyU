@@ -1166,5 +1166,17 @@ namespace SimplyU.Properties {
                 this["inst_beetle"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_fallbck {
+            get {
+                return ((string)(this["dev_fallbck"]));
+            }
+            set {
+                this["dev_fallbck"] = value;
+            }
+        }
     }
 }

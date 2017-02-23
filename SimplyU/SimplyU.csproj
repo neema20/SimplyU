@@ -13,20 +13,27 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
+    <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates//Update_Info.ini%3fraw=true/</UpdateUrl>
+    <ProductName>SimpliiU</ProductName>
+    <PublisherName>Dr.Hacknik</PublisherName>
+    <MinimumRequiredVersion>1.0.1.0</MinimumRequiredVersion>
+    <AutorunEnabled>true</AutorunEnabled>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationVersion>1.0.1.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -98,14 +105,20 @@
     <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <PropertyGroup>
-    <GenerateManifests>false</GenerateManifests>
+    <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3AE93C707E2399A47AF7C49AD8A7B6E137BD2230</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SimplyU_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ionic.Zip">
-      <HintPath>..\..\3DNUS\Source\old\NANDify_Source\NANDify\bin\Release\Ionic.Zip.dll</HintPath>
+      <HintPath>..\Builds\Debug\2016_10_8_1053am\Ionic.Zip.dll</HintPath>
     </Reference>
     <Reference Include="MaterialSkin">
       <HintPath>..\..\..\..\Desktop\MaterialSkin-master\MaterialSkinExample\bin\Debug\MaterialSkin.dll</HintPath>
@@ -190,11 +203,11 @@
     <Compile Include="dev_spash.Designer.cs">
       <DependentUpon>dev_spash.cs</DependentUpon>
     </Compile>
-    <Compile Include="dev_upd.cs">
+    <Compile Include="dev_theme_chooser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="dev_upd.Designer.cs">
-      <DependentUpon>dev_upd.cs</DependentUpon>
+    <Compile Include="dev_theme_chooser.Designer.cs">
+      <DependentUpon>dev_theme_chooser.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -237,8 +250,8 @@
     <EmbeddedResource Include="dev_spash.resx">
       <DependentUpon>dev_spash.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dev_upd.resx">
-      <DependentUpon>dev_upd.cs</DependentUpon>
+    <EmbeddedResource Include="dev_theme_chooser.resx">
+      <DependentUpon>dev_theme_chooser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -266,6 +279,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="SimplyU_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
@@ -283,6 +297,9 @@
     <None Include="Resources\pnl_back_klk.png" />
     <None Include="Resources\panel.png" />
     <None Include="Resources\icon.png" />
+    <None Include="Resources\theme_choosexcf.png" />
+    <None Include="Resources\clear.png" />
+    <None Include="Resources\theme_choose_sel.png" />
     <Content Include="SimplyU_Logo.ico" />
   </ItemGroup>
   <ItemGroup>

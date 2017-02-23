@@ -29,6 +29,7 @@ namespace SimplyU
                 skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
                 skinmgr.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue500, Accent.Blue200, TextShade.WHITE);
             }
+
             if (File.ReadAllText(Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\color.ini") == "blue")
             {
                 MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
@@ -41,6 +42,7 @@ namespace SimplyU
                 skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
                 skinmgr.ColorScheme = new ColorScheme(Primary.Red800, Primary.Red900, Primary.Red500, Accent.Red200, TextShade.WHITE);
             }
+
             if (File.ReadAllText(Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\color.ini") == "orange")
             {
                 MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
@@ -76,6 +78,18 @@ namespace SimplyU
                 MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
                 skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
                 skinmgr.ColorScheme = new ColorScheme(Primary.Grey800, Primary.Grey900, Primary.Grey500, Accent.Green200, TextShade.WHITE);
+            }
+            if (File.ReadAllText(Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\color.ini") == "grey_red")
+            {
+                MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
+                skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
+                skinmgr.ColorScheme = new ColorScheme(Primary.Grey800, Primary.Grey900, Primary.Grey500, Accent.Red200, TextShade.WHITE);
+            }
+            if (File.ReadAllText(Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\color.ini") == "blue")
+            {
+                MaterialSkinManager skinmgr = MaterialSkinManager.Instance;
+                skinmgr.Theme = MaterialSkinManager.Themes.LIGHT;
+                skinmgr.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue500, Accent.Blue200, TextShade.WHITE);
             }
             if (File.ReadAllText(Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\color.ini") == "green")
             {

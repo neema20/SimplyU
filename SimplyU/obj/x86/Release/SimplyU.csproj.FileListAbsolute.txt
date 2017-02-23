@@ -19,7 +19,6 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_prope
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_rednand.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_rednand_prepare.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_spash.resources
-C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_upd.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.Main.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.Properties.Resources.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.csproj.GenerateResource.Cache
@@ -27,3 +26,10 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimpliiU.exe
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimpliiU.pdb
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.csprojResolveAssemblyReference.cache
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\MaterialSkin.pdb
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\SimpliiU.exe.manifest
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\SimpliiU.application
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimpliiU.TrustInfo.xml
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimpliiU.exe.manifest
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimpliiU.application
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\Ionic.Zip.dll
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_theme_chooser.resources

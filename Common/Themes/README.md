@@ -17,7 +17,9 @@ They're as follows:
 * Nonon Theme - Almost finished  
 * Ragyo Theme - Almost finished
 * Sonic Theme - Not finished
-* RWBY Theme - Finished - Updated (12/10/16) w/New Bck Music & Images
+* Shadow Theme - Finished
+* Nintendo Switch theme - Almost finished 
+* RWBY Theme - Finished - Updated (2/1/17) w/New Images
 * Rock Edition Theme - Finished
 * Material Brown Theme - For testing 
 * Test theme - For testing 
@@ -34,7 +36,9 @@ as the Updater and RedNAND Setup (Hopefully).
 * ![Aikuro Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Aikuro.zip?raw=true) 
 * ![Nonon Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Nonon.zip?raw=true) 
 * ![Ragyo Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Ragyo.zip?raw=true) 
-* ![Sonic Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Sonic.zip?raw=true)
+* ![Sonic Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Sonic Edition.zip?raw=true)
+* ![Shadow Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Shadow Edition.zip?raw=true)
+* ![Switch Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Switch.zip?raw=true)
 * ![RWBY Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/RWBY.zip?raw=true) 
 * ![Rock Edition Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Rock Edition.zip?raw=true)
 * ![Material Brown Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Material Brown.zip?raw=true) 

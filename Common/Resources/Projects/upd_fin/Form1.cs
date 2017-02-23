@@ -19,6 +19,7 @@ namespace upd_fin
     {
         public readonly String cd = Path.GetDirectoryName(Application.ExecutablePath);
         private WebClient upd_dwld = new WebClient();
+        private string upd = File.ReadAllText(Application.StartupPath + "\\Update_info.txt");
 
         public Form1()
         {
@@ -28,6 +29,7 @@ namespace upd_fin
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            lbl_body.Text += "\r\nUpdating to: " + upd + "...";
         }
 
         private void dev_upd_Tick(object sender, EventArgs e)
@@ -35,14 +37,24 @@ namespace upd_fin
             dev_upd.Stop();
             try
             {
-                File.Delete(cd + "\\SimpliiU.exe");
+                File.Move(cd + "\\SimpliiU.exe", cd + "\\SimpliiU.exe.old");
                 File.Move(cd + "\\SimpliiU_new.exe", cd + "\\SimpliiU.exe");
                 Process.Start(cd + "\\SimpliiU.exe");
                 Application.Exit();
             }
             catch
             {
-                MessageBox.Show("There were errors when Finishing the Update!", "upd_fin: Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                try
+                {
+                    MessageBox.Show("There were errors when Finishing the Update!", "upd_fin: Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    File.Move(cd + "\\SimpliiU.exe.old", cd + "\\SimpliiU.exe");
+                    File.Delete(cd + "\\SimpliiU_new.exe");
+                    Application.Exit();
+                }
+                catch
+                {
+                    Application.Exit();
+                }
             }
         }
     }

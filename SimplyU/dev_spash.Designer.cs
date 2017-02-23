@@ -46,6 +46,7 @@
             this.lbl_header.TabIndex = 0;
             this.lbl_header.Text = "Starting SimpliiU...";
             this.lbl_header.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.lbl_header.Click += new System.EventHandler(this.lbl_header_Click);
             // 
             // dev_tmr
             // 

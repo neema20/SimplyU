@@ -120,7 +120,7 @@
   <data name="dev_terms.Text" xml:space="preserve">
     <value>This application is Free and will always be free! 
 You may modify or use this program under the 
-GNU GPL Open-Source License Agreement. 
+GNU GPL Open-Source License Agreement (v3). 
 You may NOT redistribute this program for any cost, 
 or as a bundle! Doing so, may result in concequences. 
 
@@ -137,7 +137,7 @@ the form name, do keep in mind that you're using a
 Development build, and that it may be buggy or otherwise.
 If that text is not shown, you are using a Stable build. 
 
-Also, if it IS a dev build, please keep in mind that the application
+Also, if it is a dev build, please keep in mind that the application
 is NOT optimized for normal use, and may have development or 
 debugging tools built in, for testing purposes. </value>
   </data>

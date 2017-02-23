@@ -37,11 +37,11 @@ namespace SimplyU
                 }
                 else
                 {
-                    MessageBox.Show("The theme that you have entered was NOT found! Please try again, and confirm that it's there.", "SimpliiU: Properties --Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    Properties.Settings.Default.dev_theme = "Default";
+                    MessageBox.Show("The theme that you have entered was NOT found! Please try again, and confirm that it's there. SimpliiU will now enter Fallback mode!", "SimpliiU: Properties --Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Properties.Settings.Default.dev_theme = "Fallbck";
+                    Properties.Settings.Default.dev_fallbck = "1";
                     Properties.Settings.Default.Save();
                     dev_tmr.Stop();
-                    Application.Restart();
                 }
             }
 
@@ -70,6 +70,10 @@ namespace SimplyU
                 Properties.Settings.Default.dev_theme = "Default";
                 Properties.Settings.Default.Save();
             }
+        }
+
+        private void lbl_header_Click(object sender, EventArgs e)
+        {
         }
     }
 }

@@ -336,6 +336,174 @@ namespace SimplyU
             {
                 Properties.Settings.Default.inst_wup = "1";
             }
+            if (chck_ftpiue.Checked == true)
+            {
+                Properties.Settings.Default.inst_ftpiu_every = "1";
+            }
+            if (chck_ft2sd.Checked == true)
+            {
+                Properties.Settings.Default.inst_ft2sd = "1";
+            }
+            if (chck_wudumper.Checked == true)
+            {
+                Properties.Settings.Default.inst_wudumper = "1";
+            }
+            if (chck_seeprom.Checked == true)
+            {
+                Properties.Settings.Default.inst_seeprom = "1";
+            }
+            if (chck_sigpat_hbl.Checked == true)
+            {
+                Properties.Settings.Default.inst_sigpat_hbl = "1";
+            }
+            if (chck_wuphax.Checked == true)
+            {
+                Properties.Settings.Default.inst_wuphax = "1";
+            }
+            if (chck_otp2sd.Checked == true)
+            {
+                Properties.Settings.Default.inst_otp2sd = "1";
+            }
+            if (chck_padcon.Checked == true)
+            {
+                Properties.Settings.Default.inst_padcon = "1";
+            }
+            if (chck_tik2sd.Checked == true)
+            {
+                Properties.Settings.Default.inst_tik2sd = "1";
+            }
+            if (chck_fsdumper.Checked == true)
+            {
+                Properties.Settings.Default.inst_fsdumper = "1";
+            }
+            if (chck_cbhc.Checked == true)
+            {
+                Properties.Settings.Default.inst_cbhc = "1";
+            }
+            if (chck_haxchi.Checked == true)
+            {
+                Properties.Settings.Default.inst_haxchi = "1";
+            }
+            if (chck_aoc.Checked == true)
+            {
+                Properties.Settings.Default.inst_aoc = "1";
+            }
+            if (chck_sigpat_systmenu.Checked == true)
+            {
+                Properties.Settings.Default.inst_sigpat_sysmenu = "1";
+            }
+            if (chck_loadiine_ymod.Checked == true)
+            {
+                Properties.Settings.Default.inst_loadiine_y = "1";
+            }
+            if (chck_retro_launcher.Checked == true)
+            {
+                Properties.Settings.Default.inst_retro = "1";
+            }
+            if (chck_hbl_dark.Checked == true)
+            {
+                Properties.Settings.Default.inst_hbl_dark = "1";
+            }
+            if (chck_fuse.Checked == true)
+            {
+                Properties.Settings.Default.inst_fuse = "1";
+            }
+            if (chck_fce.Checked == true)
+            {
+                Properties.Settings.Default.inst_fceumm = "1";
+            }
+            if (chck_mame_2003.Checked == true)
+            {
+                Properties.Settings.Default.inst_mame = "1";
+            }
+            if (chck_quicknes.Checked == true)
+            {
+                Properties.Settings.Default.inst_quicknes = "1";
+            }
+            if (chck_btvb.Checked == true)
+            {
+                Properties.Settings.Default.inst_beetlevb = "1";
+            }
+            if (chck_gen_pl_gx.Checked == true)
+            {
+                Properties.Settings.Default.inst_genisis = "1";
+            }
+            if (chck_mame_2003.Checked == true)
+            {
+                Properties.Settings.Default.inst_mame2003 = "1";
+            }
+            if (chck_nestopia.Checked == true)
+            {
+                Properties.Settings.Default.inst_nestopia = "1";
+            }
+            if (chck_haxchi.Checked == true)
+            {
+                Properties.Settings.Default.inst_haxchi = "1";
+            }
+            if (chck_snes9x.Checked == true)
+            {
+                Properties.Settings.Default.inst_snes9x = "1";
+            }
+            if (chck_fb_alpha_2012_cps2.Checked == true)
+            {
+                Properties.Settings.Default.inst_fb_cps2 = "1";
+            }
+            if (chck_btsgx.Checked == true)
+            {
+                Properties.Settings.Default.inst_beetle_sgx = "1";
+            }
+            if (chck_btneo.Checked == true)
+            {
+                Properties.Settings.Default.inst_beetle_neo = "1";
+            }
+            if (chck_nxe.Checked == true)
+            {
+                Properties.Settings.Default.inst_nxe = "1";
+            }
+            if (chck_fba_cps3.Checked == true)
+            {
+                Properties.Settings.Default.inst_fb_cps3 = "1";
+            }
+            if (chck_snes9x_2010.Checked == true)
+            {
+                Properties.Settings.Default.inst_snes9x_2010 = "1";
+            }
+            if (chck_lynx.Checked == true)
+            {
+                Properties.Settings.Default.inst_lynx = "1";
+            }
+            if (chck_prboom.Checked == true)
+            {
+                Properties.Settings.Default.inst_prboom = "1";
+            }
+            if (chck_fba_cps1.Checked == true)
+            {
+                Properties.Settings.Default.inst_fb_cps1 = "1";
+            }
+            if (chck_gamebatte.Checked == true)
+            {
+                Properties.Settings.Default.inst_gamebatte = "1";
+            }
+            if (chck_fba.Checked == true)
+            {
+                Properties.Settings.Default.inst_fba = "1";
+            }
+            if (chck_btpce.Checked == true)
+            {
+                Properties.Settings.Default.inst_beetle_pcef = "1";
+            }
+            if (chck_fba_neo.Checked == true)
+            {
+                Properties.Settings.Default.inst_fb_neo = "1";
+            }
+            if (chck_tyrquake.Checked == true)
+            {
+                Properties.Settings.Default.inst_tyrquake = "1";
+            }
+            if (chck_bt.Checked == true)
+            {
+                Properties.Settings.Default.inst_beetle = "1";
+            }
 
             //Install Recommended
 
@@ -438,6 +606,9 @@ namespace SimplyU
 
                 chck_loadiine_ymod.Checked = true;
                 chck_loadiine_ymod.Enabled = false;
+
+                rd_wup.Checked = true;
+                rd_wup.Enabled = false;
             }
             if (chck_rec.Checked == false)
             {
@@ -467,6 +638,9 @@ namespace SimplyU
 
                 chck_loadiine_ymod.Checked = false;
                 chck_loadiine_ymod.Enabled = true;
+
+                rd_wup.Checked = false;
+                rd_wup.Enabled = true;
             }
         }
     }

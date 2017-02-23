@@ -1311,7 +1311,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
   </data>
   <data name="lbl_guide.Text" xml:space="preserve">
     <value>By enabling this option, you will be guided for getting everything
-setup on you Wii U. </value>
+setup on your Wii U. </value>
   </data>
   <data name="&gt;&gt;lbl_guide.Name" xml:space="preserve">
     <value>lbl_guide</value>

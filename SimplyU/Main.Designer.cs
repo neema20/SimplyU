@@ -35,12 +35,13 @@
             this.lbl_ac_rdnand = new System.Windows.Forms.Label();
             this.btn_view = new MaterialSkin.Controls.MaterialFlatButton();
             this.btn_prop = new MaterialSkin.Controls.MaterialFlatButton();
-            this.lbl_welcome = new System.Windows.Forms.Label();
             this.lbl_ver = new System.Windows.Forms.Label();
             this.btn_self_host = new MaterialSkin.Controls.MaterialFlatButton();
             this.btn_next = new MaterialSkin.Controls.MaterialFlatButton();
             this.lbl_desc = new System.Windows.Forms.Label();
             this.pic_splash = new System.Windows.Forms.PictureBox();
+            this.lbl_welcome = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,8 +57,7 @@
             this.lbl_build_status.Name = "lbl_build_status";
             this.lbl_build_status.Size = new System.Drawing.Size(202, 15);
             this.lbl_build_status.TabIndex = 68;
-            this.lbl_build_status.Text = "Development build_DEVMAIN_REV3";
-            this.lbl_build_status.Visible = false;
+            this.lbl_build_status.Text = "Development build_DEVMAIN_REV5";
             // 
             // lbl_term
             // 
@@ -146,19 +146,6 @@
             this.btn_prop.UseVisualStyleBackColor = false;
             this.btn_prop.Click += new System.EventHandler(this.btn_prop_Click_1);
             // 
-            // lbl_welcome
-            // 
-            this.lbl_welcome.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_welcome.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.lbl_welcome.Font = new System.Drawing.Font("Segoe UI Semilight", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_welcome.ForeColor = System.Drawing.Color.Black;
-            this.lbl_welcome.Location = new System.Drawing.Point(0, 297);
-            this.lbl_welcome.Name = "lbl_welcome";
-            this.lbl_welcome.Size = new System.Drawing.Size(736, 51);
-            this.lbl_welcome.TabIndex = 76;
-            this.lbl_welcome.Text = "Welcome to SimpliiU\r\n";
-            this.lbl_welcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // lbl_ver
             // 
             this.lbl_ver.BackColor = System.Drawing.Color.Transparent;
@@ -233,12 +220,43 @@
             this.pic_splash.TabIndex = 77;
             this.pic_splash.TabStop = false;
             // 
+            // lbl_welcome
+            // 
+            this.lbl_welcome.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_welcome.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.lbl_welcome.Font = new System.Drawing.Font("Segoe UI Semilight", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_welcome.ForeColor = System.Drawing.Color.Black;
+            this.lbl_welcome.Location = new System.Drawing.Point(0, 297);
+            this.lbl_welcome.Name = "lbl_welcome";
+            this.lbl_welcome.Size = new System.Drawing.Size(736, 51);
+            this.lbl_welcome.TabIndex = 76;
+            this.lbl_welcome.Text = "Welcome to SimpliiU\r\n";
+            this.lbl_welcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label1.Location = new System.Drawing.Point(0, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 15);
+            this.label1.TabIndex = 80;
+            this.label1.Text = "ACCESS_THME\r\n";
+            this.label1.Visible = false;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(736, 475);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_view);
             this.Controls.Add(this.btn_prop);
             this.Controls.Add(this.pic_splash);
@@ -272,12 +290,13 @@
         private System.Windows.Forms.Label lbl_ac_rdnand;
         private MaterialSkin.Controls.MaterialFlatButton btn_view;
         private MaterialSkin.Controls.MaterialFlatButton btn_prop;
-        private System.Windows.Forms.PictureBox pic_splash;
-        private System.Windows.Forms.Label lbl_welcome;
         private System.Windows.Forms.Label lbl_ver;
         private MaterialSkin.Controls.MaterialFlatButton btn_self_host;
         private MaterialSkin.Controls.MaterialFlatButton btn_next;
         private System.Windows.Forms.Label lbl_desc;
+        private System.Windows.Forms.PictureBox pic_splash;
+        private System.Windows.Forms.Label lbl_welcome;
+        private System.Windows.Forms.Label label1;
     }
 }
 

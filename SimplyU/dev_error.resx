@@ -117,7 +117,186 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dev_lbl_error.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dev_lbl_error.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Light, 12pt</value>
+  </data>
+  <data name="dev_lbl_error.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 74</value>
+  </data>
+  <data name="dev_lbl_error.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="dev_lbl_error.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="dev_lbl_error.Text" xml:space="preserve">
+    <value>An error has Occurred: </value>
+  </data>
+  <data name="dev_lbl_error.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;dev_lbl_error.Name" xml:space="preserve">
+    <value>dev_lbl_error</value>
+  </data>
+  <data name="&gt;&gt;dev_lbl_error.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dev_lbl_error.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dev_lbl_error.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_stat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_stat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Light, 8.25pt</value>
+  </data>
+  <data name="lbl_stat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 95</value>
+  </data>
+  <data name="lbl_stat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="lbl_stat.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_stat.Text" xml:space="preserve">
+    <value>%%</value>
+  </data>
+  <data name="lbl_stat.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbl_stat.Name" xml:space="preserve">
+    <value>lbl_stat</value>
+  </data>
+  <data name="&gt;&gt;lbl_stat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_stat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_stat.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dev_log.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="dev_log.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dev_log.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 8.25pt</value>
+  </data>
+  <data name="dev_log.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 166</value>
+  </data>
+  <data name="dev_log.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dev_log.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="dev_log.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 168</value>
+  </data>
+  <data name="dev_log.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="dev_log.Text" xml:space="preserve">
+    <value>%%</value>
+  </data>
+  <data name="&gt;&gt;dev_log.Name" xml:space="preserve">
+    <value>dev_log</value>
+  </data>
+  <data name="&gt;&gt;dev_log.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dev_log.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dev_log.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_build_status.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_build_status.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbl_build_status.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold</value>
+  </data>
+  <data name="lbl_build_status.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_build_status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbl_build_status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 15</value>
+  </data>
+  <data name="lbl_build_status.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="lbl_build_status.Text" xml:space="preserve">
+    <value>Development build_DEVERROR</value>
+  </data>
+  <data name="lbl_build_status.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_build_status.Name" xml:space="preserve">
+    <value>lbl_build_status</value>
+  </data>
+  <data name="&gt;&gt;lbl_build_status.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_build_status.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_build_status.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pic_logo_state.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pic_logo_state.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 65</value>
+  </data>
+  <data name="pic_logo_state.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 84</value>
+  </data>
+  <data name="pic_logo_state.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pic_logo_state.Name" xml:space="preserve">
+    <value>pic_logo_state</value>
+  </data>
+  <data name="&gt;&gt;pic_logo_state.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic_logo_state.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pic_logo_state.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>458, 346</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAlIMAAAEAIABUOQEAFgAAACgAAACUAAAABgEAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -1459,5 +1638,17 @@
         AAAAAAAAAAAAAB//8AD//+AAAAAAAAAAAAAAAAAAf//wAP///AAAAAAAAAAAAAAAAAP///AA////gAAA
         AAAAAAAAAAAAH///8AA=
 </value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SimpliiU: Error</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>dev_error</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
 </root>

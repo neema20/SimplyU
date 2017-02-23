@@ -114,7 +114,8 @@ namespace SimplyU
                 Properties.Settings.Default.dev_bck_music = "1";
                 Properties.Settings.Default.Save();
                 bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
-                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86  Final Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dev_comp_chck.Start();
+                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Application.Exit();
             }
         }
@@ -994,145 +995,145 @@ namespace SimplyU
                                     }
                                 }
 
-                                //if (Properties.Settings.Default.inst_fba == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_fba == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_gamebatte == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_gamebatte == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_beetle_neo == "1")
+                                if (Properties.Settings.Default.inst_beetle_neo == "1")
 
-                                //{
-                                //}
-                                //if (Properties.Settings.Default.inst_prboom == "1")
-                                //{
-                                //}
+                                {
+                                }
+                                if (Properties.Settings.Default.inst_prboom == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_lynx == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_lynx == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_snes9x_2010 == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_snes9x_2010 == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_fb_cps3 == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_fb_cps3 == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_nxe == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_nxe == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_beetle_neo == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_beetle_neo == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_beetle_sgx == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_beetle_sgx == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_fb_cps2 == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_fb_cps2 == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_snes9x == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_snes9x == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_nestopia == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_nestopia == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_mame == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_mame == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_genisis == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_genisis == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_beetlevb == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_beetlevb == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_psx == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_psx == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_quicknes == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_quicknes == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_mame2003 == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_mame2003 == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_fceumm == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_fceumm == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_fuse == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_fuse == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_sigpat_sysmenu == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_sigpat_sysmenu == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_aoc == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_aoc == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_haxchi == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_haxchi == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_cbhc == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_cbhc == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_fsdumper == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_fsdumper == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_tik2sd == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_tik2sd == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_padcon == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_padcon == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_otp2sd == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_otp2sd == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_wuphax == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_wuphax == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_sigpat_hbl == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_sigpat_hbl == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_seeprom == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_seeprom == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_wudumper == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_wudumper == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_ftpiu_every == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_ftpiu_every == "1")
+                                {
+                                }
 
-                                //if (Properties.Settings.Default.inst_ft2sd == "1")
-                                //{
-                                //}
+                                if (Properties.Settings.Default.inst_ft2sd == "1")
+                                {
+                                }
                                 Properties.Settings.Default.Save();
                                 fin.Stop();
                                 dev_presto.Start();
@@ -1188,9 +1189,10 @@ namespace SimplyU
                 File.Delete(cd + "\\hosting.zip");
                 Properties.Settings.Default.dev_bck_music = "1";
                 Properties.Settings.Default.Save();
-                audio_tmr.Start();
                 bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
-                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86  Final Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dev_comp_chck.Start();
+                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 if (Properties.Settings.Default.dev_self_host == "1")
                 {
                     Hide();
@@ -1209,7 +1211,8 @@ namespace SimplyU
                     Properties.Settings.Default.dev_bck_music = "1";
                     Properties.Settings.Default.Save();
                     bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
-                    MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86  Final Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    dev_comp_chck.Start();
+                    MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Application.Exit();
                 }
             }
@@ -1221,9 +1224,10 @@ namespace SimplyU
                 MessageBox.Show("Somthing Happened while removing Directories and Such, so you may need to remove them manually!", "Grabbing Content: --Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Properties.Settings.Default.dev_bck_music = "1";
                 Properties.Settings.Default.Save();
-                audio_tmr.Start();
                 bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
-                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86  Final Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dev_comp_chck.Start();
+                MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 if (Properties.Settings.Default.dev_self_host == "1")
                 {
                     Hide();
@@ -1241,8 +1245,9 @@ namespace SimplyU
                 {
                     Properties.Settings.Default.dev_bck_music = "1";
                     Properties.Settings.Default.Save();
-                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\Defualt\\audio\\audio_complete.mp3";
-                    MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86 Final Beta. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
+                    dev_comp_chck.Start();
+                    MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Application.Exit();
                 }
             }
@@ -1250,7 +1255,27 @@ namespace SimplyU
 
         private void dev_error_Tick(object sender, EventArgs e)
         {
+            dev_error.Stop();
+            Properties.Settings.Default.dev_bck_music = "1";
+            Properties.Settings.Default.Save();
+            bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_complete.mp3";
+            dev_comp_chck.Start();
+            MessageBox.Show("Thanks for using this Program! \r\nThe version you're using is " + Application.ProductVersion + " x86. \r\n \r\nCreated by Dr.Hacknik 2016 \r\n \r\nThanks to all the Creators for making their Homebrew for the Wii U & to you, my Fellow user, for your Support! \r\n \r\nMusic from From Sonic the Hedgehog (2006), Sonic Rush, and Rush Adventure - Remixed, Tobu Higher (Electronica Genre), and Don't lose your way - Kill la Kill, as well as a Snippet from Kill la Kill SE1 EPS1.", "About:", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Application.Exit();
+        }
+
+        private void dev_grab_content_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void dev_comp_chck_Tick(object sender, EventArgs e)
+        {
+            if (bck_music.playState == WMPLib.WMPPlayState.wmppsStopped)
+            {
+                bck_music.URL = Application.StartupPath + "\\Common\\Themes\\" + Properties.Settings.Default.dev_theme + "\\audio\\audio_credits.mp3";
+                dev_comp_chck.Stop();
+            }
         }
     }
 }

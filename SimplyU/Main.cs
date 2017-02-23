@@ -22,7 +22,7 @@ using System.Windows.Forms;
  *
  * Credits:
  *
- * (C) Dr.Hacknik (zoltx23) 2014-2016
+ * (C) Dr.Hacknik (zoltx23) 2014-2017
  * All Components are used under the Open-GPL GNU
  * Public license agreement (v3). Any modification of
  * said components or this application are acceptable.
@@ -34,10 +34,11 @@ using System.Windows.Forms;
  * the people, whom have helped me with this project or
  * other projects! They include:
  *
- * MarcusD
+ * MarcusD - For tips
  * VoxelStudios
- * HoloryTV
+ * HoloryTV - For tips
  * vmgoose
+ * WiiUBru - For hosting the Homebrew
  * My fellow 'real-life' friends,
  * and many more...
  *
@@ -51,6 +52,8 @@ namespace SimplyU
 {
     public partial class Main : MaterialForm
     {
+        private string cd = Application.StartupPath;
+
         public Main()
         {
             InitializeComponent();
@@ -64,17 +67,37 @@ namespace SimplyU
 
         private void Main_Load(object sender, EventArgs e)
         {
+            dev_error em = new dev_error();
+            em.Show();
+            em.Hide();
+
+            if (Properties.Settings.Default.dev_fallbck == "1")
+            {
+                this.Text = "SimpliiU: Getting Started - FALLBACK MODE";
+            }
+            else
+            {
+            }
             if (Properties.Settings.Default.dev_upd == "1")
             {
                 try
                 {
-                    string cd = Application.StartupPath;
+                    //Read latest update and convert to string
+                    WebRequest request = WebRequest.Create("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates//Update_Info.ini?raw=true");
+                    WebResponse response = request.GetResponse();
+                    Stream dataStream = response.GetResponseStream();
+                    StreamReader upd_rd = new StreamReader(dataStream);
+                    string upd_get = upd_rd.ReadToEnd();
+
+                    //Get and read latest update info, then grab it
+                    //But first delete old files, and continue.
+                    WebClient get_info = new WebClient();
+
                     File.Delete(Path.Combine(cd, "Update_info.txt"));
                     File.Delete(Path.Combine(cd, "Update_URI.txt"));
                     File.Delete(Path.Combine(cd, "SimpliiU_old.exe"));
                     File.Delete(Path.Combine(cd, "SimpliiU_new.exe"));
                     File.Delete(Path.Combine(cd, "upd_fin.exe"));
-                    WebClient get_info = new WebClient();
                     get_info.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates//Update_Info.ini?raw=true"), cd + "\\Update_info.txt");
                     WebClient upd_dwld = new WebClient();
                     using (Stream upd = File.Open(cd + "\\Update_info.txt", FileMode.Open))
@@ -87,7 +110,10 @@ namespace SimplyU
 
                             if (rd_upd == Application.ProductVersion)
                             {
-                                DialogResult dr = MessageBox.Show("There's an Update available" + File.Open(cd + "\\Update_info.txt", FileMode.Open) + "\r\n        Are you sure you want to continue?", "SimpliiU: Update", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                            }
+                            else
+                            {
+                                DialogResult dr = MessageBox.Show("There's an Update available" + " (" + upd_get + ")" + "\r\nDo you wish to update?", "SimpliiU: Update", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
                                 switch (dr)
                                 {
                                     case System.Windows.Forms.DialogResult.Yes:
@@ -109,6 +135,7 @@ namespace SimplyU
                 }
                 catch
                 {
+                    MessageBox.Show("We were unable to grab the Latest Update info!", "SimpliiU: Automatic Update -- Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
 
@@ -119,7 +146,13 @@ namespace SimplyU
             else
             {
             }
-
+            if (File.Exists(Application.StartupPath + "\\upd_fin.exe"))
+            {
+                File.Delete(Application.StartupPath + "\\upd_fin.exe");
+            }
+            else
+            {
+            }
             if (Directory.Exists(Application.StartupPath + "\\Common\\Music"))
             {
                 Directory.Delete(Application.StartupPath + "\\Common\\Music", true);
@@ -329,11 +362,11 @@ namespace SimplyU
 
             if (Properties.Settings.Default.dev_dev_mode == "1")
             {
-                lbl_ver.Text = "Release: " + Application.ProductVersion + "  Final Beta--DEV_MODE";
+                lbl_ver.Text = "Release: " + Application.ProductVersion + " --DEV_MODE    Powered by WiiUBru";
             }
             else
             {
-                lbl_ver.Text = "Release: " + Application.ProductVersion + "  Final Beta";
+                lbl_ver.Text = "Release: " + Application.ProductVersion + " - Powered by WiiUBru";
             }
         }
 
@@ -341,7 +374,7 @@ namespace SimplyU
         {
             Properties.Settings.Default.terms_agreed = "0";
             Properties.Settings.Default.Save();
-            MessageBox.Show("PROPERTIES_WRITE_VAL_SUCCESS", "ACCESS_WRITE_STATE:", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            MessageBox.Show("PROPERTIES_WRITE_VAL_SUCCESS!", "ACCESS_WRITE_STATE:", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             dev_notes dn = new dev_notes();
             dn.Show();
             this.Hide();
@@ -361,6 +394,8 @@ namespace SimplyU
 
         private void btn_next_Click(object sender, EventArgs e)
         {
+            Properties.Settings.Default.dev_fallbck = "0";
+            Properties.Settings.Default.Save();
             this.Hide();
             dev_prepare dc = new dev_prepare();
             dc.ShowDialog();
@@ -374,6 +409,18 @@ namespace SimplyU
 
         private void btn_self_host_Click_1(object sender, EventArgs e)
         {
+            try
+            {
+                WebClient upd_src = new WebClient();
+                File.Move(cd + "\\StartServer.bat", cd + "\\StartServer.bat.old");
+                upd_src.DownloadFile(new Uri("https://github.com/zoltx23/SimplyU/blob/master/Common/Resources/Components/StartServer.bat?raw=true"), cd + "\\StartServer.bat");
+            }
+            catch
+            {
+                MessageBox.Show("It seems we weren't able to download the Latest Server script. But, we'll run the existing one anyways.", "dev_error:", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                File.Move(cd + "\\StartServer.bat.old", cd + "\\StartServer.bat");
+            }
+
             this.Hide();
             dev_hosting dc = new dev_hosting();
             dc.ShowDialog();
@@ -382,6 +429,12 @@ namespace SimplyU
         private void btn_view_Click_1(object sender, EventArgs e)
         {
             Process.Start("https://gbatemp.net/threads/release-simpliiu/");
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            dev_theme_chooser dr = new dev_theme_chooser();
+            dr.Show();
         }
     }
 }
