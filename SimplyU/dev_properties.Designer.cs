@@ -48,6 +48,7 @@
             this.lbl_upd = new System.Windows.Forms.Label();
             this.lbl_flbck = new System.Windows.Forms.Label();
             this.btn_theme_choose = new MaterialSkin.Controls.MaterialFlatButton();
+            this.btn_prev_theme = new MaterialSkin.Controls.MaterialFlatButton();
             this.SuspendLayout();
             // 
             // btn_save
@@ -308,7 +309,6 @@
             this.lbl_flbck.Size = new System.Drawing.Size(75, 13);
             this.lbl_flbck.TabIndex = 79;
             this.lbl_flbck.Text = "dev_trig_falbck";
-            this.lbl_flbck.Visible = false;
             this.lbl_flbck.Click += new System.EventHandler(this.lbl_flbck_Click);
             // 
             // btn_theme_choose
@@ -319,7 +319,7 @@
             this.btn_theme_choose.Depth = 0;
             this.btn_theme_choose.Enabled = false;
             this.btn_theme_choose.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_theme_choose.Location = new System.Drawing.Point(15, 427);
+            this.btn_theme_choose.Location = new System.Drawing.Point(318, 580);
             this.btn_theme_choose.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_theme_choose.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_theme_choose.Name = "btn_theme_choose";
@@ -331,6 +331,24 @@
             this.btn_theme_choose.Visible = false;
             this.btn_theme_choose.Click += new System.EventHandler(this.btn_theme_choose_Click);
             // 
+            // btn_prev_theme
+            // 
+            this.btn_prev_theme.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btn_prev_theme.AutoSize = true;
+            this.btn_prev_theme.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_prev_theme.Depth = 0;
+            this.btn_prev_theme.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btn_prev_theme.Location = new System.Drawing.Point(9, 450);
+            this.btn_prev_theme.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_prev_theme.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_prev_theme.Name = "btn_prev_theme";
+            this.btn_prev_theme.Primary = false;
+            this.btn_prev_theme.Size = new System.Drawing.Size(119, 36);
+            this.btn_prev_theme.TabIndex = 81;
+            this.btn_prev_theme.Text = "Preview theme";
+            this.btn_prev_theme.UseVisualStyleBackColor = true;
+            this.btn_prev_theme.Click += new System.EventHandler(this.btn_prev_theme_Click);
+            // 
             // dev_properties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -338,6 +356,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(446, 650);
             this.ControlBox = false;
+            this.Controls.Add(this.btn_prev_theme);
             this.Controls.Add(this.btn_theme_choose);
             this.Controls.Add(this.lbl_flbck);
             this.Controls.Add(this.lbl_upd);
@@ -387,5 +406,6 @@
         private System.Windows.Forms.Label lbl_upd;
         private System.Windows.Forms.Label lbl_flbck;
         private MaterialSkin.Controls.MaterialFlatButton btn_theme_choose;
+        private MaterialSkin.Controls.MaterialFlatButton btn_prev_theme;
     }
 }

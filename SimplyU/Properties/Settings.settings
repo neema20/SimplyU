@@ -290,5 +290,8 @@
     <Setting Name="dev_fallbck" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="dev_theme_prev" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Defualt</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

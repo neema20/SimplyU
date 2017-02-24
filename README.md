@@ -32,8 +32,10 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 
 ##Changelog: 
 
-**The Build Archives are now .7z files; they're Password Protected for Security Purposes. The Password is "d2fd34". Let me know if you don't like this change.
-This helps to prevent Anti-Virus Software from scanning the Archive, and removing it. Even though it contains nothing Malicious.**
+**The Build Archives are .7z files; older ones are Password Protected for Security Purposes. The Password is "d2fd34". Let me know if you don't like this change.
+This helps to prevent Anti-Virus Software from scanning the Archive, and removing it. Even though it contains nothing Malicious.
+
+Newer ones are no longer Password protected.**
 
 ###Release 1.0.0: 
 * Fixed some minor bugs with the Updater

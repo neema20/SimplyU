@@ -7,11 +7,10 @@ They're not in .7z or .zip files though, unlike builds in the common folder.
 
 ##Common Builds: 
 
-The common build .7z files are password protected. This is to prevent Anti-Virus 
-software from scanning the archive. Not because there's any virus' or malware; but,
-due to most Anti-Virus software suites recognizing some software as such. 
+**The Build Archives are .7z files; older ones are Password Protected for Security Purposes. The Password is "d2fd34". Let me know if you don't like this change.
+This helps to prevent Anti-Virus Software from scanning the Archive, and removing it. Even though it contains nothing Malicious.
 
-The newer archives are no longer password protected; but older builds have the password "d2fd34" without quotes. 
+The newer archives are no longer password protected; but older builds have the password "d2fd34" without quotes.**
 
 ##Debug Builds: 
 

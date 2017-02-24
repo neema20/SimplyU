@@ -179,6 +179,12 @@
     <Compile Include="dev_prepare.Designer.cs">
       <DependentUpon>dev_prepare.cs</DependentUpon>
     </Compile>
+    <Compile Include="dev_preview_theme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dev_preview_theme.Designer.cs">
+      <DependentUpon>dev_preview_theme.cs</DependentUpon>
+    </Compile>
     <Compile Include="dev_properties.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -237,6 +243,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="dev_prepare.resx">
       <DependentUpon>dev_prepare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dev_preview_theme.resx">
+      <DependentUpon>dev_preview_theme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dev_properties.resx">
       <DependentUpon>dev_properties.cs</DependentUpon>

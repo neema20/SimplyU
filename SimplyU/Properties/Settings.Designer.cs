@@ -1178,5 +1178,17 @@ namespace SimplyU.Properties {
                 this["dev_fallbck"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Defualt")]
+        public string dev_theme_prev {
+            get {
+                return ((string)(this["dev_theme_prev"]));
+            }
+            set {
+                this["dev_theme_prev"] = value;
+            }
+        }
     }
 }

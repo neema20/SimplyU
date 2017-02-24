@@ -3,7 +3,8 @@
 The following files and folders are for SimpliiU.
 They contain audio and image files.
 
-There is a .7z file containing all of the Themes. 
+There is a folder called packed. This is where 
+the themes are Archive in .zip files. 
 
 These files (audio/images) are from their original creators; I take no credit
 whatsoever! 
@@ -24,10 +25,6 @@ They're as follows:
 * Material Brown Theme - For testing 
 * Test theme - For testing 
 
-**NOTE:** as of 0.8.0 Beta, the Theme parser is **NOT** finished! 
-By at least 0.8.2 or 0.9.0, the theme parser will be completed; as well
-as the Updater and RedNAND Setup (Hopefully).
-
 ##Downloads: 
 
 * ![Ryuko Matoi Theme - Ryuko](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Ryuko.zip?raw=true) 
@@ -41,6 +38,7 @@ as the Updater and RedNAND Setup (Hopefully).
 * ![Switch Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Switch.zip?raw=true)
 * ![RWBY Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/RWBY.zip?raw=true) 
 * ![Rock Edition Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Rock Edition.zip?raw=true)
+* ![Lilith Edition Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Lilith Edition.zip?raw=true)
 * ![Material Brown Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Material Brown.zip?raw=true) 
 
 ##How to: 
@@ -134,7 +132,7 @@ I appreciate the extra hand.
 
 Artists/Image resources: 
 
-* Me (Some art) 
+* Me (Some art; mostly for the GUI) 
 * DeviantArt creators (Don't remember them x3) 
 * And a few other resources via Google Images. 
 

@@ -357,5 +357,21 @@ namespace SimplyU
             dev_theme_chooser dr = new dev_theme_chooser();
             dr.Show();
         }
+
+        private void btn_prev_theme_Click(object sender, EventArgs e)
+        {
+            if (chck_ctheme.Enabled == false)
+            {
+                Properties.Settings.Default.dev_theme_prev = "Default";
+                Properties.Settings.Default.Save();
+            }
+            else
+            {
+                Properties.Settings.Default.dev_theme_prev = txt_theme.Text;
+                Properties.Settings.Default.Save();
+            }
+            Form tp = new dev_preview_theme();
+            tp.Show();
+        }
     }
 }

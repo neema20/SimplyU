@@ -33,3 +33,4 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\SimpliiU.exe.manifest
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\SimpliiU.application
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\Ionic.Zip.dll
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.dev_theme_chooser.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.dev_preview_theme.resources
