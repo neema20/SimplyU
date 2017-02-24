@@ -1277,5 +1277,10 @@ namespace SimplyU
                 dev_comp_chck.Stop();
             }
         }
+
+        private void dev_refresh_Tick(object sender, EventArgs e)
+        {
+            this.Refresh();
+        }
     }
 }

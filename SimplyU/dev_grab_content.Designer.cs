@@ -44,6 +44,7 @@
             this.lbl_build_status = new System.Windows.Forms.Label();
             this.dev_error = new System.Windows.Forms.Timer(this.components);
             this.dev_comp_chck = new System.Windows.Forms.Timer(this.components);
+            this.dev_refresh = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.bck_music)).BeginInit();
             this.SuspendLayout();
             // 
@@ -159,6 +160,12 @@
             this.dev_comp_chck.Interval = 10;
             this.dev_comp_chck.Tick += new System.EventHandler(this.dev_comp_chck_Tick);
             // 
+            // dev_refresh
+            // 
+            this.dev_refresh.Enabled = true;
+            this.dev_refresh.Interval = 150;
+            this.dev_refresh.Tick += new System.EventHandler(this.dev_refresh_Tick);
+            // 
             // dev_grab_content
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.Alert;
@@ -204,5 +211,6 @@
         private System.Windows.Forms.Label lbl_build_status;
         private System.Windows.Forms.Timer dev_error;
         private System.Windows.Forms.Timer dev_comp_chck;
+        private System.Windows.Forms.Timer dev_refresh;
     }
 }

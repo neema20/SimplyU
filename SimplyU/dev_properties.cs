@@ -260,54 +260,112 @@ namespace SimplyU
         {
             try
             {
-                //Read latest update and convert to string
-                WebRequest request = WebRequest.Create("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates//Update_Info.ini?raw=true");
-                WebResponse response = request.GetResponse();
-                Stream dataStream = response.GetResponseStream();
-                StreamReader upd_rd = new StreamReader(dataStream);
-                string upd_get = upd_rd.ReadToEnd();
-
-                //Get and read latest update info, then grab it
-                //But first delete old files, and continue.
-                WebClient get_info = new WebClient();
-                string cd = Application.StartupPath;
-                File.Delete(Path.Combine(cd, "Update_info.txt"));
-                File.Delete(Path.Combine(cd, "Update_URI.txt"));
-                File.Delete(Path.Combine(cd, "SimpliiU_old.exe"));
-                File.Delete(Path.Combine(cd, "SimpliiU_new.exe"));
-                File.Delete(Path.Combine(cd, "upd_fin.exe"));
-                get_info.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates//Update_Info.ini?raw=true"), cd + "\\Update_info.txt");
-                WebClient upd_dwld = new WebClient();
-                using (Stream upd = File.Open(cd + "\\Update_info.txt", FileMode.Open))
+                if (Properties.Settings.Default.dev_grab_night == "1")
                 {
-                    using (StreamReader reader = new StreamReader(upd))
+                    //Read latest update and convert to string
+                    WebRequest request = WebRequest.Create("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates//Update_Info.ini?raw=true");
+                    WebResponse response = request.GetResponse();
+                    Stream dataStream = response.GetResponseStream();
+                    StreamReader upd_rd = new StreamReader(dataStream);
+                    string upd_get = upd_rd.ReadToEnd();
+
+                    //Get and read latest update info, then grab it
+                    //But first delete old files, and continue.
+                    WebClient get_info = new WebClient();
+                    string cd = Application.StartupPath;
+                    File.Delete(Path.Combine(cd, "Update_info.txt"));
+                    File.Delete(Path.Combine(cd, "Update_URI.txt"));
+                    File.Delete(Path.Combine(cd, "SimpliiU_old.exe"));
+                    File.Delete(Path.Combine(cd, "SimpliiU_new.exe"));
+                    File.Delete(Path.Combine(cd, "upd_fin.exe"));
+                    get_info.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/dev_latest/Update_Info.ini?raw=true"), cd + "\\Update_info.txt");
+                    WebClient upd_dwld = new WebClient();
+                    using (Stream upd = File.Open(cd + "\\Update_info.txt", FileMode.Open))
                     {
-                        string rd_upd = null;
-
-                        rd_upd = reader.ReadToEnd();
-
-                        if (rd_upd == Application.ProductVersion)
+                        using (StreamReader reader = new StreamReader(upd))
                         {
-                            lbl_upd.Text = "No new Updates";
-                            return;
-                        }
-                        else
-                        {
-                            DialogResult dr = MessageBox.Show("There's an Update available" + " (" + upd_get + ")" + "\r\nDo you wish to update?", "SimpliiU: Update", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
-                            switch (dr)
+                            string rd_upd = null;
+
+                            rd_upd = reader.ReadToEnd();
+
+                            if (rd_upd == Application.ProductVersion)
                             {
-                                case System.Windows.Forms.DialogResult.Yes:
-                                    upd_dwld.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Latest/SimpliiU.exe?raw=true"), cd + "\\SimpliiU_new.exe");
-                                    WebClient get_fin = new WebClient();
-                                    get_fin.DownloadFile(new Uri("https://github.com/zoltx23/SimplyU/blob/master/Common/Updates/upd_fin.exe?raw=true"), cd + "\\upd_fin.exe");
-                                    Process.Start(cd + "\\upd_fin.exe");
+                                lbl_upd.Text = "No new Updates";
+                                return;
+                            }
+                            else
+                            {
+                                DialogResult dr = MessageBox.Show("There's an Update available" + " (" + upd_get + ")" + "\r\nDo you wish to update?", "SimpliiU: Update", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                                switch (dr)
+                                {
+                                    case System.Windows.Forms.DialogResult.Yes:
+                                        upd_dwld.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/dev_latest/SimpliiU.exe?raw=true"), cd + "\\SimpliiU_new.exe");
+                                        WebClient get_fin = new WebClient();
+                                        get_fin.DownloadFile(new Uri("https://github.com/zoltx23/SimplyU/blob/master/Common/Updates/upd_fin.exe?raw=true"), cd + "\\upd_fin.exe");
+                                        Process.Start(cd + "\\upd_fin.exe");
 
-                                    Application.Exit();
-                                    break;
+                                        Application.Exit();
+                                        break;
 
-                                case System.Windows.Forms.DialogResult.No:
+                                    case System.Windows.Forms.DialogResult.No:
 
-                                    break;
+                                        break;
+                                }
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    //Read latest update and convert to string
+                    WebRequest request = WebRequest.Create("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates//Update_Info.ini?raw=true");
+                    WebResponse response = request.GetResponse();
+                    Stream dataStream = response.GetResponseStream();
+                    StreamReader upd_rd = new StreamReader(dataStream);
+                    string upd_get = upd_rd.ReadToEnd();
+
+                    //Get and read latest update info, then grab it
+                    //But first delete old files, and continue.
+                    WebClient get_info = new WebClient();
+                    string cd = Application.StartupPath;
+                    File.Delete(Path.Combine(cd, "Update_info.txt"));
+                    File.Delete(Path.Combine(cd, "Update_URI.txt"));
+                    File.Delete(Path.Combine(cd, "SimpliiU_old.exe"));
+                    File.Delete(Path.Combine(cd, "SimpliiU_new.exe"));
+                    File.Delete(Path.Combine(cd, "upd_fin.exe"));
+                    get_info.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates//Update_Info.ini?raw=true"), cd + "\\Update_info.txt");
+                    WebClient upd_dwld = new WebClient();
+                    using (Stream upd = File.Open(cd + "\\Update_info.txt", FileMode.Open))
+                    {
+                        using (StreamReader reader = new StreamReader(upd))
+                        {
+                            string rd_upd = null;
+
+                            rd_upd = reader.ReadToEnd();
+
+                            if (rd_upd == Application.ProductVersion)
+                            {
+                                lbl_upd.Text = "No new Updates";
+                                return;
+                            }
+                            else
+                            {
+                                DialogResult dr = MessageBox.Show("There's an Update available" + " (" + upd_get + ")" + "\r\nDo you wish to update?", "SimpliiU: Update", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+                                switch (dr)
+                                {
+                                    case System.Windows.Forms.DialogResult.Yes:
+                                        upd_dwld.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Latest/SimpliiU.exe?raw=true"), cd + "\\SimpliiU_new.exe");
+                                        WebClient get_fin = new WebClient();
+                                        get_fin.DownloadFile(new Uri("https://github.com/zoltx23/SimplyU/blob/master/Common/Updates/upd_fin.exe?raw=true"), cd + "\\upd_fin.exe");
+                                        Process.Start(cd + "\\upd_fin.exe");
+
+                                        Application.Exit();
+                                        break;
+
+                                    case System.Windows.Forms.DialogResult.No:
+
+                                        break;
+                                }
                             }
                         }
                     }
@@ -372,6 +430,29 @@ namespace SimplyU
             }
             Form tp = new dev_preview_theme();
             tp.Show();
+        }
+
+        private void chck_grab_night_CheckStateChanged(object sender, EventArgs e)
+        {
+            if (chck_grab_night.Checked == true)
+            {
+                DialogResult dr = MessageBox.Show("         This option will allow you to revieve development builds. \r\nThese builds are not ment for normal use. Please proceed with caution! \r\n \r\n                        Are you sure you want to continue?", "SimpliiU: Properties -- Update Settings", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2);
+                switch (dr)
+                {
+                    case System.Windows.Forms.DialogResult.Yes:
+
+                        chck_grab_night.Checked = true;
+                        break;
+
+                    case System.Windows.Forms.DialogResult.No:
+                        chck_grab_night.Checked = false;
+                        break;
+                }
+            }
+            else
+            {
+                chck_grab_night.Checked = false;
+            }
         }
     }
 }

@@ -106,6 +106,7 @@
             this.chck_grab_night.TabIndex = 13;
             this.chck_grab_night.Text = "Download the Latest Nightly of SimpliiU (Or Dev Build)?";
             this.chck_grab_night.UseVisualStyleBackColor = true;
+            this.chck_grab_night.CheckStateChanged += new System.EventHandler(this.chck_grab_night_CheckStateChanged);
             // 
             // chck_clean
             // 

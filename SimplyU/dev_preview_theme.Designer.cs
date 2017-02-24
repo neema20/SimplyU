@@ -127,6 +127,7 @@
             this.MinimizeBox = false;
             this.Name = "dev_preview_theme";
             this.ShowInTaskbar = false;
+            this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "dev_preview_theme";
             this.Load += new System.EventHandler(this.dev_preview_theme_Load);

@@ -85,6 +85,7 @@
             this.Name = "dev_error";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.Sizable = false;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.dev_error_FormClosing);
             this.Load += new System.EventHandler(this.dev_error_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo_state)).EndInit();
