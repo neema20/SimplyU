@@ -24,7 +24,7 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 * When Formatting, the Dialog may Continue to Show (Fixed in the Nightly Build)
 
 ##Curent Version: 
-1.0.0 Nightly
+1.0.2 Nightly
 
 ![Download latest Dev Build](https://github.com/zoltx23/SimplyU/tree/master/Builds/Common)
 
@@ -34,6 +34,16 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 
 **The Build Archives are now .7z files; they're Password Protected for Security Purposes. The Password is "d2fd34". Let me know if you don't like this change.
 This helps to prevent Anti-Virus Software from scanning the Archive, and removing it. Even though it contains nothing Malicious.**
+
+
+###Release 1.0.2: 
+* Fixed some minor issues
+* Working on other features (Download code, RedNand Setup, etc.) 
+* Refining the updater code
+* Refining the Theme Management (Will have a better layout and design for choosing themes; as well as a fallback mode if a theme doesn't exist, that was applied.) 
+* Added error forms, for when an Error occurs; the Application will halt, and return to said form rather than crashing.
+
+**NOTE:** This build is a development build, it is **NOT** to be used for normal use. Please report any issues or bugs that you may encounter. To do that, go to the "Issues" tab and report it. 
 
 ###Release 1.0.0: 
 * Fixed some minor bugs with the Updater
