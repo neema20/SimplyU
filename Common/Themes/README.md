@@ -22,6 +22,7 @@ They're as follows:
 * Nintendo Switch theme - Almost finished 
 * RWBY Theme - Finished - Updated (2/1/17) w/New Images
 * Rock Edition Theme - Finished
+* Lilith Theme 
 * Material Brown Theme - For testing 
 * Test theme - For testing 
 
