@@ -30,7 +30,7 @@
     <MinimumRequiredVersion>1.0.1.0</MinimumRequiredVersion>
     <AutorunEnabled>true</AutorunEnabled>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.1.0</ApplicationVersion>
+    <ApplicationVersion>1.0.3.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -137,6 +137,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dev_about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dev_about.Designer.cs">
+      <DependentUpon>dev_about.cs</DependentUpon>
+    </Compile>
     <Compile Include="dev_bck_music.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -223,6 +229,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="dev_about.resx">
+      <DependentUpon>dev_about.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dev_bck_music.resx">
       <DependentUpon>dev_bck_music.cs</DependentUpon>
     </EmbeddedResource>
@@ -309,6 +318,7 @@
     <None Include="Resources\theme_choosexcf.png" />
     <None Include="Resources\clear.png" />
     <None Include="Resources\theme_choose_sel.png" />
+    <None Include="Resources\avatar.jpg" />
     <Content Include="SimplyU_Logo.ico" />
   </ItemGroup>
   <ItemGroup>

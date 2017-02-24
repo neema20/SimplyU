@@ -148,6 +148,8 @@ namespace SimplyU
                 Properties.Settings.Default.dev_theme = "Default";
             }
 
+            Properties.Settings.Default.dev_close_now = "0";
+
             Properties.Settings.Default.inst_fba = "0";
 
             Properties.Settings.Default.inst_gamebatte = "0";

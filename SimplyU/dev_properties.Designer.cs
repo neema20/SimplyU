@@ -49,6 +49,7 @@
             this.lbl_flbck = new System.Windows.Forms.Label();
             this.btn_theme_choose = new MaterialSkin.Controls.MaterialFlatButton();
             this.btn_prev_theme = new MaterialSkin.Controls.MaterialFlatButton();
+            this.btn_about = new MaterialSkin.Controls.MaterialFlatButton();
             this.SuspendLayout();
             // 
             // btn_save
@@ -350,6 +351,24 @@
             this.btn_prev_theme.UseVisualStyleBackColor = true;
             this.btn_prev_theme.Click += new System.EventHandler(this.btn_prev_theme_Click);
             // 
+            // btn_about
+            // 
+            this.btn_about.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_about.AutoSize = true;
+            this.btn_about.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_about.Depth = 0;
+            this.btn_about.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btn_about.Location = new System.Drawing.Point(210, 612);
+            this.btn_about.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_about.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_about.Name = "btn_about";
+            this.btn_about.Primary = false;
+            this.btn_about.Size = new System.Drawing.Size(57, 36);
+            this.btn_about.TabIndex = 82;
+            this.btn_about.Text = "about";
+            this.btn_about.UseVisualStyleBackColor = true;
+            this.btn_about.Click += new System.EventHandler(this.btn_about_Click);
+            // 
             // dev_properties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -357,6 +376,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(446, 650);
             this.ControlBox = false;
+            this.Controls.Add(this.btn_about);
             this.Controls.Add(this.btn_prev_theme);
             this.Controls.Add(this.btn_theme_choose);
             this.Controls.Add(this.lbl_flbck);
@@ -408,5 +428,6 @@
         private System.Windows.Forms.Label lbl_flbck;
         private MaterialSkin.Controls.MaterialFlatButton btn_theme_choose;
         private MaterialSkin.Controls.MaterialFlatButton btn_prev_theme;
+        private MaterialSkin.Controls.MaterialFlatButton btn_about;
     }
 }

@@ -1190,5 +1190,17 @@ namespace SimplyU.Properties {
                 this["dev_theme_prev"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dev_close_now {
+            get {
+                return ((string)(this["dev_close_now"]));
+            }
+            set {
+                this["dev_close_now"] = value;
+            }
+        }
     }
 }

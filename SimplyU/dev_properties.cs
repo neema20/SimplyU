@@ -434,25 +434,38 @@ namespace SimplyU
 
         private void chck_grab_night_CheckStateChanged(object sender, EventArgs e)
         {
-            if (chck_grab_night.Checked == true)
+            if (Properties.Settings.Default.dev_grab_night == "0")
             {
-                DialogResult dr = MessageBox.Show("         This option will allow you to revieve development builds. \r\nThese builds are not ment for normal use. Please proceed with caution! \r\n \r\n                        Are you sure you want to continue?", "SimpliiU: Properties -- Update Settings", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2);
-                switch (dr)
+                if (chck_grab_night.Checked == true)
                 {
-                    case System.Windows.Forms.DialogResult.Yes:
+                    DialogResult dr = MessageBox.Show("         This option will allow you to revieve development builds. \r\nThese builds are not ment for normal use. Please proceed with caution! \r\n \r\n                        Are you sure you want to continue?", "SimpliiU: Properties -- Update Settings", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2);
+                    switch (dr)
+                    {
+                        case System.Windows.Forms.DialogResult.Yes:
 
-                        chck_grab_night.Checked = true;
-                        break;
+                            chck_grab_night.Checked = true;
+                            break;
 
-                    case System.Windows.Forms.DialogResult.No:
-                        chck_grab_night.Checked = false;
-                        break;
+                        case System.Windows.Forms.DialogResult.No:
+                            chck_grab_night.Checked = false;
+                            break;
+                    }
+                }
+                else
+                {
+                    chck_grab_night.Checked = false;
                 }
             }
             else
             {
-                chck_grab_night.Checked = false;
             }
+        }
+
+        private void btn_about_Click(object sender, EventArgs e)
+        {
+            Form ab = new dev_about();
+            ab.Show();
+            Close();
         }
     }
 }

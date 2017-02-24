@@ -293,5 +293,8 @@
     <Setting Name="dev_theme_prev" Type="System.String" Scope="User">
       <Value Profile="(Default)">Defualt</Value>
     </Setting>
+    <Setting Name="dev_close_now" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>
