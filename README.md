@@ -2,7 +2,7 @@
 
 #SimpliiU 
 
-Not to be mistaken for a 'Female Cosmetic',SimpliiU allows you to Prepare an SD Card with Homebrew.
+Not to be mistaken for a 'Female Cosmetic', SimpliiU allows you to Prepare an SD Card with Homebrew.
 This makes it incredibly easy for Lazy people, or if you're new to the Homebrew Scene! 
 
 ##Introduction: 
@@ -17,11 +17,10 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 [![1.0.1 Dev Preview](https://img.youtube.com/vi/MfpJ5f3D6E0/0.jpg)](https://www.youtube.com/watch?v=MfpJ5f3D6E0)
 
 ##What to do: 
-* Finish Self Hosting
-* Fix some bugs
+* Finish Promised features...
 
 ##Known Bugs: 
-* When Formatting, the Dialog may Continue to Show (Fixed in the Nightly Build)
+* None as of 1.0.2 
 
 ##Curent Version: 
 1.0.2 Nightly
