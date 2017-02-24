@@ -22,8 +22,11 @@ Terms! Since this Program is Open-Source, you may modify the Software to your he
 ##Known Bugs: 
 * None as of 1.0.2 
 
-##Curent Version: 
+##Current Version: 
 1.0.2 Nightly
+
+##Current Dev Build: 
+1.0.3 
 
 ![Download latest Dev Build](https://github.com/zoltx23/SimplyU/tree/master/Builds/Common)
 
