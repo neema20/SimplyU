@@ -14,7 +14,7 @@ SimpliiU is licensed under the GNU GPL Open-Source License Agreement (v3). By us
 Terms! Since this Program is Open-Source, you may modify the Software to your hearts content. 
 
 ##Latest Dev Preview Video: 
-[![1.0.1 Dev Preview](https://img.youtube.com/vi/MfpJ5f3D6E0/0.jpg)](https://www.youtube.com/watch?v=MfpJ5f3D6E0)
+[![1.0.1 Dev Preview](https://img.youtube.com/vi/Mot-XLZvgYw/0.jpg)](https://www.youtube.com/watch?v=Mot-XLZvgYw)
 
 ##What to do: 
 * Finish Promised features...
