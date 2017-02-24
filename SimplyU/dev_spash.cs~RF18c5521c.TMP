@@ -53,9 +53,7 @@ namespace SimplyU
 
                                 if (rd_upd == Application.ProductVersion)
                                 {
-                                    this.Hide();
-                                    dev_bck_music dm = new dev_bck_music();
-                                    dm.ShowDialog();
+                                    return;
                                 }
                                 else
                                 {
@@ -72,9 +70,7 @@ namespace SimplyU
                                             break;
 
                                         case System.Windows.Forms.DialogResult.No:
-                                            this.Hide();
-                                            dev_bck_music dm = new dev_bck_music();
-                                            dm.ShowDialog();
+
                                             break;
                                     }
                                 }
@@ -111,9 +107,7 @@ namespace SimplyU
 
                                 if (rd_upd == Application.ProductVersion)
                                 {
-                                    this.Hide();
-                                    dev_bck_music dm = new dev_bck_music();
-                                    dm.ShowDialog();
+                                    return;
                                 }
                                 else
                                 {
@@ -130,9 +124,7 @@ namespace SimplyU
                                             break;
 
                                         case System.Windows.Forms.DialogResult.No:
-                                            this.Hide();
-                                            dev_bck_music dm = new dev_bck_music();
-                                            dm.ShowDialog();
+
                                             break;
                                     }
                                 }
@@ -143,11 +135,12 @@ namespace SimplyU
                 catch
                 {
                     lbl_header.Text = "Update failed.";
-                    this.Hide();
-                    dev_bck_music dm = new dev_bck_music();
-                    dm.ShowDialog();
                 }
             }
+
+            this.Hide();
+            dev_bck_music dm = new dev_bck_music();
+            dm.ShowDialog();
         }
 
         private void dev_spash_Load(object sender, EventArgs e)

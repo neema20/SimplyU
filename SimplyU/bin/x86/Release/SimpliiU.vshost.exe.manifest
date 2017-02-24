@@ -103,24 +103,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimpliiU.exe" size="1838080">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimpliiU.exe" size="1913344">
       <assemblyIdentity name="SimpliiU" version="1.0.3.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TlGS2Qaw2YnqlkoeG0hzzkvYuJH6F7vlskX9nSSy9QI=</dsig:DigestValue>
+        <dsig:DigestValue>F3556q4+uSG8FhHU1VAuoD1mLQ4/mEwSfVc0ZimgHrY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="SimpliiU.exe.config" size="9925">
+  <file name="SimpliiU.exe.config" size="10021">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>P2C1F3VsuO2QCFnKjErZ+ix2Qk6DKXJSjHzlhkfAB6c=</dsig:DigestValue>
+      <dsig:DigestValue>75QyDAnMdFupEjC2Wo6bSmFGyXJgVxSf3XURGCXJV2c=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SimplyU_Logo.ico" size="80234">

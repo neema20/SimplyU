@@ -14,14 +14,14 @@
     <framework targetVersion="4.5.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="SimpliiU.exe.manifest" size="8408">
+    <dependentAssembly dependencyType="install" codebase="SimpliiU.exe.manifest" size="8409">
       <assemblyIdentity name="SimpliiU.exe" version="1.0.3.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>spAG7dVjUn0zpWdSxiAger8IOWZ0GmZ1hh87xXXvsIw=</dsig:DigestValue>
+        <dsig:DigestValue>niGC+zAgk8T0B26VQvGmqk7xYERtnHNAkdiPLdyO+kc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
