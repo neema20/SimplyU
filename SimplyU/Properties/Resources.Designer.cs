@@ -123,6 +123,16 @@ namespace SimplyU.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap New_Logo {
+            get {
+                object obj = ResourceManager.GetObject("New_Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap panel {
             get {
                 object obj = ResourceManager.GetObject("panel", resourceCulture);
@@ -196,6 +206,26 @@ namespace SimplyU.Properties {
         internal static System.Drawing.Bitmap theme_choosexcf {
             get {
                 object obj = ResourceManager.GetObject("theme_choosexcf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap U_Logo {
+            get {
+                object obj = ResourceManager.GetObject("U-Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap U_Logo_material_new {
+            get {
+                object obj = ResourceManager.GetObject("U-Logo_material_new", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

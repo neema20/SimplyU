@@ -132,11 +132,11 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pic_splash = new System.Windows.Forms.PictureBox();
             this.chck_loadiine = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_hbl = new MaterialSkin.Controls.MaterialCheckBox();
             this.chck_hbl_dark = new MaterialSkin.Controls.MaterialCheckBox();
             this.lbl_format_warn = new System.Windows.Forms.Label();
+            this.pic_splash = new System.Windows.Forms.PictureBox();
             this.pnl_sep2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
@@ -501,7 +501,7 @@
             // lbl_guide
             // 
             resources.ApplyResources(this.lbl_guide, "lbl_guide");
-            this.lbl_guide.ForeColor = System.Drawing.Color.DarkGray;
+            this.lbl_guide.ForeColor = System.Drawing.Color.Black;
             this.lbl_guide.Name = "lbl_guide";
             // 
             // lbl_rednand
@@ -1174,14 +1174,6 @@
             this.panel4.BackColor = System.Drawing.Color.Gainsboro;
             this.panel4.Name = "panel4";
             // 
-            // pic_splash
-            // 
-            resources.ApplyResources(this.pic_splash, "pic_splash");
-            this.pic_splash.BackColor = System.Drawing.Color.Transparent;
-            this.pic_splash.BackgroundImage = global::SimplyU.Properties.Resources.SimplyU_Full_Logo;
-            this.pic_splash.Name = "pic_splash";
-            this.pic_splash.TabStop = false;
-            // 
             // chck_loadiine
             // 
             resources.ApplyResources(this.chck_loadiine, "chck_loadiine");
@@ -1220,6 +1212,14 @@
             resources.ApplyResources(this.lbl_format_warn, "lbl_format_warn");
             this.lbl_format_warn.ForeColor = System.Drawing.Color.DarkGray;
             this.lbl_format_warn.Name = "lbl_format_warn";
+            // 
+            // pic_splash
+            // 
+            resources.ApplyResources(this.pic_splash, "pic_splash");
+            this.pic_splash.BackColor = System.Drawing.Color.Transparent;
+            this.pic_splash.BackgroundImage = global::SimplyU.Properties.Resources.SimplyU_Full_Logo;
+            this.pic_splash.Name = "pic_splash";
+            this.pic_splash.TabStop = false;
             // 
             // dev_prepare
             // 

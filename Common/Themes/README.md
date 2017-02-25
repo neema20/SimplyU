@@ -22,7 +22,7 @@ They're as follows:
 * Nintendo Switch theme - Almost finished 
 * RWBY Theme - Finished - Updated (2/1/17) w/New Images
 * Rock Edition Theme - Finished
-* Lilith Theme 
+* Lillith Theme 
 * Material Brown Theme - For testing 
 * Test theme - For testing 
 
@@ -39,7 +39,7 @@ They're as follows:
 * ![Switch Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Switch.zip?raw=true)
 * ![RWBY Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/RWBY.zip?raw=true) 
 * ![Rock Edition Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Rock Edition.zip?raw=true)
-* ![Lilith Edition Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Lilith Edition.zip?raw=true)
+* ![Lillith Edition Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Lillith Edition.zip?raw=true)
 * ![Material Brown Theme](https://github.com/zoltx23/SimplyU/blob/master/Common/Themes/Packed/Material Brown.zip?raw=true) 
 
 ##How to: 

@@ -50,6 +50,7 @@
             this.btn_theme_choose = new MaterialSkin.Controls.MaterialFlatButton();
             this.btn_prev_theme = new MaterialSkin.Controls.MaterialFlatButton();
             this.btn_about = new MaterialSkin.Controls.MaterialFlatButton();
+            this.lbl_guide = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_save
@@ -369,6 +370,20 @@
             this.btn_about.UseVisualStyleBackColor = true;
             this.btn_about.Click += new System.EventHandler(this.btn_about_Click);
             // 
+            // lbl_guide
+            // 
+            this.lbl_guide.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lbl_guide.AutoSize = true;
+            this.lbl_guide.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbl_guide.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_guide.ForeColor = System.Drawing.Color.DimGray;
+            this.lbl_guide.Location = new System.Drawing.Point(12, 628);
+            this.lbl_guide.Name = "lbl_guide";
+            this.lbl_guide.Size = new System.Drawing.Size(75, 13);
+            this.lbl_guide.TabIndex = 83;
+            this.lbl_guide.Text = "dev_guide_me";
+            this.lbl_guide.Click += new System.EventHandler(this.lbl_guide_Click);
+            // 
             // dev_properties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -376,6 +391,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(446, 650);
             this.ControlBox = false;
+            this.Controls.Add(this.lbl_guide);
             this.Controls.Add(this.btn_about);
             this.Controls.Add(this.btn_prev_theme);
             this.Controls.Add(this.btn_theme_choose);
@@ -429,5 +445,6 @@
         private MaterialSkin.Controls.MaterialFlatButton btn_theme_choose;
         private MaterialSkin.Controls.MaterialFlatButton btn_prev_theme;
         private MaterialSkin.Controls.MaterialFlatButton btn_about;
+        private System.Windows.Forms.Label lbl_guide;
     }
 }

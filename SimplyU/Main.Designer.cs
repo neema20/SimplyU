@@ -39,9 +39,9 @@
             this.btn_self_host = new MaterialSkin.Controls.MaterialFlatButton();
             this.btn_next = new MaterialSkin.Controls.MaterialFlatButton();
             this.lbl_desc = new System.Windows.Forms.Label();
-            this.pic_splash = new System.Windows.Forms.PictureBox();
             this.lbl_welcome = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pic_splash = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_splash)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,7 +73,6 @@
             this.lbl_term.Size = new System.Drawing.Size(85, 15);
             this.lbl_term.TabIndex = 69;
             this.lbl_term.Text = "ACCESS_TERM";
-            this.lbl_term.Visible = false;
             this.lbl_term.Click += new System.EventHandler(this.lbl_term_Click);
             // 
             // lbl_log
@@ -90,7 +89,6 @@
             this.lbl_log.Size = new System.Drawing.Size(77, 15);
             this.lbl_log.TabIndex = 70;
             this.lbl_log.Text = "ACCESS_LOG";
-            this.lbl_log.Visible = false;
             this.lbl_log.Click += new System.EventHandler(this.lbl_log_Click);
             // 
             // lbl_ac_rdnand
@@ -107,7 +105,6 @@
             this.lbl_ac_rdnand.Size = new System.Drawing.Size(97, 15);
             this.lbl_ac_rdnand.TabIndex = 71;
             this.lbl_ac_rdnand.Text = "ACCESS_RDDND";
-            this.lbl_ac_rdnand.Visible = false;
             this.lbl_ac_rdnand.Click += new System.EventHandler(this.lbl_ac_rdnand_Click);
             // 
             // btn_view
@@ -208,18 +205,6 @@
             this.lbl_desc.Text = resources.GetString("lbl_desc.Text");
             this.lbl_desc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pic_splash
-            // 
-            this.pic_splash.BackColor = System.Drawing.Color.Transparent;
-            this.pic_splash.BackgroundImage = global::SimplyU.Properties.Resources.SimplyU_Full_Logo;
-            this.pic_splash.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pic_splash.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pic_splash.Location = new System.Drawing.Point(0, 63);
-            this.pic_splash.Name = "pic_splash";
-            this.pic_splash.Size = new System.Drawing.Size(736, 234);
-            this.pic_splash.TabIndex = 77;
-            this.pic_splash.TabStop = false;
-            // 
             // lbl_welcome
             // 
             this.lbl_welcome.BackColor = System.Drawing.Color.Transparent;
@@ -247,8 +232,19 @@
             this.label1.Size = new System.Drawing.Size(87, 15);
             this.label1.TabIndex = 80;
             this.label1.Text = "ACCESS_THME\r\n";
-            this.label1.Visible = false;
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // pic_splash
+            // 
+            this.pic_splash.BackColor = System.Drawing.Color.Transparent;
+            this.pic_splash.BackgroundImage = global::SimplyU.Properties.Resources.New_Logo;
+            this.pic_splash.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pic_splash.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pic_splash.Location = new System.Drawing.Point(0, 63);
+            this.pic_splash.Name = "pic_splash";
+            this.pic_splash.Size = new System.Drawing.Size(736, 234);
+            this.pic_splash.TabIndex = 77;
+            this.pic_splash.TabStop = false;
             // 
             // Main
             // 

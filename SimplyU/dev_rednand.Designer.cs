@@ -34,7 +34,6 @@
             this.lbl_build_status = new System.Windows.Forms.Label();
             this.lbl_header = new System.Windows.Forms.Label();
             this.chck_c_fw = new MaterialSkin.Controls.MaterialCheckBox();
-            this.chck_syst = new MaterialSkin.Controls.MaterialCheckBox();
             this.btn_cancel = new MaterialSkin.Controls.MaterialFlatButton();
             this.btn_target = new MaterialSkin.Controls.MaterialFlatButton();
             this.txt_target = new MaterialSkin.Controls.MaterialSingleLineTextField();
@@ -110,24 +109,6 @@
             this.chck_c_fw.TabIndex = 73;
             this.chck_c_fw.Text = "Create FW.img? \r\n";
             this.chck_c_fw.UseVisualStyleBackColor = true;
-            // 
-            // chck_syst
-            // 
-            this.chck_syst.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.chck_syst.AutoSize = true;
-            this.chck_syst.Depth = 0;
-            this.chck_syst.Font = new System.Drawing.Font("Roboto", 10F);
-            this.chck_syst.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chck_syst.Location = new System.Drawing.Point(4, 566);
-            this.chck_syst.Margin = new System.Windows.Forms.Padding(0);
-            this.chck_syst.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.chck_syst.MouseState = MaterialSkin.MouseState.HOVER;
-            this.chck_syst.Name = "chck_syst";
-            this.chck_syst.Ripple = true;
-            this.chck_syst.Size = new System.Drawing.Size(160, 30);
-            this.chck_syst.TabIndex = 75;
-            this.chck_syst.Text = "Install System Tools? \r\n";
-            this.chck_syst.UseVisualStyleBackColor = true;
             // 
             // btn_cancel
             // 
@@ -220,7 +201,7 @@
             this.btn_install_prq.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_install_prq.Depth = 0;
             this.btn_install_prq.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_install_prq.Location = new System.Drawing.Point(186, 562);
+            this.btn_install_prq.Location = new System.Drawing.Point(7, 561);
             this.btn_install_prq.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_install_prq.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_install_prq.Name = "btn_install_prq";
@@ -243,7 +224,6 @@
             this.Controls.Add(this.btn_target);
             this.Controls.Add(this.txt_target);
             this.Controls.Add(this.btn_cancel);
-            this.Controls.Add(this.chck_syst);
             this.Controls.Add(this.chck_c_fw);
             this.Controls.Add(this.lbl_body);
             this.Controls.Add(this.lbl_header);
@@ -268,7 +248,6 @@
         private System.Windows.Forms.Label lbl_build_status;
         private System.Windows.Forms.Label lbl_header;
         private MaterialSkin.Controls.MaterialCheckBox chck_c_fw;
-        private MaterialSkin.Controls.MaterialCheckBox chck_syst;
         private MaterialSkin.Controls.MaterialFlatButton btn_cancel;
         private MaterialSkin.Controls.MaterialFlatButton btn_target;
         private MaterialSkin.Controls.MaterialSingleLineTextField txt_target;
