@@ -121,7 +121,7 @@
       <HintPath>..\Builds\Debug\2016_10_8_1053am\Ionic.Zip.dll</HintPath>
     </Reference>
     <Reference Include="MaterialSkin">
-      <HintPath>..\..\..\..\Desktop\MaterialSkin-master\MaterialSkinExample\bin\Debug\MaterialSkin.dll</HintPath>
+      <HintPath>..\Builds\Debug\2016_10_8_1053am\MaterialSkin.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.DebuggerVisualizers, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
@@ -333,6 +333,7 @@
     <None Include="Resources\U-Logo_material_new.png" />
     <None Include="Resources\New_Logo.png" />
     <Content Include="New_Logo.ico" />
+    <None Include="Resources\New_Logo1.png" />
     <Content Include="SimplyU_Logo.ico" />
   </ItemGroup>
   <ItemGroup>

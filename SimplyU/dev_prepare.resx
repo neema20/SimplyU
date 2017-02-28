@@ -127,7 +127,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="chck_rec.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_rec.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -166,7 +166,7 @@
     <value>True</value>
   </data>
   <data name="chck_self.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_self.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -376,7 +376,7 @@
     <value>None</value>
   </data>
   <data name="lbl_your_hb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11pt</value>
+    <value>Roboto, 11pt</value>
   </data>
   <data name="lbl_your_hb.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -412,7 +412,7 @@
     <value>None</value>
   </data>
   <data name="chck_ddd.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_ddd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -448,7 +448,7 @@
     <value>None</value>
   </data>
   <data name="rd_sd_caf.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_sd_caf.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -484,7 +484,7 @@
     <value>None</value>
   </data>
   <data name="rd_sav.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_sav.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -520,7 +520,7 @@
     <value>None</value>
   </data>
   <data name="rd_ftp.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_ftp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -556,7 +556,7 @@
     <value>None</value>
   </data>
   <data name="rd_nnu.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_nnu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -592,7 +592,7 @@
     <value>None</value>
   </data>
   <data name="rd_geck.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_geck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -628,7 +628,7 @@
     <value>None</value>
   </data>
   <data name="rd_gbiine.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_gbiine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -664,7 +664,7 @@
     <value>None</value>
   </data>
   <data name="rd_tcp.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_tcp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -700,7 +700,7 @@
     <value>None</value>
   </data>
   <data name="rd_u_paint.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_u_paint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -736,7 +736,7 @@
     <value>None</value>
   </data>
   <data name="rd_hid.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_hid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -772,7 +772,7 @@
     <value>None</value>
   </data>
   <data name="rd_chip.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_chip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -808,7 +808,7 @@
     <value>None</value>
   </data>
   <data name="rd_wiiu_key.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_wiiu_key.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -844,7 +844,7 @@
     <value>None</value>
   </data>
   <data name="rd_wup.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_wup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -917,7 +917,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>True</value>
   </data>
   <data name="chck_frm_sd.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_frm_sd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1001,7 +1001,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>None</value>
   </data>
   <data name="rd_ios.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_ios.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1037,7 +1037,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>None</value>
   </data>
   <data name="chck_our.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_our.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1073,7 +1073,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>None</value>
   </data>
   <data name="rd_app_dark.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_app_dark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1109,7 +1109,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>None</value>
   </data>
   <data name="rd_poke.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_poke.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1145,7 +1145,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>None</value>
   </data>
   <data name="rd_hid_key.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_hid_key.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1181,7 +1181,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>None</value>
   </data>
   <data name="rd_synth.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_synth.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1256,7 +1256,7 @@ File Clusters Supported by SimpliiU: "16k, 32k, 64k, 128k, 8192b."</value>
     <value>None</value>
   </data>
   <data name="chck_guide.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_guide.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1363,7 +1363,7 @@ we will also help and guide you through the process.</value>
     <value>False</value>
   </data>
   <data name="chck_rednand.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_rednand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1399,7 +1399,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="lbl_emu.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11pt</value>
+    <value>Roboto, 11pt</value>
   </data>
   <data name="lbl_emu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1435,7 +1435,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="lbl_tools.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11pt</value>
+    <value>Roboto, 11pt</value>
   </data>
   <data name="lbl_tools.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1471,7 +1471,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_loadiine_ymod.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_loadiine_ymod.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1507,7 +1507,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_retro_launcher.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_retro_launcher.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1543,7 +1543,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_fuse.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_fuse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1579,7 +1579,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_fce.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_fce.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1615,7 +1615,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_mame_midway.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_mame_midway.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1651,7 +1651,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_btneo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_btneo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1687,7 +1687,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_btsgx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_btsgx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1723,7 +1723,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_nxe.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_nxe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1759,7 +1759,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_fba_cps3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_fba_cps3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1795,7 +1795,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_snes9x_2010.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_snes9x_2010.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1831,7 +1831,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_lynx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_lynx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1867,7 +1867,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_prboom.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_prboom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1903,7 +1903,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_quicknes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_quicknes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1939,7 +1939,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_fba_cps1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_fba_cps1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1975,7 +1975,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_psx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_psx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2011,7 +2011,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_gamebatte.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_gamebatte.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2047,7 +2047,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_btvb.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_btvb.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2083,7 +2083,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_fba.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_fba.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2119,7 +2119,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_gen_pl_gx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_gen_pl_gx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2155,7 +2155,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_btpce.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_btpce.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2191,7 +2191,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_fba_neo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_fba_neo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2228,7 +2228,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_mame_2003.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_mame_2003.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2264,7 +2264,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_tyrquake.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_tyrquake.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2300,7 +2300,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_nestopia.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_nestopia.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2336,7 +2336,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_bt.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_bt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2372,7 +2372,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_snes9x.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_snes9x.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2408,7 +2408,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_fb_alpha_2012_cps2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_fb_alpha_2012_cps2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2444,7 +2444,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_ft2sd.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_ft2sd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2480,7 +2480,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_sigpat_systmenu.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_sigpat_systmenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2516,7 +2516,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_wudumper.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_wudumper.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2552,7 +2552,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_wuphax.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_wuphax.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2588,7 +2588,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_seeprom.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_seeprom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2624,7 +2624,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_sigpat_hbl.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_sigpat_hbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2660,7 +2660,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_aoc.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_aoc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2696,7 +2696,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_haxchi.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_haxchi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2732,7 +2732,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_cbhc.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_cbhc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2768,7 +2768,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_fsdumper.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_fsdumper.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2804,7 +2804,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_tik2sd.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_tik2sd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2840,7 +2840,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_padcon.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_padcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2876,7 +2876,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_otp2sd.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_otp2sd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2912,7 +2912,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_ftpiue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_ftpiue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2948,7 +2948,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="rd_ast.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_ast.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2984,7 +2984,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="rd_pong.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_pong.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3020,7 +3020,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="rd_gacu.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_gacu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3056,7 +3056,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="rd_tict.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_tict.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3092,7 +3092,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="rd_pac.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_pac.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3128,7 +3128,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="rd_snake.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_snake.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3164,7 +3164,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="rd_flappy.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_flappy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3200,7 +3200,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="rd_cave.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_cave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3236,7 +3236,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="rd_space.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="rd_space.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3272,7 +3272,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="lbl_games.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11pt</value>
+    <value>Roboto, 11pt</value>
   </data>
   <data name="lbl_games.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3308,7 +3308,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="lbl_loaders.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11pt</value>
+    <value>Roboto, 11pt</value>
   </data>
   <data name="lbl_loaders.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3371,7 +3371,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="materialCheckBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="materialCheckBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3593,7 +3593,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_loadiine.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_loadiine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3629,7 +3629,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_hbl.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_hbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3665,7 +3665,7 @@ we will also help and guide you through the process.</value>
     <value>None</value>
   </data>
   <data name="chck_hbl_dark.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+    <value>Roboto, 10pt</value>
   </data>
   <data name="chck_hbl_dark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4716,9 +4716,6 @@ we will also help and guide you through the process.</value>
         iBI8l/xdYoJROgAlSpQoUWIA0YZlPPJviSlBJW8DSpQoUaJEYRCeGCsJf8pROgAlSpQoUSIOpTMwhSin
         AEqUKFGiRBRhbijJf0rx/wEL6cqXooXligAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

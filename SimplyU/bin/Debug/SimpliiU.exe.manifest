@@ -4,7 +4,7 @@
   <description asmv2:iconFile="New_Logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="SimpliiU" version="1.0.3.1" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="SimpliiU" version="1.0.3.2" language="neutral" processorArchitecture="msil" />
     <commandLine file="SimpliiU.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -103,14 +103,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimpliiU.exe" size="2082304">
-      <assemblyIdentity name="SimpliiU" version="1.0.3.1" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimpliiU.exe" size="2136576">
+      <assemblyIdentity name="SimpliiU" version="1.0.3.2" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>j+NEVxzTT/FrhPpT4CS09T10pX9INpjx08r0LNIqFRg=</dsig:DigestValue>
+        <dsig:DigestValue>62vadihu9GSkYCx+mRtVil82338H18f9DSDTl6LrXFY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

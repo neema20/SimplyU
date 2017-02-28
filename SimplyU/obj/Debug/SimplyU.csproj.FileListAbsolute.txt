@@ -36,3 +36,5 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimpliiU.application
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimpliiU.exe
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimpliiU.pdb
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\Debug\SimplyU.csprojResolveAssemblyReference.cache
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\MaterialSkin.dll
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\Debug\MaterialSkin.pdb

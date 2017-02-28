@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dev_guide_me));
-            this.pcx_logo = new System.Windows.Forms.PictureBox();
             this.lbl_header = new System.Windows.Forms.Label();
             this.lbl_body = new System.Windows.Forms.Label();
             this.btn_fin = new MaterialSkin.Controls.MaterialFlatButton();
@@ -39,19 +38,9 @@
             this.lbl_getting = new System.Windows.Forms.Label();
             this.lbl_howto = new System.Windows.Forms.RichTextBox();
             this.btn_run = new MaterialSkin.Controls.MaterialFlatButton();
+            this.pcx_logo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pcx_logo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pcx_logo
-            // 
-            this.pcx_logo.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pcx_logo.BackgroundImage = global::SimplyU.Properties.Resources.U_Logo;
-            this.pcx_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pcx_logo.Location = new System.Drawing.Point(12, 77);
-            this.pcx_logo.Name = "pcx_logo";
-            this.pcx_logo.Size = new System.Drawing.Size(142, 124);
-            this.pcx_logo.TabIndex = 0;
-            this.pcx_logo.TabStop = false;
             // 
             // lbl_header
             // 
@@ -99,7 +88,7 @@
             this.lbl_exploit.Font = new System.Drawing.Font("Segoe UI Light", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_exploit.Location = new System.Drawing.Point(7, 328);
             this.lbl_exploit.Name = "lbl_exploit";
-            this.lbl_exploit.Size = new System.Drawing.Size(251, 37);
+            this.lbl_exploit.Size = new System.Drawing.Size(172, 37);
             this.lbl_exploit.TabIndex = 14;
             this.lbl_exploit.Text = "Running the Exploit";
             this.lbl_exploit.Click += new System.EventHandler(this.lbl_exploit_Click);
@@ -111,7 +100,7 @@
             this.lbl_homebrew.Font = new System.Drawing.Font("Segoe UI Light", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_homebrew.Location = new System.Drawing.Point(7, 365);
             this.lbl_homebrew.Name = "lbl_homebrew";
-            this.lbl_homebrew.Size = new System.Drawing.Size(251, 37);
+            this.lbl_homebrew.Size = new System.Drawing.Size(172, 37);
             this.lbl_homebrew.TabIndex = 14;
             this.lbl_homebrew.Text = "Running Homebrew";
             this.lbl_homebrew.Click += new System.EventHandler(this.lbl_homebrew_Click);
@@ -135,7 +124,7 @@
             this.lbl_getting.Font = new System.Drawing.Font("Segoe UI Light", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_getting.Location = new System.Drawing.Point(7, 291);
             this.lbl_getting.Name = "lbl_getting";
-            this.lbl_getting.Size = new System.Drawing.Size(251, 37);
+            this.lbl_getting.Size = new System.Drawing.Size(159, 37);
             this.lbl_getting.TabIndex = 15;
             this.lbl_getting.Text = "Getting Homebrew";
             this.lbl_getting.Click += new System.EventHandler(this.lbl_getting_Click);
@@ -144,10 +133,13 @@
             // 
             this.lbl_howto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_howto.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lbl_howto.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lbl_howto.Enabled = false;
             this.lbl_howto.Font = new System.Drawing.Font("Segoe UI Light", 9.3F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_howto.Location = new System.Drawing.Point(264, 291);
             this.lbl_howto.Name = "lbl_howto";
             this.lbl_howto.ReadOnly = true;
+            this.lbl_howto.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.lbl_howto.Size = new System.Drawing.Size(563, 310);
             this.lbl_howto.TabIndex = 16;
             this.lbl_howto.Text = "Click on a Topic to read it. ";
@@ -169,6 +161,17 @@
             this.btn_run.Text = "run the server";
             this.btn_run.UseVisualStyleBackColor = true;
             this.btn_run.Click += new System.EventHandler(this.btn_run_Click);
+            // 
+            // pcx_logo
+            // 
+            this.pcx_logo.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pcx_logo.BackgroundImage = global::SimplyU.Properties.Resources.New_Logo1;
+            this.pcx_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pcx_logo.Location = new System.Drawing.Point(12, 77);
+            this.pcx_logo.Name = "pcx_logo";
+            this.pcx_logo.Size = new System.Drawing.Size(142, 124);
+            this.pcx_logo.TabIndex = 0;
+            this.pcx_logo.TabStop = false;
             // 
             // dev_guide_me
             // 
@@ -192,7 +195,7 @@
             this.ShowInTaskbar = false;
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SimpliiU: Guide me | Revision 0.1";
+            this.Text = "SimpliiU: Guide me | Revision 0.2";
             this.Load += new System.EventHandler(this.dev_guide_me_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcx_logo)).EndInit();
             this.ResumeLayout(false);

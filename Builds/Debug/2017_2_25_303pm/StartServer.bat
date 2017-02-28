@@ -8,7 +8,7 @@ title SimpliiU: Server Script
 echo ==========================
 echo Script by Dr.Hacknik (C) 2016
 echo --------------------------
-echo Script Version: 0.4b 
+echo Script Version: 0.5 
 echo ==========================
 echo This Script was made for SimpliiU;
 echo SimpliiU and/or its Components are Licensed
@@ -44,7 +44,7 @@ echo ===========================
 echo It seems that we couldn't start the server properly.
 echo Please make sure that all the server's files are within the folder \Common\hosting.
 pause
-goto :top 
+goto :start_server 
 
 :agreement 
 

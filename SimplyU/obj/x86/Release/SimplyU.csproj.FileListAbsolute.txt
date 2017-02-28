@@ -34,3 +34,6 @@ C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_theme
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_preview_theme.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_about.resources
 C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.dev_guide_me.resources
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\obj\x86\Release\SimplyU.csprojResolveAssemblyReference.cache
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\MaterialSkin.dll
+C:\Users\Luke\Documents\GitHub\SimplyU\SimplyU\bin\x86\Release\MaterialSkin.pdb
