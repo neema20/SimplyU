@@ -148,8 +148,6 @@ namespace SimplyU
                 Properties.Settings.Default.dev_theme = "Default";
             }
 
-            Properties.Settings.Default.dev_guide = "0";
-
             Properties.Settings.Default.dev_close_now = "0";
 
             Properties.Settings.Default.inst_fba = "0";
@@ -365,7 +363,9 @@ namespace SimplyU
                 File.Move(cd + "\\StartServer.bat.old", cd + "\\StartServer.bat");
             }
 
-            Process.Start(cd + "\\StartServer.bat");
+            this.Hide();
+            dev_hosting dc = new dev_hosting();
+            dc.ShowDialog();
         }
 
         private void btn_view_Click_1(object sender, EventArgs e)

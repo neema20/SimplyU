@@ -34,8 +34,6 @@
             this.pcx_avatar = new System.Windows.Forms.PictureBox();
             this.lbl_header = new System.Windows.Forms.Label();
             this.dev_license = new System.Windows.Forms.TextBox();
-            this.btn_cont = new MaterialSkin.Controls.MaterialFlatButton();
-            this.lbl_me = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pcx_logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcx_avatar)).BeginInit();
             this.SuspendLayout();
@@ -87,9 +85,9 @@
             this.lbl_header.Font = new System.Drawing.Font("Segoe UI Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_header.Location = new System.Drawing.Point(12, 224);
             this.lbl_header.Name = "lbl_header";
-            this.lbl_header.Size = new System.Drawing.Size(202, 25);
+            this.lbl_header.Size = new System.Drawing.Size(131, 25);
             this.lbl_header.TabIndex = 13;
-            this.lbl_header.Text = "About SimpliiU %VER%:\r\n";
+            this.lbl_header.Text = "About SimpliiU";
             // 
             // dev_license
             // 
@@ -106,49 +104,17 @@
             this.dev_license.Text = resources.GetString("dev_license.Text");
             this.dev_license.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // btn_cont
-            // 
-            this.btn_cont.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_cont.AutoSize = true;
-            this.btn_cont.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_cont.Depth = 0;
-            this.btn_cont.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_cont.Location = new System.Drawing.Point(384, 443);
-            this.btn_cont.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.btn_cont.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btn_cont.Name = "btn_cont";
-            this.btn_cont.Primary = false;
-            this.btn_cont.Size = new System.Drawing.Size(79, 36);
-            this.btn_cont.TabIndex = 15;
-            this.btn_cont.Text = "continue";
-            this.btn_cont.UseVisualStyleBackColor = true;
-            this.btn_cont.Visible = false;
-            this.btn_cont.Click += new System.EventHandler(this.btn_cont_Click);
-            // 
-            // lbl_me
-            // 
-            this.lbl_me.AutoSize = true;
-            this.lbl_me.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_me.Location = new System.Drawing.Point(10, 70);
-            this.lbl_me.Name = "lbl_me";
-            this.lbl_me.Size = new System.Drawing.Size(77, 12);
-            this.lbl_me.TabIndex = 16;
-            this.lbl_me.Text = "Me (Dr.Hacknik):";
-            // 
             // dev_about
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(476, 481);
             this.ControlBox = false;
-            this.Controls.Add(this.lbl_me);
             this.Controls.Add(this.dev_license);
             this.Controls.Add(this.lbl_header);
             this.Controls.Add(this.btn_close);
             this.Controls.Add(this.pcx_logo);
             this.Controls.Add(this.pcx_avatar);
-            this.Controls.Add(this.btn_cont);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "dev_about";
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -168,7 +134,5 @@
         private MaterialSkin.Controls.MaterialFlatButton btn_close;
         private System.Windows.Forms.Label lbl_header;
         private System.Windows.Forms.TextBox dev_license;
-        private MaterialSkin.Controls.MaterialFlatButton btn_cont;
-        private System.Windows.Forms.Label lbl_me;
     }
 }

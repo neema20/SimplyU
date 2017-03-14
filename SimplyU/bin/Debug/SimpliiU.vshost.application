@@ -14,14 +14,18 @@
     <framework targetVersion="4.5.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="SimpliiU.exe.manifest" size="8800">
+    <dependentAssembly dependencyType="install" codebase="SimpliiU.exe.manifest" size="8413">
       <assemblyIdentity name="SimpliiU.exe" version="1.0.3.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
         <dsig:DigestValue>3XeR+O8BF7Q5T4LuaF6Pr2DCcOGB9Ybe35YpnG7NrrY=</dsig:DigestValue>
+=======
+        <dsig:DigestValue>zqAooBiGpHTu1ZoB3UllaUPW+yNzhrvKRxRCeKa4LbY=</dsig:DigestValue>
+>>>>>>> parent of 8a1a83e... Working on 1.0.3.1 Development Update
       </hash>
     </dependentAssembly>
   </dependency>

@@ -60,7 +60,7 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>New_Logo.ico</ApplicationIcon>
+    <ApplicationIcon>SimplyU_Logo.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -161,12 +161,6 @@
     <Compile Include="dev_grab_content.Designer.cs">
       <DependentUpon>dev_grab_content.cs</DependentUpon>
     </Compile>
-    <Compile Include="dev_guide_me.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="dev_guide_me.Designer.cs">
-      <DependentUpon>dev_guide_me.cs</DependentUpon>
-    </Compile>
     <Compile Include="dev_hosting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -247,9 +241,6 @@
     <EmbeddedResource Include="dev_grab_content.resx">
       <DependentUpon>dev_grab_content.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dev_guide_me.resx">
-      <DependentUpon>dev_guide_me.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="dev_hosting.resx">
       <DependentUpon>dev_hosting.cs</DependentUpon>
     </EmbeddedResource>
@@ -328,12 +319,15 @@
     <None Include="Resources\clear.png" />
     <None Include="Resources\theme_choose_sel.png" />
     <None Include="Resources\avatar.jpg" />
+<<<<<<< HEAD
     <None Include="Resources\U-Logo.png" />
     <None Include="Resources\U-Logo_material.png" />
     <None Include="Resources\U-Logo_material_new.png" />
     <None Include="Resources\New_Logo.png" />
     <Content Include="New_Logo.ico" />
     <None Include="Resources\New_Logo1.png" />
+=======
+>>>>>>> parent of 8a1a83e... Working on 1.0.3.1 Development Update
     <Content Include="SimplyU_Logo.ico" />
   </ItemGroup>
   <ItemGroup>

@@ -26,7 +26,7 @@ namespace SimplyU
                     if (Properties.Settings.Default.dev_grab_night == "1")
                     {
                         //Read latest update and convert to string
-                        WebRequest request = WebRequest.Create("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/dev_latest/Update_Info.ini?raw=true");
+                        WebRequest request = WebRequest.Create("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates//Update_Info.ini?raw=true");
                         WebResponse response = request.GetResponse();
                         Stream dataStream = response.GetResponseStream();
                         StreamReader upd_rd = new StreamReader(dataStream);
@@ -84,7 +84,7 @@ namespace SimplyU
                     else
                     {
                         //Read latest update and convert to string
-                        WebRequest request = WebRequest.Create("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Update_Info.ini?raw=true");
+                        WebRequest request = WebRequest.Create("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates//Update_Info.ini?raw=true");
                         WebResponse response = request.GetResponse();
                         Stream dataStream = response.GetResponseStream();
                         StreamReader upd_rd = new StreamReader(dataStream);
@@ -99,7 +99,7 @@ namespace SimplyU
                         File.Delete(Path.Combine(cd, "SimpliiU_old.exe"));
                         File.Delete(Path.Combine(cd, "SimpliiU_new.exe"));
                         File.Delete(Path.Combine(cd, "upd_fin.exe"));
-                        get_info.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates/Update_Info.ini?raw=true"), cd + "\\Update_info.txt");
+                        get_info.DownloadFile(new Uri("https://github.com/zoltx23/SimpliiU/blob/master/Common/Updates//Update_Info.ini?raw=true"), cd + "\\Update_info.txt");
                         WebClient upd_dwld = new WebClient();
                         using (Stream upd = File.Open(cd + "\\Update_info.txt", FileMode.Open))
                         {
@@ -148,9 +148,6 @@ namespace SimplyU
                     dm.ShowDialog();
                 }
             }
-            this.Hide();
-            dev_bck_music dm2 = new dev_bck_music();
-            dm2.ShowDialog();
         }
 
         private void dev_spash_Load(object sender, EventArgs e)
