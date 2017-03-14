@@ -1,6 +1,6 @@
 ![Status](https://github.com/zoltx23/SimplyU/blob/master/Common/Resources/Images/SimplyU_Full_Logo.png?raw=true) 
 
-##SimpliiU 
+#SimpliiU 
 
 Not to be mistaken for a 'Female Cosmetic', SimpliiU allows you to Prepare an SD Card with Homebrew.
 This makes it incredibly easy for Lazy people, or if you're new to the Homebrew Scene! 
